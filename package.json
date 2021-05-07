@@ -14,14 +14,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/broeker/spacebook.git"
+		"url": "git+https://github.com/dev-protocol/docs.git"
 	},
-	"author": "Tim Broeker <broeker@gmail.com> (https://www.electriccitizen.com/)",
+	"author": "",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/broeker/spacebook/issues"
+		"url": "https://github.com/dev-protocol/docs/issues"
 	},
-	"homepage": "https://github.com/broeker/spacebook",
+	"homepage": "https://github.com/dev-protocol/docs",
 	"devDependencies": {
 		"@11ty/eleventy": "0.12.1",
 		"alpinejs": "2.8.2",
