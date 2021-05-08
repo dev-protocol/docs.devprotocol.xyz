@@ -3,7 +3,7 @@ title: Getting Started
 date: 2021-05-07
 permalink: /
 eleventyNavigation:
-  key: Hello
+  key: Home
   order: 0
   title: Getting Started
 	subtitle: 👋 Welcome to Dev Protocol's docs! Here you can learn about the protocol, token, and how to start using Stakes Social.
