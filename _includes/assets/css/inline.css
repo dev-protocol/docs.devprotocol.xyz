@@ -1,0 +1,12 @@
+h1 {
+    margin-bottom: 0.2em !important;
+    font-size: 32px;
+    font-family: Content-font, Roboto, sans-serif;
+    font-weight: 500;
+    line-height: 1.5
+}
+
+.subtitle {
+    color: #74818D;
+    font-weight: 400;
+}

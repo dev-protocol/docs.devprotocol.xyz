@@ -657,6 +657,24 @@ blockquote {
   padding: 1rem;
 }
 
+.callout-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 246, 255, var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.dark .callout-blue, .dark .callout-blue strong, .dark .callout-blue em {
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
 /* Overrides for nav/Table of Contents block */
 
 nav ul {
@@ -1351,11 +1369,6 @@ nav ul li a.active {
 .bg-green-600 {
   --tw-bg-opacity: 1 !important;
   background-color: rgba(5, 150, 105, var(--tw-bg-opacity)) !important;
-}
-
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity)) !important;
 }
 
 .hover\:bg-blue-600:hover {
