@@ -11,11 +11,12 @@
     "enableSearch": true,
     "enableDarkMode": true,
     "enableEditButton": false,
-    "enableDatestamp": true,
+    "enableDatestamp": false,
     "enableGithubLink": true,
     "enableContact": false,
     "enableNetlifyCMS": false,
     "enableComments": false,
     "enableEncryption": false,
-    "enablePageNavigation": true
+    "enablePageNavigation": true,
+    "enableHeaderMenu": true
 }

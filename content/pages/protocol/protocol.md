@@ -1,11 +1,11 @@
 ---
-title: Protocol
+title: The Protocol
 date: 2021-05-07
 permalink: /protocol/index.html
 eleventyNavigation:
   key: Protocol
-  order: 1
-  title: Protocol
+  order: 10
+  title: The Protocol
 ---
 
 ## The World that Dev Protocol Aims for

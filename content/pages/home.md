@@ -2,6 +2,7 @@
 title: Getting Started
 date: 2021-05-07
 permalink: /
+hideMenu: true
 eleventyNavigation:
   key: Home
   order: 0

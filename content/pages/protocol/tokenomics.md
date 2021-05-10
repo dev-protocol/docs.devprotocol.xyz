@@ -1,11 +1,11 @@
 ---
 title: Tokenomics
 date: 2021-05-07
-permalink: /tokenomics/index.html
+permalink: /protocol/tokenomics/index.html
 eleventyNavigation:
   key: Tokenomic
   parent: Protocol
-  order: 2
+  order: 11
   title: Tokenomics
 	subtitle: Learn about DEV token's utility within the protocol.
 ---
