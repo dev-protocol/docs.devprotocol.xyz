@@ -2483,12 +2483,20 @@ nav ul li a.active {
     padding-top: 5rem !important;
   }
 
+  .md\:pt-48 {
+    padding-top: 12rem !important;
+  }
+
   .md\:pl-64 {
     padding-left: 16rem !important;
   }
 
   .md\:right-0 {
     right: 0px !important;
+  }
+
+  .md\:w-32 {
+    width: 8rem !important;
   }
 
   .md\:w-64 {
