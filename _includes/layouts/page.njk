@@ -15,17 +15,18 @@ section: page
     </div>
     {% endif %}
 {% endif %}
- 
-<div class="flex w-full justify-center">
+
+<div id="page-content" class="flex w-full justify-center">
     <div class="mt-4 px-6 md:px-6 lg:px-8 xl:px-12 w-full max-w-5xl">
         <div class="wrapper flex justify-between">
-            {% if site.enableTOC and toc %} 
+            {% if site.enableTOC and toc %}
             <div class="main flex flex-col pr-0 xl:pr-64 prose sm:prose lg:prose-lg xl:prose-md">
             {% else %}
              <div class="main  flex flex-col pr-0 prose sm:prose lg:prose-lg xl:prose-md">
-            {% endif %}    
+            {% endif %}
                 <article>
                 <h1 class="dark:text-gray-500">{{ title }}</h1>
+				<span class="subtitle">{{ subtitle }}</span>
                 {% if site.navigationStyle == "horizontal" %}
                     {% if site.enableEditButton == true or site.enableDatestamp == true %}
                         <div class="flex mt-4 justify-end mr-1">
@@ -43,7 +44,7 @@ section: page
                     {% if (site.enableComments) and (comments !== 0) %}
                         <!-- Paste your comment code here! -->
                     {% endif %}
-                    
+
                     {% if site.enablePageNavigation == true %}
                      <ul class="footer-nav pt-4 mb-8  ml-0 pl-0 flex flex-wrap flex-row-reverse  justify-between mt-8 list-none">
                      {%- set nextPage = collections.menuItems | getNextCollectionItem(page) %}
@@ -57,8 +58,8 @@ section: page
                     {% endif %}
                 </div>
                 </article>
-            </div>    
-            
+            </div>
+
             {% if site.enableTOC and toc %}
             <div class="text-gray-500 font-semibold hidden xl:block sidebar sticky right-0 mt-12 -ml-56 w-56 h-full top-48">
             <small>ON THIS PAGE</small><br />
@@ -70,5 +71,3 @@ section: page
         </div>
     </div>
 </div>
-   
-
