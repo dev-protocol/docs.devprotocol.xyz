@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@11ty/dependency-tree/-/dependency-tree-1.0.0.tgz#b1fa53da49aafe0ab3fe38bc6b6058b704aa59a1"
   integrity sha512-2FWYlkphQ/83MG7b9qqBJfJJ0K9zupNz/6n4EdDuNLw6hQHGp4Sp4UMDRyBvA/xCTYDBaPSuSjHuu45tSujegg==
 
-"@11ty/eleventy-cache-assets@^2.1.0", "@11ty/eleventy-cache-assets@^2.2.1":
+"@11ty/eleventy-cache-assets@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-cache-assets/-/eleventy-cache-assets-2.2.1.tgz#465ebc794102b1e20b71207010de272c1a3191ab"
   integrity sha512-RnbYXSFmj0d7+9kOPdCmdFou3616++aCNLBBNXxjVJF5tXdziO8PdjS9w0ktBgCIGfxz1/nwPHhL+HEqo3Iz/Q==
@@ -724,7 +724,7 @@ chalk@^2.0.0, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -1325,57 +1325,57 @@ electron-to-chromium@^1.3.723:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.727.tgz#857e310ca00f0b75da4e1db6ff0e073cc4a91ddf"
   integrity sha512-Mfz4FIB4FSvEwBpDfdipRIrwd6uo8gUDoRDF4QEYb4h4tSuI3ov594OrjU6on042UlFHouIJpClDODGkPcBSbg==
 
-eleventy-plugin-embed-everything@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-everything/-/eleventy-plugin-embed-everything-1.13.1.tgz#7409710da607b582b0d2d850443ee11f0e71081e"
-  integrity sha512-thXFRsbfRTr413pl4QqPq3HaeqHVokSrZrmNfNwk0xx3/rGHRhGiG9oWwJWisgBJSuSTgTsQLBSvnf0gfQxREA==
+eleventy-plugin-embed-everything@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-everything/-/eleventy-plugin-embed-everything-1.13.2.tgz#db58a4d22e110e104cb1b90585f670edf516c040"
+  integrity sha512-fme7zrhU7MWCiVyECx+XUCxhVLlZdJX+Ru0LB8vryERAXBzHpMIcyLUrUzwLDrfoR1WcgJqgYbLyMdvJcl21OQ==
   dependencies:
     deepmerge "^4.2.2"
-    eleventy-plugin-embed-instagram "^1.2.0"
-    eleventy-plugin-embed-soundcloud "^1.2.0"
-    eleventy-plugin-embed-spotify "^1.2.0"
-    eleventy-plugin-embed-tiktok "^1.1.0"
-    eleventy-plugin-embed-twitch "^1.2.0"
-    eleventy-plugin-embed-twitter "^1.3.0"
-    eleventy-plugin-vimeo-embed "^1.3.0"
-    eleventy-plugin-youtube-embed "^1.6.2"
+    eleventy-plugin-embed-instagram "^1.2.1"
+    eleventy-plugin-embed-soundcloud "^1.2.1"
+    eleventy-plugin-embed-spotify "^1.2.1"
+    eleventy-plugin-embed-tiktok "^1.1.1"
+    eleventy-plugin-embed-twitch "^1.2.1"
+    eleventy-plugin-embed-twitter "^1.3.1"
+    eleventy-plugin-vimeo-embed "^1.3.1"
+    eleventy-plugin-youtube-embed "^1.6.3"
 
-eleventy-plugin-embed-instagram@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-instagram/-/eleventy-plugin-embed-instagram-1.2.0.tgz#191bfa36476a4cb5fdb83e94c1d1b8131ed95d7e"
-  integrity sha512-NFg65fsoNIhz49xi0aJvTGNzcbIlW9SNL5Lgxf4tUsLAiNrgrJpSQR+ELoPElhqkl+M+ZvnmUPZ/wMxzG/DBtA==
+eleventy-plugin-embed-instagram@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-instagram/-/eleventy-plugin-embed-instagram-1.2.1.tgz#515a7d909e05587a8fa08ee0735ea64addb20737"
+  integrity sha512-bvXfxI8kM4kexVcMB9PG3cQCuq/6Cz6iqIv/B/O7ANZhnXYRcG3xOROnqSlg+wpB+U47H6WXYKiZgcVyB4eaNA==
 
-eleventy-plugin-embed-soundcloud@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-soundcloud/-/eleventy-plugin-embed-soundcloud-1.2.0.tgz#814664f78c0a1281541263c7aebc640cb2ffc6ae"
-  integrity sha512-Q2km0M/vCG1pa8tHk13K5AdYSAgreSwlZ3wezTMT5ZcMNisvwbwDR9jkr7tii8JvQ0U+dptbXivtLUd/CVCYvg==
+eleventy-plugin-embed-soundcloud@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-soundcloud/-/eleventy-plugin-embed-soundcloud-1.2.1.tgz#b2efd0a52b7c2ef9637192becdb5698eb0200865"
+  integrity sha512-R2sgUBPX21VxcLSdm0kWedGDtaMBf2ySToX0B6rFsLYC5+DRVjpdeaB0lCBYllekqP0iMUlxoOzjRDKB8lni0w==
   dependencies:
-    "@11ty/eleventy-cache-assets" "^2.1.0"
+    "@11ty/eleventy-cache-assets" "^2.2.1"
     parse-path "^4.0.2"
 
-eleventy-plugin-embed-spotify@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.0.tgz#17fe4c2d87fbd3a5a769fe4b6179c5a4b49d8097"
-  integrity sha512-9AU0rXchgX35H+sPwesrMRVRzbeTZgDugJo9X5BWPGgWJZp7XnXTI50lIBIxX7+T+MBh2EElAOhcZsNBL6dqfA==
+eleventy-plugin-embed-spotify@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.1.tgz#aef6c662816309f350d089c3ec1196e2d06531b7"
+  integrity sha512-LQ/Fi/xXkztUYr/59zxgJ6P0NGDMiO8X8UIuqvLkH5FhZJIl4YVzfiXHcijKji3hXzeaQ9WO3FFhaDVSW1Qp6w==
 
-eleventy-plugin-embed-tiktok@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-tiktok/-/eleventy-plugin-embed-tiktok-1.1.0.tgz#cb66f5a38e920822795501fbee8774c0e2d3a990"
-  integrity sha512-AIr5wshtaaI8IVrZqkvDbkW28fTxBj+o3Wy3kAENBFB0jnXVzzU4dJ/LC6OhtkLhtnza1J6x1YjQByCqIzxQjQ==
+eleventy-plugin-embed-tiktok@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-tiktok/-/eleventy-plugin-embed-tiktok-1.1.1.tgz#092ccc000a51bd539e962c43bdc3b702d8f91bb8"
+  integrity sha512-SriTwa+RwaxvbtTxl++F8trmXCZQ0+xPheufPPmyiJjxCD1udIg5QKB7p1FHUbTvHd5rnlHpl1uSmZ50KcIx1Q==
 
-eleventy-plugin-embed-twitch@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitch/-/eleventy-plugin-embed-twitch-1.2.0.tgz#d0f80ac89c7ba986fe7b0b22838c174f873b328a"
-  integrity sha512-eXv6qEYEbn9oI0ZOkw288+i5W/hvqk7M6E2TqtvMuAfOUaGHVHSSdc8OvA+6x2J8hlhrQ1276A5deWdEb4tKVg==
+eleventy-plugin-embed-twitch@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitch/-/eleventy-plugin-embed-twitch-1.2.1.tgz#8d61b32976ac855d85894844e74459008149a529"
+  integrity sha512-slSmL7aF0NZ2TqGBadqhCmE2bu5eFBtNH5vIxKOnmd6aKzIe+Zpplu6IymnxiZRTo5rAeTfDRjzlaA1VxUIVfQ==
   dependencies:
-    chalk "^4.1.0"
+    chalk "^4.1.1"
 
-eleventy-plugin-embed-twitter@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitter/-/eleventy-plugin-embed-twitter-1.3.0.tgz#e00448e128e7d3716c40c4e238f7fe5641d87b67"
-  integrity sha512-UH0DZlf71LS4cghqjGGXtWMLw8wL3dUlr1W/pDyUU9RXGnChEv6ScaEhOeTlbDtuGS3u+vUrTPN/zGWLYQJ16A==
+eleventy-plugin-embed-twitter@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitter/-/eleventy-plugin-embed-twitter-1.3.1.tgz#89899237ebd3e887a9991b5d8d7f996e8a42f44d"
+  integrity sha512-oKewfrISK1u4x8zXN2WPeux57ERXHrjWCxJPB2fWCFDJMsgWd36pvwm+2HDyUdiJTHmJMl4dZX2lLXrTxEqLbQ==
   dependencies:
-    "@11ty/eleventy-cache-assets" "^2.1.0"
+    "@11ty/eleventy-cache-assets" "^2.2.1"
     deepmerge "^4.2.2"
 
 eleventy-plugin-lazyimages@2.1.0:
@@ -1408,15 +1408,15 @@ eleventy-plugin-toc@1.1.0:
   dependencies:
     cheerio "^1.0.0-rc.2"
 
-eleventy-plugin-vimeo-embed@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-vimeo-embed/-/eleventy-plugin-vimeo-embed-1.3.0.tgz#9f050ee649740ae499f38c43ac0241416a746eeb"
-  integrity sha512-0b+A9lp9pprD+Q9qZ8nkctWA0GPiZIBLNeuQe+39gg52BTSscZaenl2V88RZmyTWBaDv/HBgS8QxMG/+WHwJMQ==
+eleventy-plugin-vimeo-embed@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-vimeo-embed/-/eleventy-plugin-vimeo-embed-1.3.1.tgz#68bdd98d262fceca2639562776567c2a7c1be866"
+  integrity sha512-6cA5B5S+ECvnCUdtgFUb9XmDjPdQBYwNtra3haeApcxER42yYgn/AVst3U4sVNxqmC6VDjYxtUfQskK3BQn/Yw==
 
-eleventy-plugin-youtube-embed@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-youtube-embed/-/eleventy-plugin-youtube-embed-1.6.2.tgz#96f8ba0e9645bcf5de8431496b090bbb8815902e"
-  integrity sha512-6VCA6SvP1xOX4gy6JpMMoPCXpcDe/Fmv5Puj4ceej4/ZFxdz5Q4n+3rXO5Yz6KCjLl6HdAZ/qSidXfj9aLkdqA==
+eleventy-plugin-youtube-embed@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-youtube-embed/-/eleventy-plugin-youtube-embed-1.6.3.tgz#c72f484eb1bad3f3bf531cb450ae6312db8bc3a6"
+  integrity sha512-6d3OuYfD4XAA+GAeaN2m8kHHyFzwlmvsUTjD66EMJUxFnIyABh1cTXs7NNfwhPjfSdO2gejbRrPCc6H8ufAFLA==
   dependencies:
     deepmerge "^4.2.2"
     lite-youtube-embed "^0.2.0"
