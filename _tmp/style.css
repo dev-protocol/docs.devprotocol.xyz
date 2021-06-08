@@ -1,4 +1,4 @@
-/*! tailwindcss v2.1.2 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.1.4 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -522,17 +522,7 @@ video {
   height: auto;
 }
 
-
-      [type='text'],
-      [type='email'],
-      [type='password'],
-      [type='number'],
-      [type='search'],
-      [type='time'],
-      [multiple],
-      textarea,
-      select
-     {
+[type='text'],[type='email'],[type='password'],[type='number'],[type='search'],[type='time'],[multiple],textarea,select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -571,7 +561,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,textarea::placeholder {
   color: #6b7280;
   opacity: 1;
 }
@@ -799,20 +789,41 @@ nav ul li a.active {
   font-weight: 600;
 }
 
-.prose ol {
-  counter-reset: list-counter;
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
+.prose ol[type="A"] {
+  --list-counter-style: upper-alpha;
+}
+
+.prose ol[type="a"] {
+  --list-counter-style: lower-alpha;
+}
+
+.prose ol[type="A" s] {
+  --list-counter-style: upper-alpha;
+}
+
+.prose ol[type="a" s] {
+  --list-counter-style: lower-alpha;
+}
+
+.prose ol[type="i"] {
+  --list-counter-style: lower-roman;
+}
+
+.prose ol[type="i" s] {
+  --list-counter-style: lower-roman;
+}
+
+.prose ol[type="1"] {
+  --list-counter-style: decimal;
 }
 
 .prose ol > li {
   position: relative;
-  counter-increment: list-counter;
   padding-left: 1.75em;
 }
 
 .prose ol > li::before {
-  content: counter(list-counter) ".";
+  content: counter(list-item, var(--list-counter-style, decimal)) ".";
   position: absolute;
   font-weight: 400;
   color: #6b7280;
@@ -950,11 +961,11 @@ nav ul li a.active {
 }
 
 .prose pre code::before {
-  content: "";
+  content: none;
 }
 
 .prose pre code::after {
-  content: "";
+  content: none;
 }
 
 .prose table {
@@ -1034,6 +1045,11 @@ nav ul li a.active {
 
 .prose h3 code {
   font-size: 0.9em;
+}
+
+.prose ol {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
 }
 
 .prose ul {
@@ -1470,10 +1486,6 @@ nav ul li a.active {
   display: block !important;
 }
 
-.inline-block {
-  display: inline-block !important;
-}
-
 .inline {
   display: inline !important;
 }
@@ -1744,18 +1756,6 @@ nav ul li a.active {
   padding-left: 0px !important;
 }
 
-.pt-1 {
-  padding-top: 0.25rem !important;
-}
-
-.pb-1 {
-  padding-bottom: 0.25rem !important;
-}
-
-.pl-3 {
-  padding-left: 0.75rem !important;
-}
-
 .pt-4 {
   padding-top: 1rem !important;
 }
@@ -1964,10 +1964,6 @@ nav ul li a.active {
   width: 16rem !important;
 }
 
-.w-auto {
-  width: auto !important;
-}
-
 .w-full {
   width: 100% !important;
 }
@@ -2104,20 +2100,41 @@ nav ul li a.active {
     font-weight: 600;
   }
 
-  .sm\:prose ol {
-    counter-reset: list-counter;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
+  .sm\:prose ol[type="A"] {
+    --list-counter-style: upper-alpha;
+  }
+
+  .sm\:prose ol[type="a"] {
+    --list-counter-style: lower-alpha;
+  }
+
+  .sm\:prose ol[type="A" s] {
+    --list-counter-style: upper-alpha;
+  }
+
+  .sm\:prose ol[type="a" s] {
+    --list-counter-style: lower-alpha;
+  }
+
+  .sm\:prose ol[type="i"] {
+    --list-counter-style: lower-roman;
+  }
+
+  .sm\:prose ol[type="i" s] {
+    --list-counter-style: lower-roman;
+  }
+
+  .sm\:prose ol[type="1"] {
+    --list-counter-style: decimal;
   }
 
   .sm\:prose ol > li {
     position: relative;
-    counter-increment: list-counter;
     padding-left: 1.75em;
   }
 
   .sm\:prose ol > li::before {
-    content: counter(list-counter) ".";
+    content: counter(list-item, var(--list-counter-style, decimal)) ".";
     position: absolute;
     font-weight: 400;
     color: #6b7280;
@@ -2255,11 +2272,11 @@ nav ul li a.active {
   }
 
   .sm\:prose pre code::before {
-    content: "";
+    content: none;
   }
 
   .sm\:prose pre code::after {
-    content: "";
+    content: none;
   }
 
   .sm\:prose table {
@@ -2339,6 +2356,11 @@ nav ul li a.active {
 
   .sm\:prose h3 code {
     font-size: 0.9em;
+  }
+
+  .sm\:prose ol {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
   }
 
   .sm\:prose ul {
@@ -2493,10 +2515,6 @@ nav ul li a.active {
 
   .md\:right-0 {
     right: 0px !important;
-  }
-
-  .md\:w-32 {
-    width: 8rem !important;
   }
 
   .md\:w-64 {

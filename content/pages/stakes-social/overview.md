@@ -4,7 +4,7 @@ date: 2021-05-07
 permalink: /stakes-social/index.html
 eleventyNavigation:
   key: stakes-social
-  order: 20
+  order: 30
   title: Stakes Social
 ---
 

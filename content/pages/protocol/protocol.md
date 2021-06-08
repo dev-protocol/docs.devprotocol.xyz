@@ -16,10 +16,10 @@ Economic activities are built on top of many real world activities. These activi
 
 Individuals produce value through activities. Dev Protocol offers market, staking, and reward distribution features for tokenizing these activities and trading them through P2P. When activities are tokenized, the following is achieved.
 
-* Market rewards are obtained based on the staked
-* A tokenized activity undergoes Staking (financial support) by third parties
-* Providing value as an incentive for Staking
-* Sharing properties with joint activity participants and distributing market rewards
+- Market rewards are obtained based on the staked
+- A tokenized activity undergoes Staking (financial support) by third parties
+- Providing value as an incentive for Staking
+- Sharing properties with joint activity participants and distributing market rewards
 
 Staking is a new form of trading money that uses the inflation mechanism. Through staking, the sustainability of users’ activities is secured, and users receive value at zero financial cost. This is a mechanism that provides profit for all properties that had previously been released for free or through other indirect monetization mechanisms. Dev Protocol aims for a total value staked that surpasses donation activities that have been taking place through legal tender.
 
@@ -41,6 +41,7 @@ By authenticating an external account that expresses ownership of the activity o
 
 An owner of a Property receives a market reward based on the total staked of the property.
 The flow of DEV in the protocol can be summarized through the following lifecycle. For simplicity, the owner of a Property is listed as an “activity participant,” and a third party who receives some form of utility is listed as a “user,” although a user can be classified as both.
+
 1. DEV is newly minted by an activity participant and undergoes inflation.
 2. A user stakes the DEV for the activity participant.
 3. The more staking that a Property collectes, the more DEV this activity participant can newly mint.
@@ -76,9 +77,9 @@ Many incentives are built into Dev Protocol so that all users can receive profit
 
 By staking their DEV toward an activity participant, users receive some sort of perk from this activity participant. (Although it is possible for the staking user to contact the activity participant and request perk in a direct manner) The application layer automatically executes a series of trades. The application layer relays the user’s staking to the activity participant and relays the activity participant’s perk to the user. The motivation to build out an application layer depends on each individual’s intentions, but below are possible motivations.
 
-* Increase the value of DEV owned
-* Receive a portion of the rewards by inheriting a portion of the activity participant’s Property
-* Collect commission from the user
+- Increase the value of DEV owned
+- Receive a portion of the rewards by inheriting a portion of the activity participant’s Property
+- Collect commission from the user
 
 If a staking user gets some staking perk, those perks will be provided via the application layers.
 
@@ -88,21 +89,20 @@ If a staking user gets some staking perk, those perks will be provided via the a
 
 Dev Protocol is comprised of the following 14 main contracts.
 
-* Market Contract
-* Market Factory Contract
-* Property Contract
-* Property Factory Contract
-* Metrics Contract
-* Policy Contract
-* Policy Factory Contract
-* Lockup Contract
-* Allocator Contract
-* Policy Contract
-* Policy Factory Contract
-* Address Config Contract
-* Treasury Contract
-* Dev Contract
-
+- Market Contract
+- Market Factory Contract
+- Property Contract
+- Property Factory Contract
+- Metrics Contract
+- Policy Contract
+- Policy Factory Contract
+- Lockup Contract
+- Allocator Contract
+- Policy Contract
+- Policy Factory Contract
+- Address Config Contract
+- Treasury Contract
+- Dev Contract
 
 ![Chart](/content/images/chart-of-contracts.png)
 
@@ -228,11 +228,11 @@ An amount of reward is the same regardless of the Property Contract of the staki
 
 The following variables are used to calculate a reward amount for a staking user.
 
-* r: Cumulative total reward amount (accumulation of a return value of the `calculateMaxRewardsPerBlock` function of the AllocatorContract according to elapsed block)
-* t: Total staked amount
-* s: User's staked amount
-* Policy.holdersShare: Reward rate function receive by a Property Contract holder
-The calculation formula is as follows.
+- r: Cumulative total reward amount (accumulation of a return value of the `calculateMaxRewardsPerBlock` function of the AllocatorContract according to elapsed block)
+- t: Total staked amount
+- s: User's staked amount
+- Policy.holdersShare: Reward rate function receive by a Property Contract holder
+  The calculation formula is as follows.
 
 ```
 total_interest = s(r / t - Policy.holdersShare(r / t, t))
@@ -276,12 +276,12 @@ An amount of remuneration is determined by a staking ratio of a Property Contrac
 
 The following variables are used to calculate a reward amount for a Property holder.
 
-* `r`: Cumulative total reward amount(accumulation of a return value of the `calculateMaxRewardsPerBlock` function of the Allocator Contract according to elapsed block)
-* `t`: Total staked amount
-* `s`: Property Contract's staked amount
-* `ts`: Total supply of the Property Contract
-* `b`: Balance of the Property Contract for the user
-* `Policy.holdersShare`: Reward rate function receive by a Property Contract holder
+- `r`: Cumulative total reward amount(accumulation of a return value of the `calculateMaxRewardsPerBlock` function of the Allocator Contract according to elapsed block)
+- `t`: Total staked amount
+- `s`: Property Contract's staked amount
+- `ts`: Total supply of the Property Contract
+- `b`: Balance of the Property Contract for the user
+- `Policy.holdersShare`: Reward rate function receive by a Property Contract holder
 
 The calculation formula is as follows.
 
@@ -313,15 +313,16 @@ The Policy Contract decides the following indices.
 #### rewards
 
 The total value of market rewards for the block. It is called when calculating market rewards in the Allocator Contract, and the total value of market rewards is calculated using the following variables.
-* Total Stakes in the Property
-* Total Count of Properties (Total Metrics Contracts)
+
+- Total Stakes in the Property
+- Total Count of Properties (Total Metrics Contracts)
 
 #### holdersShare
 
 The share of market rewards received by the Property Contract(Token) holder. It is called when calculating market rewards in the Allocator Contract, and the share of market rewards received by the Property Contract(Token) holder is calculated using the following variables.
 
-* Value of Market Rewards
-* Count of Stakes
+- Value of Market Rewards
+- Count of Stakes
 
 The share received by the stake executor is the excess portion of the Holders Share.
 
@@ -329,22 +330,22 @@ The share received by the stake executor is the excess portion of the Holders Sh
 
 The commission for authenticating a property. It is called within authenticatedCallback for the Market Contract, and the commission for authenticating a property is decided based on the following variables.
 
-* Total Count of Properties (Total Metrcis Contracts)
-* Total Current Stakes in the Property Contract
+- Total Count of Properties (Total Metrcis Contracts)
+- Total Current Stakes in the Property Contract
 
 #### marketApproval
 
 Whether or not a new Market Contract takes effect. It is called within vote for the Market Contract, and whether the new Market Contract takes effect is decided based on the following variables.
 
-* Affirmative Votes
-* Negative Votes
+- Affirmative Votes
+- Negative Votes
 
 #### policyApproval
 
 Whether or not a new Policy Contract takes effect. Within `vote` for the proposed Policy Contract, `policyApproval` for the current Policy Contract is called, and whether the new Policy Contract takes effect is decided based on the following variables.
 
-* Affirmative Votes
-* Negative Votes
+- Affirmative Votes
+- Negative Votes
 
 #### marketVotingBlocks
 
@@ -355,9 +356,10 @@ The number of blocks between the proposal of a new Market Contract and the end o
 The number of blocks between the proposal of a new Policy Contract and the end of voting. Once voting ends, the Policy Contract will be rejected.
 
 #### shareOfTreasury
+
 The share of total supply of newly issued Property Contracts received by the Treasury Contract. Within constructor for the Property Contract, shareOfTreasury for the current Policy Contract is called, and the share sent to the Treasury Contract takes effect is decided based on the following variables.
 
-* Total supply of the Property Contract
+- Total supply of the Property Contract
 
 #### treasury
 
