@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@11ty/dependency-tree/-/dependency-tree-1.0.0.tgz#b1fa53da49aafe0ab3fe38bc6b6058b704aa59a1"
   integrity sha512-2FWYlkphQ/83MG7b9qqBJfJJ0K9zupNz/6n4EdDuNLw6hQHGp4Sp4UMDRyBvA/xCTYDBaPSuSjHuu45tSujegg==
 
-"@11ty/eleventy-cache-assets@^2.1.0", "@11ty/eleventy-cache-assets@^2.2.1":
+"@11ty/eleventy-cache-assets@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-cache-assets/-/eleventy-cache-assets-2.2.1.tgz#465ebc794102b1e20b71207010de272c1a3191ab"
   integrity sha512-RnbYXSFmj0d7+9kOPdCmdFou3616++aCNLBBNXxjVJF5tXdziO8PdjS9w0ktBgCIGfxz1/nwPHhL+HEqo3Iz/Q==
@@ -31,12 +31,12 @@
     sharp "^0.28.2"
     short-hash "^1.0.0"
 
-"@11ty/eleventy-navigation@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@11ty/eleventy-navigation/-/eleventy-navigation-0.1.6.tgz#26c1880494b99dd961efa51bdf866485a0adddde"
-  integrity sha512-ZGZebFEEDiJoS7BvxxiWrKdsCodNkqCsQ7S75IIvaPynHvojqcCVtS4uZk54K+LC+YqL5+T716TlsMG6Mc2p0g==
+"@11ty/eleventy-navigation@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-navigation/-/eleventy-navigation-0.2.0.tgz#fd610a4a3d52934b54832be5268dddf4b2fd22f4"
+  integrity sha512-mkFoNpL32FosMTuZwxcY3KXVVYLRt7zBqVWP9X+0GMufnRNGpLZd+BYwD0vmYHLAxz1ol/RLlL2Hmkgp/YJ4TQ==
   dependencies:
-    dependency-graph "^0.8.1"
+    dependency-graph "^0.11.0"
 
 "@11ty/eleventy@0.12.1":
   version "0.12.1"
@@ -433,15 +433,15 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-autoprefixer@10.2.5:
-  version "10.2.5"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.5.tgz#096a0337dbc96c0873526d7fef5de4428d05382d"
-  integrity sha512-7H4AJZXvSsn62SqZyJCP+1AWwOuoYpUfK6ot9vm0e87XD6mT8lDywc9D9OTJPMULyGcvmIxzTAMeG2Cc+YX+fA==
+autoprefixer@10.2.6:
+  version "10.2.6"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.6.tgz#aadd9ec34e1c98d403e01950038049f0eb252949"
+  integrity sha512-8lChSmdU6dCNMCQopIf4Pe5kipkAGj/fvTMslCsih0uHpOrXOPUEVOmYMMqmw3cekQkSD7EhIeuYl5y0BLdKqg==
   dependencies:
-    browserslist "^4.16.3"
-    caniuse-lite "^1.0.30001196"
+    browserslist "^4.16.6"
+    caniuse-lite "^1.0.30001230"
     colorette "^1.2.2"
-    fraction.js "^4.0.13"
+    fraction.js "^4.1.1"
     normalize-range "^0.1.2"
     postcss-value-parser "^4.1.0"
 
@@ -608,7 +608,7 @@ browser-sync@^2.26.14:
     ua-parser-js "^0.7.18"
     yargs "^15.4.1"
 
-browserslist@^4.16.3:
+browserslist@^4.16.6:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
   integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
@@ -673,10 +673,15 @@ camelcase@^5.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
-caniuse-lite@^1.0.30001196, caniuse-lite@^1.0.30001219:
+caniuse-lite@^1.0.30001219:
   version "1.0.30001223"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001223.tgz#39b49ff0bfb3ee3587000d2f66c47addc6e14443"
   integrity sha512-k/RYs6zc/fjbxTjaWZemeSmOjO0JJV+KguOBA3NwPup8uzxM1cMhR2BD9XmO86GuqaqTCO8CgkgH9Rz//vdDiA==
+
+caniuse-lite@^1.0.30001230:
+  version "1.0.30001235"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001235.tgz#ad5ca75bc5a1f7b12df79ad806d715a43a5ac4ed"
+  integrity sha512-zWEwIVqnzPkSAXOUlQnPW2oKoYb2aLQ4Q5ejdjBcnH63rfypaW34CxaeBn1VMya2XaEU3P/R2qHpWyj+l0BT1A==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -719,7 +724,7 @@ chalk@^2.0.0, chalk@^2.4.1:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -1173,11 +1178,6 @@ dependency-graph@^0.11.0:
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.11.0.tgz#ac0ce7ed68a54da22165a85e97a01d53f5eb2e27"
   integrity sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==
 
-dependency-graph@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.8.1.tgz#9b8cae3aa2c7bd95ccb3347a09a2d1047a6c3c5a"
-  integrity sha512-g213uqF8fyk40W8SBjm079n3CZB4qSpCrA2ye1fLGzH/4HEgB6tzuW2CbLE7leb4t45/6h44Ud59Su1/ROTfqw==
-
 dependency-graph@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/dependency-graph/-/dependency-graph-0.9.0.tgz#11aed7e203bc8b00f48356d92db27b265c445318"
@@ -1325,57 +1325,57 @@ electron-to-chromium@^1.3.723:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.727.tgz#857e310ca00f0b75da4e1db6ff0e073cc4a91ddf"
   integrity sha512-Mfz4FIB4FSvEwBpDfdipRIrwd6uo8gUDoRDF4QEYb4h4tSuI3ov594OrjU6on042UlFHouIJpClDODGkPcBSbg==
 
-eleventy-plugin-embed-everything@1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-everything/-/eleventy-plugin-embed-everything-1.13.1.tgz#7409710da607b582b0d2d850443ee11f0e71081e"
-  integrity sha512-thXFRsbfRTr413pl4QqPq3HaeqHVokSrZrmNfNwk0xx3/rGHRhGiG9oWwJWisgBJSuSTgTsQLBSvnf0gfQxREA==
+eleventy-plugin-embed-everything@1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-everything/-/eleventy-plugin-embed-everything-1.13.2.tgz#db58a4d22e110e104cb1b90585f670edf516c040"
+  integrity sha512-fme7zrhU7MWCiVyECx+XUCxhVLlZdJX+Ru0LB8vryERAXBzHpMIcyLUrUzwLDrfoR1WcgJqgYbLyMdvJcl21OQ==
   dependencies:
     deepmerge "^4.2.2"
-    eleventy-plugin-embed-instagram "^1.2.0"
-    eleventy-plugin-embed-soundcloud "^1.2.0"
-    eleventy-plugin-embed-spotify "^1.2.0"
-    eleventy-plugin-embed-tiktok "^1.1.0"
-    eleventy-plugin-embed-twitch "^1.2.0"
-    eleventy-plugin-embed-twitter "^1.3.0"
-    eleventy-plugin-vimeo-embed "^1.3.0"
-    eleventy-plugin-youtube-embed "^1.6.2"
+    eleventy-plugin-embed-instagram "^1.2.1"
+    eleventy-plugin-embed-soundcloud "^1.2.1"
+    eleventy-plugin-embed-spotify "^1.2.1"
+    eleventy-plugin-embed-tiktok "^1.1.1"
+    eleventy-plugin-embed-twitch "^1.2.1"
+    eleventy-plugin-embed-twitter "^1.3.1"
+    eleventy-plugin-vimeo-embed "^1.3.1"
+    eleventy-plugin-youtube-embed "^1.6.3"
 
-eleventy-plugin-embed-instagram@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-instagram/-/eleventy-plugin-embed-instagram-1.2.0.tgz#191bfa36476a4cb5fdb83e94c1d1b8131ed95d7e"
-  integrity sha512-NFg65fsoNIhz49xi0aJvTGNzcbIlW9SNL5Lgxf4tUsLAiNrgrJpSQR+ELoPElhqkl+M+ZvnmUPZ/wMxzG/DBtA==
+eleventy-plugin-embed-instagram@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-instagram/-/eleventy-plugin-embed-instagram-1.2.1.tgz#515a7d909e05587a8fa08ee0735ea64addb20737"
+  integrity sha512-bvXfxI8kM4kexVcMB9PG3cQCuq/6Cz6iqIv/B/O7ANZhnXYRcG3xOROnqSlg+wpB+U47H6WXYKiZgcVyB4eaNA==
 
-eleventy-plugin-embed-soundcloud@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-soundcloud/-/eleventy-plugin-embed-soundcloud-1.2.0.tgz#814664f78c0a1281541263c7aebc640cb2ffc6ae"
-  integrity sha512-Q2km0M/vCG1pa8tHk13K5AdYSAgreSwlZ3wezTMT5ZcMNisvwbwDR9jkr7tii8JvQ0U+dptbXivtLUd/CVCYvg==
+eleventy-plugin-embed-soundcloud@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-soundcloud/-/eleventy-plugin-embed-soundcloud-1.2.1.tgz#b2efd0a52b7c2ef9637192becdb5698eb0200865"
+  integrity sha512-R2sgUBPX21VxcLSdm0kWedGDtaMBf2ySToX0B6rFsLYC5+DRVjpdeaB0lCBYllekqP0iMUlxoOzjRDKB8lni0w==
   dependencies:
-    "@11ty/eleventy-cache-assets" "^2.1.0"
+    "@11ty/eleventy-cache-assets" "^2.2.1"
     parse-path "^4.0.2"
 
-eleventy-plugin-embed-spotify@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.0.tgz#17fe4c2d87fbd3a5a769fe4b6179c5a4b49d8097"
-  integrity sha512-9AU0rXchgX35H+sPwesrMRVRzbeTZgDugJo9X5BWPGgWJZp7XnXTI50lIBIxX7+T+MBh2EElAOhcZsNBL6dqfA==
+eleventy-plugin-embed-spotify@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-spotify/-/eleventy-plugin-embed-spotify-1.2.1.tgz#aef6c662816309f350d089c3ec1196e2d06531b7"
+  integrity sha512-LQ/Fi/xXkztUYr/59zxgJ6P0NGDMiO8X8UIuqvLkH5FhZJIl4YVzfiXHcijKji3hXzeaQ9WO3FFhaDVSW1Qp6w==
 
-eleventy-plugin-embed-tiktok@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-tiktok/-/eleventy-plugin-embed-tiktok-1.1.0.tgz#cb66f5a38e920822795501fbee8774c0e2d3a990"
-  integrity sha512-AIr5wshtaaI8IVrZqkvDbkW28fTxBj+o3Wy3kAENBFB0jnXVzzU4dJ/LC6OhtkLhtnza1J6x1YjQByCqIzxQjQ==
+eleventy-plugin-embed-tiktok@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-tiktok/-/eleventy-plugin-embed-tiktok-1.1.1.tgz#092ccc000a51bd539e962c43bdc3b702d8f91bb8"
+  integrity sha512-SriTwa+RwaxvbtTxl++F8trmXCZQ0+xPheufPPmyiJjxCD1udIg5QKB7p1FHUbTvHd5rnlHpl1uSmZ50KcIx1Q==
 
-eleventy-plugin-embed-twitch@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitch/-/eleventy-plugin-embed-twitch-1.2.0.tgz#d0f80ac89c7ba986fe7b0b22838c174f873b328a"
-  integrity sha512-eXv6qEYEbn9oI0ZOkw288+i5W/hvqk7M6E2TqtvMuAfOUaGHVHSSdc8OvA+6x2J8hlhrQ1276A5deWdEb4tKVg==
+eleventy-plugin-embed-twitch@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitch/-/eleventy-plugin-embed-twitch-1.2.1.tgz#8d61b32976ac855d85894844e74459008149a529"
+  integrity sha512-slSmL7aF0NZ2TqGBadqhCmE2bu5eFBtNH5vIxKOnmd6aKzIe+Zpplu6IymnxiZRTo5rAeTfDRjzlaA1VxUIVfQ==
   dependencies:
-    chalk "^4.1.0"
+    chalk "^4.1.1"
 
-eleventy-plugin-embed-twitter@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitter/-/eleventy-plugin-embed-twitter-1.3.0.tgz#e00448e128e7d3716c40c4e238f7fe5641d87b67"
-  integrity sha512-UH0DZlf71LS4cghqjGGXtWMLw8wL3dUlr1W/pDyUU9RXGnChEv6ScaEhOeTlbDtuGS3u+vUrTPN/zGWLYQJ16A==
+eleventy-plugin-embed-twitter@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-embed-twitter/-/eleventy-plugin-embed-twitter-1.3.1.tgz#89899237ebd3e887a9991b5d8d7f996e8a42f44d"
+  integrity sha512-oKewfrISK1u4x8zXN2WPeux57ERXHrjWCxJPB2fWCFDJMsgWd36pvwm+2HDyUdiJTHmJMl4dZX2lLXrTxEqLbQ==
   dependencies:
-    "@11ty/eleventy-cache-assets" "^2.1.0"
+    "@11ty/eleventy-cache-assets" "^2.2.1"
     deepmerge "^4.2.2"
 
 eleventy-plugin-lazyimages@2.1.0:
@@ -1408,15 +1408,15 @@ eleventy-plugin-toc@1.1.0:
   dependencies:
     cheerio "^1.0.0-rc.2"
 
-eleventy-plugin-vimeo-embed@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-vimeo-embed/-/eleventy-plugin-vimeo-embed-1.3.0.tgz#9f050ee649740ae499f38c43ac0241416a746eeb"
-  integrity sha512-0b+A9lp9pprD+Q9qZ8nkctWA0GPiZIBLNeuQe+39gg52BTSscZaenl2V88RZmyTWBaDv/HBgS8QxMG/+WHwJMQ==
+eleventy-plugin-vimeo-embed@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-vimeo-embed/-/eleventy-plugin-vimeo-embed-1.3.1.tgz#68bdd98d262fceca2639562776567c2a7c1be866"
+  integrity sha512-6cA5B5S+ECvnCUdtgFUb9XmDjPdQBYwNtra3haeApcxER42yYgn/AVst3U4sVNxqmC6VDjYxtUfQskK3BQn/Yw==
 
-eleventy-plugin-youtube-embed@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/eleventy-plugin-youtube-embed/-/eleventy-plugin-youtube-embed-1.6.2.tgz#96f8ba0e9645bcf5de8431496b090bbb8815902e"
-  integrity sha512-6VCA6SvP1xOX4gy6JpMMoPCXpcDe/Fmv5Puj4ceej4/ZFxdz5Q4n+3rXO5Yz6KCjLl6HdAZ/qSidXfj9aLkdqA==
+eleventy-plugin-youtube-embed@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/eleventy-plugin-youtube-embed/-/eleventy-plugin-youtube-embed-1.6.3.tgz#c72f484eb1bad3f3bf531cb450ae6312db8bc3a6"
+  integrity sha512-6d3OuYfD4XAA+GAeaN2m8kHHyFzwlmvsUTjD66EMJUxFnIyABh1cTXs7NNfwhPjfSdO2gejbRrPCc6H8ufAFLA==
   dependencies:
     deepmerge "^4.2.2"
     lite-youtube-embed "^0.2.0"
@@ -1800,10 +1800,10 @@ form-data@~2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-fraction.js@^4.0.13:
-  version "4.0.13"
-  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.0.13.tgz#3c1c315fa16b35c85fffa95725a36fa729c69dfe"
-  integrity sha512-E1fz2Xs9ltlUp+qbiyx9wmt2n9dRzPsS11Jtdb8D2o+cC7wr9xkkKsVKJuBX0ST+LVS+LhLO+SbLJNtfWcJvXA==
+fraction.js@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
+  integrity sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg==
 
 fresh@0.5.2, fresh@^0.5.2:
   version "0.5.2"
@@ -2773,7 +2773,12 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@1.26.0, luxon@^1.26.0:
+luxon@1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.27.0.tgz#ae10c69113d85dab8f15f5e8390d0cbeddf4f00f"
+  integrity sha512-VKsFsPggTA0DvnxtJdiExAucKdAnwbCCNlMM5ENvHlxubqWd0xhZcdb4XgZ7QFNhaRhilXCFxHuoObP5BNA4PA==
+
+luxon@^1.26.0:
   version "1.26.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-1.26.0.tgz#d3692361fda51473948252061d0f8561df02b578"
   integrity sha512-+V5QIQ5f6CDXQpWNICELwjwuHdqeJM1UenlZWx5ujcRMc9venvluCjFb4t5NYLhb6IhkbMVOxzVuOqkgMxee2A==
@@ -2808,10 +2813,10 @@ markdown-it-emoji@2.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-2.0.0.tgz#3164ad4c009efd946e98274f7562ad611089a231"
   integrity sha512-39j7/9vP/CPCKbEI44oV8yoPJTpvfeReTn/COgRhSpNrjWF3PfP/JUxxB0hxV6ynOY8KH8Y8aX9NMDdo6z+6YQ==
 
-markdown-it-footnote@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.2.tgz#1575ee7a093648d4e096aa33386b058d92ac8bc1"
-  integrity sha512-JVW6fCmZWjvMdDQSbOT3nnOQtd9iAXmw7hTSh26+v42BnvXeVyGMDBm5b/EZocMed2MbCAHiTX632vY0FyGB8A==
+markdown-it-footnote@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
+  integrity sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==
 
 markdown-it-for-inline@0.1.1:
   version "0.1.1"
@@ -3003,6 +3008,11 @@ nanoid@^3.1.22:
   version "3.1.22"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
   integrity sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==
+
+nanoid@^3.1.23:
+  version "3.1.23"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
+  integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
 
 napi-build-utils@^1.0.1:
   version "1.0.2"
@@ -3477,14 +3487,14 @@ postcss-value-parser@^4.1.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
-postcss@8.2.14, postcss@^8.1.6, postcss@^8.2.1:
-  version "8.2.14"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.14.tgz#dcf313eb8247b3ce8078d048c0e8262ca565ad2b"
-  integrity sha512-+jD0ZijcvyCqPQo/m/CW0UcARpdFylq04of+Q7RKX6f/Tu+dvpUI/9Sp81+i6/vJThnOBX09Quw0ZLOVwpzX3w==
+postcss@8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.0.tgz#b1a713f6172ca427e3f05ef1303de8b65683325f"
+  integrity sha512-+ogXpdAjWGa+fdYY5BQ96V/6tAo+TdSSIMP5huJBIygdWwKtVoB5JWZ7yUd4xZ8r+8Kvvx4nyg/PQ071H4UtcQ==
   dependencies:
     colorette "^1.2.2"
-    nanoid "^3.1.22"
-    source-map "^0.6.1"
+    nanoid "^3.1.23"
+    source-map-js "^0.6.2"
 
 postcss@^6.0.9:
   version "6.0.23"
@@ -3494,6 +3504,15 @@ postcss@^6.0.9:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.4.0"
+
+postcss@^8.1.6, postcss@^8.2.1:
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.14.tgz#dcf313eb8247b3ce8078d048c0e8262ca565ad2b"
+  integrity sha512-+jD0ZijcvyCqPQo/m/CW0UcARpdFylq04of+Q7RKX6f/Tu+dvpUI/9Sp81+i6/vJThnOBX09Quw0ZLOVwpzX3w==
+  dependencies:
+    colorette "^1.2.2"
+    nanoid "^3.1.22"
+    source-map "^0.6.1"
 
 prebuild-install@^5.3.4:
   version "5.3.6"
@@ -4302,6 +4321,11 @@ socket.io@2.4.0:
     socket.io-client "2.4.0"
     socket.io-parser "~3.4.0"
 
+source-map-js@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
+  integrity sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==
+
 source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
@@ -4495,10 +4519,10 @@ table@^6.0.4:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
 
-tailwindcss@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.2.tgz#29402bf73a445faedd03df6d3b177e7b52b7c4a1"
-  integrity sha512-T5t+wwd+/hsOyRw2HJuFuv0LTUm3MUdHm2DJ94GPVgzqwPPFa9XxX0KlwLWupUuiOUj6uiKURCzYPHFcuPch/w==
+tailwindcss@2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.4.tgz#ee8a1b8ccc140db61960b6738f968a8a1c4cd1f8"
+  integrity sha512-fh1KImDLg6se/Suaelju/5oFbqq1b0ntagmGLu0aG9LlnNPGHgO1n/4E57CbKcCtyz/VYnvVXUiWmfyfBBZQ6g==
   dependencies:
     "@fullhuman/postcss-purgecss" "^3.1.3"
     bytes "^3.0.0"
