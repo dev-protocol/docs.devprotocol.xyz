@@ -5,7 +5,7 @@ permalink: /protocol/governance/basic-concept-of-governance/index.html
 eleventyNavigation:
   key: Basic concept of governance
   parent: Governance
-  order: 13
+  order: 31
   title: Basic concept of governance
 ---
 

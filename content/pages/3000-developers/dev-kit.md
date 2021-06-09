@@ -1,15 +1,15 @@
 ---
-title: Query Builder
+title: Dev Kit
 date: 2021-05-07
-permalink: /developers/query-builder/index.html
+permalink: /developers/dev-kit/index.html
 eleventyNavigation:
-  key: query-builder
+  key: dev-kit
   parent: developers
-  order: 33
-  title: Query Builder
+  order: 3100
+  title: Dev Kit
 ---
 
-## What is Query Builder?
+## What is Dev Kit?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit diam in semper maximus. Suspendisse lorem diam, consectetur vel odio a, facilisis euismod nunc. Mauris sed sodales dui, nec faucibus augue. Curabitur ligula turpis, fermentum ut commodo eu, molestie id nulla. Curabitur ultricies tristique risus, vitae bibendum tellus. Ut sed lobortis nisi. Donec vehicula odio a rutrum luctus. Vivamus augue nibh, condimentum nec varius gravida, vestibulum eget tortor.
 

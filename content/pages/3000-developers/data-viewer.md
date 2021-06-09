@@ -5,7 +5,7 @@ permalink: /developers/data-viewer/index.html
 eleventyNavigation:
   key: data-viewer
   parent: developers
-  order: 32
+  order: 3200
   title: Dev Protocol Data Viewer
 ---
 
