@@ -6,7 +6,7 @@ permalink: /protocol/governance/dips/index.html
 eleventyNavigation:
   key: DIPs
   parent: Governance
-  order: 14
+  order: 32
   title: DIPs
 ---
 

@@ -5,7 +5,7 @@ permalink: /protocol/tokenomics/index.html
 eleventyNavigation:
   key: Tokenomic
   parent: Protocol
-  order: 11
+  order: 20
   title: Tokenomics
 	subtitle: Learn about DEV token's utility within the protocol.
 ---

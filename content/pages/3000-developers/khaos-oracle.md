@@ -5,7 +5,7 @@ permalink: /developers/khaos-oracle/index.html
 eleventyNavigation:
   key: khaos-oracle
   parent: developers
-  order: 34
+  order: 3400
   title: Khaos Oracle
 ---
 

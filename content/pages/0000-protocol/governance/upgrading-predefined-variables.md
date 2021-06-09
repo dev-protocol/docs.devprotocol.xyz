@@ -5,7 +5,7 @@ permalink: /protocol/governance/upgrading-predefined-variables/index.html
 eleventyNavigation:
   key: Upgrading predefined variables
   parent: Governance
-  order: 15
+  order: 34
   title: Upgrading predefined variables
 ---
 

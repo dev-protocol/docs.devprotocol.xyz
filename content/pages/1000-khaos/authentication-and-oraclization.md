@@ -6,7 +6,7 @@ subtitle: Learn how to oraclize using Khaos while hiding a secret.
 eleventyNavigation:
   key: Authentication and Oraclization
   parent: Khaos
-  order: 21
+  order: 1100
   title: Authentication and Oraclization
 ---
 

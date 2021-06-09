@@ -5,7 +5,7 @@ permalink: /khaos/index.html
 subtitle: Dev Protocol's oracle that confidentially authenticates off-chain data for on-chain use cases.
 eleventyNavigation:
   key: Khaos
-  order: 20
+  order: 1000
   title: Khaos
 ---
 
