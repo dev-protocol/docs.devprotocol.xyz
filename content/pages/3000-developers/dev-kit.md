@@ -11,6 +11,35 @@ eleventyNavigation:
 
 ## What is Dev Kit?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit diam in semper maximus. Suspendisse lorem diam, consectetur vel odio a, facilisis euismod nunc. Mauris sed sodales dui, nec faucibus augue. Curabitur ligula turpis, fermentum ut commodo eu, molestie id nulla. Curabitur ultricies tristique risus, vitae bibendum tellus. Ut sed lobortis nisi. Donec vehicula odio a rutrum luctus. Vivamus augue nibh, condimentum nec varius gravida, vestibulum eget tortor.
+Provides a toolset for calling Dev Protocol interfaces in JavaScript/TypeScript.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dictum odio ut velit mollis, a mollis quam molestie. Sed vitae magna placerat, gravida enim vitae, aliquet neque. Praesent vulputate dapibus mauris at euismod. Donec tincidunt, sapien et dictum feugiat, neque est elementum diam, quis dignissim eros arcu eu tellus. Vivamus congue suscipit dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent volutpat lacinia semper. Integer faucibus sem vel magna volutpat, sed sagittis mi vestibulum. Pellentesque auctor nisi aliquam, suscipit risus non, dapibus lectus. Phasellus malesuada tellus eget ligula malesuada cursus.
+|        | Source                                             |
+| ------ | -------------------------------------------------- |
+| npm    | https://www.npmjs.com/package/@devprotocol/dev-kit |
+| GitHub | https://github.com/dev-protocol/dev-kit-js         |
+
+## Usage
+
+Install from npm.
+
+```bash
+npm i @devprotocol/dev-kit
+```
+
+Or, use yarn.
+
+```bash
+yarn add @devprotocol/dev-kit
+```
+
+Dev Kit depends on web3.js. web3.js is not installed automatically because it is specified in peer dependencies. Install web3.js in your project.
+
+```bash
+npm i web3
+```
+
+Or, use yarn.
+
+```bash
+yarn add web3
+```
