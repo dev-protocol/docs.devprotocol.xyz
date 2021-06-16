@@ -8,4 +8,13 @@ eleventyNavigation:
   title: Stakes Social
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit diam in semper maximus. Suspendisse lorem diam, consectetur vel odio a, facilisis euismod nunc. Mauris sed sodales dui, nec faucibus augue. Curabitur ligula turpis, fermentum ut commodo eu, molestie id nulla. Curabitur ultricies tristique risus, vitae bibendum tellus. Ut sed lobortis nisi. Donec vehicula odio a rutrum luctus. Vivamus augue nibh, condimentum nec varius gravida, vestibulum eget tortor.
+## What is Stakes.social?
+
+![logo](/content/images/stakessocial-logo.png)
+Stakes.social is the first official Dapp built on the Dev Protocol, released in June 2020. Stakes.social is a new sponsor platform where both developers and sponsors are rewarded with tokens if they support their favorite projects by staking DEV tokens.
+
+Key Features
+
+1. Tokenize Open source software assets
+2. Get sponsors and raise funds from your community
+3. Both developers and sponsors get DEV tokens.
