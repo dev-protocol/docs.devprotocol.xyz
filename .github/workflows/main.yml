@@ -32,4 +32,4 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: docs.tmp.devprotocol.xyz
+          cname: docs.devprotocol.xyz
