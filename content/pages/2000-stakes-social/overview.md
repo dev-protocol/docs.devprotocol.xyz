@@ -24,5 +24,5 @@ Key Features
 It is a framework where people contribute to the network by locking (temporarily making inaccessible) their crypto assets. In terms of Dev, when people stake "DEV token" (ERC20) for to support creator's works, they are rewarded with dev tokens for doing so.
 
 ## Who is using Stake.social?
-Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many developers, including both individuals and firms, succeed in achieving sustainability through fundraising. There is an increasing number of unique creators joining Stakes.social, so you can support different creators such as OSS developers, VR artists, NFT markets, green projects, and Vtubers. You can see all the creators here. https://stakes.social/
 
+Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many developers, including both individuals and firms, succeed in achieving sustainability through fundraising. There is an increasing number of unique creators joining Stakes.social, so you can support different creators such as OSS developers, VR artists, NFT markets, green projects, and Vtubers. You can see all the creators here. https://stakes.social/
