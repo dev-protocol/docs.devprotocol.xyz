@@ -7,7 +7,6 @@ eleventyNavigation:
   parent: stakes-social
   order: 2050
   title: How to buy DEV
-
 ---
 
 This is a simple guide for those who wish to buy DEV, even if you have never used cryptocurrencies in your life.
@@ -19,13 +18,16 @@ It is recommended that you use Uniswap because, currently, it has the best liqui
 You will also need a basic understanding of how wallets work in order to stake your DEV to fund Open Source Software - OSS - projects, so by using a DEX first, you get at that skill level already.
 
 ### Bank Account to Centralized Exchanges
+
 The most widely used and accessible exchange in the world right now is [Binance](https://www.binance.us/en/home) (if you're in the US), so I'm going to base this guide on it. If you already use any other Centralized Exchange or have any other preferences, feel free to use them, just make sure that they allow crypto withdraws.
 
 #### 1. Register
+
 It is required to register in order to use Binance, just like in any other broker, you will have to pass through a KYC process, usually it takes less than 1h to be verified, but on their website it says that it could take up to 36h.
 ![how to buy DEV](/content/images/how-to-buy/how-to-buy-dev_1.png)
 
 #### 2. Bank Transfer/Credit Card
+
 Depending where you're from there are a few options to move your money to Binance. The best ones are Bank Transfers - usually don't have a fee- and Credit Card - has a small fee-.
 
 I personally use Bank Transfers. To do it, you need click on Wallet, on the top right corner, and on the dropdown menu click on Fiat and Spot.
@@ -63,14 +65,17 @@ If you don't want to wait and offer a specific price, you can just click on Mark
 At this point you should have Ether in your Binance Wallet.
 
 ### Centralized Exchange to Wallet
+
 This is one of the most important steps, and you should be really careful with it. Having your own wallet is having the sovereignty over your own money/assets, like being your own bank, so you have to treat it like such, don't forget you seed words, passwords and have safe back ups of them.
 
 Your wallet is where you store your private keys, and it's where you can access your tokens on the blockchain. Your private keys is the only access that you have to it, store it safely, if you lose them, you lose access to your tokens.
 
 #### Create your Wallet
+
 There are a few wallets that are widely used, the most common one is [Metamask](https://metamask.io/), a browser extension, it is an easy to use and secure wallet that will give you access to any [web3 applications](https://ethereum.org/en/developers/docs/web2-vs-web3/#:~:text=Web3%2C).
 
 #### 1. Download the Extension
+
 After you download and install the extension a little fox should show up as an extension at the top right corner of your browser. If you click on that extension for the first time, it should redirect you to a page where you will create your password (should be as strong as possible), don't forget to write it down somewhere that you'll never forget. You will also have to write down a back up seed phrase (never lose this, and never share it with anyone else). Follow the instructions carefully.
 
 I strongly recommend you to watch this tutorial while setting it up.
@@ -78,6 +83,7 @@ I strongly recommend you to watch this tutorial while setting it up.
 https://www.youtube.com/watch?v=yWfZnjkhhhg
 
 #### 2. Transfer Ethereum to your Metamask Wallet
+
 After setting up your wallet, click on the Metamask extension, it should open up like the picture bellow. A single click on your [address](https://hackernoon.com/how-to-generate-ethereum-addresses-technical-address-generation-explanation-25r3zqo) (Hexadecimal format, with 0x prefix), will copy it for you.
 
 ![how to buy DEV](/content/images/how-to-buy/how-to-buy-dev_9.png)
@@ -120,13 +126,3 @@ Click on swap, then the transaction details should show up. Click on swap again 
 Check the gas fee, if it's absurdly high ~$50 or more, try on another time, or talk to community members on the Telegram or Discord. If it's something like this, just click Confirm.
 
 After a few minutes, your transaction should be complete and will have DEV in your wallet. The DEV token doesn't show automatically on your Metamask so you will have to add it manually. To do so, just Open your wallet, click on the Add Token button, then click on Personalized Token, paste the DEV contract address on it (0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26) then confirm it. Now your DEV should show up on your wallet.
-
-
-
-
-
-
-
-
-
-

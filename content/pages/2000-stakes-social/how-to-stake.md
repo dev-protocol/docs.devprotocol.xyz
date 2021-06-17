@@ -7,7 +7,6 @@ eleventyNavigation:
   parent: stakes-social
   order: 2100
   title: How to stake your DEV on Stakes.social
-
 ---
 
 ### What is Staking in the Dev Protocol context
@@ -20,7 +19,8 @@ The page currently looks like this:
 ![how to stake on stakes.social](/content/images/stakes.social/stakes.social-1.png)
 
 When you Stake your DEV on a project, currently, you will get a 30.07% APY while the Creator you're staking on will get a 31.3% APY. For example, imagine you have 1000 DEV and you Stake on a project you like, with all the other things held constant, after one year you would have accrued 300.7 DEV while the Creator would have accrued 313 DEV from your staking.
-* APY is constantly being updated. Please check Stakes.social for the latest data.
+
+- APY is constantly being updated. Please check Stakes.social for the latest data.
 
 That doesn't mean that your DEV are locked in the Smart Contract for a year, in fact **you're free to deposit and withdrawal any amount**, including just the rewards **any time you want**.
 
@@ -50,6 +50,7 @@ On the blue box, you can type an specific amount of DEV you want to stake on tha
 Once staked refresh the page and your DEV will show on the 'Your Staking Amount' box. You will instantly start receiving Rewards and so will the Creator that you chose, those can also be seen on the dashboard.
 
 ### Restaking
+
 A common practice on the Dev Protocol community is to withdrawal you rewards from time to time to stake them again, either on the same project or new projects. This way your yield will be manually compounded. Keep in mind that, with current high gas costs, Restaking might only be a financially wise idea, once you have accumulated a significant amount of rewards.
 
 To withdrawal just the rewards you just type 0 on the grey box, click on the Withdrawal grey button and a confirmation will pop up in your wallet, you check the gas costs and hit confirm. All of your DEV that you originally staked will still be staked and you will only withdrawal your Rewards.
@@ -57,11 +58,13 @@ To withdrawal just the rewards you just type 0 on the grey box, click on the Wit
 ![how to stake on stakes.social](/content/images/stakes.social/stakes.social-6.png)
 
 ### Withdrawal
+
 To withdrawal your DEV you do the same steps as above but you type the number of DEV you want on the grey box. Keep in mind that every time you withdrawal all your rewards are as well, so keep that in mind if you just need an specific amount of DEV. For example, you have accrued 30 DEV in Rewards, but you want to Withdrawal 100 DEV, you type 70 DEV on the box, once you have approved the transaction it'll show up 70 DEV+30 DEV(Reward) in your wallet.
 
 To Withdrawal everything, just click on the DEV button in the grey box and the total amount of DEV you have deposited will show up, click on the Withdrawal button, approve the transaction and everything will show up in your wallet.
 
 ### Comments and other questions
+
 Keep in mind that the gas costs are defined the by the usage of the Ethereum network, it's not dependent on Dev Protocol. It is also variable, if it is too expensive to approve a transaction, it could get cheaper later, and vice-versa, if you're confused, just ask other community members.
 
 If you have any other questions you can just ask them on [Discord](https://discord.com/channels/547215761341546497/675499290940014604) or [Telegram](https://web.telegram.org/#/im?p=@devprtcl), there are community and team members always active and ready to help you.
