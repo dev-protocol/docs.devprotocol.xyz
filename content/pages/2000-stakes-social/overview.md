@@ -17,4 +17,9 @@ Key Features
 
 1. Tokenize Open source software assets
 2. Get sponsors and raise funds from your community
-3. Both developers and sponsors get DEV tokens.
+3. Both developers and sponsors get DEV tokens through staking.
+
+## What is Staking?
+It is a framework where people contribute to the network by locking (temporarily making inaccessible) their crypto assets. In terms of Dev, when people stake "DEV token" (ERC20) for to support creator's works, they are rewarded with dev tokens for doing so.
+
+
