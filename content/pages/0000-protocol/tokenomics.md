@@ -14,6 +14,8 @@ eleventyNavigation:
 
 DEV tokens are a proprietary currency that can be used in the Dev Protocol are utility tokens in ERC20 format. You can support OSS projects by using DEV tokens and help developers with sustainable funding of their projects.
 
+Contract adress: https://etherscan.io/token/0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
+
 ## Token Usage
 
 ### Staking
