@@ -17,4 +17,4 @@ Key Features
 
 1. Tokenize Open source software assets
 2. Get sponsors and raise funds from your community
-3. Both developers and sponsors get DEV tokens.
+3. Both developers and sponsors get DEV tokens through staking.
