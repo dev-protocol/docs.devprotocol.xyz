@@ -17,7 +17,9 @@ DEV tokens are a proprietary currency that can be used in the Dev Protocol are u
 ## Token Usage
 
 ### Staking
+
 Patrons stake DEV tokens for OSS projects they support which mints new DEV tokens for themselves and the OSS project. This is a new way of crowdsourcing knowledge for the value of public goods.
 
 ### Governance
+
 The DEV token is also a governance token that governs the Dev Protocol treasury, the inflation rate, and submitted proposals.

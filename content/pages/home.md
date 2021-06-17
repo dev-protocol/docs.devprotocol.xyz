@@ -25,9 +25,9 @@ The Dev Protocol offers a solution to both problems, making the relationship bet
 ->![The sustainability issue of OSS](/content/images/oss-sustainability.png)<-
 
 ### Dev Protocol as middleware
+
 Dev Protocol is not a single platform, it's middleware. It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, Youtube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work.
 It is a whole new creator economy evolving from open creators assets. 🪐
-
 
 ### The value of the Dev Protocol
 
