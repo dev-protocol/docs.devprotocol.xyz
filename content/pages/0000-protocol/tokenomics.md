@@ -10,14 +10,14 @@ eleventyNavigation:
 	subtitle: Learn about DEV token's utility within the protocol.
 ---
 
-# What are DEV tokens?
+## What are DEV tokens?
 
-DEV tokens are a proprietary currency that can be used in the Dev Protocol. You can support OSS projects by using DEV tokens and help developers with sustainable funding of their projects.
+DEV tokens are a proprietary currency that can be used in the Dev Protocol are utility tokens in ERC20 format. You can support OSS projects by using DEV tokens and help developers with sustainable funding of their projects.
 
-# Token Usage
+## Token Usage
 
-## Staking
+### Staking
 Patrons stake DEV tokens for OSS projects they support which mints new DEV tokens for themselves and the OSS project. This is a new way of crowdsourcing knowledge for the value of public goods.
 
-## Governance
+### Governance
 The DEV token is also a governance token that governs the Dev Protocol treasury, the inflation rate, and submitted proposals.
