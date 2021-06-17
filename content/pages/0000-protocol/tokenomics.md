@@ -10,6 +10,14 @@ eleventyNavigation:
 	subtitle: Learn about DEV token's utility within the protocol.
 ---
 
-## Token Usage
+# What are DEV tokens?
 
-DEV is a utility token that is an essential part of Dev Protocol. Users stake their tokens in OSS projects to indicate which projects they believe are valuable. Active participants of the protocol get rewarded in minted DEV tokens for their participation.
+DEV tokens are a proprietary currency that can be used in the Dev Protocol. You can support OSS projects by using DEV tokens and help developers with sustainable funding of their projects.
+
+# Token Usage
+
+## Staking
+Patrons stake DEV tokens for OSS projects they support which mints new DEV tokens for themselves and the OSS project. This is a new way of crowdsourcing knowledge for the value of public goods.
+
+## Governance
+The DEV token is also a governance token that governs the Dev Protocol treasury, the inflation rate, and submitted proposals.
