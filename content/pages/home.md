@@ -17,6 +17,7 @@ eleventyNavigation:
 Dev protocol is a open source middleware that brings fairly economic value to Open source software(OSS).　
 Anyone can start without changing licenses, codes and support. Just tokenize your OSS in a minute with [Stakes.social](/stakes-social/index.html).
 
+
 ### What is currently broken in the OSS world?
 
 Currently in the open-source software development scene, sustainability has been a longstanding problem for developers looking to participate. Despite many OSS projects having a massive user base, they still rely on philanthropic donations in order to operate. Generous patrons are essential to the long term survival of OSS projects, but they are usually not rewarded for their patronage, at least not monetarily.
@@ -26,8 +27,14 @@ The Dev Protocol offers a solution to both problems, making the relationship bet
 
 ### Dev Protocol as middleware
 
-Dev Protocol is not a single platform, it's middleware. It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, Youtube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work.
+Dev Protocol is not a single platform, it's middleware. Dev Protocol is completely decentralized and is a middleware protocol for on-chain governance, anyone can join the ecosystem by developing various applications (Dapps). It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, Youtube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work.
 It is a whole new creator economy evolving from open creators assets. 🪐
+
+### Dev Protocol by numbers
+
+Under the mission of "creating a society where all innovators are valued and can achieve sustainably", Dev Protocol started MVP in 2018 and began a service for OSS developers to monetize. After the release of "Stakes.social", our first Dapp, in June 2020, our sustainable incentive scheme that utilizes a blockchain, attracted attention from overseas, and its ecosystem continues to grow dramatically. In the last one year, the total number of staking reached around 6 million USD, and the cumulative total amount of reward went up to approximately 2 million USD. (as of April 2021)
+
+*Dev Protocol gets support from Microsoft for Startups.
 
 ### The value of the Dev Protocol
 
