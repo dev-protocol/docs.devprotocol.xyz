@@ -586,6 +586,20 @@ select {
           color-adjust: unset;
 }
 
+[type='file'] {
+  background: unset;
+  border-color: inherit;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-size: unset;
+  line-height: inherit;
+}
+
+[type='file']:focus {
+  outline: 1px auto -webkit-focus-ring-color;
+}
+
 /* Set up some default image behavior for nicer images */
 
 img {
