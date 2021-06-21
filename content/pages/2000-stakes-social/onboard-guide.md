@@ -108,12 +108,12 @@ In the confirmation screen, the following information is displayed.
 | Token Name                | Token Name that you inputted.                                                                                                                                                                                                                        |
 | Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                                                                      |
 | Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                                                                                 |
-| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [information](https://medium.com/devprtcl/community-proposal-implement-a-creator-token-fee-to-create-an-oss-etf-d74386909339) |
+| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/posts/what-is-treasury/) |
 
 After you’ve confirmed and clicked “Tokenize” button, tokenization process is activated.
 
 It takes about an hour to finish the process. You can either continue to connect to or disconnect from Stakes.social. If you disconnect, you can still check your status at the following website.
-[Etherscan URL]
+[https://etherscan.io/address/0x9dfd67bf97dc48acdfbf75ad814e158816f98b0b](https://etherscan.io/address/0x9dfd67bf97dc48acdfbf75ad814e158816f98b0b)
 
 When the tokenization process is done, the registration of your OSS to Dev Protocol is completed.
 After a while, your OSS will be listed at List Page on Stakes,social, and Dev Protocol’s official Twitter will make an announcement on it.
