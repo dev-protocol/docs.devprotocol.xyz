@@ -57,5 +57,3 @@ https://stakes.social/stats
 
 †2 Interest on creators is constantly changing, so if you want to know the current annual rate, please check CREATOR APY on the following page.
 https://stakes.social/stats
-
-

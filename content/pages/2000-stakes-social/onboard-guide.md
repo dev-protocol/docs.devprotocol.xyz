@@ -10,15 +10,19 @@ eleventyNavigation:
 ---
 
 ## What’s Stakes.social?
+
 Stakes.social is a platform where you can register your OSS to Dev Protocol and stake registered OSS projects. Unlike other donation services, Dev Protocol is designed for the benefit of both supporters as well as developers by staking. Thanks to this system, developers find it easy to ask people for aid, which results in continuous support.
 
 ## A guide to onboard
+
 In this guideline, you’ll get an idea on the process of registering your OSS to Dev Protocol. We also mention points where you should be careful or might be puzzled to make it clear.
 
 ## Before you start
+
 In order for you to register (or tokenize) your OSS to Dev Protocol, you need to go through a registration procedure for Stakes.social. You’ll need a wallet to register, so you must have one beforehand.
 
 ## What’s wallet?
+
 A wallet is used for managing your crypto assets. You need to have a wallet to store DEV token issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with wallet function, you have to get one by yourselves.
 
 If you’re looking for a wallet, we’d recommend you to have MetaMask.
@@ -26,15 +30,18 @@ MetaMask corresponds to Chrome Extension version, so if you want to use Stakes.s
 [https://metamask.io/](https://metamask.io/)
 
 ## Connection between your wallet and Stakes.social
-Click “Sign in” button located  at right end of the header to connect your wallet (MetaMask, in this case) and Stakes.social.
+
+Click “Sign in” button located at right end of the header to connect your wallet (MetaMask, in this case) and Stakes.social.
 
 ![GUIDE01](/content/images/stakes.social/onboard-guide/guide01.jpeg)
 
 ## Gas fee
+
 Please check the following website for the details of gas fee : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
 You need a gas fee to register at Stakes.social. It fluctuates depending on the congestion condition, however, you would need about 0.0436ETH.
 
 ## Subsidies for gas fee
+
 We’re promoting subsidies for gas fee needed for the registration if your OSS meets the conditions.
 Please have a look at the following website for details.
 [https://onboarding-sponsors.devprotocol.xyz/](https://onboarding-sponsors.devprotocol.xyz/)
@@ -42,6 +49,7 @@ Please have a look at the following website for details.
 ![GUIDE02](/content/images/stakes.social/onboard-guide/guide02.png)
 
 ## How to register your OSS
+
 In this section, we’ll briefly explain registration steps for your OSS to be registered.
 In order to register your OSS at Stakes.social, start from the main menu, as stated below.
 
@@ -66,9 +74,11 @@ Shortly after you press “Signature” button, your application will be complet
 ![GUIDE04](/content/images/stakes.social/onboard-guide/guide04.png)
 
 ## Screening
+
 We kindly ask you to wait for about a week for screening process. We’ll let you know the result via email, so please change the filtering setup for your mail box to receive an email from “@devprotocol.xyz”.
 
 ## OSS registration after screening
+
 If you successfully pass the screening, access the URL written in the approval email.
 
 > You’ll need a gas fee for your registration. It fluctuates depending on the congestion condition, however, it would be around 0.0436ETH. Before you’re moving on to the next step, you should prepare ETH in your wallet.
@@ -92,12 +102,12 @@ After you’ve completed the input and click “Tokenize” button, your registr
 
 In the confirmation screen, the following information is displayed.
 
-| Items                     | Explanation                                                                                                                                                                                                                           |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Name              | Project Name that you inputted.                                                                                                                                                                                                       |
-| Token Name                | Token Name that you inputted.                                                                                                                                                                                                         |
-| Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                                                       |
-| Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                                                                  |
+| Items                     | Explanation                                                                                                                                                                                                                                          |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Name              | Project Name that you inputted.                                                                                                                                                                                                                      |
+| Token Name                | Token Name that you inputted.                                                                                                                                                                                                                        |
+| Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                                                                      |
+| Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                                                                                 |
 | Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [information](https://medium.com/devprtcl/community-proposal-implement-a-creator-token-fee-to-create-an-oss-etf-d74386909339) |
 
 After you’ve confirmed and clicked “Tokenize” button, tokenization process is activated.
@@ -111,16 +121,8 @@ After a while, your OSS will be listed at List Page on Stakes,social, and Dev Pr
 ![GUIDE06](/content/images/stakes.social/onboard-guide/guide06.png)
 
 ## Receiving more support
+
 In order for you to get more support for your OSS, it is important to let people know your Stakes.social page. We’d recommend you to tweet, place a link at a donation page or write a blog post.
 
 In Dev Protocol team and community, we’re talking with each other about the way to make an announcement of onboarding at Stakes.social. If you have any insights or ideas, please share them at Dev Protocol Forum.
 [https://community.devprotocol.xyz/](https://community.devprotocol.xyz/)
-
-
-
-
-
-
-
-
-
