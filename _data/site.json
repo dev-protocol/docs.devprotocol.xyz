@@ -7,7 +7,7 @@
 	"githubUrl": "https://github.com/dev-protocol/docs",
 	"githubBranch": "main",
 	"navigationStyle": "vertical",
-	"emoji": "💥",
+	"faviconPath": "https://devprotocol.xyz/favicon.png",
 	"enableSearch": true,
 	"enableDarkMode": true,
 	"enableEditButton": false,
