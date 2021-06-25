@@ -33,7 +33,7 @@ Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many 
 Onboarding Stakes.social has many benefits for your OSS and supporters. Please consider it.
 Please see the onboard guide [here](/stakes-social/onboard-guide/).
 
-### 2. Support OSS projects (Both OSS developers and supporters)
+### 2. Support OSS projects (Both supporters and OSS developers)
 
 Support your favourite OSS and both you and the developer will be rewarded.
 Please see the staking guide [here](stakes-social/how-to-stake/).
