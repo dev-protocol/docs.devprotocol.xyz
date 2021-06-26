@@ -1,59 +1,62 @@
 ---
-title: DEV Token Guide
+title: Guideline for DEV token
 date: 2021-06-18
 permalink: /stakes-social/token-guide/index.html
 eleventyNavigation:
   key: DEV Token Guide
   parent: stakes-social
   order: 2200
-  title: DEV Token Guide
+  title: Guideline for DEV token
 ---
 
-A DEV token is a crypto asset created to support OSS.
+DEV token is a crypto asset designed to support OSS.
 
-The Dev Protocol, which uses blockchain technology staking, was born as a mechanism to provide continuous support to all creators. The DEV token is a crypto asset issued by the Dev Protocol.
-Staking is like depositing money in a bank. Just as deposits earn interest, depositing DEV tokens (deposits) with OSS (banks) earns interest.
-By separating this interest from the developer, the interest (reward) to the developer becomes a donation to the developer.
+Dev Protocol was created with the use of blockchain technology as a system to realize continuous support for all creators. DEV token is a crypto asset issued by Dev Protocol.
+Staking is like depositing your money to banks. As you may know, you’ll get interest for your deposited money. For DEV, if you deposit DEV token (money) to OSS (banks), you’ll get interest. The interest will be shared with developers, that means, interest for developers (reward) will be a donation for developers.
 
 ![GUIDE01](/content/images/stakes.social/dev-token-guide/guide01.jpg)
 
-## What is the mechanism for continuous support?
+## A system for continuous support
 
-The staking DEV token is in a deposited state. Since it is deposited, it will not be reduced or lost, and you can withdraw it whenever you want. In addition, interest will be paid to both the supporter and the developer during the deposit. In other words, it is better to deposit the purchased DEV token than to have it.
-Interest will stop if you withdraw the DEV token. For supporters, it is better to leave it without withdrawing it. Interest also goes into the developer, which is a donation to the developer. The Dev Protocol uses this mechanism to provide continuous support to developers.
+Staked DEV token is in the condition of being deposited. It doesn’t neither decrease or diminish because it’s deposited. You can also withdraw it whenever you want to. While DEV token is deposited, both supporters and developers get interest. In other words, you’ll get more benefit from depositing it rather than owning it.
+Once you withdraw your DEV token, the increase of interest stops. Therefore, for supporters, they get more profit by depositing instead of withdrawing. In addition, the interest will be added for developers, which result in a donation for them. Dev Protocol realizes continuous support for developers with this system.
 
-## How much interest will you earn
+## A system that rewards developers
 
-Interest will be given to supporters at an annual rate of around 30% (as of June 12, 2021) †1 Creators will also be donated at an annual rate of around 30% (as of June 12, 2021) †2
-You can see that the interest rate is high compared to the interest rate of the bank.
+The mechanism for earning interest on supporter and developer is realized by dividing the interest earned from the supporter's staking between the developer and the supporter. In other words, if both the supporter and the developer have an annual rate of 30%, the supporter's staking will generate 60% interest, which will be divided between the developer and the supporter by 30%.
+
+## Interest rate
+
+Interest for supporters will be given at the interest rate of approximately 30% per year (as of June 12th, 2021)†1. Reward for creators is donated at the interest rate of abou 30% per year (as of June 12th, 2021)†2.
+You can see how high DEV’s interest rate is compared with that of banks.
 
 ## How to stake
 
-To stake, you first need to find the project you want to support at Stakes.social. Find the project you want to support from the project list page.
-To find the project you want to help, it's a good idea to search for the name of your favorite OSS by keyword, or find out what the OSS is from the OSS details page (the details page has a link to Github, so README). It is also recommended to read the file to see it)
+When you start to stake, you need to find projects that you want to support at Stakes.social. Find projects that you want to support from Project List Page.
+To find your favorite projects, you can just search with key words of OSS names, or check the profiles of OSS at OSS introduction page (In this page, you can also find a link to Github, and it might be a great idea if you read README file there.)
 
 ![GUIDE02](/content/images/stakes.social/dev-token-guide/guide02.jpg)
 
-When you find the project you want to help, press the "Stake" button, which will display the modal. The modal has an input form for entering the staking amount, so enter the number of DEVs you want to stake. After completing the input, check again and press the "Stake" button.
-When you press the "Stake" button, your wallet will be launched and the transaction and the gas cost required to process the transaction will be confirmed.
+When you find a project that you want to support, press “Stake” button, and then a screen of staking is displayed. You can find an application form to input the amount of staking in the modal, so please input the number of DEV for staking. After you’ve completed to input and double-checked the amount, please click “Stake” button.
+If you press “Stake” button, your wallet will be activated to check the status of transaction and gas fee to process transaction.
 
 ![GUIDE04](/content/images/stakes.social/dev-token-guide/guide04.jpg)
 
-On the Ethereum platform, a transaction fee (gas fee) is required to process the transaction. Dev Protocol also requires this fee because it works on the Ethereum platform. Let's prepare in advance.
+At the platform on Ethereum, you’ll need a commission for transaction (gas fee) to complete it. Since Dev Protocol is designed on the platform of Ethereum, you’ll need a commission. Please prepare the fee for it beforehand.
 
-When the transaction is processed and the staking is complete, the message “success staking!” Is displayed.
+After the transaction is done and your staking is completed, you can see a message, “success staking!”.
 
 ![GUIDE03](/content/images/stakes.social/dev-token-guide/guide03.jpg)
 
-Now you deposited your DEV token in the OSS you want to support.
-DEV tokens with an annual interest rate of around 30% (as of June 12, 2021)†1 and developers with an annual rate of around 30% (as of June 12, 2021)†2 will be donated.
+This message means that your DEV is deposited to the OSS project that you want to support.
+Deposited DEV receive interest at the interest rate of around 30% per year (as of June 12th, 2021)†1, and Developers receive DEV token at the interest rate of approximately 30% (as of June 12th, 2021)†2.
 
-The more you continue to stake, the more benefits you will receive and the more ongoing donations you will make to the developers you helped, and the more developers you support will be able to focus more on development. For that reason, we recommend that you continue staking for as long as possible.
+The longer you continue staking, the longer developers with your support can devote themselves to their development much more than before, which results in your profit as one of their supporters and in continuous support for developers. We’d highly recommend you to stake as long time as possible for their continuous development.
 
 ---
 
-†1 Interest on supporters is constantly changing, so if you want to know the current annual rate, please check STAKER APY on the following page.
+†1 Since the interest for supporters always fluctuate, please check STAKER APY at the following website if you want to know the current rate per year.
 https://stakes.social/stats
 
-†2 Interest on creators is constantly changing, so if you want to know the current annual rate, please check CREATOR APY on the following page.
+†2 Since the interest for creators always fluctuate, please check CREATOR APY at the following website if you want to know the current rate per year.
 https://stakes.social/stats
