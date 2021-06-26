@@ -23,7 +23,7 @@ Once you withdraw your DEV token, the increase of interest stops. Therefore, for
 
 ## A system that rewards developers
 
-The mechanism for earning interest on supporter and developer is realized by dividing the interest earned from the supporter's staking between the developer and the supporter. In other words, if both the supporter and the developer have an annual rate of 30%, the supporter's staking will generate 60% interest, which will be divided between the developer and the supporter by 30%.
+The mechanism for earning interest on supporter and developer tokens is realized by dividing the interest earned from the supporter’s staking between the developer and the supporter. In other words, if both the supporter and the developer have an annual rate of 30%, the supporter’s staking will generate 60% interest, which will be divided between the developer, and the supporter equally (which in this case equates to a rate of 30% each).
 
 ## Interest rate
 
