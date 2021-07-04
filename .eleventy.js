@@ -7,6 +7,7 @@ const mdIterator = require('markdown-it-for-inline')
 const embedEverything = require('eleventy-plugin-embed-everything')
 const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const Image = require('@11ty/eleventy-img')
 module.exports = function (eleventyConfig) {
 	// eleventyConfig.addPlugin(pluginTOC);
@@ -75,6 +76,9 @@ module.exports = function (eleventyConfig) {
 
 	// Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
 	eleventyConfig.addPlugin(eleventyNavigationPlugin)
+
+	// Eleventy Synrax Highlighting https://www.11ty.dev/docs/plugins/syntaxhighlight/
+	eleventyConfig.addPlugin(syntaxHighlight)
 
 	// Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
 	// layout aliases! Say you have a bunch of existing content using
