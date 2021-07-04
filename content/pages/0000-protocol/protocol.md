@@ -118,7 +118,7 @@ The Market Factory Contract generates a new Market Contract.
 
 The generation of a Market Contract is carried out by executing the create function. The create function receives the address for the Property Contract with the next interface and generates a new Market Contract.
 
-```
+```solidity
 contract IMarketBehavior {
     string public schema;
 
@@ -138,7 +138,7 @@ contract IMarketBehavior {
 
 When you implement the `authenticate` function, strongly recommended to verify the sender is associated with the Market Contract. To verify, please create a function to set the associated Market Contract address.
 
-```
+```solidity
 function authenticate(
     address _prop,
     string memory _args1,
@@ -156,19 +156,19 @@ function authenticate(
 
 The `schema` is an array-type JSON character string that explains the significance of the arguments that the `authenticate` function receives for authentication. The maximum for these arguments is 5, in addition to the address of the Property Contract. An example is presented below.
 
-```
+```solidity
 string public schema = '["Your asset identity", "Read-only token", "More something"]';
 ```
 
 The `authenticate` function always handles the 2nd argument as the unique ID. Accordingly, values that cannot secure uniqueness should not be assigned. The following schema is an incorrect example.
 
-```
+```solidity
 string public schema = '["Read-only token", "Your GitHub repository(e.g. your-name/repos)"]';
 ```
 
 And the following schema is a correct example.
 
-```
+```solidity
 string public schema = '["Your GitHub repository(e.g. your-name/repos)", "Read-only token"]';
 ```
 
@@ -234,7 +234,7 @@ The following variables are used to calculate a reward amount for a staking user
 - Policy.holdersShare: Reward rate function receive by a Property Contract holder
   The calculation formula is as follows.
 
-```
+```solidity
 total_interest = s(r / t - Policy.holdersShare(r / t, t))
 ```
 
@@ -285,7 +285,7 @@ The following variables are used to calculate a reward amount for a Property hol
 
 The calculation formula is as follows.
 
-```
+```solidity
 total_reward = b(s(Policy.holdersShare(r / t, t)) / ts)
 ```
 
