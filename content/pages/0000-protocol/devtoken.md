@@ -1,9 +1,9 @@
 ---
 title: Token Overview
 date: 2021-05-07
-permalink: /protocol/tokenomics/index.html
+permalink: /protocol/devtoken/index.html
 eleventyNavigation:
-  key: Tokenomic
+  key: DEVtoken
   parent: Protocol
   order: 20
   title: DEV token Overview
