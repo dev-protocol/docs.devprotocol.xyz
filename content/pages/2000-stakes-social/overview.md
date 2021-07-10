@@ -28,6 +28,7 @@ It is a framework where people contribute to the network by locking (temporarily
 Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many developers, including both individuals and firms, succeed in achieving sustainability through fundraising. There is an increasing number of unique creators joining Stakes.social, so you can support different creators such as OSS developers, VR artists, NFT markets, green projects, and Vtubers. You can see all the creators here. https://stakes.social/
 
 ## How to start Stakes.social?
+
 ### 1. Onboard to Stakes.social (If you are an OSS developer)
 
 Onboarding Stakes.social has many benefits for your OSS and supporters. Please consider it.
@@ -42,7 +43,6 @@ Please see the staking guide [here](/stakes-social/how-to-stake/).
 
 You can buy or sell DEV tokens on various DEXs (Decentralized Exchange) like Uniswap.
 If you are new to crypto, Please see the start guide [here](/stakes-social/how-to-buy/).
-
 
 ## Reference
 
