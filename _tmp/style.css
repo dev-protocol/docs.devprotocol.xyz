@@ -429,7 +429,8 @@ textarea::placeholder {
   color: #9ca3af;
 }
 
-button {
+button,
+[role="button"] {
   cursor: pointer;
 }
 
@@ -522,7 +523,7 @@ video {
   height: auto;
 }
 
-[type='text'],[type='email'],[type='password'],[type='number'],[type='search'],[type='time'],[multiple],textarea,select {
+[type='text'],[type='email'],[type='password'],[type='number'],[type='search'],[type='time'],[type='week'],[multiple],textarea,select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -538,7 +539,7 @@ video {
   line-height: 1.5rem;
 }
 
-[type='text']:focus, [type='email']:focus, [type='password']:focus, [type='number']:focus, [type='search']:focus, [type='time']:focus, [multiple]:focus, textarea:focus, select:focus {
+[type='text']:focus, [type='email']:focus, [type='password']:focus, [type='number']:focus, [type='search']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
   --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
