@@ -5,7 +5,7 @@ permalink: /introduction/what-is-devprotocol/index.html
 eleventyNavigation:
   key: Dev Protocol
   parent: Introduction
-  order: 3
+  order: 2
   title: What is Dev Protocol?
 ---
 

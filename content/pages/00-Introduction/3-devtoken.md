@@ -5,7 +5,7 @@ permalink: /introduction/devtoken/index.html
 eleventyNavigation:
   key: DEVtoken
   parent: Introduction
-  order: 2
+  order: 3
   title: DEV token Overview
 	subtitle: DEV token Overview
 ---
