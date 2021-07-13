@@ -1,11 +1,11 @@
 ---
-title: The Protocol
+title: The Protocol whitepaper
 date: 2021-05-07
-permalink: /protocol/index.html
+permalink: /whitepaper/index.html
 eleventyNavigation:
   key: Protocol
-  order: 10
-  title: The Protocol
+  order: 30
+  title: The Protocol whitepaper
 ---
 
 ## The World that Dev Protocol Aims for
