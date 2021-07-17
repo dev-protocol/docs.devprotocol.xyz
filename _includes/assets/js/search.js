@@ -53,7 +53,8 @@
 			noResultsEl.classList.add('hidden')
 		}
 	}
-	fetch('/search-index.json').then((response) =>
+	var locale = localStorage.getItem('lang');
+	fetch('/' + locale + '/search-index.json').then((response) =>
 		response.json().then((rawIndex) => {
 			window.searchIndex = elasticlunr.Index.load(rawIndex)
 			document.getElementById('searchField').addEventListener('input', search)

@@ -1,5 +1,5 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="{{ locale }}">
   {% include "components/head.njk" %}
   <body>
     <div id="app" class="h-screen bg-white dark:bg-gray-900">
@@ -12,7 +12,7 @@
           <div class="block md:hidden pt-4 font-semibold text-gray-500">{{ site.name }}</div>
           <div class="block md:hidden text-sm text-gray-500 mb-4">{{ site.subtitle }}</div>
           </a>
-          {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({anchorClass: "item",activeAnchorClass: "active",activeListItemClass: "active",activeKey: eleventyNavigation.key, listClass: "nav", listItemClass: "item"}) | safe }}
+          {{ collections['pages-'+locale] | eleventyNavigation | eleventyNavigationToHtml({anchorClass: "item",activeAnchorClass: "active",activeListItemClass: "active",activeKey: eleventyNavigation.key, listClass: "nav", listItemClass: "item"}) | safe }}
         </div>
       </nav>
       {% endif %}

@@ -1,0 +1,210 @@
+-----------------------
+OSS-SUSTAINABILITY.PNG
+-----------------------
+
+O que resolvemos?
+
+Os aspectos de Sustentabilidade das atividades abertas
+
+			estagnando dentro de 
+		estão 
+83%			1 ano.
+dos projetos    	
+
+Fonte: Open Source By The Numbers
+
+As atividades essenciais foram economicamente subvalorizadas.
+(isto é, OSS, Open Access, Creative Commons, todos os tipos de conhecimento e ativos)
+
+
+--------------------------------
+staking-ratio-vs-mint-amount.svg
+--------------------------------
+
+Razão de aposta versus Remunerações
+
+Quantidade minerada por bloco por ativo
+
+Razão de aposta
+
+(Obs.: Trocar ponto por vírgula nos valores da figura)
+
+
+-----------
+formura.png
+-----------
+
+Remunerações = Max * (1 – RazãoAposta)(12–(RazãoAposta*10))/2+1
+
+
+
+----------------------
+chart-of-contracts.png
+----------------------
+
+Allocator = Alocador
+
+Alocador valida um ativo e remunerações de distribuição.
+
+Lock-up = Travamento
+
+Interest = Juros
+
+Property = Propriedade
+
+Metrics = Métricas
+
+Market = Mercado
+
+
+Política controla diversos parâmetros no protocolo, como uma regra de remunerações e uma taxa de autenticação.
+
+Policy = Política
+
+Policy Factory = Fábrica de Políticas
+
+New Property = Nova Propriedade
+
+Property Factory = Fábrica de Propriedades
+
+New Market = Novo Mercado
+
+Market Factory = Fábrica de Mercados
+
+
+-------------------
+how-Khaos-works.png
+-------------------
+1. Emita tokens
+
+Tokens de Criador
+(ERC20)
+
+2. Segurança
+Assinatura Pública
+
+3. Autenticação
+Oráculo
+
+---------------------------
+dev-token-guide/guide01.jpg
+---------------------------
+
+Desenvolvedor
+
+Remuneração
+
+Open Source Software
+
+Juros
+
+Staking
+
+Patrocinador
+
+---------------------------
+dev-token-guide/guide04.jpg
+---------------------------
+
+escolha
+
+Staking
+
+--------------------------
+onboard-guide/guide01.jpeg
+--------------------------
+
+Conecte o Stakes.social à Wallet
+
+ETAPA01
+
+Clique
+
+ETAPA02
+
+1. Escolha a wallet
+
+wallet 01
+
+2. Clique
+
+--------------------------
+onboard-guide/guide03.jpeg
+--------------------------
+
+Três etapas da aplicação
+
+ETAPA01
+
+1. Clique e abra menu
+
+2. Clique
+
+ETAPA02
+
+Clique
+
+1. Complete o formulário
+
+2. Clique
+
+-------------------------
+onboard-guide/guide05.png
+-------------------------
+
+1. Verifique seu ETH
+
+2. Verifique a taxa de gás
+
+-------------------
+stakes.social-4.png
+-------------------
+
+DIGITE AQUI      ou         CLIQUE AQUI
+
+------------------------------
+How Khaos Stores Confidentials
+------------------------------
+
+Como o Khaos Armazena Dados Confidenciais
+
+Front-end DApp
+Servidor Khaos
+Internet
+
+Solicita autenticação
+Métodos Authn por user-extended
+Solicitação
+Resposta
+Armazena dados confidenciais
+Retorna chave pública emparelhada
+
+Criado por SequenceDiagrama.org
+
+-------------------
+How Khaos Oraclizes
+-------------------
+
+Como o Khaos Oracliza
+
+Front-end DApp
+Contratos
+Servidor Khaos
+Internet
+
+Solicita busca de dados
+Emite evento 'Query'
+loop
+[Eventos Monitor]
+Busca tx
+Retorna tx
+
+Solicitação
+Resposta
+
+Callback
+Retorna dados buscados
+
+Criado por SequenceDiagrama.org
+
+

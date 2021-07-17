@@ -28,4 +28,7 @@
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
   {% endif %}
 
+	{% if site.locales.length > 1 %}
+	<script type="module" src="{{ '/_includes/assets/js/lang-switch.js' | url }}" async defer></script>
+	{% endif %}
 </head>
