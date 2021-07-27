@@ -102,13 +102,13 @@ After you’ve completed the input and click “Tokenize” button, your registr
 
 In the confirmation screen, the following information is displayed.
 
-| Items                     | Explanation                                                                                                                                                                                       |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Name              | Project Name that you inputted.                                                                                                                                                                   |
-| Token Name                | Token Name that you inputted.                                                                                                                                                                     |
-| Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                   |
-| Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                              |
-| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/posts/what-is-treasury/) |
+| Items                     | Explanation                                                                                                                                                                                    |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Name              | Project Name that you inputted.                                                                                                                                                                |
+| Token Name                | Token Name that you inputted.                                                                                                                                                                  |
+| Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                |
+| Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                           |
+| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/en/what-is-treasury/) |
 
 After you’ve confirmed and clicked “Tokenize” button, tokenization process is activated.
 
