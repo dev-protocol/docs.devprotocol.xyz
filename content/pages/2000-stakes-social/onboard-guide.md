@@ -108,7 +108,7 @@ In the confirmation screen, the following information is displayed.
 | Token Name                | Token Name that you inputted.                                                                                                                                                                     |
 | Token Symbol              | Token Symbol that you inputted.                                                                                                                                                                   |
 | Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                              |
-| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/posts/what-is-treasury/) |
+| Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/en/what-is-treasury/) |
 
 After you’ve confirmed and clicked “Tokenize” button, tokenization process is activated.
 

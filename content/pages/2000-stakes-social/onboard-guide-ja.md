@@ -108,7 +108,7 @@ STEP03 では、OSS の申請に必要な項目を入力します。それぞれ
 | Token Name                | 入力した Token Name                                                                                                                                                                              |
 | Token Symbol              | 入力した Token Symbol                                                                                                                                                                            |
 | Supply                    | あなたが発行するトークン（プロパティトークン）の枚数                                                                                                                                             |
-| Dev Protocol Treasury Fee | あなたが発行するトークンの 5%を Dev Protocol に Treasury Fee としていただきます。詳しくはこちらをご確認ください<br>[What is treasury](https://initto.devprotocol.xyz/ja/posts/what-is-treasury/) |
+| Dev Protocol Treasury Fee | あなたが発行するトークンの 5%を Dev Protocol に Treasury Fee としていただきます。詳しくはこちらをご確認ください<br>[What is treasury](https://initto.devprotocol.xyz/ja/what-is-treasury/) |
 
 確認を行い「Tokenize」ボタンを押すと、トークナイズ処理が実行されます。
 
