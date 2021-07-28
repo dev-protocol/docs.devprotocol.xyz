@@ -48,5 +48,6 @@ If you are new to crypto, Please see the start guide [here](/stakes-social/how-t
 
 https://www.youtube.com/watch?v=rhOwDqbrkhc
 
-**What is Dev Protocol?(Dapp.com)**
-https://www.dapp.com/article/what-is-dev-protocol
+**What is Dev Protocol?
+
+[https://www.dapp.com/article/what-is-dev-protocol](https://www.dapp.com/article/what-is-dev-protocol)
