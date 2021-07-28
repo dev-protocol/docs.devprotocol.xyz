@@ -12,7 +12,7 @@ eleventyNavigation:
 
 ## What is DEV token?
 
-The DEV Protocol shall allow monetization of program development work for open source software(OSS). The monetization of OSS itself brings more sustainable funding and incentive models for the first time.
+The DEV Protocol shall allow monetization of program development work for Open Source Software(OSS). The monetization of OSS itself brings more sustainable funding and incentive models for the first time.
 
 Contract adress: https://etherscan.io/token/0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
 
@@ -28,11 +28,11 @@ By staking DEV for creators, stakers are eligible to receive a yield in the form
 
 ### Governance
 
-Users that stake DEV hold certain governance rights over the protocol, such as having a voice in deciding tokenomics as well as proposing different ideas.
+Users that stake DEV holds certain governance rights over the protocol, such as having a voice in deciding tokenomics as well as proposing different ideas.
 
 ### Creator Tokens
 
-DEV stakers will be able to obtain Creators Tokens efficiently in future.
+DEV stakers will be able to obtain Creators Tokens efficiently in the future.
 
 ### Authentication fees
 
@@ -46,11 +46,14 @@ Enterprise users may ask for new markets where they look for certain types of as
 
 ### Dynamic inflation
 
-More tokens staked = exponential decrease in inflationMore assets available = linear increase in inflation
+- More tokens staked = exponential decrease in inflation
+- More assets available = linear increase in inflation
 
 ### Vesting for creators
 
-Creators have a DEV cap for withdrawable rewards. Better dispersion of staking among creators = higher rewards cap Higher DEV price = Lower withdrawal cap
+- Creators have a DEV cap for withdrawable rewards. 
+- Better dispersion of staking among creators = higher rewards cap 
+- Higher DEV price = Lower withdrawal cap
 
 ### DEV total supply is inflationary
 
@@ -58,17 +61,17 @@ DEV supply isn’t capped, with governance supply controlled as necessary via on
 
 ### How does it work?
 
-The total reward for a per block called rewards is determined as follows.
+The total reward for a per block called rewards is determined as follows:
 
-**More lockups, less rewards.**
-**More assets, more rewards.**
+- More lockups, less rewards.
+- More assets, more rewards.
 
 Designed to increase in value as the number of tokens deposited by sponsors increases and the total number of tokens issued decreases.
 
 ![tokenomics](/content/images/token/staking-ratio-vs-mint-amount.svg)
 
-- As Sponsors side：There is incentive to staking after the purchase of Dev tokens as the value increases with deposit
-- As Creators side： The more assets are tokenised, the more issued, and the easier it is for creators to attract sponsors.
+- As Sponsors side: There is incentive to staking after the purchase of Dev tokens as the value increases with deposit
+- As Creators side: The more assets are tokenised, the more issued, and the easier it is for creators to attract sponsors.
 
 The following formula illustrates the basic concept:
 ![tokenomics](/content/images/token/formura.png)

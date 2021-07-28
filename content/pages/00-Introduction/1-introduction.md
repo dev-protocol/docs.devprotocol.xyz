@@ -8,8 +8,7 @@ eleventyNavigation:
   title: Introduction
 ---
 
-Dev Protocol is on-chain middleware created for a whole new ecosystem designed for Open Source Software. (OSS)
-With Dev Protocol, Anyone can start to monetise your creations without changing licenses, codes and support. You can use the feature set in Stakes.social, the firtst official application of the Dev Protocol.
+Dev Protocol is on-chain middleware created for a whole new ecosystem designed for Open Source Software (OSS). With Dev Protocol, anyone can start to monetise your creations without changing licenses, codes, and support. You can use the feature set in Stakes.social, the first official application of the Dev Protocol
 
 ### What is an ecosystem for OSS?
 
