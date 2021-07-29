@@ -27,12 +27,14 @@ The mechanism for earning interest on supporter and developer tokens is realized
 
 ## Interest rate
 
-Interest for supporters will be given at the interest rate of approximately 30% per year (as of June 12th, 2021)†1. Reward for creators is donated at the interest rate of abou 30% per year (as of June 12th, 2021)†2.
+Interest for supporters will be given at the interest rate of approximately 30% per year (as of June 12th, 2021)†1. Reward for creators is donated at the interest rate of about 30% per year (as of June 12th, 2021)†2.
+
 You can see how high DEV’s interest rate is compared with that of banks.
 
 ## How to stake
 
 When you start to stake, you need to find projects that you want to support at Stakes.social. Find projects that you want to support from Project List Page.
+
 To find your favorite projects, you can just search with key words of OSS names, or check the profiles of OSS at OSS introduction page (In this page, you can also find a link to Github, and it might be a great idea if you read README file there.)
 
 ![GUIDE02](/content/images/stakes.social/dev-token-guide/guide02.jpg)
