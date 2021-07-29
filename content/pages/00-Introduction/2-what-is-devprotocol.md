@@ -25,5 +25,7 @@ Dev Protocol is not a single platform, it's middleware. Dev Protocol is complete
 ### The value of the Dev Protocol
 
 The positive cycle created by OSS and open assets being sustainable and able to collaborate with more stakeholders is the greatest value of all. But the Dev Protocol is more than just a way for creators to monetize; it serves as the core for creators to easily expand and manage their own ecosystem. At the core of this are creator tokens and staking. The UI for these to work is only partially complete, but the community's goal is to fully build these creator ecosystem extensions so that they become the first choice of creators when they decide to create something.
+
 A creator token divides the ownership of a project. There are various use cases where the owner can extend the project, such as for project governance or for incentivizing collaborators. It would also be easy to create a liquidity pool paired with DEV. Dev staking's split rewards would be distributed to creators based on their share of creator tokens so that creators could provide a built-in incentive model for creator token holders.
+
 Notes: It should be mentioned that the staking ratio is higher than the annual inflation rate and that the [DIP-55](https://github.com/dev-protocol/DIPs/blob/main/DIPS/dip-55.md) gives creators an incentive to re-stake their creator rewards.
