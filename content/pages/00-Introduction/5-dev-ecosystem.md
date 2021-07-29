@@ -12,7 +12,7 @@ eleventyNavigation:
 DEV token is a crypto asset designed to support the next generation of creators, such as OSS developers. (OSS - Open Source Software).
 
 Dev Protocol was created with the use of blockchain technology as a system to realize continuous support for all creators. DEV token is a crypto asset issued by Dev Protocol.
-Staking is like depositing your money to banks. As you may know, you’ll get interest for your deposited money. For DEV, if you deposit DEV token (money) to OSS (banks), you’ll get interest. The interest will be shared with developers, that means, interest for developers (reward) will be a donation for developers.
+Staking is like depositing your money to banks. As you may know, you’ll get interest for your deposited money. For DEV, if you deposit DEV token (money) to OSS (banks), you’ll get interest. The interest will be shared with developers, which means, interest for developers (reward) will be a donation for developers.
 
 ![GUIDE01](/content/images/stakes.social/dev-token-guide/guide01.jpg)
 
