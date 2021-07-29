@@ -20,8 +20,7 @@ To begin with, let's clarify the key factors in each area of "Dev Protocol".
 
 ### Dev Protocol as middleware
 
-Dev Protocol is not a single platform, it's middleware. Dev Protocol is completely decentralized and is a middleware protocol for on-chain governance, anyone can join the ecosystem by developing various applications (Dapps). It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, YouTube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work.
-It is a whole new creator economy evolving from open creators assets. 🪐
+Dev Protocol is not a single platform, it's middleware. Dev Protocol is completely decentralized and is a middleware protocol for on-chain governance, anyone can join the ecosystem by developing various applications (Dapps). It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, YouTube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work. It is a whole new creator economy evolving from open creators assets.
 
 ### The value of the Dev Protocol
 
