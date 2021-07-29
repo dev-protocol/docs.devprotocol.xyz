@@ -28,4 +28,4 @@ The positive cycle created by OSS and open assets being sustainable and able to 
 
 A creator token divides the ownership of a project. There are various use cases where the owner can extend the project, such as for project governance or for incentivizing collaborators. It would also be easy to create a liquidity pool paired with DEV. Dev staking's split rewards would be distributed to creators based on their share of creator tokens so that creators could provide a built-in incentive model for creator token holders.
 
-Notes: It should be mentioned that the staking ratio is higher than the annual inflation rate and that the [DIP-55](https://github.com/dev-protocol/DIPs/blob/main/DIPS/dip-55.md) gives creators an incentive to re-stake their creator rewards.
+**Note:** It should be mentioned that the staking ratio is higher than the annual inflation rate and that the [DIP-55](https://github.com/dev-protocol/DIPs/blob/main/DIPS/dip-55.md) gives creators an incentive to re-stake their creator rewards.
