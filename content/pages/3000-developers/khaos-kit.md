@@ -36,4 +36,4 @@ yarn add @devprotocol/khaos-kit
 
 The following guide describes a comprehensive way to build your own oracle with Khaos. In the Khaos Kit section, you can learn how to use the Khaos Kit specifically.
 
-https://initto.devprotocol.xyz/posts/deep-dive-khaos/
+https://initto.devprotocol.xyz/en/deep-dive-khaos/
