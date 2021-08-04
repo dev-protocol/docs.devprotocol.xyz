@@ -1,11 +1,11 @@
 ---
 title: Dev Kit
 date: 2021-05-07
-permalink: /developers/dev-kit/index.html
+permalink: /developers/tools/dev-kit/index.html
 eleventyNavigation:
   key: dev-kit
-  parent: developers
-  order: 3100
+  parent: developers_tools
+  order: 3520
   title: Dev Kit
 ---
 

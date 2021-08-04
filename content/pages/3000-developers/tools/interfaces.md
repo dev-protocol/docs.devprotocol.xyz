@@ -1,11 +1,11 @@
 ---
 title: Interfaces
 date: 2021-05-07
-permalink: /developers/interfaces/index.html
+permalink: /developers/tools/interfaces/index.html
 eleventyNavigation:
   key: Interfaces
-  parent: developers
-  order: 3010
+  parent: developers_tools
+  order: 3510
   title: Interfaces
 ---
 

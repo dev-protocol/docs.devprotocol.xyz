@@ -1,11 +1,11 @@
 ---
 title: util-contracts
 date: 2021-05-07
-permalink: /developers/util-contracts/index.html
+permalink: /developers/tools/util-contracts/index.html
 eleventyNavigation:
   key: util-contracts
-  parent: developers
-  order: 3600
+  parent: developers_tools
+  order: 3570
   title: util-contracts
 ---
 

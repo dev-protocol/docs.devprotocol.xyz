@@ -1,11 +1,11 @@
 ---
 title: Dev Protocol Data Viewer
 date: 2021-05-07
-permalink: /developers/data-viewer/index.html
+permalink: /developers/tools/data-viewer/index.html
 eleventyNavigation:
   key: data-viewer
-  parent: developers
-  order: 3200
+  parent: developers_tools
+  order: 3530
   title: Dev Protocol Data Viewer
 ---
 

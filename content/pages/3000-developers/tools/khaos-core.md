@@ -1,11 +1,11 @@
 ---
 title: Khaos Core
 date: 2021-05-07
-permalink: /developers/khaos-core/index.html
+permalink: /developers/tools/khaos-core/index.html
 eleventyNavigation:
   key: khaos-core
-  parent: developers
-  order: 3450
+  parent: developers_tools
+  order: 3550
   title: Khaos Core
 ---
 
