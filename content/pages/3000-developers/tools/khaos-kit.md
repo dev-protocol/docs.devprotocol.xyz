@@ -1,11 +1,11 @@
 ---
 title: Khaos Kit
 date: 2021-05-07
-permalink: /developers/khaos-kit/index.html
+permalink: /developers/tools/khaos-kit/index.html
 eleventyNavigation:
   key: khaos-kit
-  parent: developers
-  order: 3300
+  parent: developers_tools
+  order: 3540
   title: Khaos Kit
 ---
 

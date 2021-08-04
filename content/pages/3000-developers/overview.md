@@ -7,5 +7,3 @@ eleventyNavigation:
   order: 3000
   title: Developers
 ---
-
-Dev Protocol provides various toolsets for developers.

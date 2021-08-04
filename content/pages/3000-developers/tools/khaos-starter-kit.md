@@ -1,11 +1,11 @@
 ---
 title: Khaos Starter Kit
 date: 2021-05-07
-permalink: /developers/khaos-starter-kit/index.html
+permalink: /developers/tools/khaos-starter-kit/index.html
 eleventyNavigation:
   key: khaos-starter-kit
-  parent: developers
-  order: 3400
+  parent: developers_tools
+  order: 3560
   title: Khaos Starter Kit
 ---
 

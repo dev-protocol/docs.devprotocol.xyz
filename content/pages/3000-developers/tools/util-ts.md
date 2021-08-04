@@ -1,11 +1,11 @@
 ---
 title: util-ts
 date: 2021-05-07
-permalink: /developers/util-ts/index.html
+permalink: /developers/tools/util-ts/index.html
 eleventyNavigation:
   key: util-ts
-  parent: developers
-  order: 3500
+  parent: developers_tools
+  order: 3580
   title: util-ts
 ---
 

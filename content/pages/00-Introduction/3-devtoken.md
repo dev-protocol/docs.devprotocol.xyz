@@ -51,8 +51,8 @@ Enterprise users may ask for new markets where they look for certain types of as
 
 ### Vesting for creators
 
-- Creators have a DEV cap for withdrawable rewards. 
-- Better dispersion of staking among creators = higher rewards cap 
+- Creators have a DEV cap for withdrawable rewards.
+- Better dispersion of staking among creators = higher rewards cap
 - Higher DEV price = Lower withdrawal cap
 
 ### DEV total supply is inflationary
