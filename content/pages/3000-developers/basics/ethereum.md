@@ -55,7 +55,7 @@ Request from users, in other words, processed results in accordance with transac
 
 Merkle tree is a structure used at git, and developers familiarize with it. Thanks to its continuity of hash value, Merkle tree can certify that logs are not tampered.
 
-In addition to the data perpetuation by Merkle tree, Blockchain, a P2P network, has algorithm to invalidate operation to generate unauthorized Markle tree (consensus algorithm).
+In addition to the data perpetuation by Merkle tree, Blockchain, a P2P network, has an algorithm to blocking generate unauthorized Markle tree to illegal operations (consensus algorithm).
 
 That means, it is always proved that data in blockchain is not tampered. The reason why crypto assets such as BTC, Bitcoin, and ETH, Ethereum, have a sort of quality as “assets” in the real world is that they are proved to be data tampered by nobody.
 
