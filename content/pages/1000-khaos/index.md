@@ -21,7 +21,7 @@ Khaos has two interfaces, Authentication, and Oraclize. The authentication inter
 
 When Khaos receives an authentication request from a user, it executes an authentication method. The authentication request contains secret information for authentication (usually a secret token) and a message(like a user ID) that expects to be authenticated by that secret information. If the authentication method is passed, Khaos returns the public key paired with the secret information. By retrieving the message with its public key, it guarantees the message's authenticity while hiding the secret information. An authentication method executed by an authentication request is freely extendable by the user.
 
-![How Khaos Stores Confidentials](https://camo.githubusercontent.com/e1cc4c61b8b1d868529b653b2d5aa23cabfc8533/68747470733a2f2f73766773686172652e636f6d2f692f4b37542e737667)
+![How Khaos Stores Confidentials](/content/images/khaos/how-khos-stores-confidentials.png)
 
 [Created by SequenceDiagram.org](https://sequencediagram.org/index.html#initialData=C4S2BsFMAIAkHsDu0DSALAhvAztAysPAE6S4DC8AdgGYgAmkloG42AUGwCICCADr9ABiRKsEZ0AtAD5APBuAYffRZceSEQBuqgFwAlSAEcArqWC4MB4GkagAxhlBU2leGOjwNRaPMU58q95u5zNEpoAFtIC3g6XAAjAE9oA2xVCUgADzFKBjpoNi9MHxV1FKkASSZVSgidfSNsYDZysSIq4Gl8pV9iohrsXipkx2cYN1VPBQLlPy0CYhhrKloGJhAWPInOovdpHn4hEQqsmuADFtxeDBASHN4DGPAQa2gAa0g4oA)
 
