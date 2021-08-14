@@ -11,7 +11,7 @@ eleventyNavigation:
 ## What is Stakes.social?
 
 ![logo](/content/images/stakessocial-logo.png)
-Stakes.social is the first official Dapp built on the Dev Protocol, released in June 2020. Stakes.social is a new sponsor platform where both developers and sponsors are rewarded with tokens if they support their favorite projects by staking DEV tokens.
+[Stakes.social](https://stakes.social/) is the first official Dapp built on the Dev Protocol, released in June 2020. Stakes.social is a new sponsor platform where both developers and sponsors are rewarded with tokens if they support their favorite projects by staking DEV tokens.
 
 Key Features
 
@@ -25,7 +25,7 @@ It is a framework where people contribute to the network by locking (temporarily
 
 ## Who is using Stakes.social?
 
-Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many developers, including both individuals and firms, succeed in achieving sustainability through fundraising. There is an increasing number of unique creators joining Stakes.social, so you can support different creators such as OSS developers, VR artists, NFT markets, green projects, and Vtubers. You can see all the creators here. https://stakes.social/
+Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many developers, including both individuals and firms, succeed in achieving sustainability through fundraising. There is an increasing number of unique creators joining Stakes.social, so you can support different creators such as OSS developers, VR artists, NFT markets, green projects, and Vtubers. You can see all the creators here: https://stakes.social/
 
 ## How to start Stakes.social?
 
