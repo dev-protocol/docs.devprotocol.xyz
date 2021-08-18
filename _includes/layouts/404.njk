@@ -10,7 +10,7 @@
      {% set js %}
     {% include "_includes/assets/js/404.js" %}
   {% endset %}
-  <script>{{ js | jsmin | safe }}</script> 
+  <script>{{ js | jsmin | safe }}</script>
 <div class="moon"></div>
 <div class="moon__crater moon__crater1"></div>
 <div class="moon__crater moon__crater2"></div>
@@ -45,16 +45,21 @@
   <div class="astronaut__foot-right"></div>
   <div class="astronaut__wrist-left"></div>
   <div class="astronaut__wrist-right"></div>
-  
+
   <div class="astronaut__cord">
     <canvas id="cord" height="500px" width="500px"></canvas>
   </div>
-  
+
   <div class="astronaut__head">
     <canvas id="visor" width="60px" height="60px"></canvas>
     <div class="astronaut__head-visor-flare1"></div>
     <div class="astronaut__head-visor-flare2"></div>
   </div>
 </div>
+<script>
+if(window.location.pathname.substring(0,4) != '/en/' && window.location.pathname.substring(0,4) != '/pt/') {
+  document.location = "/en" + window.location.pathname;
+}
+</script>
   </body>
 </html>

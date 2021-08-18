@@ -10,6 +10,16 @@ h1 {
     line-height: 1.5
 }
 
+.logo {
+    max-height: 50px !important;
+    border: none !important;
+    box-shadow: none !important;
+    --tw-shadow: 0 !important;
+    float: left;
+    margin-right: 10px;
+    border-width: 0 !important;
+}
+
 .subtitle {
     color: #74818D;
     font-weight: 400;

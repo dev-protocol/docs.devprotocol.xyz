@@ -1,15 +1,15 @@
 <ul id="header-nav">
-    <li class="navItem {% if '/introduction/' == page.url %}active{% endif %}">
-        <a href="/introduction/">The Protocol</a>
+    <li class="navItem {% if '/'+ locale + '/introduction/what-is-devprotocol/' == page.url %}active{% endif %}">
+        <a href="/{{ locale }}/introduction/">{{ 'protocol' | i18n }}</a>
     </li>
-    <li class="navItem {% if '/stakes-social/' == page.url %}active{% endif %}">
-        <a href="/stakes-social/">Stakes Social</a>
+    <li class="navItem {% if '/'+ locale + '/stakes-social/' == page.url %}active{% endif %}">
+        <a href="/{{ locale }}/stakes-social/">{{ 'stakes_social' | i18n }}</a>
     </li>
-    <li class="navItem {% if '/developers/' == page.url %}active{% endif %}">
-        <a href="/developers/">Developers</a>
+    <li class="navItem {% if '/'+ locale + '/developers/' == page.url %}active{% endif %}">
+        <a href="/{{ locale }}/developers/">{{ 'developers' | i18n }}</a>
     </li>
     <li class="navItem dropdown-trigger">
-        <a href="#">Community</a>
+        <a href="#">{{ 'community' | i18n }}</a>
         <ul class="header-dropdown">
             <li>
                 <a href="https://medium.com/devprtcl" target="_blank">Medium Page</a>

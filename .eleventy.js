@@ -9,52 +9,93 @@ const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const Image = require('@11ty/eleventy-img')
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('./_data/i18n');
+// const fs = require('fs');
+
 module.exports = function (eleventyConfig) {
 	// eleventyConfig.addPlugin(pluginTOC);
 	eleventyConfig.addPlugin(svgContents)
 	eleventyConfig.addPlugin(embedEverything)
+
+	eleventyConfig.addPlugin(i18n, {
+		translations,
+		fallbackLocales: {
+			'*': 'en'
+		}
+	})
+
 	eleventyConfig.addShortcode('version', function () {
 		return String(Date.now())
 	})
 
 	// Responsive image shortcode
-	eleventyConfig.addLiquidShortcode(
-		'image',
-		async function (src, alt, sizes = '100vw') {
-			if (alt === undefined) {
-				// You bet we throw an error on missing alt (alt="" works okay)
-				throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
-			}
-			src = './content/images/' + src
-			let metadata = await Image(src, {
-				widths: [400, 600, 800, 1000, 1200, 1400, 1600, 1900],
-				formats: ['webp', 'jpeg', 'png'],
-				urlPath: '/content/images/',
-				outputDir: './_site/content/images/',
-			})
+	var locales = ['en', 'pt'];
+	locales.forEach((locale, _index) => {
+		// Creates custom collection "pages"
+		eleventyConfig.addCollection('pages-' + locale, function (collection) {
+			return collection.getFilteredByGlob('./content/' + locale + '/pages/**/*.md')
+		})
 
-			let lowsrc = metadata.jpeg[0]
+		eleventyConfig.addCollection('results-' + locale, (collection) => {
+			return [...collection.getFilteredByGlob('./content/' + locale + '/pages/**/*.md')]
+		})
 
-			let picture = `<picture>
-      ${Object.values(metadata)
-				.map((imageFormat) => {
-					return `  <source type="image/${
-						imageFormat[0].format
-					}" srcset="${imageFormat
-						.map((entry) => entry.srcset)
-						.join(', ')}" sizes="${sizes}">`
+		// Creates custom collection "menuItems"
+		eleventyConfig.addCollection('menuItems-' + locale, (collection) =>
+			collection
+				.getFilteredByGlob('./content/' + locale + '/pages/**/*.md')
+				.filter(function (item) {
+					return 'eleventyNavigation' in item.data
 				})
-				.join('\n')}
-        <img
-          data-src="${lowsrc.url}"
-          width="${lowsrc.width}"
-          height="${lowsrc.height}"
-          alt="${alt}">
-      </picture>`
+				.sort((a, b) => {
+					return (
+						(a.data.eleventyNavigation.order || 0) -
+						(b.data.eleventyNavigation.order || 0)
+					)
+				})
+		)
 
-			return `${picture}`
-		}
-	)
+		eleventyConfig.addPassthroughCopy('content/' + locale + '/images/')
+
+		eleventyConfig.addLiquidShortcode(
+			'image-' + locale,
+			async function (src, alt, sizes = '100vw') {
+				if (alt === undefined) {
+					// You bet we throw an error on missing alt (alt="" works okay)
+					throw new Error(`Missing \`alt\` on responsiveimage from: ${src}`)
+				}
+				src = './content/' + locale + '/images/' + src
+				let metadata = await Image(src, {
+					widths: [400, 600, 800, 1000, 1200, 1400, 1600, 1900],
+					formats: ['webp', 'jpeg', 'png'],
+					urlPath: '/content/'+locale+'/images/',
+					outputDir: './_site/'+locale+'/images/',
+				})
+
+				let lowsrc = metadata.jpeg[0]
+
+				let picture = `<picture>
+				${Object.values(metadata)
+					.map((imageFormat) => {
+						return `  <source type="image/${
+							imageFormat[0].format
+						}" srcset="${imageFormat
+							.map((entry) => entry.srcset)
+							.join(', ')}" sizes="${sizes}">`
+					})
+					.join('\n')}
+					<img
+						data-src="${lowsrc.url}"
+						width="${lowsrc.width}"
+						height="${lowsrc.height}"
+						alt="${alt}">
+				</picture>`
+
+				return `${picture}`
+			}
+		)
+	})
 
 	eleventyConfig.addLiquidShortcode('icon', function (title, url) {
 		return '<img class="icon" src="' + url + '" alt="' + title + '" />'
@@ -108,11 +149,6 @@ module.exports = function (eleventyConfig) {
 	//   }, {});
 	// });
 
-	// Creates custom collection "pages"
-	eleventyConfig.addCollection('pages', function (collection) {
-		return collection.getFilteredByGlob('pages/*.md')
-	})
-
 	// Creates custom collection "posts"
 	//  eleventyConfig.addCollection("posts", function(collection) {
 	//   const coll = collection.getFilteredByGlob("posts/*.md");
@@ -131,24 +167,6 @@ module.exports = function (eleventyConfig) {
 	// Creates custom collection "results" for search
 	const searchFilter = require('./filters/searchFilter')
 	eleventyConfig.addFilter('search', searchFilter)
-	eleventyConfig.addCollection('results', (collection) => {
-		return [...collection.getFilteredByGlob('**/*.md')]
-	})
-
-	// Creates custom collection "menuItems"
-	eleventyConfig.addCollection('menuItems', (collection) =>
-		collection
-			.getAll()
-			.filter(function (item) {
-				return 'eleventyNavigation' in item.data
-			})
-			.sort((a, b) => {
-				return (
-					(a.data.eleventyNavigation.order || 0) -
-					(b.data.eleventyNavigation.order || 0)
-				)
-			})
-	)
 
 	// Date formatting (human readable)
 	eleventyConfig.addFilter('readableDate', (dateObj) => {
@@ -191,7 +209,6 @@ module.exports = function (eleventyConfig) {
 	// Don't process folders with static assets e.g. images
 	eleventyConfig.addPassthroughCopy('favicon.ico')
 	eleventyConfig.addPassthroughCopy('images/')
-	eleventyConfig.addPassthroughCopy('content/images/')
 	eleventyConfig.addPassthroughCopy('admin')
 	eleventyConfig.addPassthroughCopy('_includes/assets/')
 	eleventyConfig.addPassthroughCopy('_includes/experimental/')
@@ -254,6 +271,21 @@ module.exports = function (eleventyConfig) {
 				listType: 'ol',
 			})
 	)
+
+  // 404
+  // eleventyConfig.setBrowserSyncConfig({
+  //   callbacks: {
+  //     ready: function(err, browserSync) {
+  //       const content_404 = fs.readFileSync('_site/404.html');
+
+  //       browserSync.addMiddleware('*', (req, res) => {
+  //         // Provides the 404 content without redirect.
+  //         res.write(content_404);
+  //         res.end();
+  //       });
+  //     }
+  //   }
+  // });
 
 	return {
 		templateFormats: ['md', 'njk', 'html', 'liquid'],
