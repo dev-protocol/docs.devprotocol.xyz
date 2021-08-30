@@ -4,12 +4,10 @@ date: 2021-08-26
 permalink: /{{ locale }}/learning/learning/building-dapp-dev-integration/index.html
 eleventyNavigation:
   key: building-dapp-dev-integration
-  parent: learning_learning
+  parent: learning
   order: 4100
   title: Building Decentralized applications with DEV Integration
 ---
-
-# Building Decentralized applications with DEV Integration
 
 The following guide and hands-on will help you to integrate DEV to your web application. First is, we will follow the guide below before going to hands-on:
 
