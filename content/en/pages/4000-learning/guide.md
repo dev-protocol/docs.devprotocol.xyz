@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Building Decentralized applications with DEV Integration
 ---
 
-The following guide and hands-on will help you to integrate DEV to your web application. First is, we will follow the guide below before going to hands-on:
+The following guide and hands-on will help you to integrate DEV to your web application. In this hands-on, you don't need to worry about the gas fee in Ropsten Network. First is, we will follow the guide below before going to hands-on.
 
 ### MetaMask Installation Guide
 
@@ -27,9 +27,14 @@ Since gas fee is required for hands-on, please use the following site to obtain 
 
 - https://faucet.metamask.io/
 
-### Get DEV token
+### Get DEV token of Ropsten
 
-Get the wallet address of DEV token by asking the Dev Protocol team on [discord server](https://discord.gg/VwJp4KM) as you will need a DEV token for hands-on
+1. Create a wallet the wallet in a Ropsten environment
+2. Add the address of the DEV token to your wallet / 0x5312f4968901ec9d4fc43d2b0e437041614b14a2
+3. Tell the team the amount of DEV you want on [discord server](https://discord.gg/VwJp4KM)
+4. Dev Protocol staff will send you a DEV in the Ropsten environment
+
+Note: Ropsten environment is using a different address, this will use for the test environment. Follow the step at the top
 
 ### Getting Started
 
