@@ -6,7 +6,7 @@ eleventyNavigation:
   key: display-properties-perform-staking
   parent: learning
   order: 4300
-  title: Display registered properties and perform staking
+  title: Hands-on 2
 ---
 
 ## Hands-on #2
