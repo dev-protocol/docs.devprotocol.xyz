@@ -21,11 +21,9 @@ If you are using another browser, search for Metamask from the store and then ad
 
 After installing Metamask, specify the Ropsten environment and create a wallet.
 
-### Get ETH
+### Get ETH from faucet
 
-Since gas fee is required for hands-on, please use the following site to obtain about 1 ETH.
-
-- https://faucet.metamask.io/
+Since gas fee is required for hands-on, please use the following site to obtain about 1 ETH. Please request 1 ETH from https://faucet.metamask.io/
 
 ### Get DEV token of Ropsten
 
