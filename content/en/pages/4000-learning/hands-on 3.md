@@ -6,7 +6,7 @@ eleventyNavigation:
   key: staking-properties-withdraw-staking
   parent: learning
   order: 4400
-  title: List staking properties and withdraw staking
+  title: Hands-on 3
 ---
 
 ### Hands-on #3

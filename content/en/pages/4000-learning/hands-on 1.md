@@ -6,7 +6,7 @@ eleventyNavigation:
   key: authenticate-and-display
   parent: learning
   order: 4200
-  title: Connect to Metamask to authenticate and display the user's wallet address and possessed DEV
+  title: Hands-on 1
 ---
 
 ### Hands-on 1
