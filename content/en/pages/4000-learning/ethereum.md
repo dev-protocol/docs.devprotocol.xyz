@@ -1,11 +1,11 @@
 ---
 title: What's Ethereum?
 date: 2021-08-04
-permalink: /{{ locale }}/developers/basics/whats-ethereum/index.html
+permalink: /{{ locale }}/learning/learning/whats-ethereum/index.html
 eleventyNavigation:
   key: whats-ethereum
-  parent: developers_basics
-  order: 3110
+  parent: learning
+  order: 4500
   title: What's Ethereum?
 ---
 
