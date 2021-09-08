@@ -15,3 +15,6 @@ The following documentation was released to guide developers in creating a Decen
 - [Connect to Metamask to authenticate and display the user's wallet address and possessed DEV (2/4)](https://docs.devprotocol.xyz/en/learning/learning/authenticate-and-display/) 
 - [Display registered properties and perform staking (3/4)](https://docs.devprotocol.xyz/en/learning/learning/display-properties-perform-staking/) 
 - [List staking properties and withdraw staking (4/4)](https://docs.devprotocol.xyz/en/learning/learning/staking-properties-withdraw-staking/) 
+
+Learn how Ethereum works.
+- [What's Ethereum?](https://docs.devprotocol.xyz/en/learning/learning/whats-ethereum/)
