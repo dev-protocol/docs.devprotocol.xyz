@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/property/index.html
 eleventyNavigation:
   key: property-module
   parent: developers_modules
-  order: 3220
+  order: 3120
   title: Property
 ---
 
