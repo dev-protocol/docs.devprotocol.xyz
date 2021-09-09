@@ -1,11 +1,11 @@
 ---
 title: What's token?
 date: 2021-08-04
-permalink: /{{ locale }}/developers/basics/whats-token/index.html
+permalink: /{{ locale }}/learning/learningnp/whats-token/index.html
 eleventyNavigation:
   key: whats-token
-  parent: developers_basics
-  order: 3120
+  parent: learning
+  order: 4600
   title: What's token?
 ---
 
