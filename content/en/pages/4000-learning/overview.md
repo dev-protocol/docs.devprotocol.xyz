@@ -16,5 +16,6 @@ The following documentation was released to guide developers in creating a Decen
 - [Display registered properties and perform staking (3/4)](https://docs.devprotocol.xyz/en/learning/learning/display-properties-perform-staking/) 
 - [List staking properties and withdraw staking (4/4)](https://docs.devprotocol.xyz/en/learning/learning/staking-properties-withdraw-staking/) 
 
-Learn how Ethereum works.
+Learn the basics of Ethereum and Tokens.
 - [What's Ethereum?](https://docs.devprotocol.xyz/en/learning/learning/whats-ethereum/)
+- [What's Token?](https://docs.devprotocol.xyz/en/learning/learning/whats-token/)
