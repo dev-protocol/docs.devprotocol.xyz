@@ -40,14 +40,6 @@ Click “Sign in” button located at right end of the header to connect your wa
 Please check the following website for the details of gas fee : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
 You need a gas fee to register at Stakes.social. It fluctuates depending on the congestion condition, however, you would need about 0.0436ETH.
 
-## Subsidies for gas fee
-
-We’re promoting subsidies for gas fee needed for the registration if your OSS meets the conditions.
-Please have a look at the following website for details.
-[https://onboarding-sponsors.devprotocol.xyz/](https://onboarding-sponsors.devprotocol.xyz/)
-
-![GUIDE02](/content/{{ locale }}/images/stakes.social/onboard-guide/guide02.png)
-
 ## How to register your OSS
 
 In this section, we’ll briefly explain registration steps for your OSS to be registered.
