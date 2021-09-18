@@ -23,7 +23,7 @@ In order for you to register (or tokenize) your OSS to Dev Protocol, you need to
 
 ## What’s wallet?
 
-A wallet is used for managing your crypto assets. You need to have a wallet to store DEV token issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with wallet function, you have to get one by yourselves.
+A wallet is used for managing your crypto assets. You need to have a wallet to store the DEV tokens issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with a wallet function, you have to get one by yourself.
 
 If you’re looking for a wallet, we’d recommend you to have MetaMask.
 MetaMask corresponds to Chrome Extension version, so if you want to use Stakes.social via your PC, MetaMask would be one of you options.
