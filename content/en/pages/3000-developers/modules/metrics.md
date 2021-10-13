@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/metrics/index.html
 eleventyNavigation:
   key: metrics-module
   parent: developers_modules
-  order: 3140
+  order: 3150
   title: Metrics
 ---
 
