@@ -16,7 +16,12 @@ This contract manages the withdrawal of holder rewards for Property holders.
 ## Interface
 
 ```solidity
-function beforeBalanceChange(address _property, address _from, address _to) external
+function withdraw(address _property)
+```
+Mints the holder reward per DevMinter Contract.
+
+```solidity
+function beforeBalanceChange(address _property, address _from, address _to)
 ```
 
 - `_property`: property address
@@ -26,7 +31,12 @@ function beforeBalanceChange(address _property, address _from, address _to) exte
 <!-- Called only by Allocator Contract and updates -->
 
 ```solidity
-function calculateRewardAmount(address _property, address _user)
+function calculateRewardAmount(address _property, address _user) returns (
+	uint256 _amount,
+	uint256 _price,
+	uint256 _cap,
+	uint256 _allReward
+)
 ```
 
 - `_property`: property address
