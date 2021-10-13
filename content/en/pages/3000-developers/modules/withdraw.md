@@ -11,4 +11,11 @@ eleventyNavigation:
 
 ## Summary
 
+## Interface
+
+### `function beforeBalanceChange(address _property, address _from, address _to) external`
+
+- `_property`: property address
+- `_from`: The transfer sender address
+- `_to`: The transfer recipient address
 
