@@ -16,11 +16,15 @@ For this roles the contract has 2 functions.
 
 ## Interface
 
-### `function calculateMaxRewardsPerBlock() external view returns (uint256)`
+```solidity
+function calculateMaxRewardsPerBlock() external view returns (uint256)`
+````
 
 Returns the amount of a total reward per block given to all users.
 
-### `function beforeBalanceChange(address _property, address _from, address _to) external`
+```solidity
+function beforeBalanceChange(address _property, address _from, address _to) external
+```
 
 - `_property`: property address
 - `_from`: The transfer sender address
