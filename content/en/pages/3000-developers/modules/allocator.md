@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/allocator/index.html
 eleventyNavigation:
   key: allocator-module
   parent: developers_modules
-  order: 3150
+  order: 3110
   title: Allocator
 ---
 
