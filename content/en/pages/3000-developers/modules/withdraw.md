@@ -15,15 +15,19 @@ This contract manages the withdrawal of holder rewards for Property holders.
 
 ## Interface
 
-### `function beforeBalanceChange(address _property, address _from, address _to) external`
+```solidity
+function beforeBalanceChange(address _property, address _from, address _to) external
+```
 
 - `_property`: property address
 - `_from`: The transfer sender address
 - `_to`: The transfer recipient address
 
-<!-- Todo -->
+<!-- Called only by Allocator Contract and updates -->
 
-### `function calculateRewardAmount(address _property, address _user)`
+```solidity
+function calculateRewardAmount(address _property, address _user)
+```
 
 - `_property`: property address
 - `_user`: The account which holds the property
