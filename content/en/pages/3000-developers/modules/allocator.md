@@ -10,3 +10,15 @@ eleventyNavigation:
 ---
 
 ## Summary
+
+The Allocator Contract plays several roles in determining market rewards.
+For this roles the contract has 2 functions.
+
+## Interface
+
+### `function calculateMaxRewardsPerBlock() external view returns (uint256)`
+
+Returns the amount of total rewards per block given to all users.
+
+
+
