@@ -27,4 +27,3 @@ Returns the amount of a total reward per block given to all users.
 - `_to`: The transfer recipient address
 
 Calls beforeBalanceChange() of Withdraw contract.
-

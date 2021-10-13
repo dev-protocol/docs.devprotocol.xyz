@@ -14,5 +14,3 @@ eleventyNavigation:
 A contract for associating a Property and an asset authenticated by a Market.
 
 ##
-
-
