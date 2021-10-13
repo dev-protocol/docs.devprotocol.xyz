@@ -6,7 +6,7 @@ eleventyNavigation:
   key: allocator-module
   parent: developers_modules
   order: 3150
-  title: allocator
+  title: Allocator
 ---
 
 ## Summary
@@ -18,7 +18,13 @@ For this roles the contract has 2 functions.
 
 ### `function calculateMaxRewardsPerBlock() external view returns (uint256)`
 
-Returns the amount of total rewards per block given to all users.
+Returns the amount of a total reward per block given to all users.
 
+### `function beforeBalanceChange(address _property, address _from, address _to) external`
 
+- `_property`: property address
+- `_from`: The transfer sender address
+- `_to`: The transfer recipient address
+
+Calls beforeBalanceChange() of Withdraw contract.
 
