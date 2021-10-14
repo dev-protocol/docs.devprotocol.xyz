@@ -51,4 +51,4 @@ Returns the total rewards which the account(\_user) can be currently available f
 event PropertyTransfer(address _property, address _from, address _to);
 ```
 
-Emitted upon a successful beforeBalanceChange()
+Emitted upon a successful method beforeBalanceChange()
