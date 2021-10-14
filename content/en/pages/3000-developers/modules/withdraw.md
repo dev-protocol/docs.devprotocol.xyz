@@ -21,7 +21,7 @@ function withdraw(address _property)
 
 Mints the holder reward per DevMinter Contract.
 
-```solidity
+<!-- ```solidity
 function beforeBalanceChange(address _property, address _from, address _to)
 ```
 
@@ -29,7 +29,7 @@ function beforeBalanceChange(address _property, address _from, address _to)
 - `_from`: The transfer sender address
 - `_to`: The transfer recipient address
 
-Called only by Allocator Contract and updates
+Called only by Allocator Contract and updates -->
 
 ```solidity
 function calculateRewardAmount(address _property, address _user) returns (
@@ -52,4 +52,3 @@ event PropertyTransfer(address _property, address _from, address _to);
 ```
 
 Emitted upon a successful beforeBalanceChange()
-
