@@ -38,7 +38,7 @@
   dependencies:
     dependency-graph "^0.11.0"
 
-"@11ty/eleventy-plugin-syntaxhighlight@^3.1.1":
+"@11ty/eleventy-plugin-syntaxhighlight@3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-syntaxhighlight/-/eleventy-plugin-syntaxhighlight-3.1.2.tgz#3fc70298d4e7e5636121e3d8afdc2ab9a1002564"
   integrity sha512-OdUNqRMV2rvNljHgL6MW4hA+jBpdEbuSKOWYNKgD8OwlsDwwzooRNyDAF5u4sXQ0knjenDeWOH6fuCiLharAWA==
@@ -1416,7 +1416,7 @@ eleventy-plugin-embed-twitter@^1.3.1:
     "@11ty/eleventy-cache-assets" "^2.3.0"
     deepmerge "^4.2.2"
 
-eleventy-plugin-i18n@^0.1.2:
+eleventy-plugin-i18n@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/eleventy-plugin-i18n/-/eleventy-plugin-i18n-0.1.2.tgz#ac1671a1054b40b880d4e9a92c1295678659595b"
   integrity sha512-XP9U0dHSebXYU7YYpIorp3o3dcTaYLwxGNLcmLsePOEJxO5KYz1QMTr8QO+Qe+HmdyjqrgY1q+A2jgR5i27v4Q==
