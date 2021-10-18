@@ -19,14 +19,15 @@ Quando você tiver emitido seu token de criador, poderá acessar os recursos des
 - Realizar o patrocínio sustentável e dividir as remunerações dos criadores com seus detentores
 
 ## Como emitir seus tokens de criador?
+
 Os tokens de criador podem ser emitidos com facilidade, sem qualquer conhecimento da blockchain. Estas são as três etapas necessárias:
 
 - 1. **Apenas coloque as informações de posse dos seus ativos em um Dapp, como o Stakes.social.** - Você poderá achar todos os detalhes sobre o [guia onboard](stakes-social/onboard-guide/) na seção stakes.social.
 - 2. **Compartilhe os tokens de criador com o seu time** - Serão emitidos 10 milhões de tokens de criador (estoque fixo). Destes, 5% serão enviados para o Tesouro, que serão usados pelo ecossistema inteiro, e os outros 95% poderão ser alocados livremente pelos proprietários.
 - 3. **Colete o staking!** - Tanto criadores quanto apoiadores recebem remunerações quando a sua criação estiver recebendo suporte. Este é o primeiro sistema que pode levantar fundos com uma base sustentável, ao invés de um número limitado de vezes, diferente dos sistemas tradicionais de doações ou crowdfunding (financiamento colaborativo).
 
-
 ## Khaos por trás do processo de tokenização
+
 O Dev Protocol possui um oráculo embutido exclusivo, "Khaos", que se conecta de forma segura a todas as plataformas Web, como GitHub, YouTube, Spotify e STEAM.
 
 - 1. Primeiro, emita seu token de criador em um Dapp, como o Stakes.social

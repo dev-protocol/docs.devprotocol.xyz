@@ -53,7 +53,7 @@
 			noResultsEl.classList.add('hidden')
 		}
 	}
-	var locale = localStorage.getItem('lang');
+	var locale = localStorage.getItem('lang')
 	fetch('/' + locale + '/search-index.json').then((response) =>
 		response.json().then((rawIndex) => {
 			window.searchIndex = elasticlunr.Index.load(rawIndex)
