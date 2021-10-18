@@ -38,6 +38,12 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 Returns the ID of the created new staking position.
 
 ```solidity
+function getAllValue() view returns (uint256)
+```
+
+Returns the amount of the total staked in the protocol
+
+```solidity
 function getValue(address _property, address _sender) view returns (uint256)
 ```
 
