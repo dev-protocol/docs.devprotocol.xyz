@@ -14,7 +14,7 @@ eleventyNavigation:
 ## Interface
 
 ```solidity
-function withdraw(address _property, uint256 _amount) external
+function withdraw(address _property, uint256 _amount)
 ```
 
 - `_property`: property address
@@ -23,7 +23,7 @@ function withdraw(address _property, uint256 _amount) external
 Releases staking and transfers the staked and withdraw rewards amount to the sender.
 
 ```solidity
-function cap() external view returns (uint256)
+function cap() view returns (uint256)
 ```
 
 Returns cap.
@@ -47,11 +47,8 @@ function getValue(address _property, address _sender) view returns (uint256)
 Returns the amount of the staked token by this user in the Property.
 
 ```solidity
-function getPropertyValue(address _property)
-		external
-		view
-		returns (uint256)
-````
+function getPropertyValue(address _property) view returns (uint256)
+```
 
 - `_property`: property address
 
