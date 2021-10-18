@@ -17,13 +17,13 @@ For this roles the contract has 2 following functions .
 ## Interface
 
 ```solidity
-function calculateMaxRewardsPerBlock() external view returns (uint256)`
+function calculateMaxRewardsPerBlock() view returns (uint256)
 ```
 
 Returns the amount of a total reward per block given to all users.
 
 ```solidity
-function beforeBalanceChange(address _property, address _from, address _to) external
+function beforeBalanceChange(address _property, address _from, address _to)
 ```
 
 - `_property`: property address
