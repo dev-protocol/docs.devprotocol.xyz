@@ -37,6 +37,16 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 
 Returns the ID of the created new staking position.
 
+```solidity
+function getPropertyValue(address _property)
+		external
+		view
+		returns (uint256)
+```
+- `_property`: property address
+
+Returns the amount of the staked Token to the Property.
+
 ## Key Events
 
 ```solidity
