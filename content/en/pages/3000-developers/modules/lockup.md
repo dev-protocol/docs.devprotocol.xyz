@@ -38,6 +38,16 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 Returns the ID of the created new staking position.
 
 ```solidity
+function calculateWithdrawableInterestAmount(address _property, address _user) view returns (uint256)
+```
+
+- `_property`: property address
+- `_user`: The account of the user
+
+Returns the amount of the user withdrawable reward.
+
+
+```solidity
 function getAllValue() view returns (uint256)
 ```
 
