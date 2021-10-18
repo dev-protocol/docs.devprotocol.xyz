@@ -5,6 +5,9 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -28,6 +31,7 @@ jobs:
           yarn build
 
       - name: Deploy
+        if: contains(github.head_ref, 'main')
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site

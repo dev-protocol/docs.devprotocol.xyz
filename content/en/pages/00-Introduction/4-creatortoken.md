@@ -28,6 +28,7 @@ Creator tokens can be easily issued without any knowledge of blockchain. The thr
 - 3. **Collect staking!** - Both creators and supporters get rewards when your creation is getting supported. This is the first scheme that can raise funds on a sustainable basis rather than a limited number of times, unlike traditional donations or crowdfunding.
 
 ## Behind tokenization process with Khaos
+
 Dev Protocol has unique built-in oracle "Khaos" that securely connects to all web platforms such as GitHub, YouTube, Spotify and STEAM.
 
 - 1. First, issue your creator token on a Dapp such as Stakes.social

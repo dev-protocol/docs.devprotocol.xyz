@@ -19,7 +19,7 @@ Ativos socialmente úteis podem ser monetizados enquanto mantêm a descentraliza
 
 O Dev Protocol oferece benefícios para maximizar a criatividade dos criadores.
 
-1. **Monetizar ativos abertos enquanto permanecem abertos((. \*Nenhuma mudança de doação ou licença é exigida.
+1. \*\*Monetizar ativos abertos enquanto permanecem abertos((. \*Nenhuma mudança de doação ou licença é exigida.
 2. **Modelo de incentivo sustentável entre criadores e apoiadores**
 3. **Compartilha a propriedade e cria DAO comunitário**
 4. **Enfatiza e mantém o desenvolvimento do seu trabalho criativo**
