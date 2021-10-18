@@ -23,13 +23,19 @@ function withdraw(address _property, uint256 _amount) external
 Releases staking and transfers the staked and withdraw rewards amount to the sender.
 
 ```solidity
+function cap() external view returns (uint256)
+```
+
+Returns cap.
+
+```solidity
 function depositToProperty(address _property, uint256 _amount) returns (uint256)
 ```
 
 - `_property`: property address
 - `_amount`: The amount of the DEV token to be staked
 
-Returns the ID of the created new staking position
+Returns the ID of the created new staking position.
 
 ## Key Events
 
@@ -37,4 +43,4 @@ Returns the ID of the created new staking position
 event PropertyTransfer(address _property, address _from, address _to);
 ```
 
-Emitted upon a successful methods depositToProperty() and depositToPosition()
+Emitted upon a successful methods depositToProperty() and depositToPosition().
