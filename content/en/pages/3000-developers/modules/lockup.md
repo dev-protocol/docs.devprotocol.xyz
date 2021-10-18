@@ -14,6 +14,15 @@ eleventyNavigation:
 ## Interface
 
 ```solidity
+function withdraw(address _property, uint256 _amount) external
+```
+
+- `_property`: property address
+- `_amount`: The amount of the DEV token to be unstaked
+
+Releases staking and transfers the staked and withdraw rewards amount to the sender.
+
+```solidity
 function depositToProperty(address _property, uint256 _amount) returns (uint256)
 ```
 
