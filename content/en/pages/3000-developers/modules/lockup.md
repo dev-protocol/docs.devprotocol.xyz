@@ -39,6 +39,19 @@ function depositToPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner(
 
 Returns boolean true on success, otherwise reverts.
 
+## Withdraw By Position
+
+The sender can withdraw his staking Tokens and harvest rewards with the ID of staking position(s tokens).
+
+```solidity
+function withdrawByPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner(_tokenId) returns (bool)
+```
+
+- `_tokenId`: The ID of the staking position(s tokens)
+- `_amount`: The amount of the DEV token to be unstaked
+
+Returns boolean true on success, otherwise reverts.
+
 ## Withdraw
 
 The sender can withdraw his staking Tokens and harvest rewards.
