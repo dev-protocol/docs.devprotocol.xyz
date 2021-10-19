@@ -20,7 +20,16 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 - `_property`: The property address in which the sender wishes to stake their DEV token
 - `_amount`: The amount of the DEV token to be staked
 
-Returns the ID of the created new staking position.
+Returns the ID of the created new staking position(s tokens).
+
+```solidity
+function depositToPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner(_tokenId) returns (bool)
+```
+
+- `_tokenId`: The ID of the staking position(s tokens)
+- `_amount`: The amount of the DEV token to be staked
+
+Returns boolean true on success, otherwise reverts.
 
 ```solidity
 function withdraw(address _property, uint256 _amount)
