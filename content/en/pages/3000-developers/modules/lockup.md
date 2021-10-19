@@ -73,6 +73,40 @@ function cap() view returns (uint256)
 
 Returns cap.
 
+## Calculate Cumulative Reward Prices
+
+```solidity
+function calculateCumulativeRewardPrices() view returns (
+    uint256 _reward,
+    uint256 _holders,
+    uint256 _interest,
+    uint256 _holdersCap
+)
+```
+
+Returns
+
+## Calculate Reward Amount
+
+```solidity
+function calculateRewardAmount(address _property) view returns (uint256, uint256)
+```
+
+- `_property`: The property address in which the sender has staked their DEV token
+
+Returns the amount of the sender cumulative rewards and cap per the property.
+
+## Update
+
+Updates cumulative sum of the maximum mint amount calculated by Allocator contract, the latest maximum mint amount per block, and the last recorded block number.
+
+```solidity
+function update()
+```
+
+
+
+
 ## Calculate Withdrawable Interest Amount
 
 ```solidity
