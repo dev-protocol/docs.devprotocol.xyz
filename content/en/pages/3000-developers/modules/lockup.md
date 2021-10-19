@@ -14,6 +14,15 @@ eleventyNavigation:
 ## Interface
 
 ```solidity
+function depositToProperty(address _property, uint256 _amount) returns (uint256)
+```
+
+- `_property`: The property address in which the sender wishes to stake their DEV token
+- `_amount`: The amount of the DEV token to be staked
+
+Returns the ID of the created new staking position.
+
+```solidity
 function withdraw(address _property, uint256 _amount)
 ```
 
@@ -29,15 +38,6 @@ function cap() view returns (uint256)
 Returns cap.
 
 ```solidity
-function depositToProperty(address _property, uint256 _amount) returns (uint256)
-```
-
-- `_property`: property address
-- `_amount`: The amount of the DEV token to be staked
-
-Returns the ID of the created new staking position.
-
-```solidity
 function calculateWithdrawableInterestAmount(address _property, address _user) view returns (uint256)
 ```
 
@@ -45,7 +45,6 @@ function calculateWithdrawableInterestAmount(address _property, address _user) v
 - `_user`: The account of the user
 
 Returns the amount of the user withdrawable reward.
-
 
 ```solidity
 function getAllValue() view returns (uint256)
