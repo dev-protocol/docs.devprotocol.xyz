@@ -121,7 +121,9 @@ Returns the amount of the staking holder withdrawable reward.
 function calculateWithdrawableInterestAmountByPosition(uint256 _tokenId) view returns (uint256)
 ```
 
-Returns
+- `_tokenId`: The ID of the staking position(s tokens)
+
+Returns the amount of the staking holder withdrawable reward.
 
 ## Get All Value
 
@@ -129,7 +131,7 @@ Returns
 function getAllValue() view returns (uint256)
 ```
 
-Returns the amount of the total staked in the protocol
+Returns the amount of the total staked in the protocol.
 
 ## Get Value
 
