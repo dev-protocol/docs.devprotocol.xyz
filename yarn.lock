@@ -18,17 +18,17 @@
     p-queue "^6.6.2"
     short-hash "^1.0.0"
 
-"@11ty/eleventy-img@0.10.0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-0.10.0.tgz#10cf0ec06cf5f3ce0abaa20d7a4c80206bc15c89"
-  integrity sha512-9Mi1Wg8qc1gD7TixQtbwa8t0Z4D2hZF0eweYeMHEFr4WGklnSVckUnTJBr0qG+9f+UX7MzUDXbDPPSRCIRdyYw==
+"@11ty/eleventy-img@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-1.0.0.tgz#1df29b1cce7c2a167fb76cb1a2336da6adf1637f"
+  integrity sha512-JhndlE2l0TdedTUODqOHrk3ggdyKe1QHElfPDvyBeA7jouHYtm01NbPKXXaz5Y1+AoPfOXDaYg/Zp1Q8AF1hiQ==
   dependencies:
     "@11ty/eleventy-cache-assets" "^2.3.0"
+    base64url "^3.0.1"
     debug "^4.3.2"
     image-size "^1.0.0"
     p-queue "^6.6.2"
-    sharp "^0.29.0"
-    short-hash "^1.0.0"
+    sharp "^0.29.1"
 
 "@11ty/eleventy-navigation@0.3.2":
   version "0.3.2"
@@ -514,6 +514,11 @@ base64id@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/base64id/-/base64id-2.0.0.tgz#2770ac6bc47d312af97a8bf9a634342e0cd25cb6"
   integrity sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==
+
+base64url@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/base64url/-/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"
+  integrity sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
 
 batch@0.6.1:
   version "0.6.1"
@@ -4155,7 +4160,7 @@ sharp@^0.25.3:
     tar "^6.0.2"
     tunnel-agent "^0.6.0"
 
-sharp@^0.29.0:
+sharp@^0.29.1:
   version "0.29.1"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.29.1.tgz#f60b50f24f399464a24187c86bd2da41aae50b85"
   integrity sha512-DpgdAny9TuS+oWCQ7MRS8XyY9x6q1+yW3a5wNx0J3HrGuB/Jot/8WcT+lElHY9iJu2pwtegSGxqMaqFiMhs4rQ==
