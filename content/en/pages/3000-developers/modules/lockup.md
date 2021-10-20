@@ -104,9 +104,6 @@ Updates cumulative sum of the maximum mint amount calculated by Allocator contra
 function update()
 ```
 
-
-
-
 ## Calculate Withdrawable Interest Amount
 
 ```solidity
@@ -117,6 +114,14 @@ function calculateWithdrawableInterestAmount(address _property, address _user) v
 - `_user`: The account of the staking holder
 
 Returns the amount of the staking holder withdrawable reward.
+
+## Calculate Withdrawable Interest Amount By Position
+
+```solidity
+function calculateWithdrawableInterestAmountByPosition(uint256 _tokenId) view returns (uint256)
+```
+
+Returns
 
 ## Get All Value
 
@@ -146,6 +151,19 @@ function getPropertyValue(address _property) view returns (uint256)
 - `_property`: The property address
 
 Returns the amount of the staked Token to the Property.
+
+
+## Migrate To S Tokens
+
+The sender who has the staking position can migrate it to s Tokens.
+
+```solidity
+function migrateToSTokens(address _property) returns (uint256 tokenId_)
+```
+
+- `_property`: The property address in which the sender has staked their DEV token
+
+Returns the ID of the migrated staking position(s tokens).
 
 ## Key Events
 
