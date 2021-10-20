@@ -45,7 +45,7 @@
 		"@tailwindcss/typography": "0.4.1",
 		"autoprefixer": "10.3.7",
 		"clean-css": "5.2.1",
-		"clean-css-cli": "5.3.0",
+		"clean-css-cli": "5.4.1",
 		"elasticlunr": "0.9.5",
 		"eleventy-plugin-embed-everything": "1.13.3",
 		"eleventy-plugin-i18n": "0.1.3",
