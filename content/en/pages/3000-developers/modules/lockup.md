@@ -152,10 +152,9 @@ function getPropertyValue(address _property) view returns (uint256)
 
 Returns the amount of the staked Token to the Property.
 
-
 ## Migrate To S Tokens
 
-The sender who has the staking position can migrate it to s Tokens.
+The sender who has already staked can migrate his staking position to s Tokens.
 
 ```solidity
 function migrateToSTokens(address _property) returns (uint256 tokenId_)
