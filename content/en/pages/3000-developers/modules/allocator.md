@@ -16,11 +16,15 @@ For this roles the contract has 2 following functions .
 
 ## Interface
 
+## Calculate Max Rewards Per Block
+
 ```solidity
 function calculateMaxRewardsPerBlock() view returns (uint256)
 ```
 
 Returns the amount of a total reward per block given to all users.
+
+## Bore Balance Change
 
 ```solidity
 function beforeBalanceChange(address _property, address _from, address _to)
