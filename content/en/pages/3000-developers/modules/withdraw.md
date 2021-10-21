@@ -15,6 +15,8 @@ This contract manages the withdrawal of holder rewards for Property holders.
 
 ## Interface
 
+## Withdraw
+
 ```solidity
 function withdraw(address _property)
 ```
@@ -30,6 +32,8 @@ function beforeBalanceChange(address _property, address _from, address _to)
 - `_to`: The transfer recipient address
 
 Called only by Allocator Contract and updates -->
+
+## Calculate Reward Amount
 
 ```solidity
 function calculateRewardAmount(address _property, address _user) returns (
