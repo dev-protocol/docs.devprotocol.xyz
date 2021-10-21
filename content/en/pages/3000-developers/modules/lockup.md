@@ -17,6 +17,8 @@ Users can deposit their DEV tokens into a Property(Staking Pool) and get back an
 
 Dev Protocol users who deposit in properties can withdraw their staking at any time and get rewards. (How are staking rewards calculated? [Token](/en/introduction/devtoken/))
 
+For this roles the contract has following functions .
+
 ## Interface
 
 ## Deposit To Property
