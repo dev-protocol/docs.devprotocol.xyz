@@ -13,7 +13,7 @@ eleventyNavigation:
 
 The Staking is the new supporting system in Dev Protocol that secures the sustainability of creator activity.
 
-The Lockup contract contains code to handle staking to support projects and earn rewards.
+The Lockup contract contains code to handle staking to support creators' projects and earn rewards.
 
 The Sponsors can deposit their DEV tokens into a Property(Staking Pool) and get back an s Token NFT as a ‘Proof of Patronage’. This NFT contains all the metadata related to the DEV token Staking. (more about [sTokens](https://medium.com/devprtcl/stokens-nfts-mirroring-dev-staking-b41f93d0f8a6))
 
