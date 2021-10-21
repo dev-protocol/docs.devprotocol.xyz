@@ -24,7 +24,7 @@ function calculateMaxRewardsPerBlock() view returns (uint256)
 
 Returns the amount of a total reward per block given to all users.
 
-## Bore Balance Change
+## Before Balance Change
 
 ```solidity
 function beforeBalanceChange(address _property, address _from, address _to)
