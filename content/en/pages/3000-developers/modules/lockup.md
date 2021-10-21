@@ -11,7 +11,7 @@ eleventyNavigation:
 
 ## Summary
 
-The Staking is in Dev Protocol as a new supporting system that secures the sustainability of creator activity.
+The Staking is in Dev Protocol new supporting system that secures the sustainability of creator activity.
 
 The Lockup contract contains code to handle staking to support projects and earn rewards.
 
