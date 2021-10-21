@@ -11,7 +11,11 @@ eleventyNavigation:
 
 ## Summary
 
-This contract manages the withdrawal of holder rewards for Property holders.
+The Withdraw contract contains code to withdraw creator tokens and calculate these tokens.
+
+The staking is the new supporting system in Dev that secures the sustainability of creator activity.
+
+The creator rewards will be increased by the sponsors staking. These creator rewards will be determined and withdrawn with the following functions.
 
 ## Interface
 
