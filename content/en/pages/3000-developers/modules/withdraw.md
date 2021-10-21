@@ -17,6 +17,8 @@ This contract manages the withdrawal of holder rewards for Property holders.
 
 ## Withdraw
 
+The Property holder can withdraw the creator rewards.
+
 ```solidity
 function withdraw(address _property)
 ```
