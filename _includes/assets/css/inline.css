@@ -11,12 +11,11 @@ h1 {
 }
 
 .logo {
-    max-height: 50px !important;
+	margin: 0 5px;
+    max-height: 100px !important;
     border: none !important;
     box-shadow: none !important;
     --tw-shadow: 0 !important;
-    float: left;
-    margin-right: 10px;
     border-width: 0 !important;
 }
 

@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
 	})
 
 	// Responsive image shortcode
-	var locales = ['en', 'pt']
+	var locales = ['en', 'pt', 'ja']
 	locales.forEach((locale, _index) => {
 		// Creates custom collection "pages"
 		eleventyConfig.addCollection('pages-' + locale, function (collection) {
