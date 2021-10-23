@@ -9,4 +9,4 @@ eleventyNavigation:
   title: コントラクト
 ---
 
-DEV Protocolで用意しているコントラクトについて紹介します
+DEV Protocol で用意しているコントラクトについて紹介します
