@@ -2,7 +2,7 @@
 title: はじめに
 date: 2021-05-07
 permalink: /{{ locale }}/
-hideMenu: true
+hideMenu: false
 eleventyNavigation:
   key: Home
   order: 0
@@ -12,8 +12,8 @@ eleventyNavigation:
 
 ->![Dev Protocol](/content/{{ locale }}/images/devprotocol-logo.png)<-
 
-こちらはDev Protocolについて解説するドキュメントサイトになります。
-Stakes.socialの使い方やDev Protocolを使ってアプリケーションを開発する方法などを紹介しています。
+こちらは Dev Protocol について解説するドキュメントサイトになります。
+Stakes.social の使い方や Dev Protocol を使ってアプリケーションを開発する方法などを紹介しています。
 
 まずはこちらのドキュメントをお勧めします
 

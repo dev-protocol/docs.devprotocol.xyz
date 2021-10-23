@@ -1,70 +1,131 @@
 ---
-title: Dev
+title: Dev コントラクト
 date: 2021-08-04
 permalink: /{{ locale }}/developers/modules/dev/index.html
 eleventyNavigation:
   key: dev-module
   parent: developers_modules
   order: 3110
-  title: Dev
+  title: Dev コントラクト
 ---
 
-## Summary
+## 概要
+DEVコントラクトはDEVトークンを管理するコントラクトです。
+このコントラクトはERC-20に準拠したコントラクトになります
 
-Dev Contract manages DEV tokens. Dev Protocol manages the supply amount of DEV token. It conforms to ERC-20 and is Dev Protocol's key token.
+## API
+#### deposit( address _to, uint256 _amount )
 
-DEV tokens are minted by Lockup Contract or Withdraw Contract, and is burned by Market Contract.
+- 引数:
+  - `{address} _to`
+  - `{number} _amount`
 
-In Dev Protocol, DEV tokens have a function to gain staking rewards by staking Property tokens. Since it conforms to ERC-20, there is no limitation for its usage. When users stake DEV tokens, they can get the following side effects:
+- 戻り値: Boolean
 
-- Allocation of creator rewards for Property token holders.
-- Acquisition of right to vote for the governance.
+- 使用方法
+　`_to`で指定したアドレスのプロパティに、`_amount`で指定したDEVトークンをステーキングする。
 
-## Interface
+#### depositFrom( address _from, address _to, uint256 _amount )
 
-### `function deposit(address _to, uint256 _amount) external returns (bool)`
+- 引数:
+    - `{address} _from`
+    - `{address} _to`
+    - `{number} _amount`
 
-- `_to`: The address of the staking destination
-- `_amount`: The number of the staking amount
+- 戻り値: Boolean
 
-Stakes DEV tokens to the address specified by `_to`, with the amount specified by `_amount`.
+- 使用方法
+  `_from`で指定されたアドレスから `_to`で指定されたアドレスのプロパティに、 `_amount`で指定されたDEVトークンをステーキングする。
+　メソッドを実行する前にステーキングする分のDEVトークンをapprovedしておく必要があります。
 
-### `function depositFrom(address _from, address _to, uint256 _amount) external returns (bool)`
+#### totalSupply()
 
-- `_from`: The address of the spender
-- `_to`: The address of the staking destination
-- `_amount`: The number of the staking amount
+- 引数: 無し
 
-Stakes DEV tokens from the address specified by `_from` to the address specified by `_to`, with the amount specified by `_amount`.
+- 戻り値: number
 
-Before calling the method, the spender must grant sufficient allowances. If the allowance is insufficient, the allowance needs to be added by calling the approve method.
+- 使用方法
+DEVトークンの最新の供給量を返します
 
-### `function totalSupply() external view returns (uint256)`
+#### balanceOf( address account )
 
-Returns the latest total supply of DEV tokens.
+- 引数:
+	- `{address} account`
 
-### `function balanceOf(address account) external view returns (uint256)`
+- 戻り値: number
 
-Returns the balance of the address specified by `account`.
+- 使用方法
+`account`で指定したアドレスの所持DEVトークン数を返します
 
-### `function transfer(address recipient, uint256 amount) external returns (bool)`
+#### transfer( address recipient, uint256 amount )
 
-Transfers DEV tokens to the address specified by `recipient`, with the amount specified by `amount`.
+- 引数:
+	- `{address} recipient`
+	- `{number} amount`
 
-### `function transferFrom(address sender, address recipient, uint256 amount) external returns (bool)`
+- 戻り値: Boolean
 
-### `function allowance(address owner, address spender) external view returns (uint256)`
+- 使用方法
+`recipient`宛に`amount`分のDEVトークンを送金します
 
-### `function approve(address spender, uint256 amount) external returns (bool)`
+#### transferFrom( address sender, address recipient, uint256 amount )
 
-### `function name() public view returns (string memory)`
+- 引数:
+    - `{address} sender`
+    - `{address} recipient`
+    - `{number} amount`
 
-Returns the token name `Dev`
+- 戻り値: Boolean
 
-### `function symbol() public view returns (string memory)`
+- 使用方法
+  `sender`が`recipient`宛に`amount`分のDEVトークンを送ります。
+  メソッドを実行する前に送金する分のDEVトークンをapprovedしておく必要があります。
 
-Returns the token symbol `DEV`
+#### allowance( address owner, address spender )
 
-### `function decimals() public view returns (uint8)`
+- 引数:
+    - `{address} owner`
+    - `{address} spender`
 
-Returns the token decimals `18`
+- 戻り値: number
+
+- 使用方法
+  `approve`関数で`allowed`に割り当てたDEVトークンの値を返します
+
+#### approve( address spender, uint256 amount )
+
+- 引数:
+    - `{address} spender`
+    - `{number} amount`
+
+- 戻り値: number
+
+- 使用方法
+  `spender`宛に残高から`amount`分のDEVトークンを転送することを許可します
+
+#### name()
+
+- 引数: 無し
+
+- 戻り値: string
+
+- 使用方法
+  DEVトークン名（Dev）を返します
+
+#### symbol()
+
+- 引数: 無し
+
+- 戻り値: string
+
+- 使用方法
+  DEVトークンのシンボル（DEV）を返します
+
+#### decimals()
+
+- 引数: 無し
+
+- 戻り値: number
+
+- 使用方法
+  DEVトークンの小数点以下の桁数を返します

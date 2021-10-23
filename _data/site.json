@@ -6,7 +6,7 @@
 	"githubUrl": "https://github.com/dev-protocol/docs",
 	"githubBranch": "main",
 	"navigationStyle": "vertical",
-	"faviconPath": "https://devprotocol.xyz/favicon.png",
+	"faviconPath": "/_includes/assets/images/favicon.ico",
 	"enableSubtitle": true,
 	"enableSearch": true,
 	"enableDarkMode": true,
