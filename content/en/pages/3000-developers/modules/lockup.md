@@ -94,7 +94,7 @@ function calculateCumulativeRewardPrices() view returns (
 )
 ```
 
-Returns
+Returns the cumulative sum of the reward amount, the cumulative sum of the stakers reward per stake, the cumulative sum of the interest price and the cumulative amount of the holders reward cap.
 
 ## Calculate Reward Amount
 
