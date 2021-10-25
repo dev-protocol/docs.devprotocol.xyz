@@ -11,12 +11,11 @@ h1 {
 }
 
 .logo {
-    max-height: 50px !important;
+	margin: 0 5px;
+    max-height: 100px !important;
     border: none !important;
     box-shadow: none !important;
     --tw-shadow: 0 !important;
-    float: left;
-    margin-right: 10px;
     border-width: 0 !important;
 }
 
@@ -46,9 +45,10 @@ h1 {
     color: #fff;
 }
 
+#navigation > div > ul > li .active,
 #header-nav>.navItem.active>a,
 #header-nav>.navItem>a:hover {
-    color: #1500d6;
+    color: #5e8ef5;
 }
 
 #header-nav li .header-dropdown {
@@ -179,4 +179,44 @@ h1 {
         -webkit-transition: all 1s ease;
         transition: all 1s ease
     }
+}
+
+#page-content > div > div > div > article > div > h4 {
+	position: relative;
+	font-size: 1.125rem;
+	color: #273849;
+	line-height: 100%;
+}
+
+#page-content > div > div > div > article > div > h4::before {
+	content: "#";
+	color: #5e8ef5;
+	position: absolute;
+	left: -1em;
+	font-size: 1.125rem;
+}
+
+#page-content > div > div > div > article > div > h4 + ul * {
+	font-size: 1rem;
+	color: #273849;
+}
+
+#page-content > div > div > div > article > div > ul li code,
+#page-content > div > div > div > article > div p code {
+	color: #ff3814;
+	padding: 3px 5px;
+	margin: 0 2px;
+	border-radius: 2px;
+	white-space: nowrap;
+	font-size: 0.85em;
+	background-color: #f8f8f8;
+	font-weight: normal;
+}
+
+.prose code::before {
+	content: "";
+}
+
+.prose code::after {
+	content: "";
 }

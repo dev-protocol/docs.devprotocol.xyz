@@ -2,7 +2,7 @@
 title: Começando
 date: 2021-05-07
 permalink: /{{ locale }}/
-hideMenu: true
+hideMenu: false
 eleventyNavigation:
   key: Home
   order: 0
