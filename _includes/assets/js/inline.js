@@ -42,7 +42,7 @@ function showNavigation() {
 
 function closeNavigation() {
 	const navigation = document.getElementById('navigation')
-	if(navigation == null) return;
+	if (navigation == null) return
 
 	navigation.classList.add('hidden')
 	navigation.classList.remove(

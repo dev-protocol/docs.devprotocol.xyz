@@ -1,12 +1,12 @@
 ---
-title: Guideline for DEV token / JA
+title: DEVトークン ガイド
 date: 2021-06-18
 permalink: /{{ locale }}/stakes-social/token-guide/ja/index.html
 eleventyNavigation:
   key: DEV Token Guide
   parent: stakes-social
   order: 2210
-  title: Guideline for DEV token / JA
+  title: DEVトークン ガイド
 ---
 
 DEV トークンとは OSS を支援するために作られた暗号資産です。

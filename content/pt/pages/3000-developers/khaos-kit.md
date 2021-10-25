@@ -25,6 +25,7 @@ Instale pelo npm.
 ```bash
 npm i @devprotocol/khaos-kit
 ```
+
 Ou então, use o yarn.
 
 ```bash

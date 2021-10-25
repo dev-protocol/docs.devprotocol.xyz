@@ -9,8 +9,8 @@ const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const Image = require('@11ty/eleventy-img')
-const i18n = require('eleventy-plugin-i18n');
-const translations = require('./_data/i18n');
+const i18n = require('eleventy-plugin-i18n')
+const translations = require('./_data/i18n')
 // const fs = require('fs');
 
 module.exports = function (eleventyConfig) {
@@ -21,8 +21,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(i18n, {
 		translations,
 		fallbackLocales: {
-			'*': 'en'
-		}
+			'*': 'en',
+		},
 	})
 
 	eleventyConfig.addShortcode('version', function () {
@@ -30,15 +30,21 @@ module.exports = function (eleventyConfig) {
 	})
 
 	// Responsive image shortcode
-	var locales = ['en', 'pt'];
+	var locales = ['en', 'pt', 'ja']
 	locales.forEach((locale, _index) => {
 		// Creates custom collection "pages"
 		eleventyConfig.addCollection('pages-' + locale, function (collection) {
-			return collection.getFilteredByGlob('./content/' + locale + '/pages/**/*.md')
+			return collection.getFilteredByGlob(
+				'./content/' + locale + '/pages/**/*.md'
+			)
 		})
 
 		eleventyConfig.addCollection('results-' + locale, (collection) => {
-			return [...collection.getFilteredByGlob('./content/' + locale + '/pages/**/*.md')]
+			return [
+				...collection.getFilteredByGlob(
+					'./content/' + locale + '/pages/**/*.md'
+				),
+			]
 		})
 
 		// Creates custom collection "menuItems"
@@ -69,8 +75,8 @@ module.exports = function (eleventyConfig) {
 				let metadata = await Image(src, {
 					widths: [400, 600, 800, 1000, 1200, 1400, 1600, 1900],
 					formats: ['webp', 'jpeg', 'png'],
-					urlPath: '/content/'+locale+'/images/',
-					outputDir: './_site/'+locale+'/images/',
+					urlPath: '/content/' + locale + '/images/',
+					outputDir: './_site/' + locale + '/images/',
 				})
 
 				let lowsrc = metadata.jpeg[0]
@@ -272,20 +278,20 @@ module.exports = function (eleventyConfig) {
 			})
 	)
 
-  // 404
-  // eleventyConfig.setBrowserSyncConfig({
-  //   callbacks: {
-  //     ready: function(err, browserSync) {
-  //       const content_404 = fs.readFileSync('_site/404.html');
+	// 404
+	// eleventyConfig.setBrowserSyncConfig({
+	//   callbacks: {
+	//     ready: function(err, browserSync) {
+	//       const content_404 = fs.readFileSync('_site/404.html');
 
-  //       browserSync.addMiddleware('*', (req, res) => {
-  //         // Provides the 404 content without redirect.
-  //         res.write(content_404);
-  //         res.end();
-  //       });
-  //     }
-  //   }
-  // });
+	//       browserSync.addMiddleware('*', (req, res) => {
+	//         // Provides the 404 content without redirect.
+	//         res.write(content_404);
+	//         res.end();
+	//       });
+	//     }
+	//   }
+	// });
 
 	return {
 		templateFormats: ['md', 'njk', 'html', 'liquid'],
