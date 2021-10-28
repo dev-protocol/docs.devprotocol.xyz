@@ -63,8 +63,8 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 
 - 引数:
 
-	- `{address} spender`
-	- `{number} amount`
+  - `{address} spender`
+  - `{number} amount`
 
 - 戻り値: number
 
@@ -110,7 +110,8 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### balanceOf( address account )
 
 - 引数:
-	- `{address} account`
+
+  - `{address} account`
 
 - 戻り値: number
 
@@ -120,20 +121,21 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### transfer( address recipient, uint256 amount )
 
 - 引数:
-	- `{address} recipient`
-	- `{number} amount`
+
+  - `{address} recipient`
+  - `{number} amount`
 
 - 戻り値: Boolean
 
 - 使用方法
   `recipient`宛に`amount`分の プロパティトークンを送金します
 
-
 #### allowance( address owner, address spender )
 
 - 引数:
-	- `{address} owner`
-	- `{address} spender`
+
+  - `{address} owner`
+  - `{address} spender`
 
 - 戻り値: number
 
@@ -143,8 +145,9 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### approve( address spender, uint256 amount )
 
 - 引数:
-	- `{address} spender`
-	- `{number} amount`
+
+  - `{address} spender`
+  - `{number} amount`
 
 - 戻り値: number
 
@@ -154,9 +157,10 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### transferFrom( address sender, address recipient, uint256 amount )
 
 - 引数:
-    - `{address} sender`
-    - `{address} recipient`
-    - `{number} amount`
+
+  - `{address} sender`
+  - `{address} recipient`
+  - `{number} amount`
 
 - 戻り値: Boolean
 
@@ -167,8 +171,9 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### increaseAllowance( address spender, uint256 addedValue )
 
 - 引数:
-    - `{address} spender`
-    - `{number} addedValue`
+
+  - `{address} spender`
+  - `{number} addedValue`
 
 - 戻り値: boolean
 
@@ -178,8 +183,9 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### decreaseAllowance( address spender, uint256 subtractedValue )
 
 - 引数:
-	- `{address} spender`
-	- `{number} subtractedValue`
+
+  - `{address} spender`
+  - `{number} subtractedValue`
 
 - 戻り値: boolean
 
@@ -193,22 +199,24 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 - 戻り値: address
 
 - 使用方法
-  プロパティトークンのAuthorのアドレスを返します
+  プロパティトークンの Author のアドレスを返します
 
 #### changeAuthor( address nextAuthor )
 
 - 引数:
-    - `{address} nextAuthor`
+
+  - `{address} nextAuthor`
 
 - 戻り値: なし
 
 - 使用方法
-  プロパティトークンのAuthorを`nextAuther`に変更します
+  プロパティトークンの Author を`nextAuther`に変更します
 
 #### changeName( string name )
 
 - 引数:
-    - `{string} name`
+
+  - `{string} name`
 
 - 戻り値: なし
 
@@ -218,7 +226,8 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### changeSymbol( string symbol )
 
 - 引数:
-	- `{string} symbol`
+
+  - `{string} symbol`
 
 - 戻り値: なし
 
@@ -228,13 +237,11 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 #### withdraw( address sender, number value )
 
 - 引数:
-    - `{address} sender`
-    - `{number} value`
+
+  - `{address} sender`
+  - `{number} value`
 
 - 戻り値: なし
 
 - 使用方法
   ステーキングの`value`分を、プロパティトークンのオーナーに送金します
-
-
-
