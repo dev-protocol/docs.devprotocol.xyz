@@ -1,12 +1,12 @@
 ---
-title: Market
+title: Market コントラクト
 date: 2021-08-04
 permalink: /{{ locale }}/developers/modules/market/index.html
 eleventyNavigation:
   key: market-module
   parent: developers_modules
   order: 3130
-  title: Market
+  title: Market コントラクト
 ---
 
 ## Summary

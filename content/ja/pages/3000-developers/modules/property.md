@@ -245,3 +245,4 @@ For `transfer` function of Property tokens and `transferFrom` function, payoff i
 
 - 使用方法
   ステーキングの`value`分を、プロパティトークンのオーナーに送金します
+　`withdraw`は`lockup`コントラクタからのみ実行することが可能です
