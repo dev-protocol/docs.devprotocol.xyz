@@ -13,23 +13,23 @@ title: Market コントラクト
 
 ## API
 
-#### depositToProperty( address _property, uint256 _amount )
+#### depositToProperty( address \_property, uint256 \_amount )
 
 - 引数:
 
-    - `{address} _property`
-    - `{number} _amount`
+  - `{address} _property`
+  - `{number} _amount`
 
 - 戻り値: number
 
 - 使用方法
 
-#### depositToPosition( unit256 _tokenId, uint256 _amount )
+#### depositToPosition( unit256 \_tokenId, uint256 \_amount )
 
 - 引数:
 
-	- `{number} _tokenId`
-	- `{number} _amount`
+  - `{number} _tokenId`
+  - `{number} _amount`
 
 - 戻り値: boolean
 
@@ -51,12 +51,12 @@ title: Market コントラクト
 
 - 使用方法
 
-#### withdrawByPosition( unit256 _tokenId, uint256 _amount )
+#### withdrawByPosition( unit256 \_tokenId, uint256 \_amount )
 
 - 引数:
 
-	- `{number} _tokenId`
-	- `{number} _amount`
+  - `{number} _tokenId`
+  - `{number} _amount`
 
 - 戻り値: boolean
 
@@ -70,19 +70,21 @@ title: Market コントラクト
 
 - 使用方法
 
-#### calculateRewardAmount( address _property )
+#### calculateRewardAmount( address \_property )
 
 - 引数:
-    - `{address} _property`
+
+  - `{address} _property`
 
 - 戻り値: array
 
 - 使用方法
 
-#### totalLockedForProperty( address _property )
+#### totalLockedForProperty( address \_property )
 
 - 引数:
-    - `{address} _property`
+
+  - `{address} _property`
 
 - 戻り値: number
 
@@ -96,10 +98,11 @@ title: Market コントラクト
 
 - 使用方法
 
-#### calculateWithdrawableInterestAmountByPosition( number _tokenId )
+#### calculateWithdrawableInterestAmountByPosition( number \_tokenId )
 
 - 引数:
-	- `{number} _tokenId`
+
+  - `{number} _tokenId`
 
 - 戻り値: number
 
@@ -113,12 +116,12 @@ title: Market コントラクト
 
 - 使用方法
 
-#### updateCap( unit256 _cap )
+#### updateCap( unit256 \_cap )
 
 - 引数:
-    - `{number} _cap`
+
+  - `{number} _cap`
 
 - 戻り値: number
 
 - 使用方法
-
