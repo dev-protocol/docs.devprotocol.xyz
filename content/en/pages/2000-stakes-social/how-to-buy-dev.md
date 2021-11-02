@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/how-to-buy/index.html
 eleventyNavigation:
   key: how-to-buy
   parent: stakes-social
-  order: 2050
+  order: 2100
   title: How to buy DEV
 ---
 

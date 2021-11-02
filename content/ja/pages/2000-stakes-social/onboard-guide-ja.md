@@ -3,7 +3,7 @@ title: オンボードガイド
 date: 2021-06-21
 permalink: /{{ locale }}/stakes-social/onboard-guide/ja/index.html
 eleventyNavigation:
-  key: DEV Token Guide
+  key: Onboard Guide
   parent: stakes-social
   order: 2400
   title: オンボードガイド

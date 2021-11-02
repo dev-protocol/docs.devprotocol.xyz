@@ -3,9 +3,9 @@ title: Onboard Guide
 date: 2021-06-21
 permalink: /{{ locale }}/stakes-social/onboard-guide/index.html
 eleventyNavigation:
-  key: DEV Token Guide
+  key: Onboard Guide
   parent: stakes-social
-  order: 2300
+  order: 2400
   title: Onboard Guide
 ---
 

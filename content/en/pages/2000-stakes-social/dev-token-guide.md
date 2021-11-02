@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/token-guide/index.html
 eleventyNavigation:
   key: DEV Token Guide
   parent: stakes-social
-  order: 2200
+  order: 2300
   title: Guideline for DEV token
 ---
 
