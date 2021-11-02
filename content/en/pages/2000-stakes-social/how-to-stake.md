@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/how-to-stake/index.html
 eleventyNavigation:
   key: how-to-stake
   parent: stakes-social
-  order: 2100
+  order: 2200
   title: How to stake your DEV on Stakes.social
 ---
 
