@@ -15,14 +15,15 @@ Dev Protocol has released Dev Protocol on Layer2's Arbitrum to avoid the recent 
 You can continue to use the Dev Protocol on the mainnet, but if you want to onboard the Dev Protocol of Arbitrum, you will need to register onboard again.
 
 ## What is Layer2
+
 Layer2 is a technology that allows you to implement a virtual machine "EVM" that executes contracts such as DeFi and NFT on a blockchain (Layer2) different from the mainnet. Arbitrum is a promising candidate for this technology, and Dev Protocol has released a service to Arbitrum One that has already been deployed.
 
-
 ## Why release on Layer 2?
+
 Ethereum Mainnet has maintained high transaction fees due to recent increases in demand. Arbitrum can keep this fee low while using the same system as Ethereum.
 
-
 ## Onboard method
+
 First, it is necessary to set the network to which MetaMask connects to "Arbitrum One". To change the connection network, just select from the networks if you have already added "Arbitrum One" to MetaMask, but if you have not added it yet, add the network by referring to the following.
 
 ![MetaMask](/content/{{ locale }}/images/stakes.social/guide-arbitrum02.png)
@@ -42,7 +43,6 @@ https://bridge.arbitrum.io
 
 Please refer to the tutorial below for how to use it.
 https://arbitrum.io/bridge-tutorial/
-
 
 **Onboard**
 After accessing Stakes.social, switch from Metamask to the "Arbitrum One" network, and then go onboard.
@@ -70,4 +70,3 @@ You can move the DEV to Arbitrum One by following the steps below.
 5. Enter the WDEV you want to transfer and press the Convert button.
 
 It takes about 10 days to make a transaction from Arbitrum to the mainnet. Therefore, please note that it will take 10 days to bring the DEV from Arbitrum to the mainnet.
-
