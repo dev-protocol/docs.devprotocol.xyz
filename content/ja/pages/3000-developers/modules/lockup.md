@@ -23,7 +23,7 @@ eleventyNavigation:
 - 戻り値: number
 
 - 使用方法
-  `_property`に`_amount`分のDEVトークンをステーキングし、ステーキングポジションを返します
+  `_property`に`_amount`分の DEV トークンをステーキングし、ステーキングポジションを返します
 
 #### depositToPosition( unit256 \_tokenId, uint256 \_amount )
 
@@ -35,7 +35,7 @@ eleventyNavigation:
 - 戻り値: boolean
 
 - 使用方法
-  `_tokenId`のステーキングポジションを持つプロパティに対して`_amount`分のDEVトークンをステーキングします
+  `_tokenId`のステーキングポジションを持つプロパティに対して`_amount`分の DEV トークンをステーキングします
 
 #### getLockedupProperties()
 
@@ -44,7 +44,7 @@ eleventyNavigation:
 - 戻り値: object
 
 - 使用方法
-  Lockupの情報を返します
+  Lockup の情報を返します
 
 #### update()
 
