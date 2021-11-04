@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/onboard-guide-arbitrum/index.html
 eleventyNavigation:
   key: Onboard Guide Arbitrum
   parent: stakes-social
-  order: 2500
+  order: 2600
   title: Onboard Guide Arbitrum
 ---
 
