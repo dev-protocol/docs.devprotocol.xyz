@@ -12,7 +12,7 @@ eleventyNavigation:
 ## Summary
 
 The Allocator Contract plays several roles in determining market rewards.
-For this roles the contract has a following function.
+For this role, the contract has the following function.
 
 ## Interface
 
