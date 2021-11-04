@@ -34,8 +34,8 @@ Mints the holder reward per DevMinter Contract.
 ```solidity
 import "@devprotocol/protocol/contracts/interface/IWithdraw.sol";
 
-IWithdraw withdraw = IWithdraw("0x1fd4cc54564f880d267d8cb75f60b04f4777843b");
-withdraw.withdraw("0x.......");
+IWithdraw withdraw = IWithdraw(0x1fd4cc54564f880d267d8cb75f60b04f4777843b);
+withdraw.withdraw(0x.......);
 ```
 
 ## CalculateRewardAmount
@@ -57,6 +57,6 @@ Returns the total rewards which the account(\_user) can be currently available f
 ### Solidity
 
 ```solidity
-IWithdraw withdraw = IWithdraw("0x1fd4cc54564f880d267d8cb75f60b04f4777843b");
-withdraw.calculateRewardAmount("0x.......", "0x.......");
+IWithdraw withdraw = IWithdraw(0x1fd4cc54564f880d267d8cb75f60b04f4777843b);
+withdraw.calculateRewardAmount(0x......., 0x.......);
 ```

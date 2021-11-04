@@ -29,6 +29,6 @@ Returns the amount of a total reward per block given to all users.
 ```solidity
 import "@devprotocol/protocol/contracts/interface/IAllocator.sol";
 
-IAllocator allocator = IAllocator("0x2c2807a0eb5fd0dfac8a93a2c9d788154a17b369");
+IAllocator allocator = IAllocator(0x2c2807a0eb5fd0dfac8a93a2c9d788154a17b369);
 uint256 rewardsPerBlock = allocator.calculateMaxRewardsPerBlock();
 ```
