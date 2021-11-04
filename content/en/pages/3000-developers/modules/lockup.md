@@ -23,7 +23,7 @@ For these roles, the contract has the following functions.
 
 ## Interface
 
-## Deposit To Property
+## DepositToProperty
 
 The sender can stake his DEV token to the property.
 
@@ -36,7 +36,7 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 
 Returns the ID of the created new staking position(s tokens).
 
-## Deposit To Position
+## DepositToPosition
 
 The sender who has the staking position can deposit more DEV tokens and update s-tokens status.
 
@@ -49,7 +49,7 @@ function depositToPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner(
 
 Returns boolean true on success, otherwise reverts.
 
-## Withdraw By Position
+## WithdrawByPosition
 
 The sender can withdraw his staking Tokens and harvest rewards with the ID of staking position(s tokens).
 
@@ -83,7 +83,7 @@ function cap() view returns (uint256)
 
 Returns cap.
 
-## Calculate Cumulative Reward Prices
+## CalculateCumulativeRewardPrices
 
 ```solidity
 function calculateCumulativeRewardPrices() view returns (
@@ -96,7 +96,7 @@ function calculateCumulativeRewardPrices() view returns (
 
 Returns the cumulative sum of the reward amount, the cumulative sum of the stakers reward per stake, the cumulative sum of the interest price and the cumulative amount of the holders reward cap.
 
-## Calculate Reward Amount
+## CalculateRewardAmount
 
 ```solidity
 function calculateRewardAmount(address _property) view returns (uint256, uint256)
@@ -114,7 +114,7 @@ Updates cumulative sum of the maximum mint amount calculated by Allocator contra
 function update()
 ```
 
-## Calculate Withdrawable Interest Amount
+## CalculateWithdrawableInterestAmount
 
 ```solidity
 function calculateWithdrawableInterestAmount(address _property, address _user) view returns (uint256)
@@ -125,7 +125,7 @@ function calculateWithdrawableInterestAmount(address _property, address _user) v
 
 Returns the amount of the staking holder withdrawable reward.
 
-## Calculate Withdrawable Interest Amount By Position
+## CalculateWithdrawableInterestAmountByPosition
 
 ```solidity
 function calculateWithdrawableInterestAmountByPosition(uint256 _tokenId) view returns (uint256)
@@ -135,7 +135,7 @@ function calculateWithdrawableInterestAmountByPosition(uint256 _tokenId) view re
 
 Returns the amount of the staking holder withdrawable reward.
 
-## Get All Value
+## GetAllValue
 
 ```solidity
 function getAllValue() view returns (uint256)
@@ -143,7 +143,7 @@ function getAllValue() view returns (uint256)
 
 Returns the amount of the total staked in the protocol.
 
-## Get Value
+## GetValue
 
 ```solidity
 function getValue(address _property, address _sender) view returns (uint256)
@@ -154,7 +154,7 @@ function getValue(address _property, address _sender) view returns (uint256)
 
 Returns the amount of the staked token by this staking holder in the Property.
 
-## Get Property Value
+## GetPropertyValue
 
 ```solidity
 function getPropertyValue(address _property) view returns (uint256)
@@ -164,7 +164,7 @@ function getPropertyValue(address _property) view returns (uint256)
 
 Returns the amount of the staked Token to the Property.
 
-## Migrate To S Tokens
+## MigrateToSTokens
 
 The sender who has already staked can migrate his staking position to s Tokens.
 

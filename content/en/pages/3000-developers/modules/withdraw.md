@@ -29,7 +29,7 @@ function withdraw(address _property)
 
 Mints the holder reward per DevMinter Contract.
 
-## Calculate Reward Amount
+## CalculateRewardAmount
 
 ```solidity
 function calculateRewardAmount(address _property, address _user) returns (
