@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/onboard-guide/index.html
 eleventyNavigation:
   key: Onboard Guide
   parent: stakes-social
-  order: 2400
+  order: 2500
   title: Onboard Guide
 ---
 
