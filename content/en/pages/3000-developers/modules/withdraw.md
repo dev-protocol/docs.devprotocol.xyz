@@ -53,3 +53,10 @@ function calculateRewardAmount(address _property, address _user) returns (
 - `_user`: The account which holds the property
 
 Returns the total rewards which the account(\_user) can be currently available for withdrawal.
+
+### Solidity
+
+```solidity
+IWithdraw withdraw = IWithdraw("0x1fd4cc54564f880d267d8cb75f60b04f4777843b");
+withdraw.calculateRewardAmount("0x.......", "0x.......");
+```
