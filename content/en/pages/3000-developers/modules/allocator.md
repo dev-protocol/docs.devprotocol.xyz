@@ -12,7 +12,7 @@ eleventyNavigation:
 ## Summary
 
 The Allocator Contract plays several roles in determining market rewards.
-For this roles the contract has 2 following functions .
+For this roles the contract has a following function.
 
 ## Interface
 
@@ -23,15 +23,3 @@ function calculateMaxRewardsPerBlock() view returns (uint256)
 ```
 
 Returns the amount of a total reward per block given to all users.
-
-## BeforeBalanceChange
-
-```solidity
-function beforeBalanceChange(address _property, address _from, address _to)
-```
-
-- `_property`: property address
-- `_from`: The transfer sender address
-- `_to`: The transfer recipient address
-
-Calls beforeBalanceChange() of Withdraw contract and update the status before and after the ownership ratio changes.
