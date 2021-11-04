@@ -36,6 +36,15 @@ function depositToProperty(address _property, uint256 _amount) returns (uint256)
 
 Returns the ID of the created new staking position(s tokens).
 
+### Solidity
+
+```solidity
+import "@devprotocol/protocol/contracts/interface/ILockup.sol";
+
+ILockup lockup = ILockup.depositToProperty(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.depositToProperty(0x......., 100);
+```
+
 ## DepositToPosition
 
 The sender who has the staking position can deposit more DEV tokens and update s-tokens status.
