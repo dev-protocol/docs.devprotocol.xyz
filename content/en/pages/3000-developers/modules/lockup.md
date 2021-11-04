@@ -41,7 +41,7 @@ Returns the ID of the created new staking position(s tokens).
 ```solidity
 import "@devprotocol/protocol/contracts/interface/ILockup.sol";
 
-ILockup lockup = ILockup.depositToProperty(0xbd2a75e11de78af8d58595fb16181d505777804f);
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
 lockup.depositToProperty(0x......., 100);
 ```
 
@@ -57,6 +57,13 @@ function depositToPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner(
 - `_amount`: The amount of the DEV token to be staked
 
 Returns boolean true on success, otherwise reverts.
+
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.depositToPosition(7, 100);
+```
 
 ## WithdrawByPosition
 
