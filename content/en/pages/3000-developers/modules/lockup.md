@@ -215,6 +215,13 @@ function getAllValue() view returns (uint256)
 
 Returns the amount of the total staked in the protocol.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.getAllValue();
+```
+
 ## GetValue
 
 ```solidity
