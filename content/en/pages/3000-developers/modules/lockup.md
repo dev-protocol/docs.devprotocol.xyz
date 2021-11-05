@@ -104,13 +104,20 @@ Releases staking and transfers the staked and withdraw rewards amount to the sen
 ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
 lockup.withdraw(0x......., 100);
 ```
+
 ## Cap
 
 ```solidity
 function cap() view returns (uint256)
 ```
-
 Returns cap.
+
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.cap();
+```
 
 ## CalculateCumulativeRewardPrices
 
