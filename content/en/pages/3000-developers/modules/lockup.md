@@ -150,6 +150,8 @@ function calculateRewardAmount(address _property) view returns (uint256, uint256
 
 Returns the amount of the sender cumulative rewards and cap per the property.
 
+### Solidity
+
 ```solidity
 ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
 lockup.calculateRewardAmount(0x.......);
@@ -161,6 +163,13 @@ Updates cumulative sum of the maximum mint amount calculated by Allocator contra
 
 ```solidity
 function update()
+```
+
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.update();
 ```
 
 ## CalculateWithdrawableInterestAmount
