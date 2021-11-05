@@ -183,6 +183,13 @@ function calculateWithdrawableInterestAmount(address _property, address _user) v
 
 Returns the amount of the staking holder withdrawable reward.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.calculateWithdrawableInterestAmount(0x......., 0x.......);
+```
+
 ## CalculateWithdrawableInterestAmountByPosition
 
 ```solidity
@@ -192,6 +199,13 @@ function calculateWithdrawableInterestAmountByPosition(uint256 _tokenId) view re
 - `_tokenId`: The ID of the staking position(s tokens)
 
 Returns the amount of the staking holder withdrawable reward.
+
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.calculateWithdrawableInterestAmountByPosition(7);
+```
 
 ## GetAllValue
 
