@@ -110,6 +110,7 @@ lockup.withdraw(0x......., 100);
 ```solidity
 function cap() view returns (uint256)
 ```
+
 Returns cap.
 
 ### Solidity
@@ -132,6 +133,12 @@ function calculateCumulativeRewardPrices() view returns (
 
 Returns the cumulative sum of the reward amount, the cumulative sum of the stakers reward per stake, the cumulative sum of the interest price and the cumulative amount of the holders reward cap.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.calculateCumulativeRewardPrices();
+```
 ## CalculateRewardAmount
 
 ```solidity
