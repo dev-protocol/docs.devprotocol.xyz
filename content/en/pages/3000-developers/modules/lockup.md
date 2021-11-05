@@ -139,6 +139,7 @@ Returns the cumulative sum of the reward amount, the cumulative sum of the stake
 ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
 lockup.calculateCumulativeRewardPrices();
 ```
+
 ## CalculateRewardAmount
 
 ```solidity
@@ -148,6 +149,11 @@ function calculateRewardAmount(address _property) view returns (uint256, uint256
 - `_property`: The property address in which the sender has staked their DEV token
 
 Returns the amount of the sender cumulative rewards and cap per the property.
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.calculateRewardAmount(0x.......);
+```
 
 ## Update
 
