@@ -78,6 +78,13 @@ function withdrawByPosition(uint256 _tokenId, uint256 _amount) onlyPositionOwner
 
 Returns boolean true on success, otherwise reverts.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.withdrawByPosition(7, 100);
+```
+
 ## Withdraw
 
 The sender can withdraw his staking Tokens and harvest rewards.
