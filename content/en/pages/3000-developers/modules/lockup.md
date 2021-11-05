@@ -269,6 +269,13 @@ function migrateToSTokens(address _property) returns (uint256 tokenId_)
 
 Returns the ID of the migrated staking position(s tokens).
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.migrateToSTokens(0x.......);
+```
+
 ## Key Events
 
 ```solidity
