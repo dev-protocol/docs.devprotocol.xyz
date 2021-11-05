@@ -21,7 +21,7 @@ The Sponsors who deposit in properties can withdraw their staking at any time an
 
 For these roles, the contract has the following functions.
 
-## Interface
+## Methods
 
 ## DepositToProperty
 

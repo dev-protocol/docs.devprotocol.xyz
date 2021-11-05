@@ -17,7 +17,7 @@ The staking is the new supporting system in Dev that secures the sustainability 
 
 The creator rewards will be increased by the sponsors staking. These creator rewards will be determined and withdrawn with the following functions.
 
-## Interface
+## Methods
 
 ## Withdraw
 
