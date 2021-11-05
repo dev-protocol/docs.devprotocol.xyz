@@ -233,6 +233,13 @@ function getValue(address _property, address _sender) view returns (uint256)
 
 Returns the amount of the staked token by this staking holder in the Property.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.getValue(0x......., 0x.......);
+```
+
 ## GetPropertyValue
 
 ```solidity
