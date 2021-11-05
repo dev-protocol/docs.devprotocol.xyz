@@ -250,6 +250,13 @@ function getPropertyValue(address _property) view returns (uint256)
 
 Returns the amount of the staked Token to the Property.
 
+### Solidity
+
+```solidity
+ILockup lockup = ILockup(0xbd2a75e11de78af8d58595fb16181d505777804f);
+lockup.getPropertyValue(0x.......);
+```
+
 ## MigrateToSTokens
 
 The sender who has already staked can migrate his staking position to s Tokens.
