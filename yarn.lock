@@ -2881,10 +2881,10 @@ markdown-it-linkify-images@2.0.0:
   resolved "https://registry.yarnpkg.com/markdown-it-linkify-images/-/markdown-it-linkify-images-2.0.0.tgz#8712c195e9a496be79a56a471770c8608e5e5911"
   integrity sha512-8a85tX2OlA48C5BRNDtaaqaUmyvs1QLefnPgCB6NIwWcofVl5cS68I2P4vWSaKN/VZNS28EgG6uNtHawVNlt1w==
 
-markdown-it-table-of-contents@0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.5.2.tgz#2f941d386c277887910f2c7a8a16f5a17acb829c"
-  integrity sha512-6o+rxSwzXmXCUn1n8QGTSpgbcnHBG6lUU8x7A5Cssuq5vbfzTfitfGPvQ5PZkp+gP1NGS/DR2rkYqJPn0rbZ1A==
+markdown-it-table-of-contents@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-table-of-contents/-/markdown-it-table-of-contents-0.6.0.tgz#7c9e8d619fb12f88c9fb05a7b32b2fe932b9c541"
+  integrity sha512-jHvEjZVEibyW97zEYg19mZCIXO16lHbvRaPDkEuOfMPBmzlI7cYczMZLMfUvwkhdOVQpIxu3gx6mgaw46KsNsQ==
 
 markdown-it-task-lists@2.1.1:
   version "2.1.1"
