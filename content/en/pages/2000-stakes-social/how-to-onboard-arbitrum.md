@@ -66,7 +66,7 @@ You can move the DEV to Arbitrum One by following the steps below.
 1. Access the Dev Protocol Bridge from the URL above.
 2. Connect with your wallet
 3. First, Wrap the DEV you want to transfer and convert it to WDEV.
-4. Go to the L2 Beidge tab
+4. Go to the L2 Bridge tab
 5. Enter the WDEV you want to transfer and press the Convert button.
 
 It takes about 10 days to make a transaction from Arbitrum to the mainnet. Therefore, please note that it will take 10 days to bring the DEV from Arbitrum to the mainnet.
