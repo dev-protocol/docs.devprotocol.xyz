@@ -9,9 +9,9 @@ eleventyNavigation:
   title: Dev Kit
 ---
 
-## Dev Kitとは？
+## Dev Kit とは？
 
-Dev KitはDev ProtocolをJavaScriptまたはTypeScriptから使用するためのインターフェースを提供します。
+Dev Kit は Dev Protocol を JavaScript または TypeScript から使用するためのインターフェースを提供します。
 
 |        | Source                                             |
 | ------ | -------------------------------------------------- |
@@ -20,19 +20,19 @@ Dev KitはDev ProtocolをJavaScriptまたはTypeScriptから使用するため�
 
 ## 使い方
 
-npmを使ったインストール方法は以下です
+npm を使ったインストール方法は以下です
 
 ```bash
 npm i @devprotocol/dev-kit
 ```
 
-yarnの場合は以下です
+yarn の場合は以下です
 
 ```bash
 yarn add @devprotocol/dev-kit
 ```
 
-Dev Kitは[ethers.js](https://docs.ethers.io/)に依存しています。
+Dev Kit は[ethers.js](https://docs.ethers.io/)に依存しています。
 ethers.js は自動的にインストールされないため、パッケージを追加して使えるようにする必要がります。
 ethers.js をインストールする方法は以下です。
 
@@ -40,7 +40,7 @@ ethers.js をインストールする方法は以下です。
 npm i ethers
 ```
 
-yarnを使う場合は以下のコマンドを実行します。
+yarn を使う場合は以下のコマンドを実行します。
 
 ```bash
 yarn add ethers
@@ -58,21 +58,35 @@ import { contractFactory, addresses } from '@devprotocol/dev-kit'
 
 // メインネットを使う
 const registryContractAddress = addresses.eth.main.registry
-const provider = new ethers.providers.JsonRpcProvider(process.env.WEB3_PROVIDER_URL)
+const provider = new ethers.providers.JsonRpcProvider(
+	process.env.WEB3_PROVIDER_URL
+)
 const contract = contractFactory(provider)
-const lockupContractAddress = await contract.registry(registryContractAddress).lockup()
+const lockupContractAddress = await contract
+	.registry(registryContractAddress)
+	.lockup()
 
 // ターゲットとなるプロパティのアドレス
 const propertyAddress = '0xac1AC9d00314aE7B4a7d6DbEE4860bECedF92309'
 
 // ステーキング数を取得して表示する
-const propertyStakingAmount = await contract.lockup(lockupContractAddress).getPropertyValue(propertyAddress)
-const stakingAmount = ethers.BigNumber.from(propertyStakingAmount).div(new ethers.BigNumber.from(10).pow(18))
-console.log(`${propertyAddress}'s staking amount is ${stakingAmount.toBigInt()} DEV`)
+const propertyStakingAmount = await contract
+	.lockup(lockupContractAddress)
+	.getPropertyValue(propertyAddress)
+const stakingAmount = ethers.BigNumber.from(propertyStakingAmount).div(
+	new ethers.BigNumber.from(10).pow(18)
+)
+console.log(
+	`${propertyAddress}'s staking amount is ${stakingAmount.toBigInt()} DEV`
+)
 
 // 報酬量を取得して表示する
-const propertyRewards = await contract.lockup(lockupContractAddress).calculateRewardAmount(propertyAddress)
-const reward = ethers.BigNumber.from(propertyRewards[0]).div(new ethers.BigNumber.from(10).pow(36))
+const propertyRewards = await contract
+	.lockup(lockupContractAddress)
+	.calculateRewardAmount(propertyAddress)
+const reward = ethers.BigNumber.from(propertyRewards[0]).div(
+	new ethers.BigNumber.from(10).pow(36)
+)
 console.log(`${propertyAddress}'s rewards is ${reward.toBigInt()} DEV`)
 ```
 
@@ -80,21 +94,21 @@ console.log(`${propertyAddress}'s rewards is ${reward.toBigInt()} DEV`)
 
 ```json
 {
-  "name": "devkit-example",
-  "version": "0.0.1",
-  "type": "module",
-  "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@devprotocol/dev-kit": "^5.8.1",
-    "ethers": "^5.5.2"
-  }
+	"name": "devkit-example",
+	"version": "0.0.1",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@devprotocol/dev-kit": "^5.8.1",
+		"ethers": "^5.5.2"
+	}
 }
 ```
 
-スクリプトを実行します (何も指定しない場合は `http://localhost:8545` のようなローカルのEthereumノードを使用します):
+スクリプトを実行します (何も指定しない場合は `http://localhost:8545` のようなローカルの Ethereum ノードを使用します):
 
 ```shell-session
 $ yarn start
@@ -105,7 +119,7 @@ $ node index.js
 ✨  Done in 0.60s.
 ```
 
-Infuraを使用してスクリプトを実行する例は以下です:
+Infura を使用してスクリプトを実行する例は以下です:
 
 ```shell-session
 $ WEB3_PROVIDER_URL=https://mainnet.infura.io/v3/xxxx yarn start
@@ -113,5 +127,4 @@ $ WEB3_PROVIDER_URL=https://mainnet.infura.io/v3/xxxx yarn start
 
 ### その他
 
-他にも[Dev KitのGitHubリポジトリに例となるコードがあります](https://github.com/dev-protocol/dev-kit-js/tree/main/examples)ので、参考にしてください。
-
+他にも[Dev Kit の GitHub リポジトリに例となるコードがあります](https://github.com/dev-protocol/dev-kit-js/tree/main/examples)ので、参考にしてください。

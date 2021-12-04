@@ -57,21 +57,35 @@ import { contractFactory, addresses } from '@devprotocol/dev-kit'
 
 // use main net
 const registryContractAddress = addresses.eth.main.registry
-const provider = new ethers.providers.JsonRpcProvider(process.env.WEB3_PROVIDER_URL)
+const provider = new ethers.providers.JsonRpcProvider(
+	process.env.WEB3_PROVIDER_URL
+)
 const contract = contractFactory(provider)
-const lockupContractAddress = await contract.registry(registryContractAddress).lockup()
+const lockupContractAddress = await contract
+	.registry(registryContractAddress)
+	.lockup()
 
 // the address of the target property
 const propertyAddress = '0xac1AC9d00314aE7B4a7d6DbEE4860bECedF92309'
 
 // get property's staking amount
-const propertyStakingAmount = await contract.lockup(lockupContractAddress).getPropertyValue(propertyAddress)
-const stakingAmount = ethers.BigNumber.from(propertyStakingAmount).div(new ethers.BigNumber.from(10).pow(18))
-console.log(`${propertyAddress}'s staking amount is ${stakingAmount.toBigInt()} DEV`)
+const propertyStakingAmount = await contract
+	.lockup(lockupContractAddress)
+	.getPropertyValue(propertyAddress)
+const stakingAmount = ethers.BigNumber.from(propertyStakingAmount).div(
+	new ethers.BigNumber.from(10).pow(18)
+)
+console.log(
+	`${propertyAddress}'s staking amount is ${stakingAmount.toBigInt()} DEV`
+)
 
 // get property's rewards
-const propertyRewards = await contract.lockup(lockupContractAddress).calculateRewardAmount(propertyAddress)
-const reward = ethers.BigNumber.from(propertyRewards[0]).div(new ethers.BigNumber.from(10).pow(36))
+const propertyRewards = await contract
+	.lockup(lockupContractAddress)
+	.calculateRewardAmount(propertyAddress)
+const reward = ethers.BigNumber.from(propertyRewards[0]).div(
+	new ethers.BigNumber.from(10).pow(36)
+)
 console.log(`${propertyAddress}'s rewards is ${reward.toBigInt()} DEV`)
 ```
 
@@ -79,17 +93,17 @@ console.log(`${propertyAddress}'s rewards is ${reward.toBigInt()} DEV`)
 
 ```json
 {
-  "name": "devkit-example",
-  "version": "0.0.1",
-  "type": "module",
-  "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@devprotocol/dev-kit": "^5.8.1",
-    "ethers": "^5.5.2"
-  }
+	"name": "devkit-example",
+	"version": "0.0.1",
+	"type": "module",
+	"license": "MIT",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"@devprotocol/dev-kit": "^5.8.1",
+		"ethers": "^5.5.2"
+	}
 }
 ```
 
@@ -109,7 +123,6 @@ run example script (with infura)
 ```shell-session
 $ WEB3_PROVIDER_URL=https://mainnet.infura.io/v3/xxxx yarn start
 ```
-
 
 ### Other examples
 
