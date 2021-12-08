@@ -792,11 +792,12 @@ chownr@^1.1.1:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
 
-clean-css-cli@5.4.2:
-  version "5.4.2"
-  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-5.4.2.tgz#4b242e0bfd42f25af56633326fbf9c50744502c2"
-  integrity sha512-BYxVOuBQL8f2+yucOgmwUi1idpAQV4k9bxG6mxTrBikuwrkXBG5/Pq6tqCi4GZUtgvslMj8dGVtFSoXp9OLzeA==
+clean-css-cli@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/clean-css-cli/-/clean-css-cli-5.5.0.tgz#86a927e102149a2b950cf4edab045670a70c1a96"
+  integrity sha512-Vr9t8o59YaPcRw/4hyJjEh4zU/BlOtlJJ8465El6QMYWbkf5nN1mhAljX6FIb0bfpkGlYNFKPCyTz7oFCHOblQ==
   dependencies:
+    chokidar "^3.5.2"
     clean-css "^5.2.2"
     commander "7.x"
     glob "^7.1.6"
