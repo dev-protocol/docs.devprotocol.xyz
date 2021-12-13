@@ -1,10 +1,10 @@
 ---
 title: Property
 date: 2021-08-04
-permalink: /{{ locale }}/developers/modules/property/index.html
+permalink: /{{ locale }}/developers/modules/v1/property/index.html
 eleventyNavigation:
-  key: property-module
-  parent: developers_modules
+  key: v1-property-module
+  parent: developers_modules_v1
   order: 3120
   title: Property
 ---

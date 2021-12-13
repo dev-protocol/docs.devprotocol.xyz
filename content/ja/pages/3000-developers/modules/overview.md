@@ -10,3 +10,5 @@ eleventyNavigation:
 ---
 
 DEV Protocol で用意しているコントラクトについて紹介します
+V1とV2でインターフェースが違うことがあるので、ご注意ください
+Ethereum mainrnet、およびRopstenで稼働しているのがV1で、Arbitrum One、およびArbitrum testnet(rinkeby)で稼働しているのがV2となります
