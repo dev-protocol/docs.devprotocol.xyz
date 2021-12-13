@@ -9,4 +9,4 @@ eleventyNavigation:
   title: V2
 ---
 
-Arbitrum One、およびArbitrum testnet(rinkeby)で稼働しているのV2のコントラクトについて紹介します
+Arbitrum One、および Arbitrum testnet(rinkeby)で稼働しているの V2 のコントラクトについて紹介します

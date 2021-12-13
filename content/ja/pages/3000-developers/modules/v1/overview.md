@@ -9,4 +9,4 @@ eleventyNavigation:
   title: V1
 ---
 
-Ethereum mainrnet、およびRopstenで稼働しているのV1のコントラクトについて紹介します
+Ethereum mainrnet、および Ropsten で稼働しているの V1 のコントラクトについて紹介します

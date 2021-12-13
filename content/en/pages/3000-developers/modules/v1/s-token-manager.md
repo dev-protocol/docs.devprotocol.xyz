@@ -25,7 +25,7 @@ This contract is an ERC-721 compliant contract.
 - return: String
 
 - detail
-  　Return the URI corresponding to `_tokenId`.
+  　 Return the URI corresponding to `_tokenId`.
 
 #### setTokenURIImage( uint256 \_tokenId, string \_data )
 
@@ -37,8 +37,7 @@ This contract is an ERC-721 compliant contract.
 - return: none
 
 - detail
-  　Change the URI corresponding to `_tokenId`.
-
+  　 Change the URI corresponding to `_tokenId`.
 
 #### freezeTokenURI( uint256 \_tokenId )
 
@@ -68,7 +67,8 @@ This contract is an ERC-721 compliant contract.
 
   - `{number} _tokenId`
 
-- return: 
+- return:
+
   - `{address} _property`
   - `{number} _amount`
   - `{number} _price`
@@ -77,11 +77,11 @@ This contract is an ERC-721 compliant contract.
 
 - detail
   Get the position information associated with `_tokenId`.
-  _positions:The address of the Property as the staking destination
-  _amount:The amount of the new staking position
-  _price:The latest unit price of the cumulative staking reward
-  _cumulativeReward:The cumulative withdrawn reward amount
-  _pendingReward: The pending withdrawal reward amount amount
+  \_positions:The address of the Property as the staking destination
+  \_amount:The amount of the new staking position
+  \_price:The latest unit price of the cumulative staking reward
+  \_cumulativeReward:The cumulative withdrawn reward amount
+  \_pendingReward: The pending withdrawal reward amount amount
 
 #### descriptors( uint256 \_tokenId )
 
@@ -89,17 +89,17 @@ This contract is an ERC-721 compliant contract.
 
   - `{number} _tokenId`
 
-- return: 
+- return:
+
   - `{boolean} _isFreezed`
   - `{address} _freezingUser`
   - `{string} _descriptor`
 
 - detail
   Get customized URI information associated with `_tokenId`.
-  _isFreezed:Whether the descriptor can be changed or not
-  _freezingUser:Authors who have done the Freeze process
-  _descriptor:Customized URI information
-
+  \_isFreezed:Whether the descriptor can be changed or not
+  \_freezingUser:Authors who have done the Freeze process
+  \_descriptor:Customized URI information
 
 #### rewards( uint256 \_tokenId )
 
@@ -107,17 +107,18 @@ This contract is an ERC-721 compliant contract.
 
   - `{number} _tokenId`
 
-- return: 
+- return:
+
   - `{number} _entireReward`
   - `{number} _cumulativeReward`
   - `{number} _withdrawableReward`
 
 - detail
   Get the reward information associated with `_tokenId`.
-  _entireReward:The reward amount of adding the cumulative withdrawn amount
-	 to the withdrawable amount
-  _cumulativeReward:The cumulative withdrawn reward amount
-  _withdrawableReward:The withdrawable reward amount
+  \_entireReward:The reward amount of adding the cumulative withdrawn amount
+  to the withdrawable amount
+  \_cumulativeReward:The cumulative withdrawn reward amount
+  \_withdrawableReward:The withdrawable reward amount
 
 #### positionsOfProperty( address \_property )
 

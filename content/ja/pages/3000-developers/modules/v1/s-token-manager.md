@@ -25,7 +25,7 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: String
 
 - 使用方法
-  　`_tokenId`に対応したURIを返却する。
+  　`_tokenId`に対応した URI を返却する。
 
 #### setTokenURIImage( uint256 \_tokenId, string \_data )
 
@@ -37,8 +37,7 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: なし
 
 - 使用方法
-  　`_tokenId`に対応したURIを変更する。
-
+  　`_tokenId`に対応した URI を変更する。
 
 #### freezeTokenURI( uint256 \_tokenId )
 
@@ -49,7 +48,7 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: なし
 
 - 使用方法
-  `_tokenId`に紐づくuriを固定化する。`_tokenId`に紐づくpropertyのauthorしか実行できない。
+  `_tokenId`に紐づく uri を固定化する。`_tokenId`に紐づく property の author しか実行できない。
 
 #### meltTokenURI( uint256 \_tokenId )
 
@@ -60,7 +59,7 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: なし
 
 - 使用方法
-  `_tokenId`に紐づくuriの固定を解除する。`_tokenId`に紐づくpropertyのauthorしか実行できない。
+  `_tokenId`に紐づく uri の固定を解除する。`_tokenId`に紐づく property の author しか実行できない。
 
 #### positions( uint256 \_tokenId )
 
@@ -68,7 +67,8 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 
   - `{number} _tokenId`
 
-- 戻り値: 
+- 戻り値:
+
   - `{address} _property`
   - `{number} _amount`
   - `{number} _price`
@@ -77,11 +77,11 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 
 - 使用方法
   `_tokenId`に紐づくポジション情報を取得する
-  _positions:ステーキングしたpropertyアドレス
-  _amount:ステーキングしたDevトークンの数
-  _price:ステーキング報酬の最新単価
-  _cumulativeReward:引き出した報酬の累積額
-  _pendingReward: 保留中の報酬金額
+  \_positions:ステーキングした property アドレス
+  \_amount:ステーキングした Dev トークンの数
+  \_price:ステーキング報酬の最新単価
+  \_cumulativeReward:引き出した報酬の累積額
+  \_pendingReward: 保留中の報酬金額
 
 #### descriptors( uint256 \_tokenId )
 
@@ -89,17 +89,17 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 
   - `{number} _tokenId`
 
-- 戻り値: 
+- 戻り値:
+
   - `{boolean} _isFreezed`
   - `{address} _freezingUser`
   - `{string} _descriptor`
 
 - 使用方法
-  `_tokenId`に紐づく、カスタマイズされたURI情報を取得する
-  _isFreezed:固定化されている場合、true。固定化されている場合、変更ができない
-  _freezingUser:固定化を実行したウォレットアドレス
-  _descriptor:カスタマイズされたURI情報
-
+  `_tokenId`に紐づく、カスタマイズされた URI 情報を取得する
+  \_isFreezed:固定化されている場合、true。固定化されている場合、変更ができない
+  \_freezingUser:固定化を実行したウォレットアドレス
+  \_descriptor:カスタマイズされた URI 情報
 
 #### rewards( uint256 \_tokenId )
 
@@ -107,16 +107,17 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 
   - `{number} _tokenId`
 
-- 戻り値: 
+- 戻り値:
+
   - `{number} _entireReward`
   - `{number} _cumulativeReward`
   - `{number} _withdrawableReward`
 
 - 使用方法
   `_tokenId`に紐づく、報酬情報を取得する
-  _entireReward:引き出し可能額に累積引き出し額を加算した報酬額
-  _cumulativeReward:引き出した報酬の累積額
-  _withdrawableReward:引き出し可能な報酬額
+  \_entireReward:引き出し可能額に累積引き出し額を加算した報酬額
+  \_cumulativeReward:引き出した報酬の累積額
+  \_withdrawableReward:引き出し可能な報酬額
 
 #### positionsOfProperty( address \_property )
 
@@ -127,7 +128,7 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: number[]
 
 - 使用方法
-  `_property`に紐づく、tokenIdを取得する
+  `_property`に紐づく、tokenId を取得する
 
 #### positionsOfOwner( address \_owner )
 
@@ -138,4 +139,4 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 戻り値: number[]
 
 - 使用方法
-  `_owner`が所持する、tokenIdを取得する
+  `_owner`が所持する、tokenId を取得する
