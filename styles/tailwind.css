@@ -51,10 +51,10 @@
 
   /* Define blockquotes and some standard callout blocks */
   blockquote {
-    @apply rounded-lg p-4 bg-gray-100 dark:bg-gray-500 border-gray-200 border-l-8 dark:border-gray-700;
+    @apply rounded-lg p-4 bg-gray-100 dark:bg-gray-600 border-gray-200 border-l-8 dark:border-gray-700;
   }
   blockquote p {
-    @apply dark:text-gray-300 text-gray-600;
+    @apply dark:text-gray-200 text-gray-600;
   }
   blockquote a {
     @apply dark:hover:text-gray-600 !important;

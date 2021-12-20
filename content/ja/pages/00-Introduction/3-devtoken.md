@@ -75,7 +75,7 @@ Designed to increase in value as the number of tokens deposited by sponsors incr
 
 The following formula illustrates the basic concept:
 
-<div class="invertible-image">
+<div class="img-white-bg">
 
 ![tokenomics](/content/{{ locale }}/images/token/formura.png)
 
