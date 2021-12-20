@@ -188,12 +188,20 @@ h1 {
 	line-height: 100%;
 }
 
+.dark #page-content > div > div > div > article > div > h4 {
+    color: #6695c4;
+}
+
 #page-content > div > div > div > article > div > h4::before {
 	content: "#";
 	color: #5e8ef5;
 	position: absolute;
 	left: -1em;
 	font-size: 1.125rem;
+}
+
+.dark #page-content > div > div > div > article > div > h4 + ul * {
+	color: rgba(156,163,175); /* text-gray-400 */
 }
 
 #page-content > div > div > div > article > div > h4 + ul * {

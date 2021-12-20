@@ -10,7 +10,11 @@ eleventyNavigation:
 	subtitle: Dev Protocol ドキュメント
 ---
 
+<div class="img-white-bg">
+
 ->![Dev Protocol](/content/{{ locale }}/images/devprotocol-logo.png)<-
+
+</div>
 
 こちらは Dev Protocol について解説するドキュメントサイトになります。
 Stakes.social の使い方や Dev Protocol を使ってアプリケーションを開発する方法などを紹介しています。

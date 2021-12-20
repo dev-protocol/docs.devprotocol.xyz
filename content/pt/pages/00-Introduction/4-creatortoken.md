@@ -36,4 +36,8 @@ O Dev Protocol possui um oráculo embutido exclusivo, "Khaos", que se conecta de
 
 Ao fornecer uma "prova de propriedade" totalmente exclusiva, seus ativos nunca serão copiados ilicitamente por alguém.
 
+<div class="img-white-bg">
+
 ![Como funciona o oráculo Khaos](/content/{{ locale }}/images/00-introduction/how-Khaos-works.png)
+
+</div>

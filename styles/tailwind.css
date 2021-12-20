@@ -11,6 +11,13 @@
   img:hover {
     @apply border-2 border-gray-100
   }
+  .dark .invertible-image { /* @apply filter dark:invert doesn't work for some reason */
+    filter: invert(1);
+  }
+  .dark .img-white-bg img {
+    background-color: white
+  }
+
   /* Overrides for Tailwind Typography prose class */
   .prose a {
     @apply dark:text-gray-400
@@ -42,6 +49,12 @@
   /* Define blockquotes and some standard callout blocks */
   blockquote {
     @apply rounded-lg p-4 bg-gray-100 dark:bg-gray-500 border-gray-200 border-l-8 dark:border-gray-700;
+  }
+  blockquote p {
+    @apply dark:text-gray-300 text-gray-600;
+  }
+  blockquote a {
+    @apply dark:hover:text-gray-600 !important;
   }
   .callout {
     @apply px-8 py-4 mb-4 rounded-lg bg-yellow-50;

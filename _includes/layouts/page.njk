@@ -18,13 +18,13 @@ section: page
 
 <div id="page-content" class="flex w-full justify-center">
     <div class="mt-4 px-6 md:px-6 lg:px-8 xl:px-12 w-full max-w-5xl">
-        <div class="wrapper flex justify-between">
+        <div class="wrapper flex justify-between  w-full">
             {% if site.enableTOC and toc %}
             <div class="main flex flex-col pr-0 xl:pr-64 prose sm:prose lg:prose-lg xl:prose-md">
             {% else %}
-             <div class="main  flex flex-col pr-0 prose sm:prose lg:prose-lg xl:prose-md">
+             <div class="main flex flex-col pr-0 prose sm:prose lg:prose-lg xl:prose-md w-full">
             {% endif %}
-                <article>
+                <article class="w-full">
                 <h1 class="dark:text-gray-500">{{ title }}</h1>
 				<span class="subtitle">{{ subtitle }}</span>
                 {% if site.navigationStyle == "horizontal" %}
@@ -39,7 +39,7 @@ section: page
                         </div>
                     {% endif %}
                 {% endif %}
-                <div class="self-center adjust  dark:text-gray-400">
+                <div class="self-center adjust  dark:text-gray-400 w-full">
                     {{ layoutContent | safe }}
                     {% if (site.enableComments) and (comments !== 0) %}
                         <!-- Paste your comment code here! -->

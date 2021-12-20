@@ -39,7 +39,7 @@ class LangSwitch extends HTMLElement {
 		this.innerHTML = html`
 			<div class="[ lang-switch ] [ md:ta-right gap-bottom-500 ]">
 				<select
-					class="[ select ] [ font-base text-base ] [ js-lang-select ] bg-white dark:bg-gray-800 shadow-md leading-tight rounded border-gray-200"
+					class="[ select ] [ font-base text-base ] [ js-lang-select ] bg-white dark:text-gray-400 dark:bg-gray-800 shadow-md leading-tight rounded border-gray-200"
 				>
 					<option value="en">English (en)</option>
 					<option value="pt">Português (pt)</option>

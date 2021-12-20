@@ -74,7 +74,12 @@ Designed to increase in value as the number of tokens deposited by sponsors incr
 - No lado dos criadores： Quanto mais ativos são tokenizados, mais são emitidos e torna-se mais fácil para os criadores atraírem patrocinadores.
 
 A seguinte fórmula ilustra o conceito básico:
+
+<div class="invertible-image">
+
 ![tokenomics](/content/{{ locale }}/images/token/formura.png)
+
+</div>
 
 > Explicação detalhada:
 > Aumentando os lockups, as remunerações diminuem e as taxas de inflação também diminuem. Com o aumento de ativos, as remunerações aumentam e as taxas de inflação também. A tendência deflacionária se torna mais rápida com os aumentos de lockup. O ideal é que um aumento nos ativos seja acompanhado por lockups, de modo que um aumento nos ativos seja um fator para aumentar a taxa de inflação. Porém, com o aumento nos lockups, o aumento nos ativos terá um impacto menor. O valor máximo é 0,00012 por bloco e ativo.

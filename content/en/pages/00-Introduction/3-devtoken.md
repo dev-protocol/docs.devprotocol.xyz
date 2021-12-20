@@ -74,7 +74,12 @@ Designed to increase in value as the number of tokens deposited by sponsors incr
 - As Creators side: The more assets are tokenised, the more issued, and the easier it is for creators to attract sponsors.
 
 The following formula illustrates the basic concept:
-![tokenomics](/content/{{ locale }}/images/token/formura.png)
+
+<div class="invertible-image">
+
+  ![tokenomics](/content/{{ locale }}/images/token/formura.png)
+
+</div>
 
 > Detailed explanation:
 > As lockups increase, rewards decrease, and inflation rates decrease. As assets increase, rewards increase, and inflation rates increase. The deflationary trend makes it more rapidly by lockup increases. Ideally, an increase in assets should be accompanied by lockups, so an increase in assets should be a factor in increasing the inflation rate. But as lockups increase, the less impact the increase in assets will have. The maximum value is 0.00012 per block and an asset.

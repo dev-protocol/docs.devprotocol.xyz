@@ -10,7 +10,11 @@ eleventyNavigation:
 	subtitle: 🧑‍💻👩‍💻 Welcome to Dev Protocol's docs!📚
 ---
 
+<div class="img-white-bg">
+
 ->![Dev Protocol](/content/{{ locale }}/images/devprotocol-logo.png)<-
+
+</div>
 
 Here you can learn about the Dev Protocol, how to start using Stakes.social and how to develop with Dev Protocol.
 The pages that follow are comprehensive documentation of the DEV ecosystem.

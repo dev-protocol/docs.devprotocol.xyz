@@ -37,4 +37,8 @@ Dev Protocol has unique built-in oracle "Khaos" that securely connects to all we
 
 To provide completely unique "proof of ownership", your assets will never be illicitly copied by anyone.
 
+<div class="img-white-bg">
+
 ![How Khaos oracle works ](/content/{{ locale }}/images/00-introduction/how-Khaos-works.png)
+
+</div>

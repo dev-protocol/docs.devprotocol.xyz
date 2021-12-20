@@ -695,6 +695,16 @@ blockquote {
   padding: 1rem;
 }
 
+blockquote p {
+  --tw-text-opacity: 1;
+  color: rgba(153, 27, 27, var(--tw-text-opacity));
+}
+
+.dark blockquote p {
+  --tw-text-opacity: 1;
+  color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
 .callout-blue {
   margin-bottom: 1rem;
   border-radius: 0.5rem;
