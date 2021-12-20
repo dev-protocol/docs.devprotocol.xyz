@@ -11,9 +11,6 @@
   img:hover {
     @apply border-2 border-gray-100
   }
-  .dark .invertible-image { /* @apply filter dark:invert doesn't work for some reason */
-    filter: invert(1);
-  }
   .dark .img-white-bg img {
     background-color: white
   }
