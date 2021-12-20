@@ -638,6 +638,14 @@ img:hover {
   border-color: rgba(243, 244, 246, var(--tw-border-opacity))
 }
 
+.dark .invertible-image { /* @apply filter dark:invert doesn't work for some reason */
+  filter: invert(1);
+}
+
+.dark .img-white-bg img {
+  background-color: white
+}
+
 /* Overrides for Tailwind Typography prose class */
 
 .dark .prose a {
@@ -657,6 +665,11 @@ img:hover {
 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
   scroll-margin-top: 3.5em;
+}
+
+.dark .prose h3 {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 
 .prose pre code {
@@ -697,12 +710,17 @@ blockquote {
 
 blockquote p {
   --tw-text-opacity: 1;
-  color: rgba(153, 27, 27, var(--tw-text-opacity));
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
 .dark blockquote p {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
+.dark blockquote a:hover {
+  --tw-text-opacity: 1 !important;
+  color: rgba(75, 85, 99, var(--tw-text-opacity)) !important;
 }
 
 .callout-blue {
