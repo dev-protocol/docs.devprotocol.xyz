@@ -61,8 +61,6 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 使用方法
   `_tokenId`に紐づく uri が固定化されているか確認する。
 
-
-
 #### positions( uint256 \_tokenId )
 
 - 引数:
