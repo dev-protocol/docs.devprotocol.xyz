@@ -50,16 +50,18 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
 - 使用方法
   `_tokenId`に紐づく uri を固定化する。`_tokenId`に紐づく property の author しか実行できない。
 
-#### meltTokenURI( uint256 \_tokenId )
+#### isFreezed( uint256 \_tokenId )
 
 - 引数:
 
   - `{number} _tokenId`
 
-- 戻り値: なし
+- 戻り値: boolean
 
 - 使用方法
-  `_tokenId`に紐づく uri の固定を解除する。`_tokenId`に紐づく property の author しか実行できない。
+  `_tokenId`に紐づく uri が固定化されているか確認する。
+
+
 
 #### positions( uint256 \_tokenId )
 
@@ -82,24 +84,6 @@ STokenManager コントラクトは SToken を管理するコントラクトで�
   \_price:ステーキング報酬の最新単価
   \_cumulativeReward:引き出した報酬の累積額
   \_pendingReward: 保留中の報酬金額
-
-#### descriptors( uint256 \_tokenId )
-
-- 引数:
-
-  - `{number} _tokenId`
-
-- 戻り値:
-
-  - `{boolean} _isFreezed`
-  - `{address} _freezingUser`
-  - `{string} _descriptor`
-
-- 使用方法
-  `_tokenId`に紐づく、カスタマイズされた URI 情報を取得する
-  \_isFreezed:固定化されている場合、true。固定化されている場合、変更ができない
-  \_freezingUser:固定化を実行したウォレットアドレス
-  \_descriptor:カスタマイズされた URI 情報
 
 #### rewards( uint256 \_tokenId )
 
