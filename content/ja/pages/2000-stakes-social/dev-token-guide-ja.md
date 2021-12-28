@@ -1,7 +1,7 @@
 ---
 title: DEVトークン ガイド
 date: 2021-06-18
-permalink: /{{ locale }}/stakes-social/token-guide/ja/index.html
+permalink: /{{ locale }}/stakes-social/token-guide/index.html
 eleventyNavigation:
   key: DEV Token Guide
   parent: stakes-social
