@@ -9,16 +9,16 @@ eleventyNavigation:
   title: sTokenに画像を添付する(クリエイター向け)
 ---
 
-1. Propertyページにアクセスし、画像を添付したいsTokenのPositionsボタンをクリックします。
-![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/positions-link.png)
+1. Property ページにアクセスし、画像を添付したい sToken の Positions ボタンをクリックします。
+   ![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/positions-link.png)
 
 2. 画像アップロードフォームに画像をドラッグします。
-![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/positions.png)
+   ![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/positions.png)
 
 3. 画像がアップロードされたら、Change image via IPFS ボタンをクリックします。
-![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/upload-image.png)
+   ![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/upload-image.png)
 
-4. メタマスクのConfirmボタンが表示されるので、問題なければConfirmします。
-![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/save.png)
+4. メタマスクの Confirm ボタンが表示されるので、問題なければ Confirm します。
+   ![sTokenImage](/content/{{ locale }}/images/stakes.social/how-to-attach/save.png)
 
-5. ConfirmされるとsTokenのイメージがアップロードした画像に更新されます。
+5. Confirm されると sToken のイメージがアップロードした画像に更新されます。
