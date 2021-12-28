@@ -1,10 +1,10 @@
 ---
 title: Lockup コントラクト
 date: 2021-10-29
-permalink: /{{ locale }}/developers/modules/lockup/index.html
+permalink: /{{ locale }}/developers/modules/v1/lockup/index.html
 eleventyNavigation:
-  key: lockup-module
-  parent: developers_modules
+  key: v1-lockup-module
+  parent: developers_modules_v1
   order: 3140
   title: Lockup コントラクト
 ---

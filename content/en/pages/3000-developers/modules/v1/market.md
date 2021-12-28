@@ -1,12 +1,12 @@
 ---
-title: Market コントラクト
+title: Market
 date: 2021-08-04
-permalink: /{{ locale }}/developers/modules/market/index.html
+permalink: /{{ locale }}/developers/modules/v1/market/index.html
 eleventyNavigation:
-  key: market-module
-  parent: developers_modules
+  key: v1-market-module
+  parent: developers_modules_v1
   order: 3130
-  title: Market コントラクト
+  title: Market
 ---
 
 ## Summary

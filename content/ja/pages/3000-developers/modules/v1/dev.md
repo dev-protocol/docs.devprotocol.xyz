@@ -1,10 +1,10 @@
 ---
 title: Dev コントラクト
 date: 2021-08-04
-permalink: /{{ locale }}/developers/modules/dev/index.html
+permalink: /{{ locale }}/developers/modules/v1/dev/index.html
 eleventyNavigation:
-  key: dev-module
-  parent: developers_modules
+  key: v1-dev-module
+  parent: developers_modules_v1
   order: 3110
   title: Dev コントラクト
 ---
