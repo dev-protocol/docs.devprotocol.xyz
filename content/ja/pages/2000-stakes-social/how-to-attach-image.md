@@ -1,7 +1,7 @@
 ---
 title: sTokenに画像を添付する(クリエイター向け)
 date: 2021-12-28
-permalink: /{{ locale }}/stakes-social/attach-image/ja/index.html
+permalink: /{{ locale }}/stakes-social/attach-image/index.html
 eleventyNavigation:
   key: Attach image to sToken
   parent: stakes-social
