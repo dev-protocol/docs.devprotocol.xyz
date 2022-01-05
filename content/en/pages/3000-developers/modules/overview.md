@@ -1,5 +1,5 @@
 ---
-title: コントラクト
+title: Contracts
 date: 2021-05-07
 permalink: /{{ locale }}/developers/modules/index.html
 eleventyNavigation:
