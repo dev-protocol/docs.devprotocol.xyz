@@ -49,7 +49,7 @@ After accessing Stakes.social, switch from Metamask to the "Arbitrum One" networ
 For projects that are already onboard on the mainnet, you do not need to apply again, so please use the link below to tokenize.
 
 Note) Please switch the connection network to "Arbitrum One" before proceeding.
-https://stakes.social/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d
+https://stakes.social/arbitrum-one/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d
 For "Project name", enter the path of the project's Github URL
 
 ![Github path](/content/{{ locale }}/images/stakes.social/guide-arbitrum03.png)

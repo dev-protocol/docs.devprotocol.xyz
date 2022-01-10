@@ -48,7 +48,7 @@ https://arbitrum.io/bridge-tutorial/
 Stakes.social にアクセス後、Metamask から「Arbitrum One」のネットワークに切り替えてから、オンボードを行います。
 既にメインネットにオンボードされているプロジェクトについては再度申請していただく必要ありませんので以下のリンクからトークナイズを行なってください。
 注）接続ネットワークを「Arbitrum One」に切り替えてから行なってください
-https://stakes.social/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d
+https://stakes.social/arbitrum-one/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d
 「Project name」には、プロジェクトの GithubURL のパスを入力してください
 
 ![Github path](/content/{{ locale }}/images/stakes.social/guide-arbitrum03.png)
