@@ -1750,12 +1750,6 @@ nav ul li a.active {
   justify-content: space-between !important;
 }
 
-.space-y-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0 !important;
-  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse))) !important;
-  margin-bottom: calc(1rem * var(--tw-space-y-reverse)) !important;
-}
-
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0 !important;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse))) !important;
@@ -1959,11 +1953,6 @@ nav ul li a.active {
   padding-left: 1rem !important;
 }
 
-.text-xs {
-  font-size: 0.75rem !important;
-  line-height: 1rem !important;
-}
-
 .text-sm {
   font-size: 0.875rem !important;
   line-height: 1.25rem !important;
@@ -1972,10 +1961,6 @@ nav ul li a.active {
 .text-lg {
   font-size: 1.125rem !important;
   line-height: 1.75rem !important;
-}
-
-.font-normal {
-  font-weight: 400 !important;
 }
 
 .font-semibold {
@@ -2022,19 +2007,9 @@ nav ul li a.active {
   color: rgba(107, 114, 128, var(--tw-text-opacity)) !important;
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1 !important;
-  color: rgba(75, 85, 99, var(--tw-text-opacity)) !important;
-}
-
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1 !important;
   color: rgba(75, 85, 99, var(--tw-text-opacity)) !important;
-}
-
-.hover\:text-gray-800:hover {
-  --tw-text-opacity: 1 !important;
-  color: rgba(31, 41, 55, var(--tw-text-opacity)) !important;
 }
 
 .hover\:text-gray-900:hover {
@@ -2055,11 +2030,6 @@ nav ul li a.active {
 .dark .dark\:text-gray-500 {
   --tw-text-opacity: 1 !important;
   color: rgba(107, 114, 128, var(--tw-text-opacity)) !important;
-}
-
-.dark .dark\:text-gray-600 {
-  --tw-text-opacity: 1 !important;
-  color: rgba(75, 85, 99, var(--tw-text-opacity)) !important;
 }
 
 .dark .dark\:text-yellow-400 {
@@ -2527,11 +2497,6 @@ nav ul li a.active {
   .sm\:prose > :last-child {
     margin-bottom: 0;
   }
-
-  .sm\:text-xs {
-    font-size: 0.75rem !important;
-    line-height: 1rem !important;
-  }
 }
 
 @media (min-width: 768px) {
@@ -2607,11 +2572,6 @@ nav ul li a.active {
 
   .md\:pl-64 {
     padding-left: 16rem !important;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem !important;
-    line-height: 1.25rem !important;
   }
 }
 
@@ -2850,11 +2810,6 @@ nav ul li a.active {
 
   .lg\:pl-72 {
     padding-left: 18rem !important;
-  }
-
-  .lg\:text-sm {
-    font-size: 0.875rem !important;
-    line-height: 1.25rem !important;
   }
 }
 

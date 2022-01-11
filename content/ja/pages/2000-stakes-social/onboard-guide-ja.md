@@ -38,15 +38,7 @@ MetaMask は Chrome Extension 版もあるので、PC から Stakes.social を�
 ## ガス代について
 
 ガス代についてはこちらをご覧ください : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
-Stakes.social に登録するためにはガス代が必要になります。ガス代は混雑状況により常に変動しておりますが、およそ 0.0436ETH くらいが必要になります。
-
-## ガス代の助成金制度について
-
-条件を満たす OSS には、登録に必要なガス代を支援する制度を用意しております。詳細は以下からアクセスしてみてください
-
-[https://onboarding-sponsors.devprotocol.xyz/](https://onboarding-sponsors.devprotocol.xyz/)
-
-![GUIDE02](/content/{{ locale }}/images/stakes.social/onboard-guide/guide02.png)
+Stakes.social に登録するためにはガス代が必要になります。必要なガス代は、オンボードを選択したネットワークの混雑状況によって変動します。
 
 ## OSS の登録方法について
 
