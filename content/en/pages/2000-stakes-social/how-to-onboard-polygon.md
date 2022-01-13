@@ -57,7 +57,7 @@ Go to stakes.social, remember to change your network to Polygon, you can do that
 
 By clicking on the menu, you will be able to check in what network you are connected to and be able to select another one and change it.
 
-![Image 5](/content/{{ locale }}/images/stakes.social/polygon-guide/image5.png)
+![Image 5](/content/{{ locale }}/images/stakes.social/polygon-guide/image5.PNG)
 
 Now on the same menu, click on the Create button (1) , you will be redirected to the Create an Asset page (2) where you will be asked to submit an application. Fill in the forms (3) and submit, after that, you will be asked to approve it with the signature button and your application will be completed.
 
