@@ -45,7 +45,7 @@ Note: remember that gas fees on the Polygon network are paid with MATIC.
 
 There is a YouTube guide if you still don’t feel comfortable transferring assets between chains:
 
-https://wallet.polygon.technology/bridge
+https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9
 
 Make sure you get some MATIC for the onboarding fee costs, it shouldn’t be too much since Polygon is very cheap compared to the Ethereum mainnet.
 
