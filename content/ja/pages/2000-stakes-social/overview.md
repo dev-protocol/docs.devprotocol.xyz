@@ -29,20 +29,15 @@ Over 1,600 OSS projects issue tokens (utility token with ERC-20 form), and many 
 
 ## How to start Stakes.social?
 
-### 1. Onboard to Stakes.social (If you are an OSS developer)
-
-Onboarding Stakes.social has many benefits for your OSS and supporters. Please consider it.
-Please see the onboard guide [here](/stakes-social/onboard-guide/).
-
-### 2. Support OSS projects (Both supporters and OSS developers)
+### 1. Support OSS projects (Both supporters and OSS developers)
 
 Support your favourite OSS and both you and the developer will be rewarded.
-Please see the staking guide [here](/stakes-social/how-to-stake/).
+Please see the staking guide [here](/ja/stakes-social/how-to-stake/).
 
-### 3. Don't have a DEV yet?
+### 2. Don't have a DEV yet?
 
 You can buy or sell DEV tokens on various DEXs (Decentralized Exchange) like Uniswap.
-If you are new to crypto, Please see the start guide [here](/stakes-social/how-to-buy/).
+If you are new to crypto, Please see the start guide [here](/ja/stakes-social/how-to-buy/).
 
 ## Reference
 

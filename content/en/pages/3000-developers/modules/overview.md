@@ -6,7 +6,7 @@ eleventyNavigation:
   key: developers_modules
   parent: developers
   order: 3100
-  title: コントラクト
+  title: contract
 ---
 
 The following is an introduction to the contracts available in DEV Protocol.
