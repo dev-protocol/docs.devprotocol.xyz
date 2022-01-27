@@ -37,12 +37,12 @@
   dependencies:
     dependency-graph "^0.11.0"
 
-"@11ty/eleventy-plugin-syntaxhighlight@3.2.2":
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-syntaxhighlight/-/eleventy-plugin-syntaxhighlight-3.2.2.tgz#c159401cf7eae6eebac1374d3b62948a1bb7242f"
-  integrity sha512-RVVNKD74+dn+3cUsZozvknRnlbGe05zlgIW22+uuhxkDYIi97xhclXLGpJqo4+IVyIpY+bSnPQ+I0wuE4GaztQ==
+"@11ty/eleventy-plugin-syntaxhighlight@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-syntaxhighlight/-/eleventy-plugin-syntaxhighlight-4.0.0.tgz#108a72728c2f0c359e736f72126473a8dae36185"
+  integrity sha512-t95DIZQ7MnaspgpmXyKIgz2TpyN7EshMt9+SFfqVUYKTISU3+T3FTXFscoLownyNWb/5EC0od69BnCZwEcMzCg==
   dependencies:
-    linkedom "^0.13.0"
+    linkedom "^0.13.2"
     prismjs "^1.26.0"
 
 "@11ty/eleventy@1.0.0":
@@ -1041,12 +1041,23 @@ css-select@^4.1.3:
     domutils "^2.6.0"
     nth-check "^2.0.0"
 
+css-select@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/css-select/-/css-select-4.2.1.tgz#9e665d6ae4c7f9d65dbe69d0316e3221fb274cdd"
+  integrity sha512-/aUslKhzkTNCQUB2qTX84lVmfia9NyjP3WpDGtj/WxhwBzWBYUV3DgUpurHTme8UTPcPlAD1DJ+b0nN/t50zDQ==
+  dependencies:
+    boolbase "^1.0.0"
+    css-what "^5.1.0"
+    domhandler "^4.3.0"
+    domutils "^2.8.0"
+    nth-check "^2.0.1"
+
 css-unit-converter@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/css-unit-converter/-/css-unit-converter-1.1.2.tgz#4c77f5a1954e6dbff60695ecb214e3270436ab21"
   integrity sha512-IiJwMC8rdZE0+xiEZHeru6YoONC4rfPMqGm2W85jMIbkFvv5nFTwJVFHam2eFrN6txmoUYFAFXiv8ICVeTO0MA==
 
-css-what@^5.0.0, css-what@^5.0.1:
+css-what@^5.0.0, css-what@^5.0.1, css-what@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-5.1.0.tgz#3f7b707aadf633baf62c2ceb8579b545bb40f7fe"
   integrity sha512-arSMRWIIFY0hV8pIxZMEfmMI47Wj3R/aWpZDDxWYCPEiOMv6tfOrnpDtgxBYPEQD4V0Y/958+1TdC3iWTFcUPw==
@@ -1266,7 +1277,7 @@ domexception@^4.0.0:
   dependencies:
     webidl-conversions "^7.0.0"
 
-domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.2.2:
+domhandler@^4.0.0, domhandler@^4.2.0, domhandler@^4.2.2, domhandler@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-4.3.0.tgz#16c658c626cf966967e306f966b431f77d4a5626"
   integrity sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==
@@ -2129,7 +2140,7 @@ htmlparser2@^6.1.0:
     domutils "^2.5.2"
     entities "^2.0.0"
 
-htmlparser2@^7.1.2:
+htmlparser2@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-7.2.0.tgz#8817cdea38bbc324392a90b1990908e81a65f5a5"
   integrity sha512-H7MImA4MS6cw7nbyURtLPO1Tms7C5H602LRETv95z1MxO/7CP7rDVROehUYeYBUYEON94NXXDEPmZuq+hX4sog==
@@ -2626,15 +2637,15 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-linkedom@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/linkedom/-/linkedom-0.13.0.tgz#15ef2751ee8610a653ee9bb550907ed133bed0a5"
-  integrity sha512-QwWqKvKeWKKQrmMX9JPGtCZ6gXatp1/eKoUPGx0CoXFL8iZAtc6+rMkz2zZuVSjJw7QCw1oj/VH978Zc6WQjfA==
+linkedom@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/linkedom/-/linkedom-0.13.2.tgz#455187a4eb9a00f41e8a736c5d362ea7e1cafc05"
+  integrity sha512-lQPdDnml1Rl/T8QW3j10jJ37LMRcZqryy5kwHDIw9AYMabeE4P6kMp2mqJXWjjeXxJ4ebJC05Qx9Xxs4jWhNMw==
   dependencies:
-    css-select "^4.1.3"
+    css-select "^4.2.1"
     cssom "^0.5.0"
     html-escaper "^3.0.3"
-    htmlparser2 "^7.1.2"
+    htmlparser2 "^7.2.0"
     uhyphen "^0.1.0"
 
 linkify-it@^3.0.1:
@@ -3047,7 +3058,7 @@ npmlog@^4.0.1:
     gauge "~2.7.3"
     set-blocking "~2.0.0"
 
-nth-check@^2.0.0:
+nth-check@^2.0.0, nth-check@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.0.1.tgz#2efe162f5c3da06a28959fbd3db75dbeea9f0fc2"
   integrity sha512-it1vE95zF6dTT9lBsYbxvqh0Soy4SPowchj0UBGj/V6cTPnXXtQOPUbhZ6CmGzAD/rW22LQK6E96pcdJXk4A4w==
