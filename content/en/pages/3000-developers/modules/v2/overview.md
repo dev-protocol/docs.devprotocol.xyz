@@ -11,5 +11,4 @@ eleventyNavigation:
 
 We will introduce the V2 contracts running on Arbitrum and Polygon.
 
-You can find contract Addresses at the following link. Please check it.
 [V2 address information](https://github.com/dev-protocol/protocol-v2/wiki)
