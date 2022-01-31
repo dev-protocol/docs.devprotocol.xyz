@@ -9,4 +9,6 @@ eleventyNavigation:
   title: V2
 ---
 
-We will introduce the V2 contracts running on Arbitrum One and Arbitrum testnet (rinkeby).
+We will introduce the V2 contracts running on Arbitrum and Polygon.
+
+[V2 address information](https://github.com/dev-protocol/protocol-v2/wiki)
