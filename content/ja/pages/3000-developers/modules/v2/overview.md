@@ -10,3 +10,6 @@ eleventyNavigation:
 ---
 
 Arbitrum One、および Arbitrum testnet(rinkeby)で稼働しているの V2 のコントラクトについて紹介します
+
+V2のコントラクトのアドレス情報はこちらにまとめられています。ご参考にどうぞ。
+[https://github.com/dev-protocol/protocol-v2/wiki](https://github.com/dev-protocol/protocol-v2/wiki)
