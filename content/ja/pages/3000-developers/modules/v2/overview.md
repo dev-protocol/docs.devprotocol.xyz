@@ -9,7 +9,7 @@ eleventyNavigation:
   title: V2
 ---
 
-Arbitrum、およびPolygonで稼働しているV2 のコントラクトについて紹介します。
+Arbitrum、および Polygon で稼働している V2 のコントラクトについて紹介します。
 
 V2 のコントラクトのアドレス情報はこちらにまとめられています。ご参考にどうぞ。
 [V2 のコントラクトのアドレス情報](https://github.com/dev-protocol/protocol-v2/wiki)
