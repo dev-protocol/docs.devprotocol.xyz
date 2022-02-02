@@ -37,7 +37,7 @@ Chainlist の検索から「Arbitrum One」を検索して「Add To Metamask」�
 ネットワーク情報を入力して登録したい場合は下記をご参考ください
 https://developer.offchainlabs.com/docs/mainnet#connect-your-wallet
 
-**メインネットから Arbitrum One に ETH を移す**
+**Ethereum mainnetから Arbitrum One に ETH を移す**
 Arbitrum 上の Dev Protocol にオンボードするためには、ガス代分の ETH を「Arbitrum One」に移す必要があります。そのために Arbitrum Bridge を利用します
 https://bridge.arbitrum.io/
 
@@ -56,7 +56,7 @@ https://stakes.social/arbitrum-one/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13
 オンボードやり方については、こちらのガイドをご参照ください
 https://docs.devprotocol.xyz/ja/stakes-social/onboard-guide/ja/
 
-**メインネットから Arbitrum One に DEV を移す**
+**Ethereum mainnetから Arbitrum One に DEV を移す**
 Arbitrum One にメインネットの DEV を移す場合は、Dev Protocol Bridge を利用します。
 https://bridge.devprotocol.xyz/wrap
 
@@ -68,8 +68,7 @@ https://bridge.devprotocol.xyz/wrap
 4. L2 Beidge のタブに移ります
 5. 移したい WDEV を入力して Convert ボタンを押します
 
-**Arbitrum One からメインネットに DEV を移す**
-
-Arbitrum OneからメインネットにDEVトークンを移動させるには[Arbitrum Bridge](https://bridge.arbitrum.io/ )をご利用ください。
+**Arbitrum OneからEthereum mainnet に DEV を移す**
+Arbitrum OneからメインネットにDEVトークンを移動させるには[Arbitrum Bridge](https://bridge.arbitrum.io/)をご利用ください。
 
 Arbitrum からメインネットにトランザクションを行うには 10 日間ほど時間を要します。故に Arbitrum から DEV をメインネットに持ってくる場合にも 10 日間必要になりますのでご注意ください
