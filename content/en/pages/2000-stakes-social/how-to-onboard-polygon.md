@@ -15,14 +15,14 @@ Launched in 2017 originally as Matic network as an universal blockchain scaling 
 
 With the increasing gas fees on Ethereum mainnet, users and developers started looking to find a robust scaling solution. Polygon has been adopted by many, mainly because of its advantages over Ethereum mainnet, being significantly cheaper and faster.
 
-Note1: Even today Matic and Polygon are sometimes used interchangeably, so don’t get confused when you see it. 
+Note1: Even today Matic and Polygon are sometimes used interchangeably, so don’t get confused when you see it.
 
 Note2: MATIC is the token that pays for the gas fees on the Polygon network, so please have some MATIC in your wallet at all times on the Polygon network to pay for all the transactions.
 
 ## Add Polygon Network to your Wallet
 
-You will need to add Polygon network to your favorite wallet. The easiest way to do it is to go to 
-Chainlist and type in “Polygon”, connect your wallet to “Polygon Mainnet”, make sure the chainID is 137. 
+You will need to add Polygon network to your favorite wallet. The easiest way to do it is to go to
+Chainlist and type in “Polygon”, connect your wallet to “Polygon Mainnet”, make sure the chainID is 137.
 
 If you don’t want to go through the Chainlist route you can also add it manually in your wallet. To do that, open your wallet and click on the Network selection button at the top.
 
@@ -34,7 +34,7 @@ Click on ‘Custom RPC’ at the end of the list. This will open the page below,
 
 ## Using the Polygon bridge
 
-Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network.
+Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also transfer DEV from Polygon network to the Ethereum mainnet.
 https://wallet.polygon.technology/bridge
 
 ![Image 3](/content/{{ locale }}/images/stakes.social/polygon-guide/image3.png)

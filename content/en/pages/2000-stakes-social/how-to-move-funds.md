@@ -23,6 +23,8 @@ Once the transaction completes, you will see your WDEV balance reflected in the 
 Bridging funds to Arbitrum usually takes about 10 minutes for the funds to appear on Layer 2.
 In order for the funds to show up in MetaMask, make sure you import the token _0x91F5dC90979b058eBA3be6B7B7e523df7e84e137_, which is DEV on Arbitrum Mainnet.
 
+Please use [Arbitrum Bridge](https://bridge.arbitrum.io/ ) to transfer DEV from Arbitrum one to Ethereum mainnet.
+
 Keep in mind, withdrawing _any funds_ from Arbitrum can take up to **10 days** to complete.
 Remember, you also have to send Ethereum to Arbitrum to cover for gas fees, to that, follow these steps:
 
