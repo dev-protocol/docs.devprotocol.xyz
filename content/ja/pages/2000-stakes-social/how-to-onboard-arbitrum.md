@@ -68,4 +68,8 @@ https://bridge.devprotocol.xyz/wrap
 4. L2 Beidge のタブに移ります
 5. 移したい WDEV を入力して Convert ボタンを押します
 
+**Arbitrum One からメインネットに DEV を移す**
+
+Arbitrum OneからメインネットにDEVトークンを移動させるには[Arbitrum Bridge](https://bridge.arbitrum.io/ )をご利用ください。
+
 Arbitrum からメインネットにトランザクションを行うには 10 日間ほど時間を要します。故に Arbitrum から DEV をメインネットに持ってくる場合にも 10 日間必要になりますのでご注意ください
