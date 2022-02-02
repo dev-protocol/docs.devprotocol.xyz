@@ -71,5 +71,3 @@ We kindly ask for a week for the team to evaluate the project on the screening p
 
 If you have any questions, please follow the onboarding guide below, or contact us on Discord.
 https://docs.devprotocol.xyz/en/stakes-social/onboard-guide/
-
-
