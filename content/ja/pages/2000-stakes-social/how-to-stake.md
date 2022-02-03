@@ -28,7 +28,6 @@ That doesn't mean that your DEV are locked in the Smart Contract for a year, in 
 
 Stakes.social とは、OSS を Dev Protocol に登録したり、登録されている OSS に対してステーキング行ったりすることができるプラットフォームです。Dev Protocol はステーキングを用いることで、他の寄付サービスとは違い、支援者、開発者双方にメリットがあるように設計されております。この仕組みにより、支援が集まりやすく、またそれが継続的な支援につながっております
 
-
 ### ウォレットとは
 
 ウォレットとは仮想通貨を保管するものです。Ethereum や Dev Protocol が発行する DEV トークンを保管しておくためにはウォレットが必要になります。Dev Protocol ではウォレット機能は提供していないので、自分で探す必要があります。

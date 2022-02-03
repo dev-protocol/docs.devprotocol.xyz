@@ -22,7 +22,6 @@ Layer2 is a technology that allows you to implement a virtual machine "EVM" that
 
 Ethereum Mainnet has maintained high transaction fees due to recent increases in demand. Arbitrum can keep this fee low while using the same system as Ethereum.
 
-
 ## What is Polygon?
 
 Launched in 2017 originally as Matic network as an universal blockchain scaling solution, then it was rebranded in early 2021 as Polygon, focusing on being a scaling solution for Ethereum. Since it’s rebranding and change of focus, it has had tremendous success, with solid projects like Uniswap, Aave, OpenSea and upcoming games like Aavegotchi running on the Polygon network.
@@ -48,7 +47,7 @@ Click on ‘Custom RPC’ at the end of the list. This will open the page below,
 
 ## Using the Polygon bridge
 
-Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/ ) to transfer DEV from the Polygon network to the Ethereum mainnet.
+Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/) to transfer DEV from the Polygon network to the Ethereum mainnet.
 https://wallet.polygon.technology/bridge
 
 ![Image 3](/content/{{ locale }}/images/stakes.social/polygon-guide/image3.png)

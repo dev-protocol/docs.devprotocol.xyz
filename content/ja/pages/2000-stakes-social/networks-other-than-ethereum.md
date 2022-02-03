@@ -44,7 +44,6 @@ https://bridge.arbitrum.io/
 使用方法は下記のチュートリアルを参考にしてください
 https://arbitrum.io/bridge-tutorial/
 
-
 **Ethereum mainnet から Arbitrum One に DEV を移す**
 Arbitrum One にメインネットの DEV を移す場合は、Dev Protocol Bridge を利用します。
 https://bridge.devprotocol.xyz/wrap
@@ -60,4 +59,4 @@ https://bridge.devprotocol.xyz/wrap
 **Arbitrum One から Ethereum mainnet に DEV を移す**
 Arbitrum One からメインネットに DEV トークンを移動させるには[Arbitrum Bridge](https://bridge.arbitrum.io/)をご利用ください。
 
-Arbitrum からメインネットにトランザクションを行うには 10 日間ほど時間を要します。故に Arbitrum から DEV をEthereum mainnetに持ってくる場合にも 10 日間必要になりますのでご注意ください
+Arbitrum からメインネットにトランザクションを行うには 10 日間ほど時間を要します。故に Arbitrum から DEV を Ethereum mainnet に持ってくる場合にも 10 日間必要になりますのでご注意ください
