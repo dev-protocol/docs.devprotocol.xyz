@@ -24,6 +24,30 @@ When you Stake your DEV on a project, currently, you will get a 30.07% APY while
 
 That doesn't mean that your DEV are locked in the Smart Contract for a year, in fact **you're free to deposit and withdrawal any amount**, including just the rewards **any time you want**.
 
+### Stakes.social とは
+
+Stakes.social とは、OSS を Dev Protocol に登録したり、登録されている OSS に対してステーキング行ったりすることができるプラットフォームです。Dev Protocol はステーキングを用いることで、他の寄付サービスとは違い、支援者、開発者双方にメリットがあるように設計されております。この仕組みにより、支援が集まりやすく、またそれが継続的な支援につながっております
+
+
+### ウォレットとは
+
+ウォレットとは仮想通貨を保管するものです。Ethereum や Dev Protocol が発行する DEV トークンを保管しておくためにはウォレットが必要になります。Dev Protocol ではウォレット機能は提供していないので、自分で探す必要があります。
+
+ウォレットをまだ持っていない人は MetaMask がおすすめです。
+MetaMask は Chrome Extension 版もあるので、PC から Stakes.social を使いたい方はこちらを使うのをおすすめします
+[https://metamask.io/](https://metamask.io/)
+
+### ウォレットと Stakes.social の接続
+
+ウォレット（MetaMask）と Stakes.social を接続するには、ヘッダの右端にある「Sign in」をクリックすると接続することができます
+
+![GUIDE01](/content/{{ locale }}/images/stakes.social/onboard-guide/guide01.jpeg)
+
+### ガス代について
+
+ガス代についてはこちらをご覧ください : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
+Stakes.social に登録するためにはガス代が必要になります。必要なガス代は、オンボードを選択したネットワークの混雑状況によって変動します。
+
 ### How to Find a Project and Stake
 
 First of all, I suppose you already have DEV in your wallet, if you don't you can buy them on the exchanges listed on [coingecko](https://www.coingecko.com/en/coins/dev-protocol), I recommend Uniswap, because currently, it has the best liquidity by far. You will also need some Ethereum in your wallet to pay for the Staking and Withdrawal gas fees.
