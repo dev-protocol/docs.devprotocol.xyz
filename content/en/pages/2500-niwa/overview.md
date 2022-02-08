@@ -8,9 +8,9 @@ eleventyNavigation:
   title: Niwa
 ---
 
-## What is Niwa?
+![logo](/content/{{ locale }}/images/niwa/niwa-logo.png)
 
-// TODO ここににわのロゴ画像
+## What is Niwa?
 
 Niwa is the second official Dapp built on the Dev Protocol.It was released in February 2022 with the concept of wanting it to be a place where the community could gather.
 Niwa is a platform that allows creators to smoothly tokenize their work and for creators and sponsors to stake DEV tokens.

@@ -32,8 +32,7 @@ You will then need to add the network settings to your wallet.
 To connect your wallet (MetaMask) to Niwa, click "Connect Wallet" on the right side of the header.
 Please connect to the network where you want to use the wallet.
 
-// TODO コネクトウォレットの画像
-// TODO ネットワーク選択の画像
+![logo](/content/{{ locale }}/images/niwa/wallet.png)
 
 ## About gas prices
 
@@ -43,11 +42,13 @@ The base currency of each network will be used for gas: Ethereum for Arbitrum, m
 
 ## How to register a token
 
-// TODO 　 Market 選択画面の画像
+![logo](/content/{{ locale }}/images/niwa/markets.png)
 
 Select the service for which you want to register a token.
 
 ### GitHub
+
+![logo](/content/{{ locale }}/images/niwa/github-authenticate.png)
 
 ・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
 ・Set the name of the GitHub repository you want to tokenize. Please use the format {account name}/{repository name}.
@@ -59,6 +60,8 @@ After setting everything, press the Preview button, and if the settings are corr
 You will be asked to sign multiple times from your wallet.
 
 ### Youtube
+
+![logo](/content/{{ locale }}/images/niwa/youtube-authenticate.png)
 
 ・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
 ・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.

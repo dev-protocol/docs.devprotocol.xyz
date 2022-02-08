@@ -32,8 +32,8 @@ MetaMask は Chrome Extension 版もあるので、PC から Niwa を使いた�
 ウォレット（MetaMask）と Niwa を接続するには、ヘッダの右端にある「Connect Wallet」をクリックすると接続することができます
 ウォレットを利用したいネットワークに接続してご利用ください。
 
-// TODO コネクトウォレットの画像
-// TODO ネットワーク選択の画像
+![logo](/content/{{ locale }}/images/niwa/wallet.png)
+
 
 ## ガス代について
 
@@ -43,11 +43,13 @@ Niwa に登録するためにはガス代が必要になります。必要なガ
 
 ## トークン登録方法について
 
-// TODO 　 Market 選択画面の画像
+![logo](/content/{{ locale }}/images/niwa/markets.png)
 
 トークンを登録したいサービスを選択します。
 
 ### GitHub
+
+![logo](/content/{{ locale }}/images/niwa/github-authenticate.png)
 
 ・ウォレットに接続している場合、ネットワークやウォレットのアドレスは最初から設定されています。
 ・トークン化したい GitHub のリポジトリ名称を設定します。{アカウント名}/{リポジトリ名}というフォーマットでお願いします。
@@ -59,6 +61,8 @@ Niwa に登録するためにはガス代が必要になります。必要なガ
 ウォレットからの署名が複数回求められます。
 
 ### Youtube
+
+![logo](/content/{{ locale }}/images/niwa/youtube-authenticate.png)
 
 ・ウォレットに接続している場合、ネットワークやウォレットのアドレスは最初から設定されています。
 ・トークン名を設定します。任意のもので構いません。

@@ -11,19 +11,20 @@ eleventyNavigation:
 
 ### Creator token list screen
 
+![logo](/content/{{ locale }}/images/niwa/property-list.png)
+
 This screen allows you to see a list of your tokenized works.<br>
 When you connect to the wallet, click on the address that appears in the upper right corner of the header.<br>
 You will see a list of all the tokens you have created so far.
 
-// TODO トークンの一覧画面
-
 ### Staking screen
+
+![logo](/content/{{ locale }}/images/niwa/staking.png)
 
 Click on the creator token and this screen will appear.
 Select the amount of DEV you want to stake and stake it.
 You need to pre-approve before staking.
 
-// TODO 画面
 
 ## To receive more support
 
