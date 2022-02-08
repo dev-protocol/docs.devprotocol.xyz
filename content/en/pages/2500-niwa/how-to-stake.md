@@ -25,7 +25,6 @@ Click on the creator token and this screen will appear.
 Select the amount of DEV you want to stake and stake it.
 You need to pre-approve before staking.
 
-
 ## To receive more support
 
 Paste the staking screen link into your blog or tweet to direct people who want to support you to the staking screen.

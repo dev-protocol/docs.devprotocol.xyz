@@ -34,7 +34,6 @@ MetaMask は Chrome Extension 版もあるので、PC から Niwa を使いた�
 
 ![logo](/content/{{ locale }}/images/niwa/wallet.png)
 
-
 ## ガス代について
 
 ガス代についてはこちらをご覧ください : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)

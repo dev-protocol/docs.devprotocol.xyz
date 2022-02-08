@@ -8,7 +8,6 @@ eleventyNavigation:
   title: Niwa
 ---
 
-
 ![logo](/content/{{ locale }}/images/niwa/niwa-logo.png)
 
 ## Niwa とは？?
