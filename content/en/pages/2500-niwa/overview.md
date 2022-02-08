@@ -17,10 +17,9 @@ Niwa is a platform that allows creators to smoothly tokenize their work and for 
 
 Main Features
 
-1. tokenize creators' works and activities. 
-2. get sponsors and raise funds from the community. 
+1. tokenize creators' works and activities.
+2. get sponsors and raise funds from the community.
 3. both creators and sponsors can earn DEV tokens through staking.
-
 
 ## What is staking?
 
@@ -33,20 +32,23 @@ The domain will change for each network, so you can select the one you want to u
 Currently, Arbitrum and Polygon are available for selection.
 
 ### beta version
+
 [Polygon Niwa](https://polygon.niwa-beta.devprotocol.xyz)<br>
 [Arbitrum Niwa](https://arbitrum.niwa-beta.devprotocol.xyz)
 
 ### production version
+
 [Polygon Niwa](https://polygon.niwa.xyz/)<br>
 [Arbitrum Niwa](https://arbitrum.niwa.xyz/)
-
 
 ## Niwa's first steps
 
 ### 1.Tokenize and onboard your works and activities (creators)
+
 Check the [onboard guide](/niwa/onboard-guide/)
 
 ### 2. Staking (creators and sponsors)
+
 Check the [staking guide](/niwa/how-to-stake/)
 
 ### 3. Get the Dev.

@@ -41,31 +41,30 @@ For more information about gas prices, [please visit](https://devprotocol.xyz/fa
 In order to register with Niwa, you will need to pay for gas. The cost of the gas you need will vary depending on the congestion of the network you choose to onboard.
 The base currency of each network will be used for gas: Ethereum for Arbitrum, matic for Polygon.
 
-
 ## How to register a token
 
-// TODO 　Market選択画面の画像
+// TODO 　 Market 選択画面の画像
 
 Select the service for which you want to register a token.
 
 ### GitHub
+
 ・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
 ・Set the name of the GitHub repository you want to tokenize. Please use the format {account name}/{repository name}.
-・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether. 
-・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose. 
+・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.
+・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose.
 ・Set the Personal Access Token. You do not need to set any permissions. See [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for more information.
 
 After setting everything, press the Preview button, and if the settings are correct, press the "Sign and submit" button.
 You will be asked to sign multiple times from your wallet.
 
-
 ### Youtube
+
 ・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
-・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether. 
-・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose. 
+・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.
+・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose.
 
 After setting everything up, click the "Authorize Youtube Account" button to proceed with OAuth authentication.
-
 
 ## To receive more support
 

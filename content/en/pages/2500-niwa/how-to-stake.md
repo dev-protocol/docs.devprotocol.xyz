@@ -17,7 +17,6 @@ You will see a list of all the tokens you have created so far.
 
 // TODO トークンの一覧画面
 
-
 ### Staking screen
 
 Click on the creator token and this screen will appear.
