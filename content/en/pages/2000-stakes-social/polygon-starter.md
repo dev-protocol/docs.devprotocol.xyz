@@ -9,7 +9,8 @@ eleventyNavigation:
   title: Polygon Starter
 ---
 
-## Polygon Bridge 
+## Polygon Bridge
+
 The safe, fast, and most secure way to bring cross-chain assets to the Polygon chain. People can create their own bridges. But, currently, polygon bridge only supports Ethereum ⇔ Polygon Bridging.
 
 ### Steps to deposit funds on Polygon
@@ -52,7 +53,8 @@ Note: Some currencies are temporarily suspended or not available. Another option
 1. You must have an account on [Binance](https://www.binance.com/en)
 
 2. You must have some asset to exchange or buy MATIC in Binance
-- Buy with fiat 
+
+- Buy with fiat
 
 ![GUIDE07](/content/{{ locale }}/images/stakes.social/polygon-starter/screenshot7.png)
 
@@ -63,8 +65,9 @@ Note: Some currencies are temporarily suspended or not available. Another option
 Watch tutorials on how to buy MATIC on Binance: https://www.youtube.com/watch?v=SEEL7SwT1FE
 
 ## How to Transfer Matic from Binance to Metamask
+
 1. Once MATIC is bought, you can transfer MATIC to your MetaMask wallet
-2. Click on <strong>Withdraw</strong> button 
+2. Click on <strong>Withdraw</strong> button
 
 ![GUIDE09](/content/{{ locale }}/images/stakes.social/polygon-starter/screenshot9.png)
 
@@ -80,11 +83,11 @@ Watch tutorials on how to buy MATIC on Binance: https://www.youtube.com/watch?v=
 
 ![GUIDE012](/content/{{ locale }}/images/stakes.social/polygon-starter/screenshot12.png)
 
-6. Now, Enter the withdrawal amount. There is a minimum withdrawal amount limit which is 20 MATIC as of now. That means, you cannot withdraw an amount less than 20 MATIC. After filling in the `withdraw amount` value. Click the `Withdraw` button. 
+6. Now, Enter the withdrawal amount. There is a minimum withdrawal amount limit which is 20 MATIC as of now. That means, you cannot withdraw an amount less than 20 MATIC. After filling in the `withdraw amount` value. Click the `Withdraw` button.
 
 ![GUIDE013](/content/{{ locale }}/images/stakes.social/polygon-starter/screenshot13.png)
 
-7. It can take 3-4 minutes or more, depending on the traffic on the network for your balance to reflect in the metamask wallet. 
+7. It can take 3-4 minutes or more, depending on the traffic on the network for your balance to reflect in the metamask wallet.
 
 Watch the tutorial on how to Transfer Matic from Binance to Metamask https://www.youtube.com/watch?v=oxwHIiI_SRw
 

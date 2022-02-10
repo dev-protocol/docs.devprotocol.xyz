@@ -61,3 +61,26 @@ There is a YouTube guide if you still don’t feel comfortable transferring asse
 https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9
 
 Make sure you get some MATIC for the onboarding fee costs, it shouldn’t be too much since Polygon is very cheap compared to the Ethereum mainnet.
+
+## Onboarding
+
+Go to stakes.social, remember to change your network to Polygon, you can do that directly through your wallet or by clicking on the three dots menu on the top right corner of the page.
+
+![Image 4](/content/{{ locale }}/images/stakes.social/polygon-guide/image4.png)
+
+By clicking on the menu, you will be able to check in what network you are connected to and be able to select another one and change it.
+
+![Image 5](/content/{{ locale }}/images/stakes.social/polygon-guide/image5.PNG)
+
+Now on the same menu, click on the Create button (1) , you will be redirected to the Create an Asset page (2) where you will be asked to submit an application. Fill in the forms (3) and submit, after that, you will be asked to approve it with the signature button and your application will be completed.
+
+![Image 6](/content/{{ locale }}/images/stakes.social/polygon-guide/image6.png)
+
+If you already have a project onboarded on any other network please do the process again for the Polygon network.
+
+## Screening Process
+
+We kindly ask for a week for the team to evaluate the project on the screening process. We will let you know the results via e-mail so please change the filtering setup for your mailbox to receive an email from “@devprotocol.xyz”.
+
+If you have any questions, please follow the onboarding guide below, or contact us on Discord.
+https://docs.devprotocol.xyz/en/stakes-social/onboard-guide/
