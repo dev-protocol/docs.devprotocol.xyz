@@ -1,15 +1,28 @@
 ---
-title: How to Onboard Polygon's Dev Protocol
+title: Networks other than Ethereum
 date: 2021-11-02
-permalink: /{{ locale }}/stakes-social/onboard-guide-polygon/index.html
+permalink: /{{ locale }}/stakes-social/networks-other-than-ethereum/index.html
 eleventyNavigation:
-  key: Onboard Guide Polygon
+  key: Networks other than Ethereum
   parent: stakes-social
-  order: 2800
-  title: Onboard Guide Polygon
+  order: 2600
+  title: Networks other than Ethereum
 ---
 
-## What is Polygon
+![onboard Arbitrum](/content/{{ locale }}/images/stakes.social/guide-arbitrum01.png)
+
+Dev Protocol has released Dev Protocol on Layer2's Arbitrum and side chain's Polygon to avoid the recent surge in gas prices on the Ethereum network. By using Layer2, the gas cost for all transactions can be reduced, making staking and onboarding easier than ever.
+You can continue to use the Dev Protocol on the mainnet, but if you want to onboard the Dev Protocol of Arbitrum or Polygon, you will need to register onboard again.
+
+## What is Layer2
+
+Layer2 is a technology that allows you to implement a virtual machine "EVM" that executes contracts such as DeFi and NFT on a blockchain (Layer2) different from the mainnet. Arbitrum is a promising candidate for this technology, and Dev Protocol has released a service to Arbitrum One that has already been deployed.
+
+## Why release on Layer 2?
+
+Ethereum Mainnet has maintained high transaction fees due to recent increases in demand. Arbitrum can keep this fee low while using the same system as Ethereum.
+
+## What is Polygon?
 
 Launched in 2017 originally as Matic network as an universal blockchain scaling solution, then it was rebranded in early 2021 as Polygon, focusing on being a scaling solution for Ethereum. Since it’s rebranding and change of focus, it has had tremendous success, with solid projects like Uniswap, Aave, OpenSea and upcoming games like Aavegotchi running on the Polygon network.
 

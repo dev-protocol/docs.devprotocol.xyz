@@ -9,6 +9,10 @@ eleventyNavigation:
   title: How to stake your DEV on Stakes.social
 ---
 
+### What’s Stakes.social?
+
+Stakes.social is a platform where you can register your OSS to Dev Protocol and stake registered OSS projects. Unlike other donation services, Dev Protocol is designed for the benefit of both supporters as well as developers by staking. Thanks to this system, developers find it easy to ask people for aid, which results in continuous support.
+
 ### What is Staking in the Dev Protocol context
 
 Staking a token or a cryptocurrency is the act of locking up your tokens in a node or contract to validate transactions on a Proof of Stake blockchain, the Staker usually gets paid for that action.
@@ -23,6 +27,25 @@ When you Stake your DEV on a project, currently, you will get a 30.07% APY while
 - APY is constantly being updated. Please check Stakes.social for the latest data.
 
 That doesn't mean that your DEV are locked in the Smart Contract for a year, in fact **you're free to deposit and withdrawal any amount**, including just the rewards **any time you want**.
+
+### What’s wallet?
+
+A wallet is used for managing your crypto assets. You need to have a wallet to store the DEV tokens issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with a wallet function, you have to get one by yourself.
+
+If you’re looking for a wallet, we’d recommend you to have MetaMask.
+MetaMask corresponds to Chrome Extension version, so if you want to use Stakes.social via your PC, MetaMask would be one of you options.
+[https://metamask.io/](https://metamask.io/)
+
+### Connection between your wallet and Stakes.social
+
+Click “Sign in” button located at right end of the header to connect your wallet (MetaMask, in this case) and Stakes.social.
+
+![GUIDE01](/content/{{ locale }}/images/stakes.social/onboard-guide/guide01.jpeg)
+
+### Gas fee
+
+Please check the following website for the details of gas fee : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
+You need a gas fee to register at Stakes.social. The required gas fee will fluctuate depending on the congestion of the network you choose to onboard.
 
 ### How to Find a Project and Stake
 
