@@ -13,7 +13,7 @@ eleventyNavigation:
 
 Social tokens are a type of cryptocurrency that is built around a creator, community, or brand. It is a way that helps Creators to monetize their works without relying on third-party platforms or agencies. With Niwa, you can issue social tokens (FT*) specialized for creators, and freely combine them with various Dapps to start a creator economy using Web3.
 
-*FT: Fungible tokens with multiple issuance amounts, such as Bitcoin and Ethereum. It is characterized by high liquidity compared to NFTs. A type of FT, the DEV protocol's Property token has many features such as staking, co-ownership, and revenue sharing. To know more: https://docs.devprotocol.xyz/en/introduction/property-token/index.html)
+\*FT: Fungible tokens with multiple issuance amounts, such as Bitcoin and Ethereum. It is characterized by high liquidity compared to NFTs. A type of FT, the DEV protocol's Property token has many features such as staking, co-ownership, and revenue sharing. To know more: https://docs.devprotocol.xyz/en/introduction/property-token/index.html)
 
 ## Introduction
 

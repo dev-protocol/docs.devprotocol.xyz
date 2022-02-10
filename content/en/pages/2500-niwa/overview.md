@@ -21,12 +21,12 @@ Niwa is the second official Dapp built on the Dev Protocol. It was released in F
 3. Staking to social tokens
 4. Issuance and management of supporter proof NFT (sToken) ※2
 
-※1: As of February 2022, GitHub repository and YouTube channel tokenization are supported. More platforms will be supported. 
+※1: As of February 2022, GitHub repository and YouTube channel tokenization are supported. More platforms will be supported.
 ※2: A supporter proof NFT (sToken) will be issued automatically when the token is staked.
 
 ## How will you use it?
 
-Niwa’s URLs are as follows. Currently, only Beta version is in operation. We’re looking forward to hearing your feedbacks on Discord. After two weeks, we’ll have a release version. Please keep in mind that the URL for the release version is different from the Beta one. 
+Niwa’s URLs are as follows. Currently, only Beta version is in operation. We’re looking forward to hearing your feedbacks on Discord. After two weeks, we’ll have a release version. Please keep in mind that the URL for the release version is different from the Beta one.
 
 ### beta version
 
@@ -37,4 +37,3 @@ Niwa’s URLs are as follows. Currently, only Beta version is in operation. We�
 
 [Polygon Niwa](https://polygon.niwa.xyz/)<br>
 [Arbitrum Niwa](https://arbitrum.niwa.xyz/)
-
