@@ -19,12 +19,10 @@ Property tokens are ERC20 tokens you can issue at Dev Pprotocol. With property t
 - Divide your creator rewards with your team members.
 - All of these functions are automatically done on blockchain.
 
-
 ## How to issue your Property tokens?
 
-Property tokens can be easily issued without any knowledge of blockchain. Please use Niwa, a social token launcher built on Dev Protocol.    
+Property tokens can be easily issued without any knowledge of blockchain. Please use Niwa, a social token launcher built on Dev Protocol.  
 Go to Niwa section and learn more: https://docs.devprotocol.xyz/en/niwa/
-
 
 ## Behind tokenization process with Khaos
 

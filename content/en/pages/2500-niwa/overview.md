@@ -37,4 +37,3 @@ Niwaâ€™s URLs are as follows. Currently, only Beta version is in operation. Weâ€
 
 [Polygon Niwa](https://polygon.niwa.xyz/)<br>
 [Arbitrum Niwa](https://arbitrum.niwa.xyz/)
-

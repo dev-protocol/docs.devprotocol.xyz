@@ -8,7 +8,7 @@ eleventyNavigation:
   title: Introduction
 ---
 
-Dev Protocol is an open source decentralized middleware that authenticates creators' activities and realizes their sustainability. With Dev Protocol, anyone can start to monetise your works without changing licenses, codes, and support. Dev protocol allows you to issue powerful social tokens designed for creators to build your own economy and grow it through community. As a completely decentralized, on-chain-governed middleware protocol, anyone can develop a variety of Dapps and participate in the ecosystem. 
+Dev Protocol is an open source decentralized middleware that authenticates creators' activities and realizes their sustainability. With Dev Protocol, anyone can start to monetise your works without changing licenses, codes, and support. Dev protocol allows you to issue powerful social tokens designed for creators to build your own economy and grow it through community. As a completely decentralized, on-chain-governed middleware protocol, anyone can develop a variety of Dapps and participate in the ecosystem.
 
 ### What Benefits does Dev Protocol Offer?
 
