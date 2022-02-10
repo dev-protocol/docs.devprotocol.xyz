@@ -10,26 +10,23 @@ eleventyNavigation:
 
 ![logo](/content/{{ locale }}/images/niwa/niwa-logo.png)
 
-## What is Niwa?
+## What is Niwa? 🌈
 
-Niwa is the second official Dapp built on the Dev Protocol.It was released in February 2022 with the concept of wanting it to be a place where the community could gather.
-Niwa is a platform that allows creators to smoothly tokenize their work and for creators and sponsors to stake DEV tokens.
+Niwa is the second official Dapp built on the Dev Protocol. It was released in February 2022 with the concept of wanting it to be a place where the community could gather. It is specially made to be used by creators by letting them mint and manage social tokens. You can try a new type of organization instead of a conventional business corporation in order to realize creative projects.
 
-Main Features
+### Main Features
 
-1. tokenize creators' works and activities.
-2. get sponsors and raise funds from the community.
-3. both creators and sponsors can earn DEV tokens through staking.
+1. Issuance and management of social tokens
+2. Project authentication (asset tokenization) ※1
+3. Staking to social tokens
+4. Issuance and management of supporter proof NFT (sToken) ※2
 
-## What is staking?
-
-It is a mechanism to contribute to the network by locking (temporarily making inaccessible) cryptographic assets; in the case of Dev, if you stake a "DEV token" (ERC20) to support a creator's work, you will receive a DEV token as a reward.
+※1: As of February 2022, GitHub repository and YouTube channel tokenization are supported. More platforms will be supported. 
+※2: A supporter proof NFT (sToken) will be issued automatically when the token is staked.
 
 ## How will you use it?
 
-Please access and use the site from your browser.
-The domain will change for each network, so you can select the one you want to use.
-Currently, Arbitrum and Polygon are available for selection.
+Niwa’s URLs are as follows. Currently, only Beta version is in operation. We’re looking forward to hearing your feedbacks on Discord. After two weeks, we’ll have a release version. Please keep in mind that the URL for the release version is different from the Beta one. 
 
 ### beta version
 
@@ -41,17 +38,3 @@ Currently, Arbitrum and Polygon are available for selection.
 [Polygon Niwa](https://polygon.niwa.xyz/)<br>
 [Arbitrum Niwa](https://arbitrum.niwa.xyz/)
 
-## Niwa's first steps
-
-### 1.Tokenize and onboard your works and activities (creators)
-
-Check the [onboard guide](/niwa/onboard-guide/)
-
-### 2. Staking (creators and sponsors)
-
-Check the [staking guide](/niwa/how-to-stake/)
-
-### 3. Get the Dev.
-
-DEV tokens can be bought and sold on various DEX (decentralized exchanges) such as Uniswap.
-If you are new to crypto, please see [How to Buy DEV](/stakes-social/how-to-buy/).

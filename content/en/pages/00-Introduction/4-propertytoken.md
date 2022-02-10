@@ -1,16 +1,16 @@
 ---
-title: Creator Token Overview
+title: Property Token Overview
 date: 2021-05-07
-permalink: /{{ locale }}/introduction/creatortoken/index.html
+permalink: /{{ locale }}/introduction/property-token/index.html
 eleventyNavigation:
-  key: Creator token
+  key: property token
   parent: Introduction
   order: 4
-  title: Creator token Overview
-	subtitle: Creator token Overview
+  title: Property token Overview
+	subtitle: Property token Overview
 ---
 
-## What is Creator token?
+## What is Property token?
 
 Creators can issue their own creator tokens by tokenizing their creations.
 
@@ -19,7 +19,7 @@ Once you have issued your creator token, you will be able to access the followin
 - Manage OSS ownership and build your community DAO
 - Sustainable funding and splitting creators’ rewards to its holders
 
-## How to issue your creator tokens?
+## How to issue your Property tokens?
 
 Creator tokens can be easily issued without any knowledge of blockchain. The three steps are as follows:
 

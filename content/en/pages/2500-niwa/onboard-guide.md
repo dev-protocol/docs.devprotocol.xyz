@@ -1,17 +1,19 @@
 ---
 title: Onboard Guide
 date: 2022-02-10
-permalink: /{{ locale }}/niwa/onboard-guide/index.html
+permalink: /{{ locale }}/niwa/how-to-create-a-social-token/index.html
 eleventyNavigation:
-  key: Onboard Guide Niwa
+  key: How to Create a Social Token
   parent: niwa
   order: 2400
-  title: Onboard Guide
+  title: How to Create a Social Token
 ---
 
-## Overview of the Onboarding Guide
+## How to Create a Social Token
 
-This guide will guide you through the process of tokenizing your work and activities using Niwa and registering them in the Dev Protocol.
+Social tokens are a type of cryptocurrency that is built around a creator, community, or brand. It is a way that helps Creators to monetize their works without relying on third-party platforms or agencies. With Niwa, you can issue social tokens (FT*) specialized for creators, and freely combine them with various Dapps to start a creator economy using Web3.
+
+*FT: Fungible tokens with multiple issuance amounts, such as Bitcoin and Ethereum. It is characterized by high liquidity compared to NFTs. A type of FT, the DEV protocol's Property token has many features such as staking, co-ownership, and revenue sharing. To know more: https://docs.devprotocol.xyz/en/introduction/property-token/index.html)
 
 ## Introduction
 
