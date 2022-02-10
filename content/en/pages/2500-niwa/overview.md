@@ -4,7 +4,7 @@ date: 2022-02-10
 permalink: /{{ locale }}/niwa/index.html
 eleventyNavigation:
   key: niwa
-  order: 2000
+  order: 2510
   title: Niwa
 ---
 
@@ -37,3 +37,4 @@ Niwaâ€™s URLs are as follows. Currently, only Beta version is in operation. Weâ€
 
 [Polygon Niwa](https://polygon.niwa.xyz/)<br>
 [Arbitrum Niwa](https://arbitrum.niwa.xyz/)
+

@@ -1,11 +1,11 @@
 ---
-title: Start Guide
+title: Getting Started with Niwa
 date: 2022-02-10
 permalink: /{{ locale }}/niwa/how-to-create-a-social-token/index.html
 eleventyNavigation:
   key: How to Create a Social Token
   parent: niwa
-  order: 2400
+  order: 2520
   title: How to Create a Social Token
 ---
 
