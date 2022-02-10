@@ -1,5 +1,5 @@
 ---
-title: Onboard Guide
+title: Start Guide
 date: 2022-02-10
 permalink: /{{ locale }}/niwa/how-to-create-a-social-token/index.html
 eleventyNavigation:
@@ -13,66 +13,69 @@ eleventyNavigation:
 
 Social tokens are a type of cryptocurrency that is built around a creator, community, or brand. It is a way that helps Creators to monetize their works without relying on third-party platforms or agencies. With Niwa, you can issue social tokens (FT*) specialized for creators, and freely combine them with various Dapps to start a creator economy using Web3.
 
-\*FT: Fungible tokens with multiple issuance amounts, such as Bitcoin and Ethereum. It is characterized by high liquidity compared to NFTs. A type of FT, the DEV protocol's Property token has many features such as staking, co-ownership, and revenue sharing. To know more: https://docs.devprotocol.xyz/en/introduction/property-token/index.html)
+*FT: Fungible tokens with multiple issuance amounts, such as Bitcoin and Ethereum. It is characterized by high liquidity compared to NFTs. A type of FT, the DEV protocol's Property token has many features such as staking, co-ownership, and revenue sharing. 
 
-## Introduction
+Learn more: https://docs.devprotocol.xyz/en/introduction/property-token/index.html
 
-In order to register (tokenize) your work or activity to the Dev Protocol, you will need to complete the registration process from Niwa. You will need your wallet for the registration process. Make sure you have your wallet ready before you register!
+## Get Started
 
-## What is a wallet?
+Use the Polygon or Arbitrum link in this documentation: https://docs.devprotocol.xyz/en/niwa/
 
-A wallet is used for managing your crypto assets. You need to have a wallet to store the DEV tokens issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with a wallet function, you have to get one by yourself.
+1. Connect your wallet 
+2. Choose your wallet (MetaMask or Wallet Connect)
+3. After connecting your wallet. Click Tokens >
+4. Create New Token. Now you can be able to Tokenize your GitHub repository by just clicking the highlighted button “GitHub”. Soon YouTube will also be available.
+5. Fill up the GitHub Form
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image13.png)
+i. Since I selected Polygon Network in the above screen, matic will show on the textbox of “Network” 
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image16.png)
+and my wallet address on the Polygon Network will automatically show since it's connected to my wallet already.
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image5.png)
+ii. Input the GitHub repository that you want to onboard
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image8.png)
+- for example, the link of your project is https://github.com/dev-protocol/niwa, but you don’t have to put it all, only put the verifier ID like “dev-protocol/niwa” 
+- “**dev-protocol**” is the owner name then “niwa” is the repository name
 
-If you don't have a wallet yet, I recommend [MetaMask](https://metamask.io/).
-There is also a Chrome Extension version of MetaMask, so if you want to use Niwa from your PC, I recommend you to use this version.
-You will then need to add the network settings to your wallet.
-[How to add a Polygon network](https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/)
-[How to add an Arbitrum One network](https://wiki.rugdoc.io/docs/how-to-connect-metamask-to-the-arbitrum-one-network/)
+iii. Input the name of your token
+Token name is nomenclature given to token address, as we can't remember 40 characters long token contract hash. For example- MATIC token is name of the token [contract address](https://etherscan.io/address/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0).
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image1.png)
+- for example, the name of the token is: **Dev Token**
+- the name of the token depends on what you will like to create
 
-## Connecting the wallet to Niwa
+iv. Input the token symbol
+- A token symbol is generally 3-5 characters long represent the token contract address, just like the token name. The token symbols are what people will use to find and trade your token, also it is popular in social media conversations. So, be wise when you choose them.
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image9.png)
 
-To connect your wallet (MetaMask) to Niwa, click "Connect Wallet" on the right side of the header.
-Please connect to the network where you want to use the wallet.
+- for example, the token symbol is: **DEV**
+- the token symbol depends on what you will like to create
 
-![logo](/content/{{ locale }}/images/niwa/wallet.png)
+v. Get the Personal Access Token
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image6.png)
 
-## About gas prices
+You should create a personal access token to use in place of a password with the command line or with the API. 
 
-For more information about gas prices, [please visit](https://devprotocol.xyz/faq)
-In order to register with Niwa, you will need to pay for gas. The cost of the gas you need will vary depending on the congestion of the network you choose to onboard.
-The base currency of each network will be used for gas: Ethereum for Arbitrum, matic for Polygon.
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image15.png)
 
-## How to register a token
+Guide on how to create your Personal Access Token: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
-![logo](/content/{{ locale }}/images/niwa/markets.png)
+vi. Agree to the Terms of Service and Click Preview 
 
-Select the service for which you want to register a token.
+Note: Make sure you have an admin role in the repository or you are the owner of the repository to successfully tokenize.
 
-### GitHub
+vii. On Preview
 
-![logo](/content/{{ locale }}/images/niwa/github-authenticate.png)
+Now you have the chance you see what you fill on the form, you have the chance to go back to the form if there’s a typo by just clicking “ < Tokenize GitHub Form” above.
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image2.png)
 
-・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
-・Set the name of the GitHub repository you want to tokenize. Please use the format {account name}/{repository name}.
-・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.
-・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose.
-・Set the Personal Access Token. You do not need to set any permissions. See [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) for more information.
+viii. Sign and submit 
 
-After setting everything, press the Preview button, and if the settings are correct, press the "Sign and submit" button.
-You will be asked to sign multiple times from your wallet.
 
-### Youtube
+After clicking the **Sign and submit button**, the transaction information will be shown in your wallet. Make sure you have the right gas fee to successfully onboard.
 
-![logo](/content/{{ locale }}/images/niwa/youtube-authenticate.png)
+![Fill up the GitHub Form](/content/{{ locale }}/images/niwa/issue/image11.png)
 
-・If you are connected to a wallet, the network and wallet addresses are set from the beginning.
-・Set the token name. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.
-・Set the token symbol. This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose.
 
-After setting everything up, click the "Authorize Youtube Account" button to proceed with OAuth authentication.
+**Done.**
 
-## To receive more support
+Now your social token page will be available in a few minutes!
 
-It is important to announce your Niwa page in order to get more support for your activity.
-We encourage you to Tweet and blog about it. The Dev Protocol team and the community are also brainstorming ideas for more announcements within Niwa. If you have a good idea, please visit the Dev Protocol Forum and share your idea with us!
-[https://community.devprotocol.xyz/](https://community.devprotocol.xyz/)
