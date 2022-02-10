@@ -4155,10 +4155,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-staticrypt@1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/staticrypt/-/staticrypt-1.4.1.tgz#d4f92f323e8ebe049c7c4ed863e30ddaa4e7e260"
-  integrity sha512-uEgplY8quSOyYjSYtA7h7i35aJJWVNf2Lo/6xfDySvUyJ72S9MyRxMMQFGhfUYqL7qt73EtpjKXQmAu7izf1bA==
+staticrypt@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/staticrypt/-/staticrypt-2.0.1.tgz#3349495f98c2f5a3e5610e5add852441833de248"
+  integrity sha512-6xXCuec94xUsRsgZaUsc/c7pDemiLBPuvNC8wS4oxQU0Z6ErOUc8jVQgkjpLxpZJwIJdF+MQwQEgM/OAuzW5KA==
   dependencies:
     crypto-js ">=3.1.9-1"
     yargs ">=10.0.3"
