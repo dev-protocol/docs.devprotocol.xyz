@@ -1,0 +1,25 @@
+{
+  "unversionedId": "protocol/governance/dips",
+  "id": "version-0.1.0/protocol/governance/dips",
+  "title": "DIPs",
+  "description": "Dev Protocol has improvement proposal schemes \"DIPs\" through git. The DIPs' git remote repository is on GitHub.",
+  "source": "@site/versioned_docs/version-0.1.0/protocol/governance/dips.md",
+  "sourceDirName": "protocol/governance",
+  "slug": "/protocol/governance/dips",
+  "permalink": "/protocol/governance/dips",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/protocol/governance/dips.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "title": "DIPs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Governance",
+    "permalink": "/protocol/governance/"
+  },
+  "next": {
+    "title": "Upgrading core modules",
+    "permalink": "/protocol/governance/upgrading-core-modules"
+  }
+}

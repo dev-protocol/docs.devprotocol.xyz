@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/ecosystem-addresses",
+  "id": "developers/ecosystem-addresses",
+  "title": "Ecosystem Addresses",
+  "description": "||Mainnet|Ropsten|Rinkeby|",
+  "source": "@site/docs/developers/ecosystem-addresses.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/ecosystem-addresses",
+  "permalink": "/next/developers/ecosystem-addresses",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/ecosystem-addresses.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Ecosystem Addresses",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developers",
+    "permalink": "/next/developers/"
+  },
+  "next": {
+    "title": "DEV faucet",
+    "permalink": "/next/developers/dev-faucet"
+  }
+}

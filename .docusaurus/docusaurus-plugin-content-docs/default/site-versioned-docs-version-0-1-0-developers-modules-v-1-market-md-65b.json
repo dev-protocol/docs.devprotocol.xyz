@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/modules/v1/market",
+  "id": "version-0.1.0/developers/modules/v1/market",
+  "title": "Market",
+  "description": "Summary",
+  "source": "@site/versioned_docs/version-0.1.0/developers/modules/v1/market.md",
+  "sourceDirName": "developers/modules/v1",
+  "slug": "/developers/modules/v1/market",
+  "permalink": "/developers/modules/v1/market",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/developers/modules/v1/market.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Market",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Property",
+    "permalink": "/developers/modules/v1/property"
+  },
+  "next": {
+    "title": "STokenManager",
+    "permalink": "/developers/modules/v1/s-token-manager"
+  }
+}

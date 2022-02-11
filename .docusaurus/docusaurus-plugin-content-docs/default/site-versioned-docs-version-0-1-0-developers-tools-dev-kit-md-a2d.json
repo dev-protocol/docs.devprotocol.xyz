@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/tools/dev-kit",
+  "id": "version-0.1.0/developers/tools/dev-kit",
+  "title": "Dev Kit",
+  "description": "What is Dev Kit?",
+  "source": "@site/versioned_docs/version-0.1.0/developers/tools/dev-kit.md",
+  "sourceDirName": "developers/tools",
+  "slug": "/developers/tools/dev-kit",
+  "permalink": "/developers/tools/dev-kit",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/developers/tools/dev-kit.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Dev Kit",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Interfaces",
+    "permalink": "/developers/tools/interfaces"
+  },
+  "next": {
+    "title": "Dev Protocol Data Viewer",
+    "permalink": "/developers/tools/data-viewer"
+  }
+}

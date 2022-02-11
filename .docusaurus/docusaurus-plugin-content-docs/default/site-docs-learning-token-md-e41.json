@@ -1,0 +1,27 @@
+{
+  "unversionedId": "learning/token",
+  "id": "learning/token",
+  "title": "What's token?",
+  "description": "Token is a program executed on Ethereum, and is one of the common forms of smart contract. It is a written program in accordance with standardized interface.",
+  "source": "@site/docs/learning/token.md",
+  "sourceDirName": "learning",
+  "slug": "/learning/token",
+  "permalink": "/next/learning/token",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/learning/token.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "What's token?",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What's Ethereum?",
+    "permalink": "/next/learning/ethereum"
+  },
+  "next": {
+    "title": "Building Decentralized applications with DEV Integration",
+    "permalink": "/next/learning/Hands-on/guide"
+  }
+}

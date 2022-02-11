@@ -1,0 +1,388 @@
+{
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/blog/archive-f4c": {
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/next-941": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---next-935-67a"
+  },
+  "/next/-f7b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-0-e-3-b6e"
+  },
+  "/next/developers/-5d6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-1-c-4-508"
+  },
+  "/next/developers/dev-faucet-056": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-dev-faucet-39-a-a78"
+  },
+  "/next/developers/ecosystem-addresses-8bc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-ecosystem-addresses-477-782"
+  },
+  "/next/developers/modules/overview-34e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-overview-2-a-6-72a"
+  },
+  "/next/developers/modules/v1/dev-e60": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-1-dev-3-d-4-cff"
+  },
+  "/next/developers/modules/v1/market-f74": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-1-market-206-4cc"
+  },
+  "/next/developers/modules/v1/property-71a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-1-propertydea-a45"
+  },
+  "/next/developers/modules/v1/s-token-manager-f52": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-1-s-token-manager-903-071"
+  },
+  "/next/developers/modules/v2/s-token-manager-234": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-2-s-token-managerc-55-197"
+  },
+  "/next/developers/tools/data-viewer-c27": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-data-viewerd-98-e9b"
+  },
+  "/next/developers/tools/dev-kit-b51": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-dev-kit-300-7a1"
+  },
+  "/next/developers/tools/interfaces-b59": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-interfaces-73-f-3ff"
+  },
+  "/next/developers/tools/khaos-core-ad1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-khaos-core-8-b-1-d78"
+  },
+  "/next/developers/tools/khaos-kit-a10": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-khaos-kit-346-679"
+  },
+  "/next/developers/tools/khaos-starter-kit-d22": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-khaos-starter-kit-886-2ab"
+  },
+  "/next/developers/tools/util-contracts-863": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-util-contractsd-40-e4a"
+  },
+  "/next/developers/tools/util-ts-9ea": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-tools-util-ts-38-a-6a6"
+  },
+  "/next/Introduction/-7a8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-introduction-c-0-d-90d"
+  },
+  "/next/Introduction/creatortoken-27d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-introduction-creatortoken-6-b-3-26c"
+  },
+  "/next/Introduction/dev-ecosystem-3ab": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-introduction-dev-ecosystem-508-166"
+  },
+  "/next/Introduction/devtoken-bc1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-introduction-devtokendec-eef"
+  },
+  "/next/Introduction/what-is-devprotocol-532": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-introduction-what-is-devprotocolb-4-f-cb8"
+  },
+  "/next/khaos/-b84": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-khaos-d-62-882"
+  },
+  "/next/khaos/authentication-and-oraclization-6d0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-khaos-authentication-and-oraclizatione-66-013"
+  },
+  "/next/learning/ethereum-aa6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-ethereum-0-c-3-503"
+  },
+  "/next/learning/Hands-on/guide-281": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-hands-on-guide-5-aa-7a6"
+  },
+  "/next/learning/Hands-on/hands-on 1-33e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-hands-on-hands-on-12-fd-aeb"
+  },
+  "/next/learning/Hands-on/hands-on 2-db5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-hands-on-hands-on-29-e-7-38b"
+  },
+  "/next/learning/Hands-on/hands-on 3-631": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-hands-on-hands-on-328-e-772"
+  },
+  "/next/learning/token-62b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-learning-tokene-41-039"
+  },
+  "/next/protocol/governance/-654": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-protocol-governance-d-94-402"
+  },
+  "/next/protocol/governance/dips-060": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-protocol-governance-dipsc-23-c65"
+  },
+  "/next/protocol/governance/upgrading-core-modules-bff": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-protocol-governance-upgrading-core-modules-16-b-a1d"
+  },
+  "/next/protocol/governance/upgrading-predefined-variables-586": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-protocol-governance-upgrading-predefined-variables-6-e-2-393"
+  },
+  "/next/protocol/whitepaper-0c9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-protocol-whitepaperad-4-aa7"
+  },
+  "/next/stakes-social/-f70": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-d-82-c97"
+  },
+  "/next/stakes-social/how-to-attach-image-225": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-attach-image-960-93e"
+  },
+  "/next/stakes-social/how-to-buy-dev-f87": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-buy-dev-3-f-1-0be"
+  },
+  "/next/stakes-social/how-to-move-funds-fad": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-move-funds-571-b29"
+  },
+  "/next/stakes-social/how-to-onboard-arbitrum-0e9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-onboard-arbitrumdfc-b6e"
+  },
+  "/next/stakes-social/how-to-onboard-polygon-a8c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-onboard-polygon-7-c-0-ef5"
+  },
+  "/next/stakes-social/how-to-stake-0df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-how-to-stakef-0-d-1dc"
+  },
+  "/next/stakes-social/onboard-guide-647": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-stakes-social-onboard-guide-6-b-2-50a"
+  },
+  "/-8d4": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---618-523"
+  },
+  "/-0be": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---052-274"
+  },
+  "/developers/-cb8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-1-a-2-9ae"
+  },
+  "/developers/dev-faucet-209": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-dev-faucet-9-a-7-435"
+  },
+  "/developers/ecosystem-addresses-900": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-ecosystem-addresses-634-f42"
+  },
+  "/developers/modules/overview-02a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-overview-602-592"
+  },
+  "/developers/modules/v1/dev-8d3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-v-1-devf-30-dc8"
+  },
+  "/developers/modules/v1/market-fd6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-v-1-market-65-b-0ef"
+  },
+  "/developers/modules/v1/property-20c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-v-1-property-86-e-3d1"
+  },
+  "/developers/modules/v1/s-token-manager-122": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-v-1-s-token-manager-25-e-526"
+  },
+  "/developers/modules/v2/s-token-manager-35f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-modules-v-2-s-token-managere-82-909"
+  },
+  "/developers/tools/data-viewer-9be": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-data-viewer-897-dff"
+  },
+  "/developers/tools/dev-kit-f1f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-dev-kita-2-d-036"
+  },
+  "/developers/tools/interfaces-7c8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-interfacesf-82-21c"
+  },
+  "/developers/tools/khaos-core-737": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-khaos-coreacc-cb4"
+  },
+  "/developers/tools/khaos-kit-474": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-khaos-kit-074-9e3"
+  },
+  "/developers/tools/khaos-starter-kit-8a0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-khaos-starter-kit-6-d-3-2d3"
+  },
+  "/developers/tools/util-contracts-8bf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-util-contractsdbe-111"
+  },
+  "/developers/tools/util-ts-0a1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---developers-tools-util-ts-775-a1b"
+  },
+  "/Introduction/-29c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---introduction-cc-8-725"
+  },
+  "/Introduction/creatortoken-4a4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---introduction-creatortoken-1-fc-c24"
+  },
+  "/Introduction/dev-ecosystem-bf0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---introduction-dev-ecosystema-52-73d"
+  },
+  "/Introduction/devtoken-267": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---introduction-devtokendf-8-29b"
+  },
+  "/Introduction/what-is-devprotocol-f91": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---introduction-what-is-devprotocol-073-dee"
+  },
+  "/khaos/-dbf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---khaos-7-d-2-2ff"
+  },
+  "/khaos/authentication-and-oraclization-7e9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---khaos-authentication-and-oraclization-49-f-3b8"
+  },
+  "/learning/ethereum-28f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-ethereumb-9-b-429"
+  },
+  "/learning/Hands-on/guide-2ae": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-hands-on-guide-191-a4f"
+  },
+  "/learning/Hands-on/hands-on 1-ccb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-hands-on-hands-on-1636-5d8"
+  },
+  "/learning/Hands-on/hands-on 2-386": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-hands-on-hands-on-2880-10b"
+  },
+  "/learning/Hands-on/hands-on 3-a23": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-hands-on-hands-on-39-ad-de5"
+  },
+  "/learning/token-b38": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---learning-token-4-b-1-665"
+  },
+  "/protocol/governance/-08c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---protocol-governance-591-486"
+  },
+  "/protocol/governance/dips-1df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---protocol-governance-dips-2-d-6-df8"
+  },
+  "/protocol/governance/upgrading-core-modules-9df": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---protocol-governance-upgrading-core-modulesf-63-4ff"
+  },
+  "/protocol/governance/upgrading-predefined-variables-bd3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---protocol-governance-upgrading-predefined-variables-123-14e"
+  },
+  "/protocol/whitepaper-109": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---protocol-whitepaperb-60-60b"
+  },
+  "/stakes-social/-c54": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-dd-6-8c7"
+  },
+  "/stakes-social/how-to-attach-image-aaf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-attach-image-63-c-575"
+  },
+  "/stakes-social/how-to-buy-dev-d83": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-buy-devdf-2-cbc"
+  },
+  "/stakes-social/how-to-move-funds-9aa": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-move-funds-29-a-d16"
+  },
+  "/stakes-social/how-to-onboard-arbitrum-d2a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-onboard-arbitrumcc-8-e7d"
+  },
+  "/stakes-social/how-to-onboard-polygon-b85": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-onboard-polygonfa-3-ba2"
+  },
+  "/stakes-social/how-to-stake-a79": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-how-to-staked-26-f8d"
+  },
+  "/stakes-social/onboard-guide-f8d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---stakes-social-onboard-guide-1-b-2-369"
+  }
+}

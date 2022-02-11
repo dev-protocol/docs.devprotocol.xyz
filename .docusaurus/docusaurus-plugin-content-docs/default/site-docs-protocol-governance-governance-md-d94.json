@@ -1,0 +1,25 @@
+{
+  "unversionedId": "protocol/governance/governance",
+  "id": "protocol/governance/governance",
+  "title": "Governance",
+  "description": "Fully on-chain",
+  "source": "@site/docs/protocol/governance/governance.md",
+  "sourceDirName": "protocol/governance",
+  "slug": "/protocol/governance/",
+  "permalink": "/next/protocol/governance/",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/protocol/governance/governance.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Governance"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Protocol whitepaper",
+    "permalink": "/next/protocol/whitepaper"
+  },
+  "next": {
+    "title": "DIPs",
+    "permalink": "/next/protocol/governance/dips"
+  }
+}

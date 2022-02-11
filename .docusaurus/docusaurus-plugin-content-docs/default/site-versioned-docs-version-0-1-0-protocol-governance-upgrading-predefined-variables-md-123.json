@@ -1,0 +1,25 @@
+{
+  "unversionedId": "protocol/governance/upgrading-predefined-variables",
+  "id": "version-0.1.0/protocol/governance/upgrading-predefined-variables",
+  "title": "Upgrading predefined variables",
+  "description": "Some variables can be easily upgraded with Policy Contract",
+  "source": "@site/versioned_docs/version-0.1.0/protocol/governance/upgrading-predefined-variables.md",
+  "sourceDirName": "protocol/governance",
+  "slug": "/protocol/governance/upgrading-predefined-variables",
+  "permalink": "/protocol/governance/upgrading-predefined-variables",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/protocol/governance/upgrading-predefined-variables.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "title": "Upgrading predefined variables"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Upgrading core modules",
+    "permalink": "/protocol/governance/upgrading-core-modules"
+  },
+  "next": {
+    "title": "Khaos",
+    "permalink": "/khaos/"
+  }
+}

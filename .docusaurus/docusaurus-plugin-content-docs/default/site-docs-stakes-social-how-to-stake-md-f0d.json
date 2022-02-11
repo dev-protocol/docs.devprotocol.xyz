@@ -1,0 +1,27 @@
+{
+  "unversionedId": "stakes-social/how-to-stake",
+  "id": "stakes-social/how-to-stake",
+  "title": "How to stake DEV on Stakes.social",
+  "description": "What is Staking in the Dev Protocol context",
+  "source": "@site/docs/stakes-social/how-to-stake.md",
+  "sourceDirName": "stakes-social",
+  "slug": "/stakes-social/how-to-stake",
+  "permalink": "/next/stakes-social/how-to-stake",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/stakes-social/how-to-stake.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "How to stake DEV on Stakes.social",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to buy DEV",
+    "permalink": "/next/stakes-social/how-to-buy-dev"
+  },
+  "next": {
+    "title": "Attach sToken Image (for creators)",
+    "permalink": "/next/stakes-social/how-to-attach-image"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "developers/developers",
+  "id": "developers/developers",
+  "title": "Developers",
+  "description": "",
+  "source": "@site/docs/developers/developers.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/",
+  "permalink": "/next/developers/",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/developers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Developers"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Onboard Polygon's Dev Protocol",
+    "permalink": "/next/stakes-social/how-to-onboard-polygon"
+  },
+  "next": {
+    "title": "Ecosystem Addresses",
+    "permalink": "/next/developers/ecosystem-addresses"
+  }
+}

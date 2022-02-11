@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/tools/khaos-core",
+  "id": "version-0.1.0/developers/tools/khaos-core",
+  "title": "Khaos Core",
+  "description": "What is Khaos Starter Kit?",
+  "source": "@site/versioned_docs/version-0.1.0/developers/tools/khaos-core.md",
+  "sourceDirName": "developers/tools",
+  "slug": "/developers/tools/khaos-core",
+  "permalink": "/developers/tools/khaos-core",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/developers/tools/khaos-core.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Khaos Core",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Khaos Kit",
+    "permalink": "/developers/tools/khaos-kit"
+  },
+  "next": {
+    "title": "Khaos Starter Kit",
+    "permalink": "/developers/tools/khaos-starter-kit"
+  }
+}

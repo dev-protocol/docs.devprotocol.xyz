@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/modules/v1/dev",
+  "id": "developers/modules/v1/dev",
+  "title": "Dev",
+  "description": "Summary",
+  "source": "@site/docs/developers/modules/v1/dev.md",
+  "sourceDirName": "developers/modules/v1",
+  "slug": "/developers/modules/v1/dev",
+  "permalink": "/next/developers/modules/v1/dev",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/modules/v1/dev.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "Dev",
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DEV faucet",
+    "permalink": "/next/developers/dev-faucet"
+  },
+  "next": {
+    "title": "Property",
+    "permalink": "/next/developers/modules/v1/property"
+  }
+}

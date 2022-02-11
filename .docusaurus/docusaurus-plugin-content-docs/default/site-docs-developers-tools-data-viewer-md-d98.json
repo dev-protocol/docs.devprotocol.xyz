@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/tools/data-viewer",
+  "id": "developers/tools/data-viewer",
+  "title": "Dev Protocol Data Viewer",
+  "description": "What is Data Viewer?",
+  "source": "@site/docs/developers/tools/data-viewer.md",
+  "sourceDirName": "developers/tools",
+  "slug": "/developers/tools/data-viewer",
+  "permalink": "/next/developers/tools/data-viewer",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/tools/data-viewer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Dev Protocol Data Viewer",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dev Kit",
+    "permalink": "/next/developers/tools/dev-kit"
+  },
+  "next": {
+    "title": "Khaos Kit",
+    "permalink": "/next/developers/tools/khaos-kit"
+  }
+}

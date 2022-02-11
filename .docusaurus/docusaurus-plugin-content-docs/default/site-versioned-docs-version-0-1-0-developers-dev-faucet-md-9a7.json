@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/dev-faucet",
+  "id": "version-0.1.0/developers/dev-faucet",
+  "title": "DEV faucet",
+  "description": "You need DEV tokens if you try to test your Dapps on testnets. There is no DEV faucet at this moment. Please contact us on Discord if you need DEV Tokens for testnest. You can reach us on the general-chat channel of Discord. Please write your wallet address and the amount of DEV tokens that you need. We will send you DEV tokens as soon as possible.",
+  "source": "@site/versioned_docs/version-0.1.0/developers/dev-faucet.md",
+  "sourceDirName": "developers",
+  "slug": "/developers/dev-faucet",
+  "permalink": "/developers/dev-faucet",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/developers/dev-faucet.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "DEV faucet",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ecosystem Addresses",
+    "permalink": "/developers/ecosystem-addresses"
+  },
+  "next": {
+    "title": "Dev",
+    "permalink": "/developers/modules/v1/dev"
+  }
+}
