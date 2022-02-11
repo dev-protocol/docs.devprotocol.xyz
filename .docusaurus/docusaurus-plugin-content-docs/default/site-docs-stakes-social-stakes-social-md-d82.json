@@ -1,0 +1,25 @@
+{
+  "unversionedId": "stakes-social/stakes-social",
+  "id": "stakes-social/stakes-social",
+  "title": "Stakes Social",
+  "description": "What is Stakes.social?",
+  "source": "@site/docs/stakes-social/stakes-social.md",
+  "sourceDirName": "stakes-social",
+  "slug": "/stakes-social/",
+  "permalink": "/next/stakes-social/",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/stakes-social/stakes-social.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Stakes Social"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication and Oraclization",
+    "permalink": "/next/khaos/authentication-and-oraclization"
+  },
+  "next": {
+    "title": "How to buy DEV",
+    "permalink": "/next/stakes-social/how-to-buy-dev"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Introduction/dev-ecosystem",
+  "id": "Introduction/dev-ecosystem",
+  "title": "DEV's ecosystem",
+  "description": "DEV token is a crypto asset designed to support the next generation of creators, such as Open source developers.",
+  "source": "@site/docs/Introduction/dev-ecosystem.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/dev-ecosystem",
+  "permalink": "/next/Introduction/dev-ecosystem",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/Introduction/dev-ecosystem.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "DEV's ecosystem",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Creator Token Overview",
+    "permalink": "/next/Introduction/creatortoken"
+  },
+  "next": {
+    "title": "Protocol whitepaper",
+    "permalink": "/next/protocol/whitepaper"
+  }
+}

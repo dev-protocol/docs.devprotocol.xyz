@@ -1,0 +1,27 @@
+{
+  "unversionedId": "stakes-social/onboard-guide",
+  "id": "stakes-social/onboard-guide",
+  "title": "Onboard Guide",
+  "description": "What’s Stakes.social?",
+  "source": "@site/docs/stakes-social/onboard-guide.md",
+  "sourceDirName": "stakes-social",
+  "slug": "/stakes-social/onboard-guide",
+  "permalink": "/next/stakes-social/onboard-guide",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/stakes-social/onboard-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Onboard Guide",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Attach sToken Image (for creators)",
+    "permalink": "/next/stakes-social/how-to-attach-image"
+  },
+  "next": {
+    "title": "How to Move Funds to Arbitrum",
+    "permalink": "/next/stakes-social/how-to-move-funds"
+  }
+}

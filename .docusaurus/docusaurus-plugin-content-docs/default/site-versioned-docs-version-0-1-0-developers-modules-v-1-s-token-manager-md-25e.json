@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/modules/v1/s-token-manager",
+  "id": "version-0.1.0/developers/modules/v1/s-token-manager",
+  "title": "STokenManager",
+  "description": "Summary",
+  "source": "@site/versioned_docs/version-0.1.0/developers/modules/v1/s-token-manager.md",
+  "sourceDirName": "developers/modules/v1",
+  "slug": "/developers/modules/v1/s-token-manager",
+  "permalink": "/developers/modules/v1/s-token-manager",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/developers/modules/v1/s-token-manager.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "STokenManager",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Market",
+    "permalink": "/developers/modules/v1/market"
+  },
+  "next": {
+    "title": "STokenManager",
+    "permalink": "/developers/modules/v2/s-token-manager"
+  }
+}

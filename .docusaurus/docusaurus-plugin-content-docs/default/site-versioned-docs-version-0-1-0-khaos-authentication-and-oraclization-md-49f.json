@@ -1,0 +1,25 @@
+{
+  "unversionedId": "khaos/authentication-and-oraclization",
+  "id": "version-0.1.0/khaos/authentication-and-oraclization",
+  "title": "Authentication and Oraclization",
+  "description": "Create a Public Signature",
+  "source": "@site/versioned_docs/version-0.1.0/khaos/authentication-and-oraclization.md",
+  "sourceDirName": "khaos",
+  "slug": "/khaos/authentication-and-oraclization",
+  "permalink": "/khaos/authentication-and-oraclization",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/khaos/authentication-and-oraclization.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "title": "Authentication and Oraclization"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Khaos",
+    "permalink": "/khaos/"
+  },
+  "next": {
+    "title": "Stakes Social",
+    "permalink": "/stakes-social/"
+  }
+}

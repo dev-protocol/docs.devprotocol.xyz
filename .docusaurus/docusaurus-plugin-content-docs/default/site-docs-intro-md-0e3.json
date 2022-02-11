@@ -1,0 +1,24 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Getting Started",
+  "description": "Welcome to Dev Protocol Docs!",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/next/",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "id": "intro",
+    "slug": "/",
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Introduction",
+    "permalink": "/next/Introduction/"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/tools/khaos-kit",
+  "id": "developers/tools/khaos-kit",
+  "title": "Khaos Kit",
+  "description": "What is Khaos Kit?",
+  "source": "@site/docs/developers/tools/khaos-kit.md",
+  "sourceDirName": "developers/tools",
+  "slug": "/developers/tools/khaos-kit",
+  "permalink": "/next/developers/tools/khaos-kit",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/tools/khaos-kit.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Khaos Kit",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dev Protocol Data Viewer",
+    "permalink": "/next/developers/tools/data-viewer"
+  },
+  "next": {
+    "title": "Khaos Core",
+    "permalink": "/next/developers/tools/khaos-core"
+  }
+}

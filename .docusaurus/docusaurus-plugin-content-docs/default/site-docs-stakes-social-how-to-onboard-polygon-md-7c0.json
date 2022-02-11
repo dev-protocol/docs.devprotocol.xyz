@@ -1,0 +1,27 @@
+{
+  "unversionedId": "stakes-social/how-to-onboard-polygon",
+  "id": "stakes-social/how-to-onboard-polygon",
+  "title": "How to Onboard Polygon's Dev Protocol",
+  "description": "What is Polygon",
+  "source": "@site/docs/stakes-social/how-to-onboard-polygon.md",
+  "sourceDirName": "stakes-social",
+  "slug": "/stakes-social/how-to-onboard-polygon",
+  "permalink": "/next/stakes-social/how-to-onboard-polygon",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/stakes-social/how-to-onboard-polygon.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "How to Onboard Polygon's Dev Protocol",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Onboard Arbitrum's Dev Protocol",
+    "permalink": "/next/stakes-social/how-to-onboard-arbitrum"
+  },
+  "next": {
+    "title": "Developers",
+    "permalink": "/next/developers/"
+  }
+}

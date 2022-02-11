@@ -1,0 +1,27 @@
+{
+  "unversionedId": "learning/Hands-on/hands-on 2",
+  "id": "version-0.1.0/learning/Hands-on/hands-on 2",
+  "title": "Display registered properties and perform staking",
+  "description": "Hands-on #2",
+  "source": "@site/versioned_docs/version-0.1.0/learning/Hands-on/hands-on 2.md",
+  "sourceDirName": "learning/Hands-on",
+  "slug": "/learning/Hands-on/hands-on 2",
+  "permalink": "/learning/Hands-on/hands-on 2",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/learning/Hands-on/hands-on 2.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Display registered properties and perform staking",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Connect to Metamask to authenticate and display the user's wallet address and possessed DEV",
+    "permalink": "/learning/Hands-on/hands-on 1"
+  },
+  "next": {
+    "title": "List staking properties and withdraw staking",
+    "permalink": "/learning/Hands-on/hands-on 3"
+  }
+}

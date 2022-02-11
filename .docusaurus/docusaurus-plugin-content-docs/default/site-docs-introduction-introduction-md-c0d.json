@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Introduction/introduction",
+  "id": "Introduction/introduction",
+  "title": "Introduction",
+  "description": "Dev Protocol is on-chain middleware created for a whole new ecosystem designed for Open Source Software (OSS). With Dev Protocol, anyone can start to monetise your creations without changing licenses, codes, and support. You can use the feature set in Stakes.social, the first official application of the Dev Protocol",
+  "source": "@site/docs/Introduction/introduction.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/",
+  "permalink": "/next/Introduction/",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/Introduction/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/next/"
+  },
+  "next": {
+    "title": "What is Dev Protocol?",
+    "permalink": "/next/Introduction/what-is-devprotocol"
+  }
+}

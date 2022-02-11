@@ -1,0 +1,27 @@
+{
+  "unversionedId": "stakes-social/how-to-move-funds",
+  "id": "version-0.1.0/stakes-social/how-to-move-funds",
+  "title": "How to Move Funds to Arbitrum",
+  "description": "You’ll need some Ethereum on Arbitrum in order to pay for (significantly cheaper) gas fees. Simply go to the Arbitrum Bridge, connect via MetaMask, and bridge some ETH.",
+  "source": "@site/versioned_docs/version-0.1.0/stakes-social/how-to-move-funds.md",
+  "sourceDirName": "stakes-social",
+  "slug": "/stakes-social/how-to-move-funds",
+  "permalink": "/stakes-social/how-to-move-funds",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/stakes-social/how-to-move-funds.md",
+  "tags": [],
+  "version": "0.1.0",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "How to Move Funds to Arbitrum",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Onboard Guide",
+    "permalink": "/stakes-social/onboard-guide"
+  },
+  "next": {
+    "title": "How to Onboard Arbitrum's Dev Protocol",
+    "permalink": "/stakes-social/how-to-onboard-arbitrum"
+  }
+}

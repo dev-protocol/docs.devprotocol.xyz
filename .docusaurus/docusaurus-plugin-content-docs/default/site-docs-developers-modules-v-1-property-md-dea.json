@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/modules/v1/property",
+  "id": "developers/modules/v1/property",
+  "title": "Property",
+  "description": "Summary",
+  "source": "@site/docs/developers/modules/v1/property.md",
+  "sourceDirName": "developers/modules/v1",
+  "slug": "/developers/modules/v1/property",
+  "permalink": "/next/developers/modules/v1/property",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/modules/v1/property.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Property",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dev",
+    "permalink": "/next/developers/modules/v1/dev"
+  },
+  "next": {
+    "title": "Market",
+    "permalink": "/next/developers/modules/v1/market"
+  }
+}

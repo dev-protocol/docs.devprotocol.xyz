@@ -1,0 +1,25 @@
+{
+  "unversionedId": "protocol/whitepaper",
+  "id": "version-0.1.0/protocol/whitepaper",
+  "title": "Protocol whitepaper",
+  "description": "The World that Dev Protocol Aims for",
+  "source": "@site/versioned_docs/version-0.1.0/protocol/whitepaper.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/whitepaper",
+  "permalink": "/protocol/whitepaper",
+  "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/versioned_docs/version-0.1.0/protocol/whitepaper.md",
+  "tags": [],
+  "version": "0.1.0",
+  "frontMatter": {
+    "title": "Protocol whitepaper"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DEV's ecosystem",
+    "permalink": "/Introduction/dev-ecosystem"
+  },
+  "next": {
+    "title": "Governance",
+    "permalink": "/protocol/governance/"
+  }
+}
