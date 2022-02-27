@@ -66,7 +66,7 @@
 		"postcss": "8.4.7",
 		"qs": "6.10.3",
 		"remove": "0.1.5",
-		"staticrypt": "2.0.1",
+		"staticrypt": "2.0.3",
 		"uglify-es": "3.3.9",
 		"url-pattern": "1.0.3"
 	},
