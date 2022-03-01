@@ -26,14 +26,6 @@ Niwa is the second official Dapp built on the Dev Protocol. It was released in F
 
 ## How will you use it?
 
-Niwa’s URLs are as follows. Currently, only Beta version is in operation. We’re looking forward to hearing your feedbacks on Discord. After two weeks, we’ll have a release version. Please keep in mind that the URL for the release version is different from the Beta one.
+Niwa is beginner friendly, we provide content for you to learn. You can check [how it works](https://niwa.xyz/how-it-works) and get started for tokenization.
 
-### beta version
-
-[Polygon Niwa](https://polygon.niwa-beta.devprotocol.xyz)<br>
-[Arbitrum Niwa](https://arbitrum.niwa-beta.devprotocol.xyz)
-
-### production version
-
-[Polygon Niwa](https://polygon.niwa.xyz/)<br>
-[Arbitrum Niwa](https://arbitrum.niwa.xyz/)
+:link: [Visit the app](https://niwa.xyz/)
