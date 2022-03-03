@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "developers/modules/v2/dev",
+              "path": "/next/developers/modules/v2/dev",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "developers/modules/v2/s-token-manager",
               "path": "/next/developers/modules/v2/s-token-manager",
               "sidebar": "tutorialSidebar"

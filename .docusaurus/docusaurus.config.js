@@ -17,12 +17,12 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/home/ritvik/temporary/docs/sidebars.js",
+          "sidebarPath": "/Users/akira/frame00/docs.devprotocol.xyz/sidebars.js",
           "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz",
           "routeBasePath": "/"
         },
         "theme": {
-          "customCss": "/home/ritvik/temporary/docs/src/css/custom.css"
+          "customCss": "/Users/akira/frame00/docs.devprotocol.xyz/src/css/custom.css"
         }
       }
     ]

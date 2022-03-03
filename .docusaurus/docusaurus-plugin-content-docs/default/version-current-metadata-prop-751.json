@@ -218,6 +218,12 @@
                 "items": [
                   {
                     "type": "link",
+                    "label": "Dev",
+                    "href": "/next/developers/modules/v2/dev",
+                    "docId": "developers/modules/v2/dev"
+                  },
+                  {
+                    "type": "link",
                     "label": "STokenManager",
                     "href": "/next/developers/modules/v2/s-token-manager",
                     "docId": "developers/modules/v2/s-token-manager"
@@ -391,6 +397,12 @@
     "developers/modules/v1/s-token-manager": {
       "id": "developers/modules/v1/s-token-manager",
       "title": "STokenManager",
+      "description": "Summary",
+      "sidebar": "tutorialSidebar"
+    },
+    "developers/modules/v2/dev": {
+      "id": "developers/modules/v2/dev",
+      "title": "Dev",
       "description": "Summary",
       "sidebar": "tutorialSidebar"
     },

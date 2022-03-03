@@ -15,8 +15,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "STokenManager",
-    "permalink": "/next/developers/modules/v1/s-token-manager"
+    "title": "Dev",
+    "permalink": "/next/developers/modules/v2/dev"
   },
   "next": {
     "title": "Contracts",

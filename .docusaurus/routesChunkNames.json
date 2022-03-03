@@ -25,7 +25,7 @@
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/next-941": {
+  "/next-1ae": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---next-935-67a"
   },
@@ -64,6 +64,10 @@
   "/next/developers/modules/v1/s-token-manager-f52": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---next-developers-modules-v-1-s-token-manager-903-071"
+  },
+  "/next/developers/modules/v2/dev-0e0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---next-developers-modules-v-2-dev-659-101"
   },
   "/next/developers/modules/v2/s-token-manager-234": {
     "component": "component---theme-doc-item-178-a40",

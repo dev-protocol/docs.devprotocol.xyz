@@ -13,9 +13,9 @@
           "versionBadge": true,
           "versionClassName": "docs-version-current",
           "isLast": false,
-          "sidebarFilePath": "/home/ritvik/temporary/docs/sidebars.js",
-          "contentPath": "/home/ritvik/temporary/docs/docs",
-          "contentPathLocalized": "/home/ritvik/temporary/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/akira/frame00/docs.devprotocol.xyz/sidebars.js",
+          "contentPath": "/Users/akira/frame00/docs.devprotocol.xyz/docs",
+          "contentPathLocalized": "/Users/akira/frame00/docs.devprotocol.xyz/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "developers/dev-faucet",
@@ -225,6 +225,33 @@
                 "permalink": "/next/developers/modules/v1/market"
               },
               "next": {
+                "title": "Dev",
+                "permalink": "/next/developers/modules/v2/dev"
+              }
+            },
+            {
+              "unversionedId": "developers/modules/v2/dev",
+              "id": "developers/modules/v2/dev",
+              "title": "Dev",
+              "description": "Summary",
+              "source": "@site/docs/developers/modules/v2/dev.md",
+              "sourceDirName": "developers/modules/v2",
+              "slug": "/developers/modules/v2/dev",
+              "permalink": "/next/developers/modules/v2/dev",
+              "editUrl": "https://github.com/dev-protocol/docs.devprotocol.xyz/docs/developers/modules/v2/dev.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {
+                "title": "Dev",
+                "sidebar_position": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "STokenManager",
+                "permalink": "/next/developers/modules/v1/s-token-manager"
+              },
+              "next": {
                 "title": "STokenManager",
                 "permalink": "/next/developers/modules/v2/s-token-manager"
               }
@@ -246,8 +273,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "STokenManager",
-                "permalink": "/next/developers/modules/v1/s-token-manager"
+                "title": "Dev",
+                "permalink": "/next/developers/modules/v2/dev"
               },
               "next": {
                 "title": "Contracts",
@@ -1353,6 +1380,10 @@
                         "items": [
                           {
                             "type": "doc",
+                            "id": "developers/modules/v2/dev"
+                          },
+                          {
+                            "type": "doc",
                             "id": "developers/modules/v2/s-token-manager"
                           }
                         ]
@@ -1466,9 +1497,9 @@
           "versionClassName": "docs-version-0.1.0",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/home/ritvik/temporary/docs/versioned_sidebars/version-0.1.0-sidebars.json",
-          "contentPath": "/home/ritvik/temporary/docs/versioned_docs/version-0.1.0",
-          "contentPathLocalized": "/home/ritvik/temporary/docs/i18n/en/docusaurus-plugin-content-docs/version-0.1.0",
+          "sidebarFilePath": "/Users/akira/frame00/docs.devprotocol.xyz/versioned_sidebars/version-0.1.0-sidebars.json",
+          "contentPath": "/Users/akira/frame00/docs.devprotocol.xyz/versioned_docs/version-0.1.0",
+          "contentPathLocalized": "/Users/akira/frame00/docs.devprotocol.xyz/i18n/en/docusaurus-plugin-content-docs/version-0.1.0",
           "docs": [
             {
               "unversionedId": "developers/dev-faucet",

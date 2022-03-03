@@ -16,6 +16,9 @@ In Dev Protocol, DEV tokens have a function to gain staking rewards by staking P
 
 ## Interface
 
+Since Dev contract conform to ERC20, interface according to [erC20](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20) is retained.
+and, Dev contract inherits from [ERC20Mintable](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Mintable), [ERC20Burnable](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable), and UsingConfig, and therefore retains their interfaces.
+
 `function deposit(address _to, uint256 _amount) external returns (bool)`
 
 - `_to`: The address of the staking destination
@@ -33,32 +36,8 @@ Stakes DEV tokens from the address specified by `_from` to the address specified
 
 Before calling the method, the spender must grant sufficient allowances. If the allowance is insufficient, the allowance needs to be added by calling the approve method.
 
-`function totalSupply() external view returns (uint256)`
+`fee(address _from, uint256 _amount) external returns (bool)`
+- `_from`: The address of the burning
+- `_amount`: The number of the burning amount
 
-Returns the latest total supply of DEV tokens.
-
-`function balanceOf(address account) external view returns (uint256)`
-
-Returns the balance of the address specified by `account`.
-
-`function transfer(address recipient, uint256 amount) external returns (bool)`
-
-Transfers DEV tokens to the address specified by `recipient`, with the amount specified by `amount`.
-
-`function transferFrom(address sender, address recipient, uint256 amount) external returns (bool)`
-
-`function allowance(address owner, address spender) external view returns (uint256)`
-
-`function approve(address spender, uint256 amount) external returns (bool)`
-
-`function name() public view returns (string memory)`
-
-Returns the token name `Dev`
-
-`function symbol() public view returns (string memory)`
-
-Returns the token symbol `DEV`
-
-`function decimals() public view returns (uint8)`
-
-Returns the token decimals `18`
+burn Dev tokens from the address specified by `_from` for the amount specified by `_amount`.

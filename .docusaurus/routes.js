@@ -45,7 +45,7 @@ export default [
   },
   {
     path: '/next',
-    component: ComponentCreator('/next','941'),
+    component: ComponentCreator('/next','1ae'),
     routes: [
       {
         path: '/next/',
@@ -98,6 +98,12 @@ export default [
       {
         path: '/next/developers/modules/v1/s-token-manager',
         component: ComponentCreator('/next/developers/modules/v1/s-token-manager','f52'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/next/developers/modules/v2/dev',
+        component: ComponentCreator('/next/developers/modules/v2/dev','0e0'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
