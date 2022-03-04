@@ -7,7 +7,7 @@ title: STokenManager
 The STokenManager contract is a contract for managing SToken tokens.
 This contract is an ERC-721 compliant contract.
 
-## API
+## Interface
 
 #### tokenURI( uint256 \_tokenId )
 

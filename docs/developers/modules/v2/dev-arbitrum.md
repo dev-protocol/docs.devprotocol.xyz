@@ -12,8 +12,9 @@ Since the Dev token needs to be bridged to Arbitrum, we are adding the necessary
 ## Interface
 DevArbitrum inherits from Dev and InitializableUsingRegistry, and retains its interface.
 
-`function l1Address() external view override returns (address) `
+`function bridgeBalanceOnL1() public view returns (uint256) `
 
+`function l1Address() external view returns (address)`
 
 `function bridgeMint(address _account, uint256 _amount) external`
 
