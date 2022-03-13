@@ -9,7 +9,9 @@ eleventyNavigation:
   title: Tokenize YouTube channel  
 ---
 
-Steps to tokenize your YouTube channel
+The content creator can now tokenize their youtube channel and receive support from their subscribers to continue their effort creating videos and making more impact on it using social tokens. 
+
+## Steps to tokenize your YouTube channel
 
 Note: You can practice these steps on your own by using testnet. Get [free matic](https://faucet.polygon.technology/) in order to pay the gas fee.
 
@@ -39,10 +41,10 @@ Note: You can practice these steps on your own by using testnet. Get [free matic
 You are required to pay the gas fee to successfuly onboard in only less than 1 MATIC
 ![Sign and Submit](/content/{{ locale }}/images/niwa/youtube/screenshot8.png)
 
-Done. Now, it is available on Niwa. If you can't be able to view your channel, you can copy paste your wallet address and paste it like this: https://polygon-mumbai.niwa.xyz/0x96ed2317F923a5DE29fac9B65173C1c55Abe1254 
+Wait for few minutes for `Tokenization Success`
 
-11. View properties
-![View](/content/{{ locale }}/images/niwa/youtube/screenshot9.png)
+11. View your YouTube channel by clicking `View Your Token`
+![View Token](/content/{{ locale }}/images/niwa/youtube/screenshot9.png)
 
 12. Properties
 

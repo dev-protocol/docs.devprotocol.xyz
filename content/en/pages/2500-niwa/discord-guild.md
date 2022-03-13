@@ -9,7 +9,9 @@ eleventyNavigation:
   title: Tokenize Discord guild
 ---
 
-Steps to tokenize your Discord guild
+The Founder of the community can now tokenize the discord community and get support from their community using social tokens. The token that they will earn can use to fund upcoming events and reward active community members.
+
+## Steps to tokenize your Discord guild
 
 Note: You can practice these steps on your own by using testnet. Get [free matic](https://faucet.polygon.technology/) in order to pay the gas fee.
 
@@ -37,6 +39,8 @@ Note: You can practice these steps on your own by using testnet. Get [free matic
 8. Confirm the transaction
    You are required to pay the gas fee to successfuly onboard in only less than 1 MATIC
    ![Confirm the transaction](/content/{{ locale }}/images/niwa/discord/screenshot7.png)
+
+Wait for few minutes for `Tokenization Success`
 
 9. View your Discord guild by clicking `View Your Token`
    ![View](/content/{{ locale }}/images/niwa/discord/screenshot8.png)
