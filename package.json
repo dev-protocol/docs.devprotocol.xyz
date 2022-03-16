@@ -34,7 +34,7 @@
 		"markdown-it-anchor": "8.4.1",
 		"markdown-it-image-lazysizes": "1.0.0",
 		"postcss-cli": "9.1.0",
-		"prettier": "2.5.1",
+		"prettier": "2.6.0",
 		"tailwindcss": "2.2.19"
 	},
 	"dependencies": {
