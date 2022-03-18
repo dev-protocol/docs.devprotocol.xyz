@@ -16,7 +16,7 @@ The MetricsFactory contract inherits from InitializableUsingRegistry. Therefore,
 
 `function isMetrics(address) public returns (bool)`
 
-`function create(address _property) external override returns (address)`
+`function create(address _property) external returns (address)`
 
 `function destroy(address _metrics) external`
 
