@@ -23,7 +23,7 @@
 	},
 	"homepage": "https://github.com/dev-protocol/docs",
 	"devDependencies": {
-		"@11ty/eleventy": "1.0.0",
+		"@11ty/eleventy": "1.0.1",
 		"alpinejs": "3.9.6",
 		"eleventy-plugin-lazyimages": "2.1.2",
 		"eslint": "8.13.0",
