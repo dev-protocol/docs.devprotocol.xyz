@@ -63,7 +63,7 @@
 		"markdown-it-linkify-images": "2.0.0",
 		"markdown-it-table-of-contents": "0.6.0",
 		"markdown-it-task-lists": "2.1.1",
-		"postcss": "8.4.12",
+		"postcss": "8.4.13",
 		"qs": "6.10.3",
 		"remove": "0.1.5",
 		"staticrypt": "2.1.1",
