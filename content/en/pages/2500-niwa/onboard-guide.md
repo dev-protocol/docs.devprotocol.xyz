@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Niwa
+title: How to Create a Social Token
 date: 2022-02-10
 permalink: /{{ locale }}/niwa/how-to-create-a-social-token/index.html
 eleventyNavigation:
@@ -9,7 +9,7 @@ eleventyNavigation:
   title: How to Create a Social Token
 ---
 
-## How to Create a Social Token
+## Getting Started with Niwa
 
 Social tokens are a type of cryptocurrency that is built around a creator, community, or brand. It is a way that helps Creators to monetize their works without relying on third-party platforms or agencies. With Niwa, you can issue social tokens (FT\*) specialized for creators, and freely combine them with various Dapps to start a creator economy using Web3.
 

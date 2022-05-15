@@ -4,7 +4,7 @@ date: 2021-05-07
 permalink: /{{ locale }}/whitepaper/index.html
 eleventyNavigation:
   key: Protocol
-  order: 30
+  order: 100
   title: The Protocol whitepaper
 ---
 

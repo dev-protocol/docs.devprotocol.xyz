@@ -6,6 +6,6 @@ layout: layouts/ecosystem-addresses.njk
 eleventyNavigation:
   key: ecosystem-addresses
   parent: developers
-  order: 1
+  order: 3100
   title: Ecosystem addresses
 ---

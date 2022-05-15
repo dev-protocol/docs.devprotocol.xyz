@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Governance
   parent: Protocol
   title: Governance
-  order: 30
+  order: 110
 ---
 
 - [Basic concept of governance](/protocol/governance/basic-concept-of-governance)

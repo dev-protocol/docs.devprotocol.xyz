@@ -1,5 +1,5 @@
 ---
-title: Display registered properties and perform staking
+title: Hands-on 2
 date: 2021-08-26
 permalink: /{{ locale }}/learning/learning/display-properties-perform-staking/index.html
 eleventyNavigation:
@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Hands-on 2
 ---
 
-## Hands-on #2
+## Display registered properties and perform staking
 
 This hands-on displays the projects registered in the Dev Protocol (called properties in the code). Dev Protocol data can be called by GraphQL. First, let's look at the data using GraphQL. GraphQL can be accessed from the link below.
 

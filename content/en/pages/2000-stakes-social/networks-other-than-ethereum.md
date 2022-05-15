@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/networks-other-than-ethereum/index.html
 eleventyNavigation:
   key: Networks other than Ethereum
   parent: stakes-social
-  order: 2600
+  order: 2050
   title: Networks other than Ethereum
 ---
 

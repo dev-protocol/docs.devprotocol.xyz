@@ -1,5 +1,5 @@
 ---
-title: Connect to Metamask to authenticate and display the user's wallet address and possessed DEV
+title: Hands-on 1
 date: 2021-08-26
 permalink: /{{ locale }}/learning/learning/authenticate-and-display/index.html
 eleventyNavigation:
@@ -9,7 +9,7 @@ eleventyNavigation:
   title: Hands-on 1
 ---
 
-### Hands-on 1
+## Connect to Metamask to authenticate and display the user's wallet address and possessed DEV
 
 First, I will introduce the finished product to be created this time. Please access the following URL
 https://27v7x.csb.app/

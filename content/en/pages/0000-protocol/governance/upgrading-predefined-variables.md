@@ -5,7 +5,7 @@ permalink: /{{ locale }}/protocol/governance/upgrading-predefined-variables/inde
 eleventyNavigation:
   key: Upgrading predefined variables
   parent: Governance
-  order: 34
+  order: 114
   title: Upgrading predefined variables
 ---
 

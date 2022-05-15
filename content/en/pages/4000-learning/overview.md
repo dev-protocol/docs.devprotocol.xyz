@@ -1,5 +1,5 @@
 ---
-title: Building Decentralized applications with DEV Integration
+title: Learning
 date: 2021-08-26
 permalink: /{{ locale }}/learning/index.html
 eleventyNavigation:
@@ -7,6 +7,8 @@ eleventyNavigation:
   order: 4000
   title: Learning
 ---
+
+## Building Decentralized applications with DEV Integration
 
 The Dev Protocol new update uses Ropsten Test Network when creating decentralized applications. Developers can now continue their development without worrying about the gas fee and $DEV for the test environment.
 

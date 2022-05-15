@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/how-to-move-funds/index.html
 eleventyNavigation:
   key: how-to-move-funds
   parent: stakes-social
-  order: 2700
+  order: 2060
   title: How to Move Funds to Arbitrum
 ---
 
