@@ -28,10 +28,10 @@
     node-fetch "^2.6.7"
     p-queue "^6.6.2"
 
-"@11ty/eleventy-img@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-2.0.0.tgz#7c3b9f4fc8775db8219c42ffeb98b4fac45e3962"
-  integrity sha512-aHcHD2at7zto1g1t6QnC8hESC7zvP8sydC08kjBh5dbmYlHlZeVnyG2eO8DJAPSUblb5iphJ4kId+iHw8lp6wA==
+"@11ty/eleventy-img@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@11ty/eleventy-img/-/eleventy-img-2.0.1.tgz#21ae62a8b252ca857af01282a00139e91feb317d"
+  integrity sha512-l30E+TszoovF/NK0WRc1oQoI42VxmYyM3O9cPiS20alSBHucX92RFdwl9HMDyRoh1g+App3+PomFIa5FKkb1Dw==
   dependencies:
     "@11ty/eleventy-fetch" "^3.0.0"
     debug "^4.3.3"
