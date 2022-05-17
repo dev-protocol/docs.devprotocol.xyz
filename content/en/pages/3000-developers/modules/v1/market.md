@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/v1/market/index.html
 eleventyNavigation:
   key: v1-market-module
   parent: developers_modules_v1
-  order: 3130
+  order: 3213
   title: Market
 ---
 

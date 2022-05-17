@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/index.html
 eleventyNavigation:
   key: developers_modules
   parent: developers
-  order: 3100
+  order: 3200
   title: Contracts
 ---
 

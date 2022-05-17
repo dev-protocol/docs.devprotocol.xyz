@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/v2/index.html
 eleventyNavigation:
   key: developers_modules_v2
   parent: developers_modules
-  order: 1000
+  order: 3220
   title: V2
 ---
 

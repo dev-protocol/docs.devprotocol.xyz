@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/polygon-starter/index.html
 eleventyNavigation:
   key: Polygon Starter
   parent: stakes-social
-  order: 2900
+  order: 2070
   title: Polygon Starter
 ---
 

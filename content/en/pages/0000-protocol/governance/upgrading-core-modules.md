@@ -5,7 +5,7 @@ permalink: /{{ locale }}/protocol/governance/upgrading-core-modules/index.html
 eleventyNavigation:
   key: Upgrading core modules
   parent: Governance
-  order: 33
+  order: 113
   title: Upgrading core modules
 ---
 

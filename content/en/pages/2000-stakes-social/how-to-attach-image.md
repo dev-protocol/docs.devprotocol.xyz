@@ -5,7 +5,7 @@ permalink: /{{ locale }}/stakes-social/attach-image/index.html
 eleventyNavigation:
   key: Attach sToken Image (for creators)
   parent: stakes-social
-  order: 2220
+  order: 2030
   title: Attach sToken Image (for creators)
 ---
 

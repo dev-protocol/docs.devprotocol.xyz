@@ -5,7 +5,7 @@ permalink: /{{ locale }}/developers/modules/v1/s-token-manager/index.html
 eleventyNavigation:
   key: v1-s-token-manager-module
   parent: developers_modules_v1
-  order: 3150
+  order: 3214
   title: STokenManager
 ---
 
