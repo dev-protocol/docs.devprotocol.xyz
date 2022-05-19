@@ -57,7 +57,10 @@ The longer you continue staking, the longer developers with your support can dev
 
 :::info
 
-Since the interest for supporters and creators always fluctuate, please check STAKER APY and CREATOR APY at the following website if you want to know the current rate per year.
+†1 Since the interest for supporters always fluctuate, please check STAKER APY at the following website if you want to know the current rate per year.
+https://stakes.social/stats
+
+†2 Since the interest for creators always fluctuate, please check CREATOR APY at the following website if you want to know the current rate per year.
 https://stakes.social/stats
 
 :::
