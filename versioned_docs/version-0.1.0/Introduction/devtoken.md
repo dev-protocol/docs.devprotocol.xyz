@@ -1,5 +1,5 @@
 ---
-title: Token Overview
+title: Dev Token Overview
 sidebar_position: 2
 ---
 
@@ -7,10 +7,15 @@ sidebar_position: 2
 
 The DEV Protocol shall allow monetization of program development work for Open Source Software(OSS). The monetization of OSS itself brings more sustainable funding and incentive models for the first time.
 
-Contract adress: https://etherscan.io/token/0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
+:::info
+### Contract adress
+https://etherscan.io/token/0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
+:::
+
+<br />
 
 - DEV token is an Ethereum based ERC20 token.
-- DEVs are inflationary, meaning that every year 3.15% new DEVs are minted. The newly minted DEVs are allocated to creators and stakers.
+- DEVs are inflationary, meaning that every year 3.15% new DEVs are minted. The newly minted DEVs are allocated to creators and stakers. (51:49)
 - DEVs can be used for staking and to vote on certain things such as inflation rate and limit on how many tokens can be staked by a single token holder.
 
 ## DEV token's Value
@@ -66,13 +71,13 @@ Designed to increase in value as the number of tokens deposited by sponsors incr
 - As Sponsors side: There is incentive to staking after the purchase of Dev tokens as the value increases with deposit
 - As Creators side: The more assets are tokenised, the more issued, and the easier it is for creators to attract sponsors.
 
-The following formula illustrates the basic concept:    
+The following formula illustrates the basic concept:
 <br />
 
 ![tokenomics](/img/token/formura.png)
 
 <br />
 
-> **Detailed explanation**    
+> Detailed explanation:
 >
 > As lockups increase, rewards decrease, and inflation rates decrease. As assets increase, rewards increase, and inflation rates increase. The deflationary trend makes it more rapidly by lockup increases. Ideally, an increase in assets should be accompanied by lockups, so an increase in assets should be a factor in increasing the inflation rate. But as lockups increase, the less impact the increase in assets will have. The maximum value is 0.00012 per block and an asset.
