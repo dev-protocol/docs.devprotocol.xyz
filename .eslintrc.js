@@ -43,9 +43,6 @@ module.exports = {
         ' * This source code is licensed under the MIT license found in the',
         ' * LICENSE file in the root directory of this source tree.',
         ' *',
-        // Unfortunately eslint-plugin-header doesn't support optional lines.
-        // If you want to enforce your website JS files to have @flow or @format,
-        // modify these lines accordingly.
         {
           pattern: '.* @format',
         },
