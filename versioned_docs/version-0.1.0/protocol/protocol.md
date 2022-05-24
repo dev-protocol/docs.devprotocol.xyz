@@ -1,10 +1,8 @@
 ---
-title: Protocol whitepaper
+title: The Protocol whitepaper
 ---
 
-# The Protocol whitepaper
-
-### The World that Dev Protocol Aims for
+## The World that Dev Protocol Aims for
 
 Economic activities are built on top of many real world activities. These activities need investments to realize future growth and profit. Dev Protocol is a decentralized technology that fairly evaluates various activities that have not received an economic evaluation and realizes their autonomous distribution and sustainability through P2P trading and reward distribution.
 
@@ -79,7 +77,9 @@ By staking their DEV toward an activity participant, users receive some sort of 
 
 If a staking user gets some staking perk, those perks will be provided via the application layers.
 
-## Mechanism
+---
+
+### Mechanism
 
 Dev Protocol is comprised of the following 14 main contracts.
 
@@ -103,9 +103,7 @@ Dev Protocol is comprised of the following 14 main contracts.
 ### Market Contract
 
 The Market Contract represents a specific group of properties. The properties handled by Dev Protocol can be defined through the `authenticate` function.
-
 Anybody can freely propose a Market Contract. However, in order for it to take effect, it must be approved through a vote of existing Property Contract owners. The number of votes will be the sum of the count staked in the Property Contract and the `totals`. Generally, votes are expected to be carried out by property owners, but stake executors can use their own count of stakes as the number of votes in order to vote. In this case, the address of the Property Contract subject to staking will be assigned.
-
 The `authenticate` function authenticates the executor of the function as the owner of the property. For example, a GitHub repository is assigned, and the fact that the executor is the owner of this GitHub repository is authenticated. Therefore, it should not be possible for anybody other than the owner of the Property Contract to execute the `authenticate` function. This function is called directly by a user, and it is expected for `authenticatedCallback` to be called for a successful authentication. When executing the `authenticate` function, a commission defined by the Policy Contract is paid in DEV, and the commission paid is automatically burned.
 
 ### Market Factory Contract
@@ -114,7 +112,7 @@ The Market Factory Contract generates a new Market Contract.
 
 The generation of a Market Contract is carried out by executing the create function. The create function receives the address for the Property Contract with the next interface and generates a new Market Contract.
 
-```
+```solidity
 contract IMarketBehavior {
     string public schema;
 
@@ -134,7 +132,7 @@ contract IMarketBehavior {
 
 When you implement the `authenticate` function, strongly recommended to verify the sender is associated with the Market Contract. To verify, please create a function to set the associated Market Contract address.
 
-```
+```solidity
 function authenticate(
     address _prop,
     string memory _args1,
@@ -152,19 +150,19 @@ function authenticate(
 
 The `schema` is an array-type JSON character string that explains the significance of the arguments that the `authenticate` function receives for authentication. The maximum for these arguments is 5, in addition to the address of the Property Contract. An example is presented below.
 
-```
+```solidity
 string public schema = '["Your asset identity", "Read-only token", "More something"]';
 ```
 
 The `authenticate` function always handles the 2nd argument as the unique ID. Accordingly, values that cannot secure uniqueness should not be assigned. The following schema is an incorrect example.
 
-```
+```solidity
 string public schema = '["Read-only token", "Your GitHub repository(e.g. your-name/repos)"]';
 ```
 
 And the following schema is a correct example.
 
-```
+```solidity
 string public schema = '["Your GitHub repository(e.g. your-name/repos)", "Read-only token"]';
 ```
 
@@ -230,7 +228,7 @@ The following variables are used to calculate a reward amount for a staking user
 - Policy.holdersShare: Reward rate function receive by a Property Contract holder
   The calculation formula is as follows.
 
-```
+```solidity
 total_interest = s(r / t - Policy.holdersShare(r / t, t))
 ```
 
@@ -281,7 +279,7 @@ The following variables are used to calculate a reward amount for a Property hol
 
 The calculation formula is as follows.
 
-```
+```solidity
 total_reward = b(s(Policy.holdersShare(r / t, t)) / ts)
 ```
 
@@ -367,10 +365,12 @@ The Policy Factory Contract generates a new Policy Contract.
 
 The generation of a Policy Contract is carried out by executing a create function. The create function gets the address of the Policy Contract created by a user and allows the vote function to accept votes.
 
-Lockup Storage Contract, Market Group Contract, Policy Group Contract, Property Group Contract, Vote Counter Storage Contract, Withdraw Storage Contract are the contracts that makes the state of the other contracts persistent. Its responsibility is to exclusively maintain the state and getter method without waiting for implementation.
+### Lockup Storage Contract, Market Group Contract, Policy Group Contract, Property Group Contract, Vote Counter Storage Contract, Withdraw Storage Contract
 
-## DEV
+Those Contracts are a contract that makes the state of the other contracts persistent. Its responsibility is to exclusively maintain the state and getter method without waiting for implementation.
+
+### DEV
 
 DEV is the ERC20 token that serves as the key currency for Dev Protocol.
 
-https://etherscan.io/token/0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26
+[https://etherscan.io/token/0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26]
