@@ -1,0 +1,46 @@
+{
+  "item.label.The Protocol": {
+    "message": "The Protocol",
+    "description": "Navbar item with label The Protocol"
+  },
+  "item.label.Stakes Social": {
+    "message": "Stakes Social",
+    "description": "Navbar item with label Stakes Social"
+  },
+  "item.label.Developers": {
+    "message": "Developers",
+    "description": "Navbar item with label Developers"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Medium Page": {
+    "message": "Medium Page",
+    "description": "Navbar item with label Medium Page"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Navbar item with label Twitter"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.Forum": {
+    "message": "Forum",
+    "description": "Navbar item with label Forum"
+  },
+  "item.label.Community Builders": {
+    "message": "Community Builders",
+    "description": "Navbar item with label Community Builders"
+  }
+}

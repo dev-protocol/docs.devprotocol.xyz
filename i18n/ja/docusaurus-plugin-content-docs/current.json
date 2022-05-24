@@ -1,0 +1,54 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.The Protocol": {
+    "message": "The Protocol",
+    "description": "The label for category The Protocol in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Governance": {
+    "message": "Governance",
+    "description": "The label for category Governance in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Khaos": {
+    "message": "Khaos",
+    "description": "The label for category Khaos in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Stakes Social": {
+    "message": "Stakes Social",
+    "description": "The label for category Stakes Social in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Developers": {
+    "message": "Developers",
+    "description": "The label for category Developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Modules": {
+    "message": "Modules",
+    "description": "The label for category Modules in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.V1": {
+    "message": "V1",
+    "description": "The label for category V1 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.V2": {
+    "message": "V2",
+    "description": "The label for category V2 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tools": {
+    "message": "Tools",
+    "description": "The label for category Tools in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Learning": {
+    "message": "Learning",
+    "description": "The label for category Learning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hands-on": {
+    "message": "Hands-on",
+    "description": "The label for category Hands-on in sidebar tutorialSidebar"
+  }
+}
