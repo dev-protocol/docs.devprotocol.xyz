@@ -3,7 +3,7 @@ title: Display registered properties and perform staking
 sidebar_position: 2
 ---
 
-## Hands-on #2
+## Display registered properties and perform staking
 
 This hands-on displays the projects registered in the Dev Protocol (called properties in the code). Dev Protocol data can be called by GraphQL. First, let's look at the data using GraphQL. GraphQL can be accessed from the link below.
 

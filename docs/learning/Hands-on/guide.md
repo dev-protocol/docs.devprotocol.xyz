@@ -3,6 +3,8 @@ title: Building Decentralized applications with DEV Integration
 sidebar_position: 0
 ---
 
+## Building Decentralized applications with DEV Integration
+
 The following guide and hands-on will help you to integrate DEV to your web application. In this hands-on, you don't need to worry about the gas fee in Ropsten Network. First is, we will follow the guide below before going to hands-on.
 
 ### MetaMask Installation Guide
