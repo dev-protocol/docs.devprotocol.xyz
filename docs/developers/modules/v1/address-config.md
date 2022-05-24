@@ -8,6 +8,7 @@ sidebar_position: 3
 This contract manages the address of each contract.
 
 ## Interface
+
 AddressConfig inherits from Ownable, and retains its interface.
 
 `function token() public view return (address)`

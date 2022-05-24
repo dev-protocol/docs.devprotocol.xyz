@@ -8,6 +8,7 @@ sidebar_position: 3
 Tokenized contract of creator's activity.
 
 ## Interface
+
 This contract inherits from UsingRegistry and [ERC20](https://docs.openzeppelin.com/contracts/4.x/erc20). So it retains the interfaces of these contructs.
 
 `function author() external view returns (address)`

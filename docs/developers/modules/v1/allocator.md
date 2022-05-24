@@ -8,6 +8,7 @@ sidebar_position: 3
 Calculate the reward per block
 
 ## Interface
+
 Allocator inherits from UsingConfig, and retains its interface.
 
 `function calculateMaxRewardsPerBlock() external view returns (uint256)`

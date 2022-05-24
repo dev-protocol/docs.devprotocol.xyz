@@ -46,9 +46,9 @@ In the future, we're hoping that voting contract would be deployed at the same t
 
 <br />
 
-**Contract:** https://github.com/dev-protocol/vote-governance/blob/main/contracts/VoteFactory.sol     
-**Mainnet:** https://etherscan.io/address/0x36199cb1e12c5b9d5a203f9dcb53b37e3ca6a30f     
-**Sample tx:** Ethereum Transaction Hash (Txhash) Details | Etherscan    
+**Contract:** https://github.com/dev-protocol/vote-governance/blob/main/contracts/VoteFactory.sol  
+**Mainnet:** https://etherscan.io/address/0x36199cb1e12c5b9d5a203f9dcb53b37e3ca6a30f  
+**Sample tx:** Ethereum Transaction Hash (Txhash) Details | Etherscan
 
 ### Activation
 

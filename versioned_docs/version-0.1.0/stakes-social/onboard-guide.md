@@ -43,17 +43,16 @@ In order to register your OSS at Stakes.social, start from the main menu, as sta
 
 In STEP03, you’ll input necessary information into each item to apply. The following table shows sections to fill in.
 
-| Items           | Explanation                                                                                 |
-| :--------------- | :------------------------------------------------------------------------------------------- |
-| Your name       | Input your name.                                                                            |
-| Your email      | Input your email.                                                                           |
-| Project name    | Input your project name.                                                                    |
-| Description     | Input the description of your project.                                                      |
-| Your role       | Input your role in the project. `i.e. owner / maintainer / developer …etc`                  |
-| Github repo     | Input URL for the repository of your project.                                                |
-| Discord name    | Input your Discord account information.                                                     |
-| Additional info | If you have any additional comments, please share them with us.                             |
-
+| Items           | Explanation                                                                |
+| :-------------- | :------------------------------------------------------------------------- |
+| Your name       | Input your name.                                                           |
+| Your email      | Input your email.                                                          |
+| Project name    | Input your project name.                                                   |
+| Description     | Input the description of your project.                                     |
+| Your role       | Input your role in the project. `i.e. owner / maintainer / developer …etc` |
+| Github repo     | Input URL for the repository of your project.                              |
+| Discord name    | Input your Discord account information.                                    |
+| Additional info | If you have any additional comments, please share them with us.            |
 
 After you’ve completed to input necessary information into each item, click “Submit” button and your wallet is activated. Then, you’ll be asked for your signature.
 Shortly after you press “Signature” button, your application will be completed. When your application is done, you can see the following image on your screen.
@@ -70,7 +69,7 @@ If you successfully pass the screening, access the URL written in the approval e
 
 :::note
 
-You’ll need a gas fee for your registration. It fluctuates depending on the congestion condition, however, it would be around 0.0436ETH.  Before you’re moving on to the next step, you should prepare ETH in your wallet.
+You’ll need a gas fee for your registration. It fluctuates depending on the congestion condition, however, it would be around 0.0436ETH. Before you’re moving on to the next step, you should prepare ETH in your wallet.
 
 :::
 
@@ -82,7 +81,7 @@ In this step for tokenization, we’ll issue your token. This is called Property
 
 | Items                  | Explanation                                                                                                                                                               |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Creator wallet address | This is the address for your wallet. This item will be automatically input if you’re connected to Stakes.social. If it says `Fetching wallet`, connect your wallet.      |
+| Creator wallet address | This is the address for your wallet. This item will be automatically input if you’re connected to Stakes.social. If it says `Fetching wallet`, connect your wallet.       |
 | Project name           | Input the project name written in the approval email.                                                                                                                     |
 | Token name             | This is the name of your token. Input the name using half-width English numbers and letters. i.e. Ethereum token is Ether.                                                |
 | Token symbol           | This is an identifier for your token. i.e. Ethereum’s token is ETH. You can use 3-5 English numbers and letters to choose.                                                |
@@ -90,23 +89,21 @@ In this step for tokenization, we’ll issue your token. This is called Property
 
 After you’ve completed the input and click “Tokenize” button, your registration is done, and then you’ll see a confirmation page for it. However, before completion, you’ll need a gas fee to register. ETH needed for the fee is displayed on your screen, so please check your wallet and make sure that enough amount of ETH is there.
 
-
 ![GUIDE05](/img/stakes.social/onboard-guide/guide05.png)
-
 
 In the confirmation screen, the following information is displayed.
 
 | Items                     | Explanation                                                                                                                                                                                    |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Project Name              | Project Name that you entered.                                                                                                                                                                |
-| Token Name                | Token Name that you entered.                                                                                                                                                                  |
-| Token Symbol              | Token Symbol that you entered.                                                                                                                                                                |
+| Project Name              | Project Name that you entered.                                                                                                                                                                 |
+| Token Name                | Token Name that you entered.                                                                                                                                                                   |
+| Token Symbol              | Token Symbol that you entered.                                                                                                                                                                 |
 | Supply                    | Numbers of token (Property Token) that you’ll issue.                                                                                                                                           |
 | Dev Protocol Treasury Fee | We receive 5% of your issuing token as a treasury fee for Dev Protocol. For more details, check the following website: [What is treasury](https://initto.devprotocol.xyz/en/what-is-treasury/) |
 
 After you’ve confirmed and clicked `Tokenize` button, tokenization process is activated.
 
-It takes about an hour to finish the process. You can either continue to connect to or disconnect from Stakes.social. If you disconnect, you can still check your status at the following website.    
+It takes about an hour to finish the process. You can either continue to connect to or disconnect from Stakes.social. If you disconnect, you can still check your status at the following website.
 
 <https://etherscan.io/address/0x9dfd67bf97dc48acdfbf75ad814e158816f98b0b>
 
@@ -119,4 +116,4 @@ After a while, your OSS will be listed at List Page on Stakes,social, and Dev Pr
 
 In order for you to get more support for your OSS, it is important to let people know your Stakes.social page. We’d recommend you to tweet, place a link at a donation page or write a blog post.
 
-In Dev Protocol team and community, we’re talking with each other about the way to make an announcement of onboarding at Stakes.social. If you have any insights or ideas, please share them at [Dev Protocol Forum](https://community.devprotocol.xyz/).    
+In Dev Protocol team and community, we’re talking with each other about the way to make an announcement of onboarding at Stakes.social. If you have any insights or ideas, please share them at [Dev Protocol Forum](https://community.devprotocol.xyz/).

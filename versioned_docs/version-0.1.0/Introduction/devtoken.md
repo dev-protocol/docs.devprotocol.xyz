@@ -8,7 +8,9 @@ sidebar_position: 2
 The DEV Protocol shall allow monetization of program development work for Open Source Software(OSS). The monetization of OSS itself brings more sustainable funding and incentive models for the first time.
 
 :::info
+
 ### Contract adress
+
 https://etherscan.io/token/0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
 :::
 

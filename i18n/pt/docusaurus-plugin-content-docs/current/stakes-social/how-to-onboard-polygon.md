@@ -28,7 +28,7 @@ Click on ‘Custom RPC’ at the end of the list. This will open the page below,
 
 ## Using the Polygon bridge
 
-Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/ ) to transfer DEV from the Polygon network to the Ethereum mainnet.
+Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/) to transfer DEV from the Polygon network to the Ethereum mainnet.
 
 https://wallet.polygon.technology/bridge
 
@@ -40,7 +40,7 @@ Note: remember that gas fees on the Polygon network are paid with MATIC.
 
 There is a YouTube guide if you still don’t feel comfortable transferring assets between chains:
 
- > https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9
+> https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9
 
 Make sure you get some MATIC for the onboarding fee costs, it shouldn’t be too much since Polygon is very cheap compared to the Ethereum mainnet.
 

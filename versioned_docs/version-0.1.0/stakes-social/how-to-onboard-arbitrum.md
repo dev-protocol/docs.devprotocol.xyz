@@ -38,9 +38,7 @@ If you want to enter the network information and register, please https://develo
 In order to onboard the Dev Protocol on Arbitrum, it is necessary to move some ETH to Arbitrum to cover gas. Use the Arbitrum Bridge for that
 https://bridge.arbitrum.io
 
-
 Please refer [this](https://arbitrum.io/bridge-tutorial/) for how to use it.
-
 
 **Onboard**
 
@@ -49,8 +47,8 @@ For projects that are already onboard on the mainnet, you do not need to apply a
 
 :::note
 
-Please switch the connection network to "Arbitrum One" before proceeding.    
-https://stakes.social/arbitrum-one/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d     
+Please switch the connection network to "Arbitrum One" before proceeding.  
+https://stakes.social/arbitrum-one/create/0x84b9e407e2Ee76A641b45d007bBFd9e60a13FF7d  
 For "Project name", enter the path of the project's Github URL
 
 :::
@@ -61,7 +59,7 @@ See [this](stakes-social/onboard-guide/) guide for onboarding instructions
 
 **Move DEV from mainnet to Arbitrum One**
 
-When moving the mainnet DEV to Arbitrum One, use Dev Protocol Bridge.    
+When moving the mainnet DEV to Arbitrum One, use Dev Protocol Bridge.
 
 https://bridge.devprotocol.xyz/wrap
 

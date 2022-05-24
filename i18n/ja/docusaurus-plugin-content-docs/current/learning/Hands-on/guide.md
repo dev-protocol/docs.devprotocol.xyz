@@ -7,7 +7,7 @@ The following guide and hands-on will help you to integrate DEV to your web appl
 
 ### MetaMask Installation Guide
 
-This hands-on uses Metamask. If you do not have metamask in your browser add-on, please install metamask for your browser from [here](https://metamask.io/).   
+This hands-on uses Metamask. If you do not have metamask in your browser add-on, please install metamask for your browser from [here](https://metamask.io/).
 
 ### Creating a wallet address for the Ropsten environment
 

@@ -8,6 +8,7 @@ sidebar_position: 3
 mint dev tokens
 
 ## Interface
+
 Allocator inherits from UsingConfig and Ownable, and retains its interface.
 
 `function mint(address account, uint256 amount) external returns (bool)`

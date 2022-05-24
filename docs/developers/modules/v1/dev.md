@@ -37,6 +37,7 @@ Stakes DEV tokens from the address specified by `_from` to the address specified
 Before calling the method, the spender must grant sufficient allowances. If the allowance is insufficient, the allowance needs to be added by calling the approve method.
 
 `fee(address _from, uint256 _amount) external returns (bool)`
+
 - `_from`: The address of the burning
 - `_amount`: The number of the burning amount
 

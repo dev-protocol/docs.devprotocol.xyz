@@ -8,6 +8,7 @@ sidebar_position: 3
 save Withdraw contract storage
 
 ## Interface
+
 WithdrawStorage inherits from UsingStorage, and retains its interface.
 
 `function getRewardsAmount(address _property) public view returns (uint256)`

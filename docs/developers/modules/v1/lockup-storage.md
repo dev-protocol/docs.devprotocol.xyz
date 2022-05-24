@@ -8,6 +8,7 @@ sidebar_position: 3
 save Lockup contract storage
 
 ## Interface
+
 LockupStorage inherits from UsingStorage, and retains its interface.
 
 `function getStorageAllValue() public view returns (uint256)`

@@ -8,9 +8,9 @@ sidebar_position: 3
 create metrics contract.
 
 ## Interface
+
 MetricsFactory inherits from UsingConfig, and retains its interface.
 
 `function create(address _property) external returns (address)`
 
 `function destroy(address _metrics) external`
-

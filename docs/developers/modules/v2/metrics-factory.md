@@ -8,6 +8,7 @@ sidebar_position: 3
 create metrics contract.
 
 ## Interface
+
 The MetricsFactory contract inherits from InitializableUsingRegistry. Therefore, it possesses the interfaces that InitializableUsingRegistry possesses.
 
 `function metricsCount() public returns (uint256)`

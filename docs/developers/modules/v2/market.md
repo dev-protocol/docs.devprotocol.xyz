@@ -8,6 +8,7 @@ sidebar_position: 3
 This contract implements the basic functions of the market.
 
 ## Interface
+
 The Market contract inherits from UsingRegistry. Therefore, it possesses the interfaces that UsingRegistry possesses.
 
 `function enabled() public`

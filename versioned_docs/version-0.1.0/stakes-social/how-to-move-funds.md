@@ -7,7 +7,7 @@ You’ll need some Ethereum on Arbitrum in order to pay for (significantly cheap
 
 In order to send DEV to Layer 2, we will use the DEV Arbitrum Bridge. Start by connecting your wallet. Keep in mind, you will need DEV in your wallet in order to wrap and bridge it to Arbitrum.
 
-You’ll need to wrap your DEV to make an Arbitrum-compliant WDEV. You can do that in the “Wrap” tab.    
+You’ll need to wrap your DEV to make an Arbitrum-compliant WDEV. You can do that in the “Wrap” tab.
 
 ![DEV TOKEN BRIDGE 01](/img/stakes.social/guide-move-funds01.png)
 

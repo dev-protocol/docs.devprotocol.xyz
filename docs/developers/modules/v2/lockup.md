@@ -8,6 +8,7 @@ sidebar_position: 3
 This contract manages user staking information.
 
 ## Interface
+
 The Lockup contract inherits from InitializableUsingRegistry. Therefore, it possesses the interfaces that InitializableUsingRegistry possesses.
 
 `function cap() public returns (uint256)`

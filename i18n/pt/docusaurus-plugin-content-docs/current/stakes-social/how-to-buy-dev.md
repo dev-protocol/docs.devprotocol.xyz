@@ -75,9 +75,7 @@ After you download and install the extension a little fox should show up as an e
 
 We strongly recommend you to watch this tutorial while setting it up.
 
-
 <iframe src="//www.youtube.com/embed/yWfZnjkhhhg" frameborder="0" allowfullscreen width="100%" height="500px"></iframe>
-
 
 #### 2. Transfer Ethereum to your Metamask Wallet
 

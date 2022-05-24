@@ -8,6 +8,7 @@ sidebar_position: 3
 This contract creates or activates Market.
 
 ## Interface
+
 This contract inherits from InitializableUsingRegistry and [OwnableUpgradeable](https://docs.openzeppelin.com/contracts/4.x/api/access#Ownable). So it retains the interfaces of these contructs.
 
 `function isPotentialMarket(address) public returns (bool)`

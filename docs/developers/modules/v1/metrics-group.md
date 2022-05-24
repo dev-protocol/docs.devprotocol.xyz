@@ -8,6 +8,7 @@ sidebar_position: 3
 grouping of metrics.
 
 ## Interface
+
 MetricsFactory inherits from UsingConfig and UsingStorage, and retains its interface.
 
 `function addGroup(address _addr) external`

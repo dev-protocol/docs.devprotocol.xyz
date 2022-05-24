@@ -8,6 +8,7 @@ sidebar_position: 3
 This is a contract that manages creator reward.
 
 ## Interface
+
 Withdraw inherits from Dev and InitializableUsingRegistry, and retains its interface.
 
 `function cumulativeWithdrawnReward(address) public view returns (uint256)`

@@ -8,6 +8,7 @@ sidebar_position: 3
 Manage staking and its rewards
 
 ## Interface
+
 Lockup inherits from UsingConfig and LockupStorage, and retains its interface.
 
 `function depositToProperty(address _property, uint256 _amount) external returns (uint256)`

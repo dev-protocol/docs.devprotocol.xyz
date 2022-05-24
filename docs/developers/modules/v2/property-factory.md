@@ -8,6 +8,7 @@ sidebar_position: 3
 Create Property.
 
 ## Interface
+
 PropertyFactory inherits from Dev and InitializableUsingRegistry, and retains its interface.
 
 `function isProperty(address) public view returns (bool)`

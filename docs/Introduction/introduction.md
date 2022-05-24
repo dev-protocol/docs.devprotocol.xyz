@@ -19,7 +19,7 @@ Dev Protocol provides benefits to maximize the creativity of creators.
 
 <br />
 
-:::note What is the beginning of Dev Protocol?   
+:::note What is the beginning of Dev Protocol?
 
 The inspiration for Dev Protocol came not from OSS, but from the Japanese traditional sector. In 2014, Founder found that traditional artisans, dealing with Japanese national treasures artifacts/architecture were economically undervalued, make only tenth of the revenue of an online game company, which led to us starting the challenge of Dev Protocol.
 In the existing economy, highly social activities are not paid for its true value. We believe in a world where creators' creativity is maximized.

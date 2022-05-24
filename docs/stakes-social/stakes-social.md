@@ -2,7 +2,6 @@
 title: Stakes Social
 ---
 
-
 ## What is Stakes.social?
 
 <br />
@@ -45,7 +44,6 @@ If you are new to crypto, Please see the start guide [here](stakes-social/how-to
 ## Reference
 
 <iframe src="//www.youtube.com/embed/rhOwDqbrkhc" frameborder="0" allowfullscreen width="100%" height="500px"></iframe>
-
 
 **What is Dev Protocol?**
 

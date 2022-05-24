@@ -30,7 +30,7 @@ sign(
 
 Emit smart contract events. Khaos monitors events regularly and starts oraclize as soon as it detects a new event. A user-defined Khaos function declares the smart contract address to be monitored. If the event data has a public signature with the key `publicSignature` , Khaos will pass the stored secret information to the oraclize method. A user-defined Khaos function declares the oraclize method.
 
-> You can quickly develop user-defined Khaos functions with the [Khaos Starter Kit](https://github.com/dev-protocol/khaos-starter-kit).    
+> You can quickly develop user-defined Khaos functions with the [Khaos Starter Kit](https://github.com/dev-protocol/khaos-starter-kit).
 
 Event name and event data can be changed as you wish with user-defined Khaos functions. An example is shown below.
 
@@ -59,6 +59,6 @@ function callback(bool _result) external {
 }
 ```
 
-##  Wait for callback
+## Wait for callback
 
 All you have only to do is wait for a callback from Khaos! 🎉

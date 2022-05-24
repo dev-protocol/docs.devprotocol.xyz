@@ -15,6 +15,7 @@ In Dev Protocol, DEV tokens have a function to gain staking rewards by staking P
 - Acquisition of right to vote for the governance.
 
 ## Interface
+
 Since Dev contract conform to ERC20, interface according to [erC20](https://docs.openzeppelin.com/contracts/4.x/erc20) is retained.
 V2 inherits from [AcceesControlEnumerableUpgradeable](https://docs.openzeppelin.com/contracts/4.x/api/access#AccessControlEnumerable) and retains its interface.
 
@@ -24,7 +25,6 @@ V2 inherits from [AcceesControlEnumerableUpgradeable](https://docs.openzeppelin.
 - `_amount`: The number of the minting amount
 
 mint Dev tokens from the address specified by `_account` for the amount specified by `_amount`.
-
 
 `function burn(address _account, uint256 _amount) public`
 

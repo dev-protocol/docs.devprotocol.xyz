@@ -8,6 +8,7 @@ sidebar_position: 3
 Manage creator rewards.
 
 ## Interface
+
 Withdraw inherits from UsingConfig and WithdrawStorage, and retains its interface.
 
 `function withdraw(address _property) external`
