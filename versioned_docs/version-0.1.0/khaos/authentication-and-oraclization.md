@@ -1,8 +1,9 @@
 ---
 title: Authentication and Oraclization
+sidebar_position: 1
 ---
 
-## Create a Public Signature
+## 1. Create a Public Signature
 
 A public signature is a signature string that does not pose a security risk when it is published. A public signature is a "string you want to proof (e.g., user ID)" and an "authentication method namespace (defined by a user)" signed with your Ethereum account address. That is, anyone can decrypt with the Ethereum account address.
 
@@ -26,11 +27,14 @@ sign(
 })
 ```
 
-## Emit on-chain event
+## 2. Emit on-chain event
 
 Emit smart contract events. Khaos monitors events regularly and starts oraclize as soon as it detects a new event. A user-defined Khaos function declares the smart contract address to be monitored. If the event data has a public signature with the key `publicSignature` , Khaos will pass the stored secret information to the oraclize method. A user-defined Khaos function declares the oraclize method.
 
-> You can quickly develop user-defined Khaos functions with the [Khaos Starter Kit](https://github.com/dev-protocol/khaos-starter-kit).
+:::info
+You can quickly develop user-defined Khaos functions with the Khaos Starter Kit.
+https://github.com/dev-protocol/khaos-starter-kit
+:::
 
 Event name and event data can be changed as you wish with user-defined Khaos functions. An example is shown below.
 
@@ -46,12 +50,9 @@ When Khaos completes the oraclize, Khaos executes a callback function. The smart
 
 You can change the callback function name and arguments as you like with user-defined Khaos functions. An example is shown below.
 
-:::tip
-
+:::info
 We recommend that you verify that the caller of the callback function is Khaos, for example by verifying the caller's address or a unique key that only Khaos knows as an argument.
-
 :::
-
 ```solidity
 function callback(bool _result) external {
 	require(msg.sender == khaos, "sender isn't khaos");
@@ -59,6 +60,6 @@ function callback(bool _result) external {
 }
 ```
 
-## Wait for callback
+## 3. Wait for callback
 
 All you have only to do is wait for a callback from Khaos! 🎉
