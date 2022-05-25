@@ -53,6 +53,7 @@ You can change the callback function name and arguments as you like with user-de
 :::info
 We recommend that you verify that the caller of the callback function is Khaos, for example by verifying the caller's address or a unique key that only Khaos knows as an argument.
 :::
+
 ```solidity
 function callback(bool _result) external {
 	require(msg.sender == khaos, "sender isn't khaos");
