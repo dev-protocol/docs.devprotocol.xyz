@@ -7,16 +7,18 @@
 </div>
 
 <br>
+
 ![Fork](https://img.shields.io/github/forks/dev-protocol/docs.devprotocol.xyz?style=social)
 ![Stars](https://img.shields.io/github/stars/dev-protocol/docs.devprotocol.xyz?style=social)
-![Languages](https://img.shields.io/github/languages/count/maticnetwork/matic-docs)
+![Languages](https://img.shields.io/github/languages/count/dev-protocol/docs.devprotocol.xyz)
 ![Issues](https://img.shields.io/github/issues/dev-protocol/docs.devprotocol.xyz)
 ![PRs](https://img.shields.io/github/issues-pr-raw/dev-protocol/docs.devprotocol.xyz)
 ![contributors](https://img.shields.io/github/contributors-anon/dev-protocol/docs.devprotocol.xyz)
 ![size](https://img.shields.io/github/languages/code-size/dev-protocol/docs.devprotocol.xyz)
+[![Twitter Follow](https://img.shields.io/twitter/follow/devprtcl?style=social)](https://twitter.com/devprtcl)
+
 
 <p align="center">
-
 🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
 </p>
 
@@ -28,37 +30,35 @@
 
 ## Contributing
 
-If you want to contribute or make fixes to spacebook, it is best to fork this repository directly and submit pull requests against it. If you spot a typo on the demo/documentation site, you can also open a fork directly from the edit button on the top of each page.
-
-## Install spacebook
-
-If you want to quickly install for local testing follow the instructions below:
+If you want to contribute or make fixes to docs, it is best to fork this repository directly and submit pull requests against it. If you spot a typo on the demo/documentation site, you can also open a fork directly from the edit button on the top of each page.
 
 ### Requirements
 
-You must be running **Node version 12 or higher** due to the Tailwind 2.0 release. I recommend using NVM to easily manage your Node versions if you need to switch back and forth between older versions.
-
-- [Node](https://nodejs.org/)
-- [NVM](https://github.com/nvm-sh/nvm) (optional)
+* Install [Node.js](https://nodejs.org/en/download/) version >= 12.13
+* Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.5  
+* [NVM](https://github.com/nvm-sh/nvm) (optional)
 
 **To find your current node version:**
 
 ```
 node --version
 ```
-
 ### Step one
-
-```
-git clone https://github.com/broeker/spacebook
-```
+Fork the repo. 
+   > For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
 
 ### Step two
+
+```
+git clone git@github.com:[your_github_handle]/docs.devprotocol.xyz
+```
+
+### Step three
 
 Install the site and run an initial build command:
 
 ```
-cd spacebook
+cd docs.devprotocol.xyz
 
 npm install
 
@@ -67,7 +67,7 @@ npm run build (only necessary the first time!)
 
 _If you get errors here, double check your node version!_
 
-### Step three
+### Step four
 
 Now spin up your local server to see your site!
 
