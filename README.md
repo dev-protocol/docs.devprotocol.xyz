@@ -1,20 +1,22 @@
-# Spacebook
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68791233-b2d6-4a86-8c42-e654e112a157/deploy-status)](https://app.netlify.com/sites/spacebook-app/deploys)
-
-Create your own spacebook and customize it to your needs. Spacebooks are speedy to set up, free, and 100% open source. Spacebooks are modern notebooks you can use to create documentation, sketch out new ideas, build a simple website, or whatever suits your fancy.
-
----
-
 <p align="center">
-<strong><big>Demo and documentation:</big></strong><br /> 
+<img align="center" src="https://raw.githubusercontent.com/dev-protocol/protocol/main/public/asset/logo.png" width="400">
 </p>
 
-<p align="center">
-<strong>https://spacebook.app</strong> <br />
-</>
+<div align="Center">
+<h1> Dev Protocol docs </h1>
+</div>
+
+<br>
+![Fork](https://img.shields.io/github/forks/dev-protocol/docs.devprotocol.xyz?style=social)
+![Stars](https://img.shields.io/github/stars/dev-protocol/docs.devprotocol.xyz?style=social)
+![Languages](https://img.shields.io/github/languages/count/maticnetwork/matic-docs)
+![Issues](https://img.shields.io/github/issues/dev-protocol/docs.devprotocol.xyz)
+![PRs](https://img.shields.io/github/issues-pr-raw/dev-protocol/docs.devprotocol.xyz)
+![contributors](https://img.shields.io/github/contributors-anon/dev-protocol/docs.devprotocol.xyz)
+![size](https://img.shields.io/github/languages/code-size/dev-protocol/docs.devprotocol.xyz)
 
 <p align="center">
+
 🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
 </p>
 
