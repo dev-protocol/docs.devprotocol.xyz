@@ -26,6 +26,7 @@ The safe, fast, and most secure way to bring cross-chain assets to the Polygon c
 ![GUIDE04](/img/stakes.social/polygon-starter/screenshot4.png)
 
 For video tutorial
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GLK33hkwA68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Buy Matic on Quickswap
@@ -57,6 +58,7 @@ Note: Some currencies are temporarily suspended or not available. Another option
 ![GUIDE08](/img/stakes.social/polygon-starter/screenshot8.png)
 
 Watch tutorials on how to buy MATIC on Binance
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SEEL7SwT1FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to Transfer Matic from Binance to Metamask
@@ -85,6 +87,7 @@ Watch tutorials on how to buy MATIC on Binance
 1. It can take 3-4 minutes or more, depending on the traffic on the network for your balance to reflect in the metamask wallet.
 
 Watch the tutorial on how to Transfer Matic from Binance to Metamask
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oxwHIiI_SRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Swap MATIC to DEV using Quickswap
