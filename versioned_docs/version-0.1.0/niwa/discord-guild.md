@@ -39,7 +39,7 @@ Wait for few minutes for `Tokenization Success`
 1. View your Discord guild by clicking `View Your Token`
    ![View](/img/niwa/discord/screenshot8.png)
 
-2.  Properties
-    ![Properties](/img/niwa/discord/screenshot9.PNG)
+2. Properties
+   ![Properties](/img/niwa/discord/screenshot9.PNG)
 
 Done. Now you can share your Discord guild to your community and get support from staking their token.
