@@ -1,6 +1,6 @@
 ---
 title: How to Move Funds to Arbitrum
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 You’ll need some Ethereum on Arbitrum in order to pay for (significantly cheaper) gas fees. Simply go to the Arbitrum Bridge, connect via MetaMask, and bridge some ETH.
@@ -8,7 +8,6 @@ You’ll need some Ethereum on Arbitrum in order to pay for (significantly cheap
 In order to send DEV to Layer 2, we will use the DEV Arbitrum Bridge. Start by connecting your wallet. Keep in mind, you will need DEV in your wallet in order to wrap and bridge it to Arbitrum.
 
 You’ll need to wrap your DEV to make an Arbitrum-compliant WDEV. You can do that in the “Wrap” tab.
-
 ![DEV TOKEN BRIDGE 01](/img/stakes.social/guide-move-funds01.png)
 
 Once the transaction completes, you will see your WDEV balance reflected in the top right of the app. Now that we have some WDEV, we can use the L2 Bridge tab to send the funds to Arbitrum.
@@ -26,7 +25,6 @@ Remember, you also have to send Ethereum to Arbitrum to cover for gas fees, to t
 ### To transfer ETH from Ethereum mainnet (Layer 1) to Arbitrum (Layer 2) :
 
 **1. Go to the Arbitrum bridge, click on ‘I agree’, then connect your wallet.**
-
 ![DEV TOKEN BRIDGE 03](/img/stakes.social/guide-move-funds03.png)
 
 **2. After connecting, a window showing your current balance on L1 should show up. Check your ETH balance and set the amount you want to transfer to L2.**
@@ -36,4 +34,4 @@ Remember, you also have to send Ethereum to Arbitrum to cover for gas fees, to t
 
 If you don’t feel comfortable enough after reading this, check out this YouTube video explaining how to do it step by step:
 
-<iframe src="//www.youtube.com/embed/IxAC5Kg8B4U" frameborder="0" allowfullscreen width="100%" height="500px"></iframe>
+[Arbitrum Tutorial: How To Use Arbitrum & Bridge Ethereum to Layer 2](https://www.youtube.com/watch?v=IxAC5Kg8B4U)

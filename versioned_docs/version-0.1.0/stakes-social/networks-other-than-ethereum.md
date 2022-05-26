@@ -1,9 +1,22 @@
 ---
-title: How to Onboard Polygon's Dev Protocol
-sidebar_position: 7
+title: Networks other than Ethereum
+sidebar_position: 5
 ---
 
-## What is Polygon
+![onboard Arbitrum](/img/stakes.social/guide-arbitrum01.png)
+
+Dev Protocol has released Dev Protocol on Layer2's Arbitrum and side chain's Polygon to avoid the recent surge in gas prices on the Ethereum network. By using Layer2, the gas cost for all transactions can be reduced, making staking and onboarding easier than ever.
+You can continue to use the Dev Protocol on the mainnet, but if you want to onboard the Dev Protocol of Arbitrum or Polygon, you will need to register onboard again.
+
+## What is Layer2
+
+Layer2 is a technology that allows you to implement a virtual machine "EVM" that executes contracts such as DeFi and NFT on a blockchain (Layer2) different from the mainnet. Arbitrum is a promising candidate for this technology, and Dev Protocol has released a service to Arbitrum One that has already been deployed.
+
+## Why release on Layer 2?
+
+Ethereum Mainnet has maintained high transaction fees due to recent increases in demand. Arbitrum can keep this fee low while using the same system as Ethereum.
+
+## What is Polygon?
 
 Launched in 2017 originally as Matic network as an universal blockchain scaling solution, then it was rebranded in early 2021 as Polygon, focusing on being a scaling solution for Ethereum. Since it’s rebranding and change of focus, it has had tremendous success, with solid projects like Uniswap, Aave, OpenSea and upcoming games like Aavegotchi running on the Polygon network.
 
@@ -29,10 +42,9 @@ Click on ‘Custom RPC’ at the end of the list. This will open the page below,
 ## Using the Polygon bridge
 
 Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/) to transfer DEV from the Polygon network to the Ethereum mainnet.
-
 https://wallet.polygon.technology/bridge
 
-![Image 3](/img/stakes.social/polygon-guide/image3.png)
+![Image 3](/content/{{ locale }}/images/stakes.social/polygon-guide/image3.png)
 
 Just type in the amount of tokens that you want to send to the Polygon network and click on Transfer to do so.
 
@@ -40,7 +52,7 @@ Note: remember that gas fees on the Polygon network are paid with MATIC.
 
 There is a YouTube guide if you still don’t feel comfortable transferring assets between chains:
 
-> https://www.youtube.com/playlist?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLslsfan1R_z0Epvnqsj29V1LBAh99dzu9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Make sure you get some MATIC for the onboarding fee costs, it shouldn’t be too much since Polygon is very cheap compared to the Ethereum mainnet.
 
@@ -64,4 +76,5 @@ If you already have a project onboarded on any other network please do the proce
 
 We kindly ask for a week for the team to evaluate the project on the screening process. We will let you know the results via e-mail so please change the filtering setup for your mailbox to receive an email from “@devprotocol.xyz”.
 
-If you have any questions, please follow the [onboarding guide](stakes-social/onboard-guide) below, or contact us on [Discord](https://discord.com/invite/VwJp4KM).
+If you have any questions, please follow the onboarding guide below, or contact us on Discord.
+https://docs.devprotocol.xyz/stakes-social/onboard-guide/
