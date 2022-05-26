@@ -76,5 +76,4 @@ If you already have a project onboarded on any other network please do the proce
 
 We kindly ask for a week for the team to evaluate the project on the screening process. We will let you know the results via e-mail so please change the filtering setup for your mailbox to receive an email from “@devprotocol.xyz”.
 
-If you have any questions, please follow the onboarding guide below, or contact us on Discord.
-https://docs.devprotocol.xyz/stakes-social/onboard-guide/
+If you have any questions, please follow the [onboarding guide](/stakes-social/onboard-guide/), or contact us on Discord.
