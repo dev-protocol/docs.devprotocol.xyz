@@ -1,6 +1,6 @@
 ---
 title: How to Move Funds to Arbitrum
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 You’ll need some Ethereum on Arbitrum in order to pay for (significantly cheaper) gas fees. Simply go to the Arbitrum Bridge, connect via MetaMask, and bridge some ETH.
@@ -34,4 +34,6 @@ Remember, you also have to send Ethereum to Arbitrum to cover for gas fees, to t
 
 If you don’t feel comfortable enough after reading this, check out this YouTube video explaining how to do it step by step:
 
-[Arbitrum Tutorial: How To Use Arbitrum & Bridge Ethereum to Layer 2](https://www.youtube.com/watch?v=IxAC5Kg8B4U)
+Arbitrum Tutorial: How To Use Arbitrum & Bridge Ethereum to Layer 2
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IxAC5Kg8B4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

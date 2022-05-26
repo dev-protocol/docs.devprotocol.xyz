@@ -5,6 +5,7 @@ title: Stakes Social
 ## What is Stakes.social?
 
 ![logo](/img/stakessocial-logo.png)
+
 Stakes.social is the first official Dapp built on the Dev Protocol, released in June 2020. Stakes.social is a new sponsor platform where both developers and sponsors are rewarded with tokens if they support their favorite projects by staking DEV tokens.
 
 Key Features

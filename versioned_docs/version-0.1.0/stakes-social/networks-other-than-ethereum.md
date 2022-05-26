@@ -1,6 +1,6 @@
 ---
 title: Networks other than Ethereum
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ![onboard Arbitrum](/img/stakes.social/guide-arbitrum01.png)

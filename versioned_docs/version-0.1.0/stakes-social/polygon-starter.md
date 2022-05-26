@@ -1,5 +1,6 @@
 ---
 title: Polygon Starter
+sidebar_position: 8
 ---
 
 ## Polygon Bridge

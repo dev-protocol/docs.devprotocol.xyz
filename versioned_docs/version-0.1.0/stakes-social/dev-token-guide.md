@@ -1,6 +1,6 @@
 ---
 title: Guideline for DEV token
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 DEV token is a crypto asset designed to support OSS.
