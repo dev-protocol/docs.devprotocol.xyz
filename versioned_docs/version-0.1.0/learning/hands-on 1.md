@@ -1,17 +1,22 @@
 ---
-title: Connect to Metamask to authenticate and display the user's wallet address and possessed DEV
+title: Hands-on 1
+slug: /learning/authenticate-and-display
 sidebar_position: 1
 ---
 
-First, I will introduce the finished product to be created this time. Please access it [here](https://27v7x.csb.app/)
+## Connect to Metamask to authenticate and display the user's wallet address and possessed DEV
+
+First, I will introduce the finished product to be created this time. Please access the following URL
+https://27v7x.csb.app/
 
 This application is an application that connects to Metamask, authenticates, and displays the user's wallet address and possessed DEV.
 
-### Explanation of operation
+### [Explanation of operation]
 
-Please access the following [CodeSandbox](https://codesandbox.io/s/login-with-wallet-build-27v7x)
+Please access the following URL and open CodeSandbox.
+https://codesandbox.io/s/login-with-wallet-build-27v7x
 
-Select `src/index.ts` from Explore on the left to display the source code.
+Select src / index.ts from Explore on the left to display the source code.
 
 If you scroll to the bottom, you will find ①.
 From now on, I will code from ① to ⑨.

@@ -1,6 +1,6 @@
 ---
 title: What's token?
-sidebar_position: 1
+sidebar_position: 5
 ---
 
 Token is a program executed on Ethereum, and is one of the common forms of smart contract. It is a written program in accordance with standardized interface.

@@ -1,9 +1,10 @@
 ---
-title: Display registered properties and perform staking
+title: Hands-on 2
+slug: /learning/display-properties-perform-staking
 sidebar_position: 2
 ---
 
-## Hands-on #2
+## Display registered properties and perform staking
 
 This hands-on displays the projects registered in the Dev Protocol (called properties in the code). Dev Protocol data can be called by GraphQL. First, let's look at the data using GraphQL. GraphQL can be accessed from the link below.
 
@@ -23,7 +24,7 @@ First, I will introduce the finished product to be created this time. Please acc
 
 This application gets the property list from GraphQL at the time of access and displays only the first one. The property has a button to stake "1 DEV", and pressing this button will stake.
 
-### Explanation of operation
+### [Explanation of operation]
 
 Please access the following URL and open CodeSandbox.:
 
