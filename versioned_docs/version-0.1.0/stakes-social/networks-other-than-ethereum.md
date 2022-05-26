@@ -44,7 +44,7 @@ Click on ‘Custom RPC’ at the end of the list. This will open the page below,
 Go to the Polygon Bridge, connect your wallet, then you will be able to send tokens from the Ethereum mainnet to the Polygon network. You can also use [Polygon Bridge](https://wallet.polygon.technology/) to transfer DEV from the Polygon network to the Ethereum mainnet.
 https://wallet.polygon.technology/bridge
 
-![Image 3](/content/{{ locale }}/images/stakes.social/polygon-guide/image3.png)
+![Image 3](/img/stakes.social/polygon-guide/image3.png)
 
 Just type in the amount of tokens that you want to send to the Polygon network and click on Transfer to do so.
 
