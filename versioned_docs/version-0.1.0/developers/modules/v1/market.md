@@ -1,6 +1,6 @@
 ---
 title: Market
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Summary
@@ -9,7 +9,7 @@ Market is a contract to define tokenization scheme in Dev Protocol, and is defin
 
 Developers of Market can develop or deploy smart contracts based on MarketBehavior interface, and add Markets at vote queue through MarketFactory contracts. Voting becomes open to staking users by [govern.devprotocol.xyz](//govern.devprotocol.xyz). Once voting is approved, Market is activated by DAO maintainer or keepers.
 
-Market has two functions:
+Market has 2 functions:
 
 - Authentication: Based on the arguments given by users, Market verifies whether the users are appropriate certificate holders.
 - Deauthentication: Based on users’ request, authenticated information is deleted.
@@ -22,35 +22,31 @@ Market defines types of activities that can be expressed by Property tokens The 
 
 ## Activation of Market
 
-### Development
+### 1 - Development
 
 Developers of Market need to develop smart contracts in accordance with MarketBehavior interface.
 
-### Deploy
+### 2 - Deploy
 
 Developers deploy Market contract that they developed. Smart contracts to deploy are the contracts that succeeded MarketBehavior interface and their dependence.
 
-### MarketFactory
+### 3 - MarketFactory
 
 After developers call `MarketFactory.create`, MarketFactory automatically generates Market contract that incorporates Market developed by users.
 
-### Vote
+### 4 - Vote
 
 Developers request Dev Protocol DAO to judge whether automatically generated Market contracts should be activated.
 
-:::info
+> In the future, we're hoping that voting contract would be deployed at the same time of executing `MarketFactory.create`, although users need to create voting contracts currently. Voting contracts can be created with VoteFactory contracts.
 
-In the future, we're hoping that voting contract would be deployed at the same time of executing `MarketFactory.create`, although users need to create voting contracts currently. Voting contracts can be created with VoteFactory contracts.
+**Contract:** https://github.com/dev-protocol/vote-governance/blob/main/contracts/VoteFactory.sol
 
-:::
+**Mainnet:** https://etherscan.io/address/0x36199cb1e12c5b9d5a203f9dcb53b37e3ca6a30f
 
-<br />
-
-**Contract:** https://github.com/dev-protocol/vote-governance/blob/main/contracts/VoteFactory.sol  
-**Mainnet:** https://etherscan.io/address/0x36199cb1e12c5b9d5a203f9dcb53b37e3ca6a30f  
 **Sample tx:** Ethereum Transaction Hash (Txhash) Details | Etherscan
 
-### Activation
+### 5 - Activation
 
 After the vote is approved, automatically generated Market contracts are activated by DAO maintainers or keepers.
 

@@ -1,6 +1,6 @@
 ---
 title: What's Ethereum?
-sidebar_position: 0
+sidebar_position: 4
 ---
 
 Ethereum is a P2P network with computing infrastructure. It is one of the blockchain implementation.

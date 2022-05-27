@@ -1,9 +1,10 @@
 ---
-title: List staking properties and withdraw staking
+title: Hands-on 3
+slug: /learning/staking-properties-withdraw-staking
 sidebar_position: 3
 ---
 
-### Hands-on #3
+## List staking properties and withdraw staking
 
 This hands-on get staking property information from GraphQL. First, let's get a list of staking properties using GraphQL. GraphQL can be accessed from the link below.
 

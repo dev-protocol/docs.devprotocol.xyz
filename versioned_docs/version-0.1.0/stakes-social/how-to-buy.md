@@ -18,7 +18,6 @@ The most widely used and accessible exchange in the world right now is [Binance]
 #### 1. Register
 
 It is required to register in order to use Binance, just like in any other broker, you will have to pass through a KYC process, usually it takes less than 1h to be verified, but on their website it says that it could take up to 36h.
-
 ![how to buy DEV](/img/how-to-buy/how-to-buy-dev_1.png)
 
 #### 2. Bank Transfer/Credit Card
@@ -73,9 +72,9 @@ There are a few wallets that are widely used, the most common one is [Metamask](
 
 After you download and install the extension a little fox should show up as an extension at the top right corner of your browser. If you click on that extension for the first time, it should redirect you to a page where you will create your password (should be as strong as possible), don't forget to write it down somewhere that you'll never forget. You will also have to write down a back up seed phrase (never lose this, and never share it with anyone else). Follow the instructions carefully.
 
-We strongly recommend you to watch this tutorial while setting it up.
+I strongly recommend you to watch this tutorial while setting it up.
 
-<iframe src="//www.youtube.com/embed/yWfZnjkhhhg" frameborder="0" allowfullscreen width="100%" height="500px"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yWfZnjkhhhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 2. Transfer Ethereum to your Metamask Wallet
 

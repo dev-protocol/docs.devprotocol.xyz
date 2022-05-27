@@ -1,6 +1,6 @@
 ---
 title: util-contracts
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## What is util-contracts?
