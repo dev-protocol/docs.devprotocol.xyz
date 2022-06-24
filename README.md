@@ -17,7 +17,6 @@
 ![size](https://img.shields.io/github/languages/code-size/dev-protocol/docs.devprotocol.xyz)
 [![Twitter Follow](https://img.shields.io/twitter/follow/devprtcl?style=social)](https://twitter.com/devprtcl)
 
-
 <p align="center">
 🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
 </p>
@@ -34,18 +33,21 @@ If you want to contribute or make fixes to docs, it is best to fork this reposit
 
 ### Requirements
 
-* Install [Node.js](https://nodejs.org/en/download/) version >= 12.13
-* Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.5  
-* [NVM](https://github.com/nvm-sh/nvm) (optional)
+- Install [Node.js](https://nodejs.org/en/download/) version >= 12.13
+- Install [Yarn](https://yarnpkg.com/getting-started/install) version >= 1.5
+- [NVM](https://github.com/nvm-sh/nvm) (optional)
 
 **To find your current node version:**
 
 ```
 node --version
 ```
+
 ### Step one
-Fork the repo. 
-   > For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
+
+Fork the repo.
+
+> For help, refer to [GitHub Docs: Fork a repo](https://help.github.com/en/articles/fork-a-repo).
 
 ### Step two
 
