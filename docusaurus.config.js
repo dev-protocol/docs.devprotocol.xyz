@@ -243,12 +243,12 @@ const config = {
 			theme: lightCodeTheme,
 			darkTheme: darkCodeTheme,
 		},
-		// algolia: {
-		//   appId: 'XXXXXX',
-		//   apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
-		//   indexName: "XXXXXX",
-		//   algoliaOptions: {},
-		// }
+		algolia: {
+			appId: process.env.ALGOLIA_APP_ID,
+			apiKey: process.env.ALGOLIA_API_KEY,
+			indexName: process.env.ALGOLIA_INDEX_NAME,
+			algoliaOptions: {},
+		},
 	},
 }
 
