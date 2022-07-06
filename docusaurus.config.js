@@ -245,8 +245,8 @@ const config = {
 			darkTheme: darkCodeTheme,
 		},
 		algolia: {
-			appId: 'test',
-			apiKey: process.env.ALGOLIA_API_KEY,
+			appId: process.env.ALGOLIA_APP_ID,
+			apiKey: 'test',
 			indexName: process.env.ALGOLIA_INDEX_NAME,
 			contextualSearch: false,
 			algoliaOptions: {},
