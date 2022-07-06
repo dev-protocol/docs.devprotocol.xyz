@@ -246,8 +246,8 @@ const config = {
 		},
 		algolia: {
 			appId: process.env.ALGOLIA_APP_ID,
-			apiKey: 'test',
-			indexName: process.env.ALGOLIA_INDEX_NAME,
+			apiKey: process.env.ALGOLIA_API_KEY,
+			indexName: 'test',
 			contextualSearch: false,
 			algoliaOptions: {},
 		},
