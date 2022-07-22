@@ -247,7 +247,7 @@ const config = {
 		algolia: {
 			appId: process.env.ALGOLIA_APP_ID,
 			apiKey: process.env.ALGOLIA_API_KEY,
-			indexName: process.env.ALGOLIA_INDEX_NAME,
+			indexName: 'crawler_devdocs',
 			contextualSearch: false,
 			algoliaOptions: {},
 		},
