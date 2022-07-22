@@ -28,7 +28,11 @@ jobs:
         run: |
           yarn
           yarn build
-
+        env: |
+          ALGOLIA_APP_ID: dummy
+          ALGOLIA_API_KEY: dummy
+          ALGOLIA_INDEX_NAME: dummy
+          
       - name: Lint
         run: |
           yarn lint
