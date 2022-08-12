@@ -21,7 +21,6 @@ In Dev Protocol, DEV tokens have a function to gain staking rewards by staking P
 pragma solidity ^0.8.7;
 
 interface IDev{
-    function depositFrom(address _from, address _to, uint256 _amount) external returns (bool);
     function totalSupply() external view returns (uint256);
     function balanceOf(address account) external view returns (uint256);
     function transfer(address recipient, uint256 amount) external returns (bool);
