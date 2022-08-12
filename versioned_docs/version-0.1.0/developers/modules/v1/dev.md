@@ -50,7 +50,8 @@ contract UsingDevInterface{
      */
 }
 ```
-Open in [Remix](https://github.com/dev-protocol/docs.devprotocol.xyz/embedd/DevInterface.sol)
+
+Open in [Remix](https://remix.ethereum.org/#url=https://github.com/dev-protocol/docs.devprotocol.xyz/embedd/DevInterface.sol)
 
 ### `function deposit(address _to, uint256 _amount) external returns (bool)`
 
