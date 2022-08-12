@@ -32,8 +32,8 @@ interface IDev{
 contract UsingDevInterface{
     IDev internal DevQuery;
     /**
-     * Network: Polygon Mumbai
-     * Address: 0xcbc698ed514dF6e54932a22515d6D0C27E4DA091
+     * Network: Ethereum Mainnet
+     * Address: 0x5caf454ba92e6f2c929df14667ee360ed9fd5b26
      */
     constructor() {
         DevQuery = IDev(0xcbc698ed514dF6e54932a22515d6D0C27E4DA091);
