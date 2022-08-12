@@ -16,6 +16,9 @@ In Dev Protocol, DEV tokens have a function to gain staking rewards by staking P
 
 ## Interface
 
+Since Dev contract conform to ERC20, interface according to [ERC20](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#IERC20) is retained.
+and, Dev contract inherits from [ERC20Mintable](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Mintable), [ERC20Burnable](https://docs.openzeppelin.com/contracts/2.x/api/token/erc20#ERC20Burnable), and UsingConfig, and therefore retains their interfaces.
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
@@ -50,7 +53,8 @@ contract UsingDevInterface{
 }
 ```
 
-Open in [Remix](https://remix.ethereum.org/#url=https://github.com/dev-protocol/docs.devprotocol.xyz/embedd/DevInterface.sol)
+<span>Open in <a href="https://remix.ethereum.org/#url=https://github.com/dev-protocol/docs.devprotocol.xyz/embedd/DevInterface.sol">Remix</a></span>
+
 
 ### `function deposit(address _to, uint256 _amount) external returns (bool)`
 
