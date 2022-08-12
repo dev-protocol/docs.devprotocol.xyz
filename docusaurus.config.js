@@ -49,13 +49,12 @@ const config = {
 		},
 	},
 	themeConfig: {
-		
 		docs: {
 			sidebar: {
-			  hideable: true,
-			  autoCollapseCategories: true,
+				hideable: true,
+				autoCollapseCategories: true,
 			},
-		  },
+		},
 		colorMode: {
 			defaultMode: 'light',
 			disableSwitch: false,
