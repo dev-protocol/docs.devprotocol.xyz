@@ -49,8 +49,12 @@ const config = {
 		},
 	},
 	themeConfig: {
-		autoCollapseSidebarCategories: true,
-		hideableSidebar: true,
+		docs: {
+			sidebar: {
+				hideable: true,
+				autoCollapseCategories: true,
+			},
+		},
 		colorMode: {
 			defaultMode: 'light',
 			disableSwitch: false,
@@ -229,6 +233,8 @@ const config = {
 				alt: 'Dev Protocol Logo',
 				src: 'img/devprotocol-logo.png',
 				href: 'https://devprotocol.xyz',
+				width: 150,
+				height: 150,
 			},
 			copyright: `Copyright © ${new Date().getFullYear()} Dev Protocol`,
 		},
@@ -242,6 +248,7 @@ const config = {
 		prism: {
 			theme: lightCodeTheme,
 			darkTheme: darkCodeTheme,
+			additionalLanguages: ['solidity'],
 		},
 		// algolia: {
 		//   appId: 'XXXXXX',
