@@ -1,6 +1,6 @@
 ---
 title: Ecosystem Addresses
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ### Ethereum Mainnet
