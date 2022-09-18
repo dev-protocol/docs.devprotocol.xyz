@@ -15,7 +15,6 @@ This contract is an ERC-721 compliant contract.
 
 ## Interface
 
-
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
@@ -41,9 +40,9 @@ contract usingstokenInterface {
     * @return uint256 current token id
     */
     function getSTokenData(
-        address _propertyaddress, 
+        address _propertyaddress,
         address _owner
-    ) public view 
+    ) public view
     returns(uint256[] memory, uint256[] memory, uint256){
         uint256[] memory PropertyPositions = STokenQuery.positionsOfProperty(_propertyaddress);
         uint256[] memory OwnerPositions = STokenQuery.positionsOfOwner(_owner);
@@ -53,6 +52,7 @@ contract usingstokenInterface {
     // similarly you can call other functions from the interface
 }
 ```
+
 <span>
 	Open in{' '}
 	<a href="https://remix.ethereum.org/#url=https://github.com/dev-protocol/docs.devprotocol.xyz/embedd/STokenInterfaceV2.sol">
