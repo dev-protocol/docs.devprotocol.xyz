@@ -125,6 +125,126 @@ See [Ecosystem Addresses](../../ecosystem-addresses.md) for AddressConfig contra
 
 To mint a tokens and authenticate at the same time, use the `createAndAuthenticate` function.
 
-:::note
-TODO: To be described
-:::
+`createAndAuthenticate` function takes 6 arguments:
+
+1. Token name
+2. Token symbol
+3. Market address
+4. First argument to pass through to Market
+5. Second argument to pass through to Market
+6. Third argument to pass through to Market
+
+```mdx-code-block
+<Tabs>
+<TabItem value="Dev Kit JS">
+```
+
+```ts
+import { clientsPropertyFactory } from '@devprotocol/dev-kit'
+import { whenDefined } from '@devprotocol/util-ts'
+import type { BaseProvider } from '@ethersproject/providers'
+
+// This function mints and authenticate an ERC-20 tokens with hard-coded options, and returns the transaction fail/success.
+export default (provider: BaseProvider) => {
+	const clients = await clientsPropertyFactory(provider)
+	const propertyFactory = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
+	const result = await whenDefined(propertyFactory, (contract) =>
+		contract.createAndAuthenticate(
+			// Token name
+			'My Token',
+			// Token symbol
+			'MYT',
+			// Market address
+			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
+			// Three argument to pass through to Market
+			['arg1','arg2','arg3']
+		)
+	)
+	return result
+}
+```
+
+`clientsPropertyFactory` detects chains from a given provider and returns an array of contract instances. The first element of the array is the mainnet (v1 interface) contract and the second element of the array is the L2 (v2 interface) contract.
+
+```mdx-code-block
+</TabItem>
+<TabItem value="Polygon/Arbitrum and their testnets">
+```
+
+```solidity
+import "@devprotocol/protocol-v2/contracts/interface/IPropertyFactory.sol"
+
+contract MyContract {
+	IPropertyFactory public propertyFactory;
+
+	constructor(address _propertyFactory) public {
+		propertyFactory = IPropertyFactory(_propertyFactory);
+	}
+
+	// This function mints and authenticate an ERC-20 tokens with hard-coded options, and returns the transaction fail/success.
+	function mint() external returns(bool) {
+		bool result = propertyFactory.createAndAuthenticate(
+			// Token name
+			"My Token",
+			// Token symbol
+			"MYT",
+			// Market address
+			"0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6",
+			// First argument to pass through to Market
+			"arg1",
+			// Second argument to pass through to Market
+			"arg2",
+			// Third argument to pass through to Market
+			"arg3"
+		);
+		return result;
+	}
+}
+```
+
+See [Ecosystem Addresses](../../ecosystem-addresses.md) for PropertyFactory contract addresses.
+
+```mdx-code-block
+</TabItem>
+<TabItem value="Ethereum">
+```
+
+```solidity
+import "@devprotocol/protocol/contracts/interface/IPropertyFactory.sol"
+import "@devprotocol/protocol/contracts/interface/IAddressConfig.sol"
+
+contract MyContract {
+	IAddressConfig public addressConfig;
+
+	constructor(address _addressConfig) public {
+		addressConfig = IAddressConfig(_addressConfig);
+	}
+
+	// This function mints and authenticate an ERC-20 tokens with hard-coded options, and returns the transaction fail/success.
+	function mint() external returns(bool) {
+		IPropertyFactory propertyFactory = addressConfig.propertyFactory();
+		bool result = propertyFactory.createAndAuthenticate(
+			// Token name
+			"My Token",
+			// Token symbol
+			"MYT",
+			// Market address
+			"0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6",
+			// First argument to pass through to Market
+			"arg1",
+			// Second argument to pass through to Market
+			"arg2",
+			// Third argument to pass through to Market
+			"arg3"
+		);
+		return result;
+	}
+}
+```
+
+See [Ecosystem Addresses](../../ecosystem-addresses.md) for AddressConfig contract addresses.
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```
