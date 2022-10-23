@@ -157,7 +157,7 @@ export default (provider: BaseProvider) => {
 			// Market address
 			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
 			// Three argument to pass through to Market
-			['arg1','arg2','arg3']
+			['arg1', 'arg2', 'arg3']
 		)
 	)
 	return result

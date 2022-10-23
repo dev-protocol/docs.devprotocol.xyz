@@ -27,7 +27,7 @@ import { clientsProperty } from '@devprotocol/dev-kit'
 import { whenDefined } from '@devprotocol/util-ts'
 import type { BaseProvider } from '@ethersproject/providers'
 
-// This function trasfers the property tokens with hard-coded options, and returns true if success.
+// This function transfers the property tokens with hard-coded options, and returns true if success.
 export default (provider: BaseProvider, tokenAddress: string) => {
 	const clients = await clientsProperty(provider, tokenAddress)
 	const property = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
@@ -35,8 +35,8 @@ export default (provider: BaseProvider, tokenAddress: string) => {
 		contract.transfer(
 			// Address of receiver
 			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-            // Value Multiple of 10^18
-            '1000000000000000000'
+			// Value Multiple of 10^18
+			'1000000000000000000'
 		)
 	)
 	return result
@@ -49,25 +49,25 @@ export default (provider: BaseProvider, tokenAddress: string) => {
 ```
 
 ```solidity
-import "@devprotocol/protocol-v2/contracts/interface/IProperty.sol"
+import "@devprotocol/protocol-v2/contracts/interface/IProperty.sol";
 
 contract MyContract {
-	IProperty public property;
+    IProperty public property;
 
-	constructor(address _property) public {
-		property = IProperty(_property);
-	}
+    constructor(address _property) public {
+        property = IProperty(_property);
+    }
 
-    // This function trasfers the property tokens with hard-coded options, and returns true if success.
-	function trasnferProperty() external returns(bool) {
-		bool result = property.transfer(
+    // This function transfers the property tokens with hard-coded options, and returns true if success.
+    function transferProperty() external returns(bool) {
+        bool result = property.transfer(
             // Address of receiver
-			"0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6",
+            "0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6",
             // Value Multiple of 10^18
             "1000000000000000000"
-		);
-		return result;
-	}
+        );
+        return result;
+    }
 }
 ```
 
@@ -86,8 +86,8 @@ contract MyContract {
 		property = IProperty(_property);
 	}
 
-    // This function trasfers the property tokens with hard-coded options, and returns true if success.
-	function trasnferProperty() external returns(bool) {
+    // This function transfers the property tokens with hard-coded options, and returns true if success.
+	function transferProperty() external returns(bool) {
 		bool result = property.transfer(
             // Address of receiver
 			"0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6",
@@ -106,10 +106,9 @@ contract MyContract {
 
 ## Side-effects of transfering Property Tokens
 
-The Property Token represents the user’s property group ownership. This token conforms to ERC20 and can be transferred to any wallet address. 
+The Property Token represents the user’s property group ownership. This token conforms to ERC20 and can be transferred to any wallet address.
 
 Each Property Contract(Token) holder will receive market rewards based on the balance of the Property Contract(Token) they own. This is similar to sharing profit with shareholders as per their ownership in the company.
-
 
 :::info
 Currently, rewards are only created via the staking mechanism when it assures an asset.
