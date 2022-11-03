@@ -7,9 +7,9 @@ In Dev Protocol, ERC-721 tokens indicate a staking position for any of Property 
 
 ## Mint ERC-721 tokens
 
-Immediately mint the users ERC-721 tokens by executing `depositByProperty` function of Lockup contract.
+Immediately mint the users ERC-721 tokens by executing `depositToProperty` function of Lockup contract.
 
-`depositByProperty` function takes 3 arguments:
+`depositToProperty` function takes 3 arguments:
 
 1. Property Tokens address
 2. Staking amount
@@ -30,29 +30,29 @@ import type { BaseProvider } from '@ethersproject/providers'
 
 // This function mints an ERC-721 tokens by staking the specified staking amount to specified property, and returns the new tokenId.
 export default (provider: BaseProvider) => {
-    const clients = await clientsLockup(provider)
-    const lockup = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
-    // without payload
-    const sTokenIdWithout = await whenDefined(lockup, (contract) =>
-        contract.depositToProperty(
-            // Property address
-            '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-            // Staking Value in Multiple of 10^18
-            '1000000000000000000',
-        )
-    )
-    // with payload
-    const sTokenIdWith = await whenDefined(lockup, (contract) => 
-        contract.depositToProperty(
-            // Property address
-            '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-            // Staking Value in Multiple of 10^18
-            '1000000000000000000',
-            // Payload
-            '0x7468697320697320616e206578616d706c650000000000000000000000000000'
-            )
-    )
-    return [sTokenIdWithout, sTokenIdWith]
+	const clients = await clientsLockup(provider)
+	const lockup = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
+	// without payload
+	const sTokenIdWithout = await whenDefined(lockup, (contract) =>
+		contract.depositToProperty(
+			// Property address
+			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
+			// Staking Value in Multiple of 10^18
+			'1000000000000000000'
+		)
+	)
+	// with payload
+	const sTokenIdWith = await whenDefined(lockup, (contract) =>
+		contract.depositToProperty(
+			// Property address
+			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
+			// Staking Value in Multiple of 10^18
+			'1000000000000000000',
+			// Payload
+			'0x7468697320697320616e206578616d706c650000000000000000000000000000'
+		)
+	)
+	return [sTokenIdWithout, sTokenIdWith]
 }
 ```
 
@@ -60,6 +60,7 @@ export default (provider: BaseProvider) => {
 </TabItem>
 <TabItem value="Polygon/Arbitrum and their testnets">
 ```
+
 ```solidity
 import "@devprotocol/protocol-v2/contracts/interface/ILockup.sol";
 
@@ -72,13 +73,13 @@ contract MyContract {
 
     // This function mints an ERC-20 tokens with hard-coded options, and returns the new token address.
     function mintWithOutPayload() external returns(uint256) {
-        // minting without payload 
+        // minting without payload
         uint256 sTokenIdWithout  = lockup.depositToProperty(
             // Property address
             0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
             // Staking Value in Multiple of 10^18
             1000000000000000000
-            
+
         );
         return sTokenIdWithout;
     }
@@ -97,12 +98,14 @@ contract MyContract {
     }
 }
 ```
+
 See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addresses.
 
 ```mdx-code-block
 </TabItem>
 <TabItem value="Ethereum">
 ```
+
 ```solidity
 import "@devprotocol/protocol/contracts/interface/ILockup.sol";
 
@@ -115,13 +118,13 @@ contract MyContract {
 
     // This function mints an ERC-20 tokens with hard-coded options, and returns the new token address.
     function mintWithOutPayload() external returns(uint256) {
-        // minting without payload 
+        // minting without payload
         uint256 sTokenIdWithout  = lockup.depositToProperty(
             // Property address
             0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
             // Staking Value in Multiple of 10^18
             1000000000000000000
-            
+
         );
         return sTokenIdWithout;
     }
@@ -140,6 +143,7 @@ contract MyContract {
     }
 }
 ```
+
 See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addresses.
 
 ```mdx-code-block
