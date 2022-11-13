@@ -15,6 +15,7 @@ Immediately mint the users ERC-721 tokens by executing `depositToProperty` funct
 2. Staking amount
 3. Bytes32 payload (Optional)
 
+
 ```mdx-code-block
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
@@ -22,81 +23,49 @@ import TabItem from '@theme/TabItem'
 <Tabs>
 <TabItem value="Dev Kit JS">
 ```
+:::info
+To deposit DEV on any Property, the contract will request pre-approval of DEV. But Dev Kit JS has a comprehensive API to handle the process. `positionsCreate` from Agent API wraps the functionality of `depositToProperty` as well as returns the approval status.
+:::
 
 ```ts
-import { clientsLockup } from '@devprotocol/dev-kit'
+import { positionsCreate } from '@devprotocol/dev-kit/agent'
 import { whenDefined } from '@devprotocol/util-ts'
 import type { BaseProvider } from '@ethersproject/providers'
 
 // This function mints an ERC-721 tokens by staking the specified staking amount to specified property, and returns the new tokenId.
 export default (provider: BaseProvider) => {
-	const clients = await clientsLockup(provider)
-	const lockup = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
-	// without payload
-	const sTokenIdWithout = await whenDefined(lockup, (contract) =>
-		contract.depositToProperty(
-			// Property address
-			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-			// Staking Value in Multiple of 10^18
-			'1000000000000000000'
-		)
-	)
-	// with payload
-	const sTokenIdWith = await whenDefined(lockup, (contract) =>
-		contract.depositToProperty(
-			// Property address
-			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-			// Staking Value in Multiple of 10^18
-			'1000000000000000000',
-			// Payload
-			'0x7468697320697320616e206578616d706c650000000000000000000000000000'
-		)
-	)
-	return [sTokenIdWithout, sTokenIdWith]
-}
+	const from = (provider as Web3Provider).getSigner().getAddress()
+	const start = await positionsCreate({
+		provider,
+		from,
+		// Property address
+		destination: '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
+		// Staking Value in Multiple of 10^18
+		amount: '1000000000000000000',
+		// Payload
+		payload: '0x7468697320697320616e206578616d706c650000000000000000000000000000'
+	})
+	// When approval is needed, start.approvalNeeded is true, and start.approveIfNeeded does send the approval transaction. When approval is not needed, start.approvalNeeded is false, and start.approveIfNeeded does not send anything
+	const approveIfNeeded = await whenDefined(start, (x) => x.approveIfNeeded())
+	// When approval is needed, approveIfNeeded.waitNeeded is true, and start.waitOrSkipApproval does wait until confirmed the transaction. When approval is not needed, approveIfNeeded.waitNeeded is false, and start.waitOrSkipApproval does not do anything and resolve immediately
+	const waitOrSkipApproval = await whenDefined(approveIfNeeded, (x) => x.waitOrSkipApproval())
+    
+	const stake = await whenDefined(waitOrSkipApproval, (x) => x.run())
+	const staked = await whenDefined(stake, (x) => x.wait())
+	// Staking transaction confirmed on-chain!
+	...
 ```
 
 ```mdx-code-block
 </TabItem>
 <TabItem value="Polygon/Arbitrum and their testnets">
 ```
+:::caution
+Smart-Contract implementation assumes that Lockup contract has the spending approval for the DEV token
+:::
 
 ```solidity
-import "@devprotocol/protocol-v2/contracts/interface/ILockup.sol";
-
-contract MyContract {
-    ILockup public lockup;
-
-    constructor(address _lockup) public {
-        lockup = ILockup(_lockup);
-    }
-
-    // This function mints an ERC-20 tokens with hard-coded options, and returns the new token address.
-    function mintWithOutPayload() external returns(uint256) {
-        // minting without payload
-        uint256 sTokenIdWithout  = lockup.depositToProperty(
-            // Property address
-            0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
-            // Staking Value in Multiple of 10^18
-            1000000000000000000
-
-        );
-        return sTokenIdWithout;
-    }
-        // minting with payload
-    function mintWithPayload() external returns(uint256) {
-        bytes32 payload = 0x7468697320697320616e206578616d706c650000000000000000000000000000;
-        uint256 sTokenIdWith = lockup.depositToProperty(
-            // Property address
-            0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
-            // Staking Value in Multiple of 10^18
-            1000000000000000000,
-            // Payload
-            payload
-        );
-        return sTokenIdWith;
-    }
-}
+// to be updated...
 ```
 
 See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addresses.
@@ -105,43 +74,12 @@ See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addr
 </TabItem>
 <TabItem value="Ethereum">
 ```
+:::caution
+Smart-Contract implementation assumes that Lockup contract has the spending approval for the DEV token
+:::
 
 ```solidity
-import "@devprotocol/protocol/contracts/interface/ILockup.sol";
-
-contract MyContract {
-    ILockup public lockup;
-
-    constructor(address _lockup) public {
-        lockup = ILockup(_lockup);
-    }
-
-    // This function mints an ERC-20 tokens with hard-coded options, and returns the new token address.
-    function mintWithOutPayload() external returns(uint256) {
-        // minting without payload
-        uint256 sTokenIdWithout  = lockup.depositToProperty(
-            // Property address
-            0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
-            // Staking Value in Multiple of 10^18
-            1000000000000000000
-
-        );
-        return sTokenIdWithout;
-    }
-        // minting with payload
-    function mintWithPayload() external returns(uint256) {
-        bytes32 payload = 0x7468697320697320616e206578616d706c650000000000000000000000000000;
-        uint256 sTokenIdWith = lockup.depositToProperty(
-            // Property address
-            0xAdC4f7E2CF26a30b9763D6aD6788176173EFEc05,
-            // Staking Value in Multiple of 10^18
-            1000000000000000000,
-            // Payload
-            payload
-        );
-        return sTokenIdWith;
-    }
-}
+// to be updated...
 ```
 
 See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addresses.
