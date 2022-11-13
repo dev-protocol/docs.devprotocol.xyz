@@ -6,6 +6,7 @@ position: 2
 In Dev Protocol, ERC-721 tokens indicate a staking position for any of Property Tokens, have a specially extended interface, and are referred to as sTokens.
 
 ## Set Royalty for STokens
+
 Royalty is a percentage value used to calculate the royalty-amount against the sale value of an NFT
 
 [ERC20](./../property-tokens/erc20-tokens-minting.md) owners or simply the property Author can set the royalty by executing the `setSTokenRoyaltyForProperty` function of STokenManager contract.
@@ -30,24 +31,25 @@ import type { BaseProvider } from '@ethersproject/providers'
 
 // This function Sets a resale royalty for the passed Property Tokens's STokens & returns latest royalty value of a particular property's STokens
 export default async (provider: BaseProvider) => {
-    const clients = await clientsSTokens(provider)
-    const sToken = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
-    await whenDefined(sToken, (contract) =>
+	const clients = await clientsSTokens(provider)
+	const sToken = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
+    const set = await whenDefined(sToken, (contract) =>
         contract.setSTokenRoyaltyForProperty(
             // Property address
             '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-            // Royalty value (between 0 to 100)
+            // Royalty value (between 0 to 100) (using 2 decimals - 10000 = 100, 0 = 0)
             '10'
         )
     )
+    await set.wait()
 
-    const royalty = await whenDefined(sToken, (contract) =>
-        contract.royaltyOf(
-            // Property address
-            '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6'
-        )
-    )
-    return royalty
+	const royalty = await whenDefined(sToken, (contract) =>
+		contract.royaltyOf(
+			// Property address
+			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6'
+		)
+	)
+	return royalty
 }
 ```
 
@@ -71,7 +73,7 @@ contract usingstokenInterface {
     constructor() {
         STokenQuery = ISTokensManagerV2(0x89904De861CDEd2567695271A511B3556659FfA2);
     }
-
+    
     /**
     * @dev Sets a resale royalty for the passed Property Tokens's STokens
     * @param _propertyaddress Property address of particular property to set royalty for
@@ -81,11 +83,11 @@ contract usingstokenInterface {
     function sTokenroyalty(
         address _propertyaddress,
         uint256 _royalty
-    ) public view
+    ) public
     returns(uint24){
         STokenQuery.setSTokenRoyaltyForProperty(_propertyaddress, _royalty);
         uint24 newRoyalty = STokenQuery.royaltyOf(_propertyaddress);
-
+        return newRoyalty;
     }
     // similarly you can call other functions from the interface
 }
@@ -103,15 +105,14 @@ See [Ecosystem Addresses](../../ecosystem-addresses.md) for lockup contract addr
 pragma solidity ^0.8.4;
 
 import "@devprotocol/i-s-tokens/contracts/interfaces/ISTokensManager.sol";
+import "@devprotocol/protocol/contracts/interface/IAddressConfig.sol";
+
 
 contract usingstokenInterface {
-    ISTokensManager internal STokenQuery;
-    /**
-    * Network: Ethereum Mainnet
-    * Address: 0x50489Ff5f879A44C87bBA85287729D663b18CeD5
-    */
-    constructor() {
-        STokenQuery = ISTokensManager(0x50489Ff5f879A44C87bBA85287729D663b18CeD5);
+    IAddressConfig public addressConfig;
+
+    constructor(address _addressConfig) public {
+        addressConfig = IAddressConfig(_addressConfig);
     }
 
     /**
@@ -123,11 +124,12 @@ contract usingstokenInterface {
     function sTokenroyalty(
         address _propertyaddress,
         uint256 _royalty
-    ) public view
+    ) public
     returns(uint24){
+        ISTokensManager STokenQuery = ISTokensManager(addressConfig.lockup());
         STokenQuery.setSTokenRoyaltyForProperty(_propertyaddress, _royalty);
         uint24 newRoyalty = STokenQuery.royaltyOf(_propertyaddress);
-
+        return newRoyalty;
     }
     // similarly you can call other functions from the interface
 }
