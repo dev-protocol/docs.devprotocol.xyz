@@ -100,7 +100,7 @@ contract MyContract {
 
 	// This function mints an ERC-20 tokens with hard-coded options, and returns the new token address.
 	function mint() external returns(address) {
-		IPropertyFactory propertyFactory = addressConfig.propertyFactory();
+		IPropertyFactory propertyFactory = IPropertyFactory(addressConfig.propertyFactory());
 		address tokens = propertyFactory.create(
 			// Token name
 			"My Token",
@@ -157,7 +157,7 @@ export default (provider: BaseProvider) => {
 			// Market address
 			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
 			// Three argument to pass through to Market
-			['arg1','arg2','arg3']
+			['arg1', 'arg2', 'arg3']
 		)
 	)
 	return result
@@ -222,7 +222,7 @@ contract MyContract {
 
 	// This function mints and authenticate an ERC-20 tokens with hard-coded options, and returns the transaction fail/success.
 	function mint() external returns(bool) {
-		IPropertyFactory propertyFactory = addressConfig.propertyFactory();
+		IPropertyFactory propertyFactory = IPropertyFactory(addressConfig.propertyFactory());
 		bool result = propertyFactory.createAndAuthenticate(
 			// Token name
 			"My Token",
