@@ -40,6 +40,7 @@ function onBeforeMint(
 ### image
 
 The `image` function takes the following arguments and returns an image used as `tokenURI.image`. The function is expected to return a base64 encoded [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs), IPFS or HTTP URI.
+
 ```solidity
 function image(
 	uint256 _tokenId,
@@ -52,6 +53,7 @@ function image(
 ### name
 
 The `name` function takes the following arguments and returns name used. The function is expected to return a string.
+
 ```solidity
 function name(
 	uint256 _tokenId,
@@ -65,6 +67,7 @@ function name(
 ### description
 
 The `description` function takes the following arguments and returns name used. The function is expected to return a string.
+
 ```solidity
 function description(
 	uint256 _tokenId,
