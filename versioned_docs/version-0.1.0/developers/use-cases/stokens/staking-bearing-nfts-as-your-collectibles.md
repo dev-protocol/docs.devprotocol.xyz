@@ -8,7 +8,7 @@ sTokens are NFTs automatically minted when the user stakes DEV into one of the P
 
 # Dynamic sTokens
 
-The most recommended way to make sTokens collectibles is to generate `tokenURI.image` for sTokens with Dynamic sTokens dynamically.
+The most recommended way to make sTokens collectibles is to generate `tokenURI.image` for sTokens with Dynamic sTokens.
 
 To enable Dynamic sTokens, create a Descriptor contract inherited from `ITokenURIDescriptor` and pass that contract address to `STokensManager.setTokenURIDescriptor`.
 
@@ -26,7 +26,7 @@ npm i -D @devprotocol/i-s-tokens
 
 ### onBeforeMint
 
-`OnBeforeMint` is a hook function that acts as a gatekeeper for the staking process on a particular property. The function must return a boolean value of true for the staking process to be successful. This feature opens up opportunities for descriptor builders to write custom logics and implement specific conditions that must be met before staking can take place. Some possible use cases for OnBeforeMint include implementing custom security measures, validating user credentials, or enforcing specific business rules before staking.
+`OnBeforeMint` is a function that acts as a gatekeeper for staking on a property. It must return `true` for successful staking. It allows custom logic and conditions to be added before staking can occur, such as security measures, user validation, and business rule enforcement.
 
 ```solidity
 function onBeforeMint(
