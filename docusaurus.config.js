@@ -74,11 +74,6 @@ const config = {
 					position: 'left',
 				},
 				{
-					to: '/stakes-social/',
-					label: 'Stakes Social',
-					position: 'left',
-				},
-				{
 					to: '/developers/',
 					label: 'Developers',
 					position: 'left',

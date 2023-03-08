@@ -3,7 +3,7 @@ title: What is Dev Protocol?
 sidebar_position: 1
 ---
 
-### Protocol, Creator tokens, Oracle
+## Protocol, Creator tokens, Oracle
 
 To begin with, let's clarify the key factors in each area of "Dev Protocol".
 
@@ -12,11 +12,11 @@ To begin with, let's clarify the key factors in each area of "Dev Protocol".
 - **Property tokens(a.k.a. Creator tokens)**: Creator tokens are issued by creators to build their own economies. It provides sustainable funding and distributes creator rewards to its holders.
 - **Khaos Oracle**: Khaos Oracle is a proprietary oracle built into Dev Protocol that allows creators can verify "Proof of ownership" for their own assets.
 
-### Dev Protocol as middleware
+## Dev Protocol as middleware
 
 Dev Protocol is not a single platform, it's middleware. Dev Protocol is completely decentralized and is a middleware protocol for on-chain governance, anyone can join the ecosystem by developing various applications (Dapps). It allows anyone to develop decentralised applications(Dapps) with incentives for staking and extend their authorisable assets through the market. The Dev Protocol is not closed to OSS, but can bring value to all open assets such as researchers' papers, YouTube videos, and Spotify music. Dev Protocol integrates with these markets so that projects or creators can authenticate and tokenize their work. It is a whole new creator economy evolving from open creators assets.
 
-### The value of the Dev Protocol
+## The value of the Dev Protocol
 
 The positive cycle created by OSS and open assets being sustainable and able to collaborate with more stakeholders is the greatest value of all. But the Dev Protocol is more than just a way for creators to monetize; it serves as the core for creators to easily expand and manage their own ecosystem. At the core of this are creator tokens and staking. The UI for these to work is only partially complete, but the community's goal is to fully build these creator ecosystem extensions so that they become the first choice of creators when they decide to create something.
 
