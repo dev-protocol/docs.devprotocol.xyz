@@ -47,6 +47,7 @@ export default (provider: BaseProvider, tokenAddress: string) => {
 </TabItem>
 <TabItem value="Polygon/Arbitrum and their testnets">
 ```
+
 :::caution
 Smart-Contract implementation assumes that, this contract has the property tokens itself for invoking the transfer. If you want to transfer the property tokens from other address, you need to call `transferFrom` function followed by the `approve` function.
 :::
@@ -78,6 +79,7 @@ contract MyContract {
 </TabItem>
 <TabItem value="Ethereum">
 ```
+
 :::caution
 Smart-Contract implementation assumes that, this contract has the property tokens itself for invoking the transfer. If you want to transfer the property tokens from other address, you need to call `transferFrom` function followed by the `approve` function.
 :::

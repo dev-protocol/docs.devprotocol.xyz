@@ -33,15 +33,15 @@ import type { BaseProvider } from '@ethersproject/providers'
 export default async (provider: BaseProvider) => {
 	const clients = await clientsSTokens(provider)
 	const sToken = whenDefined(clients, ([l1, l2]) => l1 ?? l2)
-    const set = await whenDefined(sToken, (contract) =>
-        contract.setSTokenRoyaltyForProperty(
-            // Property address
-            '0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
-            // Royalty value (between 0 to 100) (using 2 decimals - 10000 = 100, 0 = 0)
-            '10'
-        )
-    )
-    await set.wait()
+	const set = await whenDefined(sToken, (contract) =>
+		contract.setSTokenRoyaltyForProperty(
+			// Property address
+			'0xDbc05b1eCB4fdaEf943819C0B04e9ef6df4bAbd6',
+			// Royalty value (between 0 to 100) (using 2 decimals - 10000 = 100, 0 = 0)
+			'10'
+		)
+	)
+	await set.wait()
 
 	const royalty = await whenDefined(sToken, (contract) =>
 		contract.royaltyOf(
@@ -73,7 +73,7 @@ contract usingstokenInterface {
     constructor() {
         STokenQuery = ISTokensManagerV2(0x89904De861CDEd2567695271A511B3556659FfA2);
     }
-    
+
     /**
     * @dev Sets a resale royalty for the passed Property Tokens's STokens
     * @param _propertyaddress Property address of particular property to set royalty for
