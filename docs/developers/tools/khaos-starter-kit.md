@@ -1,6 +1,6 @@
 ---
 title: Khaos Starter Kit
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 ## What is Khaos Starter Kit?

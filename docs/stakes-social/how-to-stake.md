@@ -1,7 +1,11 @@
 ---
-title: How to stake DEV on Stakes.social
+title: How to stake your DEV on Stakes.social
 sidebar_position: 2
 ---
+
+### What’s Stakes.social?
+
+Stakes.social is a platform where you can register your OSS to Dev Protocol and stake registered OSS projects. Unlike other donation services, Dev Protocol is designed for the benefit of both supporters as well as developers by staking. Thanks to this system, developers find it easy to ask people for aid, which results in continuous support.
 
 ### What is Staking in the Dev Protocol context
 
@@ -10,7 +14,6 @@ Staking a token or a cryptocurrency is the act of locking up your tokens in a no
 Since Dev Protocol goal is to sustainably fund Creators, in this context, Staking is the act of actively setting aside your DEV tokens in your Wallet to deposit them in your favorite Creator pool on stakes.social.
 
 The page currently looks like this:
-
 ![how to stake on stakes.social](/img/stakes.social/stakes.social-1.png)
 
 When you Stake your DEV on a project, currently, you will get a 30.07% APY while the Creator you're staking on will get a 31.3% APY. For example, imagine you have 1000 DEV and you Stake on a project you like, with all the other things held constant, after one year you would have accrued 300.7 DEV while the Creator would have accrued 313 DEV from your staking.
@@ -18,6 +21,25 @@ When you Stake your DEV on a project, currently, you will get a 30.07% APY while
 - APY is constantly being updated. Please check Stakes.social for the latest data.
 
 That doesn't mean that your DEV are locked in the Smart Contract for a year, in fact **you're free to deposit and withdrawal any amount**, including just the rewards **any time you want**.
+
+### What’s wallet?
+
+A wallet is used for managing your crypto assets. You need to have a wallet to store the DEV tokens issued by Ethereum and Dev Protocol. Since Dev Protocol doesn’t provide you with a wallet function, you have to get one by yourself.
+
+If you’re looking for a wallet, we’d recommend you to have MetaMask.
+MetaMask corresponds to Chrome Extension version, so if you want to use Stakes.social via your PC, MetaMask would be one of you options.
+[https://metamask.io/](https://metamask.io/)
+
+### Connection between your wallet and Stakes.social
+
+Click “Sign in” button located at right end of the header to connect your wallet (MetaMask, in this case) and Stakes.social.
+
+![GUIDE01](/img/stakes.social/onboard-guide/guide01.jpeg)
+
+### Gas fee
+
+Please check the following website for the details of gas fee : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
+You need a gas fee to register at Stakes.social. The required gas fee will fluctuate depending on the congestion of the network you choose to onboard.
 
 ### How to Find a Project and Stake
 
@@ -62,4 +84,4 @@ To Withdrawal everything, just click on the DEV button in the grey box and the t
 
 Keep in mind that the gas costs are defined the by the usage of the Ethereum network, it's not dependent on Dev Protocol. It is also variable, if it is too expensive to approve a transaction, it could get cheaper later, and vice-versa, if you're confused, just ask other community members.
 
-If you have any other questions you can just ask them on [Discord](https://discord.com/invite/VwJp4KM) or [Telegram](https://web.telegram.org/#/im?p=@devprtcl), there are community and team members always active and ready to help you.
+If you have any other questions you can just ask them on [Discord](https://discord.com/channels/547215761341546497/675499290940014604) or [Telegram](https://web.telegram.org/#/im?p=@devprtcl), there are community and team members always active and ready to help you.

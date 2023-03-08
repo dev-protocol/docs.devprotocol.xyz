@@ -1,5 +1,6 @@
 ---
 title: Upgrading predefined variables
+sidebar_position: 4
 ---
 
 Some variables can be easily upgraded with Policy Contract
@@ -7,7 +8,7 @@ Some variables can be easily upgraded with Policy Contract
 > Adding/removing variables that Policy Contract should manage need core modules upgrades.
 > Currently, core modules upgrades are carried out by the ADMIN key after voting by DIPs, but ADMIN is working on decentralizing core modules upgrades.
 
-## Propose upgrades of predefined variables using Policy Contract
+## How to propose upgrades predefined variables using Policy Contract
 
 It inherits the Policy Contract interface and adds a concrete implementation to every method. The interface is [published on npm](https://www.npmjs.com/package/@devprotocol/protocol).
 
@@ -18,7 +19,7 @@ It inherits the Policy Contract interface and adds a concrete implementation to 
 
 Import the Policy Contract interface in Solidity.
 
-```
+```solidity
 import {IPolicy} from "@devprotocol/protocol/contracts/interface/IPolicy.sol";
 ```
 
