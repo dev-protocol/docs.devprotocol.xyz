@@ -6,13 +6,13 @@ sTokens are NFTs automatically minted when the user stakes DEV into one of the P
 
 `tokenURI.image` of sTokens returns the preset SVG image by default, but the Property Tokens author can change that value with a few options. If you are the author of Property Tokens, you can create NFT collectibles based on staking by rewriting the `tokenURI.image` in sTokens to a unique image.
 
-## Dynamic sTokens
+# Dynamic sTokens
 
-The most recommended way to make sTokens collectibles is to generate `tokenURI.image` for sTokens with Dynamic sTokens dynamically.
+The most recommended way to make sTokens collectibles is to generate `tokenURI.image` for sTokens with Dynamic sTokens.
 
 To enable Dynamic sTokens, create a Descriptor contract inherited from `ITokenURIDescriptor` and pass that contract address to `STokensManager.setTokenURIDescriptor`.
 
-### Create a Descriptor
+## Create a Descriptor
 
 > [dynamic-s-tokens-simple-tiers](https://github.com/dev-protocol/dynamic-s-tokens-simple-tiers) can be used as an example of a Descriptor.
 
@@ -22,7 +22,24 @@ To enable Dynamic sTokens, create a Descriptor contract inherited from `ITokenUR
 npm i -D @devprotocol/i-s-tokens
 ```
 
-The Descriptor must needs to implement the following interface:
+### A Descriptor needs to implement the following interfaces:
+
+### onBeforeMint
+
+`OnBeforeMint` is a function that acts as a gatekeeper for staking on a property. It must return `true` for successful staking. It allows custom logic and conditions to be added before staking can occur, such as security measures, user validation, and business rule enforcement.
+
+```solidity
+function onBeforeMint(
+	uint256 _tokenId,
+	address _owner,
+	ISTokensManagerStruct.StakingPositions memory _positions,
+	bytes32 _payload
+) external returns (bool);
+```
+
+### image
+
+The `image` function takes the following arguments and returns an image used as `tokenURI.image`. The function is expected to return a base64 encoded [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs), IPFS or HTTP URI.
 
 ```solidity
 function image(
@@ -33,7 +50,33 @@ function image(
 ) external view returns (string memory);
 ```
 
-The `image` function takes the following arguments and returns an image used as `tokenURI.image`. The function is expected to return a base64 encoded [data URI](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URLs), IPFS or HTTP URI.
+### name
+
+The `name` function takes the following arguments and returns name used. The function is expected to return a string.
+
+```solidity
+function name(
+	uint256 _tokenId,
+	address _owner,
+	ISTokensManagerStruct.StakingPositions memory _positions,
+	ISTokensManagerStruct.Rewards memory _rewards,
+	bytes32 _payload
+) external view returns (string memory);
+```
+
+### description
+
+The `description` function takes the following arguments and returns name used. The function is expected to return a string.
+
+```solidity
+function description(
+	uint256 _tokenId,
+	address _owner,
+	ISTokensManagerStruct.StakingPositions memory _positions,
+	ISTokensManagerStruct.Rewards memory _rewards,
+	bytes32 _payload
+) external view returns (string memory);
+```
 
 | Arguments    | Type                                                                                                                     | Example                                                                                                                                                                                                                                              |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
