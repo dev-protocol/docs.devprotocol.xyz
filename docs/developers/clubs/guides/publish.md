@@ -1,9 +1,9 @@
 ---
 title: Publish your plugin
-sidebar_position: 3
+sidebar_position: 1000
 ---
 
-# プラグインの公開
+# Publish your plugin
 
 Starter kit
 https://github.com/dev-protocol/clubs-plugin-starter-kit

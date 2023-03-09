@@ -1,9 +1,9 @@
 ---
-title: Component
-sidebar_position: 2
+title: Component developing
+sidebar_position: 100
 ---
 
-# Component の開発
+# Component developing
 
 ## props passing
 
