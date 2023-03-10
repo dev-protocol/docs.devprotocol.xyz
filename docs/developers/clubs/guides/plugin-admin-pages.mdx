@@ -1,0 +1,253 @@
+---
+title: Admin pages
+sidebar_position: 4
+---
+
+# Admin pages
+
+## getAdminPaths
+
+export const Types = () => (
+	<a
+		href="https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts"
+		target="_blank"
+	>
+		*
+	</a>
+)
+
+`getAdminPaths` is a function that generates admin pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
+
+Clubs runtime passes 3 arguments to `getAdminPaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
+
+|             | Required | Type                                   | Description                                      |
+| ----------- | -------- | -------------------------------------- | ------------------------------------------------ |
+| `paths`     | Required | array includes `string` or `undefined` | Path to determine the URL of the generated page. |
+| `component` | Required | Astro component                        | Content of the generated page.                   |
+| `props`     |          | Object                                 | Object passed to `Astro.props`                   |
+
+## The returns value
+
+The return value of `getAdminPaths` should be an array of objects with these properties.
+
+### `paths`
+
+If paths joined with `/` matches the pathname in the HTML request without `/admin`, the component will be rendered as the page content.
+
+For example, if you want to add `/admin/vote/add`, `paths` should be the following value:
+
+```json
+["vote", "add"]
+```
+
+In getAdminPaths, **`/admin`** is always added as a prefix.
+
+Note that the following paths are reserved by the built-in admin pages and will not work even if you specify them
+
+```json
+[]
+[undefined]
+["overview"]
+["theme"]
+```
+
+### `component`
+
+Components must always be Astro components. If you want to use a UI framework such as React or Svelte, for example, you can export an Astro component that renders a React component.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getAdminPaths = async () => [
+	{
+		// highlight-next-line
+		component: MyAstroComponent,
+		paths: [],
+	},
+]
+
+export default {
+	getAdminPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+```tsx title="/src/components/MyAstroComponent.astro"
+---
+import {MyReactComponent} from './MyReactComponent'
+---
+
+<MyReactComponent client:load />
+```
+
+```tsx title="/src/components/MyReactComponent.tsx"
+import React from 'react'
+
+export const MyReactComponent = () => <p>Hello, world!</p>
+```
+
+### `props`
+
+If a `component` has values that it expects to be injected from the outside, you can pass those values through defining `props`.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getAdminPaths = async () => [
+	{
+		component: MyAstroComponent,
+		// highlight-start
+		props: {
+			str: 'me',
+		},
+		// highlight-end
+		paths: [],
+	},
+]
+
+export default {
+	getAdminPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+```tsx title="/src/components/MyAstroComponent.astro"
+---
+import {MyReactComponent} from './MyReactComponent'
+
+// highlight-next-line
+const { str } = Astro.props as {str: string}
+---
+
+// highlight-next-line
+<MyReactComponent client:load str={str} />
+```
+
+```tsx title="/src/components/MyReactComponent.tsx"
+import React from 'react'
+
+export const MyReactComponent = ({ str }: { str: string }) => (
+	<p>Hello, {str}!</p>
+)
+```
+
+## Use plugin options
+
+The 1st argument of `getAdminPaths` is passed an object plugin options, has type `ClubsPluginOptions`(<Types />). By controlling the return value of `getAdminPaths` with plugin options, you can control the page's functionality of the page.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getAdminPaths = async (options) => {
+	// highlight-next-line
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+			},
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getAdminPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the plugin options are found on [ClubsPluginOptions](../reference/plugin-options).
+:::
+
+## Use configuration
+
+The 2nd argument of `getAdminPaths` is passed an object config, has type `ClubsConfiguration`(<Types />). By controlling the return value of `getAdminPaths` with config, you can control the page's functionality of the page.
+
+ClubsConfiguration contains major primitive configuration values such as Clubs name, property token address, chain ID which tokenized it, URL of Json-RPC endpoint, etc.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getAdminPaths = async (options, config) => {
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+	// highlight-next-line
+	const { rpcUrl } = config
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+				// highlight-next-line
+				rpcUrl,
+			},
+			layout: MyLayout,
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getAdminPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the config are found on [ClubsConfiguration](../reference/configuration).
+:::
+
+## Use utils
+
+The 3rd argument of `getAdminPaths` is passed an object utils, has type `ClubsFactoryUtils`(<Types />). ClubsFactoryUtils has a function `getPluginConfigById` that allows users to retrieve configuration values for other plugins using `getPluginConfigById`.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getAdminPaths = async (options, config, utils) => {
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+	const { rpcUrl } = config
+	// highlight-start
+	const emojiPlugin = utils.getPluginConfigById('emoji:plugin:id') // Find a config of a plugin that has `meta.id: "emoji:plugin:id"`
+	const emoji =
+		emojiPlugin?.options?.find(({ key }) => key === 'emoji')?.value ?? '🦄'
+	// highlight-end
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+				rpcUrl,
+				// highlight-next-line
+				emoji,
+			},
+			layout: MyLayout,
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getAdminPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the utils are found on [utils](../reference/utils).
+:::
