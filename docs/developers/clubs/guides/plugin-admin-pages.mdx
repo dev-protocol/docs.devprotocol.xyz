@@ -5,6 +5,14 @@ sidebar_position: 4
 
 # Admin pages
 
+Building an interactive plugin that is configurable by the user can be implemented by adding admin pages.
+
+By default, Clubs has some built-in admin pages starting with `/admin`; you can use `getAdminPaths` to add plugin's own pages to the admin area.
+
+:::note
+The storing method for the configuration is dependent on an individual Clubs environment, and so the plugin can be indifferent to the storing method. See the `setOptions` section for more information.
+:::
+
 ## getAdminPaths
 
 export const Types = () => (
@@ -16,7 +24,7 @@ export const Types = () => (
 	</a>
 )
 
-`getAdminPaths` is a function that generates admin pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
+`getAdminPaths` is an asynchronous function that generates admin pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
 
 Clubs runtime passes 3 arguments to `getAdminPaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
 
@@ -134,6 +142,48 @@ export const MyReactComponent = ({ str }: { str: string }) => (
 	<p>Hello, {str}!</p>
 )
 ```
+
+## Special props for admin pages
+
+The special props, `clubs` is automatically appended to `Astro.props` in all admin page components.
+
+The type of `clubs` is included in **ClubsPropsAdminPages** and it is defined by [clubs-core](https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts).
+
+### `clubs.currentPluginIndex`
+
+:::info
+// TODO: Write this
+:::
+
+### `clubs.encodedClubsConfiguration`
+
+:::info
+// TODO: Write this
+:::
+
+### `clubs.plugins`
+
+:::info
+// TODO: Write this
+:::
+
+### `clubs.slots`
+
+:::info
+// TODO: Write this
+:::
+
+## How to update the plugin options
+
+:::info
+// TODO: Write this
+:::
+
+## How to update the configuration
+
+:::info
+// TODO: Write this
+:::
 
 ## Use plugin options
 

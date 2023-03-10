@@ -1,0 +1,46 @@
+---
+title: Slots
+sidebar_position: 5
+---
+
+# Slots
+
+## getSlots
+
+export const Types = () => (
+	<a
+		href="https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts"
+		target="_blank"
+	>
+		*
+	</a>
+)
+
+`getSlots` is an asynchronous function that defines slots and returns an array of `ClubsSlots`.
+
+Clubs runtime passes 3 arguments to `getSlots`, plugin options, config, and slot utils. And the return value should be an array of objects with the following values:
+
+|             | Required | Type                                   | Description                                                                                                                          |
+| ----------- | -------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `slot`      | Required | `string` \| `ClubsSlotName`(<Types />) | Name of the target slot.                                                                                                             |
+| `component` | Required | Astro component                        | Content of the slot.                                                                                                                 |
+| `props`     |          | Object                                 | Object passed to `Astro.props` on the `component`                                                                                    |
+| `order`     |          | `number`                               | The order of the slot, with the higher number of `order` rendered backward if there are multiple slots with the same name on a page. |
+
+## The returns value
+
+The return value of `getSlots` should be an array of objects with these properties.
+
+### `slot`
+
+Clubs has some predefined slots, and you can inject your components into the predefined slots on the pages and on the admin pages. Predefined slots are defined as enum type `ClubsSlotName`(<Types />).
+
+:::caution
+Note that slots for pages may not be supported by a theme plugin.
+:::
+
+If a custom theme implements its own slots, you can also specify an arbitrary string for `slot`.
+
+### `component`
+
+### `props`

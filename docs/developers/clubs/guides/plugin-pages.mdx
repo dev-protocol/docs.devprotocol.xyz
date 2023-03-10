@@ -5,6 +5,10 @@ sidebar_position: 3
 
 # Pages
 
+Add pages on Clubs with your plugin. Pages are mainly composed of paths and components, which are combined with the layout components exported by a theme plugin to be displayed on the screen.
+
+Page components can use UI frameworks such as React, Svelte, Vue, Lit, etc. via Astro components, so you can build anything from simple to complex there.
+
 ## getPagePaths
 
 export const Types = () => (
@@ -16,7 +20,7 @@ export const Types = () => (
 	</a>
 )
 
-`getPagePaths` is a function that generates pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
+`getPagePaths` is an asynchronous function that generates pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
 
 Clubs runtime passes 3 arguments to `getPagePaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
 
