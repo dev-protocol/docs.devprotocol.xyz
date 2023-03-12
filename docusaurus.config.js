@@ -74,11 +74,6 @@ const config = {
 					position: 'left',
 				},
 				{
-					to: '/stakes-social/',
-					label: 'Stakes Social',
-					position: 'left',
-				},
-				{
 					to: '/developers/',
 					label: 'Developers',
 					position: 'left',
@@ -118,10 +113,10 @@ const config = {
 						},
 					],
 				},
-				{
-					type: 'docsVersionDropdown',
-					position: 'right',
-				},
+				// {
+				// 	type: 'docsVersionDropdown',
+				// 	position: 'right',
+				// },
 				{
 					type: 'localeDropdown',
 					position: 'right',
