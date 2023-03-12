@@ -5,11 +5,9 @@ sidebar_position: 1000
 
 # Publish your plugin
 
-Starter kit
-https://github.com/dev-protocol/clubs-plugin-starter-kit
+- Starter kit - https://github.com/dev-protocol/clubs-plugin-starter-kit
 
-命名規則
-
-キーワード
-
-main フィールドが default エクスポートしていること
+:::info
+// TODO: Write this
+Ref: https://clubsdevprotocolp2.wordpress.com/clubs-structure/#how-to-create-a-plugin
+:::
