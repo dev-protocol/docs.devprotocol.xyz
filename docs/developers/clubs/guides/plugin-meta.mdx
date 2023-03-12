@@ -1,0 +1,115 @@
+---
+title: Meta
+sidebar_position: 2
+---
+
+# Meta
+
+## meta
+
+export const Types = () => (
+	<a
+		href="https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts"
+		target="_blank"
+	>
+		*
+	</a>
+)
+
+`meta` is a required interface for all plugins and declares the display name, identifier, etc. of the plugin.
+
+All values for `meta` are:
+
+|                 | Required | Type                                         | Description                                                                                                                                                                                                                                                                                                                                           |
+| --------------- | -------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `displayName`   | Required | `string`                                     | Name of the plugin as it appears in the admin pages and marketplace.                                                                                                                                                                                                                                                                                  |
+| `category`      | Required | `string` \| `ClubsPluginCategory`(<Types />) | Category name on the sidebar of the admin pages.                                                                                                                                                                                                                                                                                                      |
+| `id`            |          | `string`                                     | `id` is the identifier of the plugin and is different from the npm package name. `id` is an optional value, but defining it allows other plugins to reference the plugin options.                                                                                                                                                                     |
+| `token`         |          | `ClubsPluginToken`(<Types />)                | For the tokenized plugin, you can export `token` to indicate its token address and chain.                                                                                                                                                                                                                                                             |
+| `offer`         |          | `ClubsPluginOffer`(<Types />)                | Price (ETH or DEV) to use the paid features of the plugin. Membership staking is available as its payment method, and if you export `offer`, you must also export `token`. <p><small>Currently, there is no marketplace that refers to this `offer`, so the price must always be 0. Please check the marketplace roadmap on Discord, etc.</small></p> |
+| `icon`          |          | `string`                                     | Avatar icon URL.                                                                                                                                                                                                                                                                                                                                      |
+| `previewImages` |          | `string`                                     | Array of preview image URLs used in marketplaces, etc.                                                                                                                                                                                                                                                                                                |
+| `description`   |          | `string`                                     | 1 line description.                                                                                                                                                                                                                                                                                                                                   |
+| `readme`        |          | Astro component                              | Full description of the plugin.                                                                                                                                                                                                                                                                                                                       |
+| `clubsUrl`      |          | `string`                                     | URL of Clubs for the plugin.                                                                                                                                                                                                                                                                                                                          |
+
+### Extension metas for theme plugins
+
+The following `meta` interfaces are required if the plugin is to be published as a theme.
+
+|                      | Required | Type     | Description                               |
+| -------------------- | -------- | -------- | ----------------------------------------- |
+| `theme.previewImage` | Required | `string` | URL of the screenshot image of the theme. |
+
+The type of `meta` is **ClubsPluginMeta** (or if is's a theme, **ClubsThemePluginMeta**) and it is defined by [clubs-core](https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts).
+
+## Examples
+
+```mdx-code-block
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+
+<Tabs>
+<TabItem value="TypeScript">
+```
+
+```ts
+import {
+	type ClubsFunctionPlugin,
+	type ClubsPluginMeta,
+	ClubsPluginCategory,
+} from '@devprotocol/clubs-core'
+import image1 from './img/image1.png'
+import image2 from './img/image2.png'
+import image3 from './img/image3.png'
+import { description } from '../package.json'
+import readme from '../README.md'
+
+const meta: ClubsPluginMeta = {
+	id: 'my:first:awesome-clubs-plugin',
+	displayName: 'My First Plugin',
+	category: ClubsPluginCategory.Growth,
+	token: {
+		propertyAddress: '0xA5577D1cec2583058A6Bd6d5DEAC44797c205701',
+		chainId: 137,
+	},
+	previewImages: [image1, image2, image3],
+	description,
+	readme,
+}
+
+export default { meta } as ClubsFunctionPlugin
+```
+
+```mdx-code-block
+</TabItem>
+<TabItem value="JavaScript">
+```
+
+```ts
+import image1 from './img/image1.png'
+import image2 from './img/image2.png'
+import image3 from './img/image3.png'
+import { description } from '../package.json'
+import readme from '../README.md'
+
+const meta = {
+	id: 'my:first:awesome-clubs-plugin',
+	displayName: 'My First Plugin',
+	category: 'growth',
+	token: {
+		propertyAddress: '0xA5577D1cec2583058A6Bd6d5DEAC44797c205701',
+		chainId: 137,
+	},
+	previewImages: [image1, image2, image3],
+	description,
+	readme,
+}
+
+export default { meta }
+```
+
+```mdx-code-block
+</TabItem>
+</Tabs>
+```

@@ -1,0 +1,344 @@
+---
+title: Pages
+sidebar_position: 3
+---
+
+# Pages
+
+Add pages on Clubs with your plugin. Pages are mainly composed of paths and components, which are combined with the layout components exported by a theme plugin to be displayed on the screen.
+
+Page components can use UI frameworks such as React, Svelte, Vue, Lit, etc. via Astro components, so you can build anything from simple to complex there.
+
+## getPagePaths
+
+export const Types = () => (
+	<a
+		href="https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts"
+		target="_blank"
+	>
+		*
+	</a>
+)
+
+`getPagePaths` is an asynchronous function that generates pages and returns an array of `ClubsStaticPaths` to define pages and their contents, etc.
+
+Clubs runtime passes 3 arguments to `getPagePaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
+
+|             | Required | Type                                   | Description                                                                                                                  |
+| ----------- | -------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `paths`     | Required | array includes `string` or `undefined` | Path to determine the URL of the generated page.                                                                             |
+| `component` | Required | Astro component                        | Content of the generated page.                                                                                               |
+| `props`     |          | Object                                 | Object passed to `Astro.props`                                                                                               |
+| `layout`    |          | Astro component                        | Layout component used by the page. When exporting `layout`, it overrides the layout components exported by the theme plugin. |
+
+## The returns value
+
+The return value of `getPagePaths` should be an array of objects with these properties.
+
+### `paths`
+
+If paths joined with `/` matches the pathname in the HTML request, the component will be rendered as the page content.
+
+For example, if you want to add `/vote/open`, `paths` should be the following value:
+
+```json
+["vote", "open"]
+```
+
+If you would like to render the component as the primary page of your Clubs, you can define it as an empty array, or an array containing only undefined, like this:
+
+```json
+[]
+// OR
+[undefined]
+```
+
+### `component`
+
+Components must always be Astro components. If you want to use a UI framework such as React or Svelte, for example, you can export an Astro component that renders a React component.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getPagePaths = async () => [
+	{
+		// highlight-next-line
+		component: MyAstroComponent,
+		paths: [],
+	},
+]
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+```tsx title="/src/components/MyAstroComponent.astro"
+---
+import {MyReactComponent} from './MyReactComponent'
+---
+
+<MyReactComponent client:load />
+```
+
+```tsx title="/src/components/MyReactComponent.tsx"
+import React from 'react'
+
+export const MyReactComponent = () => <p>Hello, world!</p>
+```
+
+### `props`
+
+If a `component` has values that it expects to be injected from the outside, you can pass those values through defining `props`.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getPagePaths = async () => [
+	{
+		component: MyAstroComponent,
+		// highlight-start
+		props: {
+			str: 'me',
+		},
+		// highlight-end
+		paths: [],
+	},
+]
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+```tsx title="/src/components/MyAstroComponent.astro"
+---
+import {MyReactComponent} from './MyReactComponent'
+
+// highlight-next-line
+const { str } = Astro.props as {str: string}
+---
+
+// highlight-next-line
+<MyReactComponent client:load str={str} />
+```
+
+```tsx title="/src/components/MyReactComponent.tsx"
+import React from 'react'
+
+export const MyReactComponent = ({ str }: { str: string }) => (
+	<p>Hello, {str}!</p>
+)
+```
+
+#### `signals`
+
+The style of the page components in final rendering depends on the theme. If you want to control it how, `signals` is the best way to do so.
+
+`props.signals` is a special props that allows you to signal how the enabled theme should handle the page component by passing an array including string or enum type `ClubsPluginSignal`(<Types />). Note that signals are optionally supported by themes.
+
+ClubsPluginSignal contains the following signals:
+
+- `DisplayWideWidth` = `display:wide-width`
+- `DisplayFullWidth`= `display:full-width`
+- `DisplayFullPage` = `display:full-pages`
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+// highlight-next-line
+import { ClubsPluginSignal } from '@devprotocol/clubs-core'
+
+const getPagePaths = async () => [
+	{
+		component: MyAstroComponent,
+		props: {
+			// highlight-next-line
+			signals: [ClubsPluginSignal.DisplayWideWidth]
+			str: 'me',
+		},
+		paths: [],
+	},
+]
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+### `layout`
+
+If you want complete control over the look and feel of the page, you can use `layout` to override the theme of the page. The page component will be injected into `<slot />` of the `layout`.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+// highlight-next-line
+import { default as MyLayout } from './components/MyLayout.astro'
+
+const getPagePaths = async () => [
+	{
+		component: MyAstroComponent,
+		props: {
+			str: 'me',
+		},
+		// highlight-next-line
+		layout: MyLayout,
+		paths: [],
+	},
+]
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+```tsx title="/src/components/MyLayout.astro"
+---
+console.log(Astro.props)
+// -> {str: "me"}
+// Layout component receives the same `props` as `component`
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+	</head>
+
+	<body>
+		<main>
+			// highlight-next-line
+			<slot /> // `component` will be rendered here
+		</main>
+	</body>
+</html>
+```
+
+## Use plugin options
+
+The 1st argument of `getPagePaths` is passed an object plugin options, has type `ClubsPluginOptions`(<Types />). By controlling the return value of `getPagePaths` with plugin options, you can control the page's functionality of the page.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getPagePaths = async (options) => {
+	// highlight-next-line
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+			},
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the plugin options are found on [ClubsPluginOptions](../reference/plugin-options).
+:::
+
+## Use configuration
+
+The 2nd argument of `getPagePaths` is passed an object config, has type `ClubsConfiguration`(<Types />). By controlling the return value of `getPagePaths` with config, you can control the page's functionality of the page.
+
+ClubsConfiguration contains major primitive configuration values such as Clubs name, property token address, chain ID which tokenized it, URL of Json-RPC endpoint, etc.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getPagePaths = async (options, config) => {
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+	// highlight-next-line
+	const { rpcUrl } = config
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+				// highlight-next-line
+				rpcUrl,
+			},
+			layout: MyLayout,
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the config are found on [ClubsConfiguration](../reference/configuration).
+:::
+
+## Use utils
+
+The 3rd argument of `getPagePaths` is passed an object utils, has type `ClubsFactoryUtils`(<Types />). ClubsFactoryUtils has a function `getPluginConfigById` that allows users to retrieve configuration values for other plugins using `getPluginConfigById`.
+
+```tsx title="/src/index.ts"
+import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+
+const getPagePaths = async (options, config, utils) => {
+	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+	const { rpcUrl } = config
+	// highlight-start
+	const emojiPlugin = utils.getPluginConfigById('emoji:plugin:id') // Find a config of a plugin that has `meta.id: "emoji:plugin:id"`
+	const emoji =
+		emojiPlugin?.options?.find(({ key }) => key === 'emoji')?.value ?? '🦄'
+	// highlight-end
+
+	return [
+		{
+			component: MyAstroComponent,
+			props: {
+				str,
+				rpcUrl,
+				// highlight-next-line
+				emoji,
+			},
+			layout: MyLayout,
+			paths: [],
+		},
+	]
+}
+
+export default {
+	getPagePaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the utils are found on [utils](../reference/utils).
+:::

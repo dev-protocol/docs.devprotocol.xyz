@@ -1,0 +1,56 @@
+---
+title: Plugins
+sidebar_position: 1
+---
+
+# Clubs Plugins
+
+Clubs Plugins are an important component of Clubs. By installing plugins in a Clubs and updating the configuration values, the functionalities of Clubs can be freely extended.
+
+Extendable functionality includes **layouts**, **pages**, **admin pages** and **slots**.
+
+## Distributing plugins
+
+Clubs is built on Node.js ecosystem, so to distribute plugins, they should be published as npm packages. See also [Publish your plugin](../guides/publish.md).
+
+## Plugin structure
+
+Clubs Plugins must export the following interfaces from the main entry point by `default` export.
+
+- `getPagePaths` - Defines the page paths and its contents. This function is optional, but required if the plugin generates pages.
+
+  This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsFactoryUtils](../reference/utils.md#clubsfactoryutils) and returns ClubsStaticPaths.
+
+- `getAdminPaths` - Defines the admin page paths and its contents. This function is optional, but required if the plugin generates admin pages.
+
+  This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsFactoryUtils](../reference/utils.md#clubsfactoryutils) and returns ClubsStaticPaths.
+
+- `getSlots` - Defines the slot contents. This function is optional, but required if the plugin injects slots.
+
+  This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsSlotsFactoryUtils](../reference/utils.md#clubsslotsfactoryutils) and returns ClubsFunctionGetSlotsResults.
+
+- `getLayout` - Defines the layouts. This function is optional, but required if the plugin generates layouts.
+
+  This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsSlotsFactoryUtils](../reference/utils.md#clubsslotsfactoryutils) and returns ClubsBaseStaticPath.
+
+- `meta` - An object that declares metadata such as the name, icon and identifier of the plugin. This is a required value for all plugins.
+
+:::tip
+The concrete structures for exporting these interfaces can be found in [**Publish your plugin**](../guides/publish.md).
+:::
+
+### Matrix
+
+The following is a matrix of the functionalities provided by the plugin and the interfaces required for it.
+
+export const Required = () => <strong>✅ Required</strong>
+
+export const Optional = () => <span style={{ opacity: 0.5 }}>(optional)</span>
+
+|                                                   | Pages        | Admin pages  | Slots        | Layouts      |
+| ------------------------------------------------- | ------------ | ------------ | ------------ | ------------ |
+| [`getPagePaths`](../guides/plugin#getpagepaths)   | <Required /> | <Optional /> | <Optional /> | <Optional /> |
+| [`getAdminPaths`](../guides/plugin#getadminpaths) | <Optional /> | <Required /> | <Optional /> | <Optional /> |
+| [`getSlots`](../guides/plugin#getslots)           | <Optional /> | <Optional /> | <Required /> | <Optional /> |
+| [`getLayout`](../guides/plugin#getlayout)         | <Optional /> | <Optional /> | <Optional /> | <Required /> |
+| [`meta`](../guides/plugin#meta)                   | <Required /> | <Required /> | <Required /> | <Required /> |
