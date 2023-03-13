@@ -69,7 +69,7 @@ const config = {
 			},
 			items: [
 				{
-					to: '/concepts/what-is-devprotocol',
+					to: '/concepts/',
 					label: 'Concepts',
 					position: 'left',
 				},
@@ -234,9 +234,9 @@ const config = {
 			copyright: `Copyright © ${new Date().getFullYear()} Dev Protocol`,
 		},
 		announcementBar: {
-			id: 'Community Shop',
+			id: 'Clubs pre-registration',
 			content:
-				'🎉 Checkout our <a target="_blank" rel="noopener noreferrer" href="https://shop.devprotocol.xyz/">Community Shop</a> 🎉! ',
+				'<a target="_blank" rel="noopener noreferrer" href="https://www.clubs.place/">Join the waitlist of Clubs now</a>!',
 			backgroundColor: '#5E8EF4',
 			textColor: '#fff',
 		},
