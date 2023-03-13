@@ -69,13 +69,13 @@ const config = {
 			},
 			items: [
 				{
-					to: '/Introduction/',
-					label: 'The Protocol',
+					to: '/concepts/what-is-devprotocol',
+					label: 'Concepts',
 					position: 'left',
 				},
 				{
-					to: '/developers/',
-					label: 'Developers',
+					to: '/clubs',
+					label: 'Clubs',
 					position: 'left',
 				},
 				{
@@ -206,8 +206,8 @@ const config = {
 					title: 'Products',
 					items: [
 						{
-							label: 'Stakes.social',
-							to: 'https://stakes.social/',
+							label: 'Clubs',
+							to: 'https://www.clubs.place',
 						},
 						{
 							label: 'Khaos Oracle',

@@ -4,7 +4,7 @@ title: Learning
 
 ## Building Decentralized applications with DEV Integration
 
-The Dev Protocol new update uses Ropsten Test Network when creating decentralized applications. Developers can now continue their development without worrying about the gas fee and $DEV for the test environment.
+The Dev Protocol new update uses Polygon Mumbai when creating decentralized applications. Developers can now continue their development without worrying about the gas fee and $DEV for the test environment.
 
 The following documentation was released to guide developers in creating a Decentralized application (Dapp) with the $DEV integration.
 

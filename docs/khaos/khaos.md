@@ -1,8 +1,6 @@
 ---
-title: Khaos
+title: What's Khaos?
 ---
-
-## What's Khaos?
 
 Khaos is an oracle service designed to bring Internet data into blockchains while keeping secret information, such as secret tokens, under wraps. Initially, we will only support Dev Protocol, but we plan to open it up in the future.
 

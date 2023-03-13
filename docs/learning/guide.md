@@ -1,7 +1,7 @@
 ---
 title: Guide
 slug: /learning/building-dapp-dev-integration/
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 ## Building Decentralized applications with DEV Integration
