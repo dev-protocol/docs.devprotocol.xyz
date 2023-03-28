@@ -1,14 +1,15 @@
----
-title: Clubs Configuration
-sidebar_position: 2
----
+# docs
 
-# Clubs Configuration
+## Clubs Configuration 
 
-Clubs configuration is way to maintain each clubs's state. It follow type description from [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) library.
+Clubs configuration is way to maintain each clubs's state. It follow type description from [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) library. library.
 
-Follwing is the schema with types used for defining clubs's configuration.
+To add [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) in you project
 
+```console
+npm i @devprotocol/clubs-core
+```
+Follwing is the schema used for defining clubs's configuration.
 ```ts
 ClubsConfiguration = Readonly<{
 	readonly name: string
@@ -24,13 +25,28 @@ ClubsConfiguration = Readonly<{
 }>
 ```
 
-For using `ClubsConfiguration` type in your code. Simply import.
 
+
+|        |  Required  | Type | Description|
+| ------ | ---------- | ---- | ---------- |
+| `name` | Required | string | It is the clubs's name and is different from the domain name.It can be changed/edited unlike domain name |
+| `twitterHandle` |   | string | Twitter handle of the clubs. |
+| `description` |   | string | Description of the clubs. |
+| `url` |   | string | URL of the clubs. The URL is in format `<domain>.clubs.place`|
+| `propertyAddress` | Required | string | ERC20 address of tokenized project a.k.a property tokens |
+| `adminRolePoints` | Required | number | Number of property tokens required to get admis rights of a clubs |
+| `chainId` | Required | number | ChainId of the network on which the clubs is deployed |
+| `rpcUrl` | Required | string | RPC URL of the network on which the clubs is deployed |
+| `options` |   | ClubsPluginOptions | Options for the plugins. |
+| `plugins` | Required | readonly ClubsPlugin[] | List of plugins that are enabled for the clubs. |
+
+
+For using `ClubsConfiguration` type in your code. Simply import.
 ```ts
-import type { ClubsConfiguration } from '@devprotocol/clubs-core'
+  import type { ClubsConfiguration } from '@devprotocol/clubs-core'
 ```
 
-For storing config in db in a serialized manner, `@clubs-core` also offer `encode` function and `decode` for vice-versa.
+For storing config in db in a serialized manner, [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) also offer `encode` function and `decode` for vice-versa.
 
 ```ts
 import { encode, decode } from '@devprotocol/clubs-core'
@@ -39,3 +55,4 @@ const config:ClubsConfiguration = {..}
 const encoded = encode(config)
 const decoded = decode(encoded)
 ```
+
