@@ -35,7 +35,7 @@ ClubsConfiguration = Readonly<{
 | `adminRolePoints` | Required | number                                                                  | Number of property tokens required to get admis rights of a clubs                                        |
 | `chainId`         | Required | number                                                                  | ChainId of the network on which the clubs is deployed                                                    |
 | `rpcUrl`          | Required | string                                                                  | RPC URL of the network on which the clubs is deployed                                                    |
-| `options`         |          | [ClubsPluginOptions](/clubs/reference/configuration#clubspluginoptions) | Options for the plugins.                                                                                 |
+| `options`         |          | [ClubsPluginOptions](/clubs/reference/plugin-options) | Options for the plugins.                                                                                 |
 | `plugins`         | Required | readonly [ClubsPlugin](/clubs/reference/configuration#clubsplugin)[ ]   | List of plugins that are enabled for the clubs.                                                          |
 
 For using `ClubsConfiguration` type in your code. Simply import.
@@ -53,18 +53,4 @@ const config:ClubsConfiguration = {...}
 const encoded = encode(config)
 const decoded = decode(encoded)
 ```
-
-## ClubsPluginOptions
-
-The `ClubsPluginOptions` type is a TypeScript type that represents an array of plugin options for a club configuration. It is defined as a readonly array of ClubsPluginOption objects.
-
-```ts
-ClubsPluginOption = Readonly<{
-	readonly key: string
-	readonly value?: ClubsPluginOptionValue
-}>
-
-ClubsPluginOptions = readonly ClubsPluginOption[]
-```
-
 ## ClubsPlugin
