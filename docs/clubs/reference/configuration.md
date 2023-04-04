@@ -30,24 +30,28 @@ ClubsConfiguration = Readonly<{
 | `name`            | Required | string                                                                | It is the clubs's name and is different from the domain name.It can be changed/edited unlike domain name |
 | `twitterHandle`   |          | string                                                                | Twitter handle of the clubs.                                                                             |
 | `description`     |          | string                                                                | Description of the clubs.                                                                                |
-| `url`             |          | string                                                                | URL of the clubs. The URL is in format `<domain>.clubs.place`                                            |
+| `url`             | Required | string                                                                | URL of the clubs. The URL is in format `<domain>.clubs.place`                                            |
 | `propertyAddress` | Required | string                                                                | ERC20 address of tokenized project a.k.a property tokens                                                 |
 | `adminRolePoints` | Required | number                                                                | Number of property tokens required to get admis rights of a clubs                                        |
 | `chainId`         | Required | number                                                                | ChainId of the network on which the clubs is deployed                                                    |
 | `rpcUrl`          | Required | string                                                                | RPC URL of the network on which the clubs is deployed                                                    |
-| `options`         |          | [ClubsPluginOptions](/clubs/reference/plugin-options)                 | Options for the plugins.                                                                                 |
+| `options`         |          | [ClubsPluginOptions](/clubs/reference/plugin-options)                 | Options for the plugins                                                                                  |
 | `plugins`         | Required | readonly [ClubsPlugin](/clubs/reference/configuration#clubsplugin)[ ] | List of plugins that are enabled for the clubs.                                                          |
 
-For using `ClubsConfiguration` type in your code. Simply import.
+To access `options` value, loop over the `options` array and find the option with the required key.
 
 ```ts
 import type { ClubsConfiguration } from '@devprotocol/clubs-core'
+let config: ClubsConfiguration = {...}
+// highlight-next-line
+const optionValue = config.options?.find(option => option.key === '<keyName>')?.value
 ```
 
 For storing config in db in a serialized manner, [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) also offer `encode` function and `decode` for vice-versa.
 
 ```ts
 import { encode, decode } from '@devprotocol/clubs-core'
+
 
 const config:ClubsConfiguration = {...}
 const encoded = encode(config)
