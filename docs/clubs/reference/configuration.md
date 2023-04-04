@@ -1,6 +1,6 @@
 # Clubs Configuration
 
-Clubs configuration is way to maintain each clubs's state. It follow type description from [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) library. library.
+Clubs configuration is way to maintain each clubs's state. It follow type description from [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) library.
 
 To add [`@clubs-core`](https://www.npmjs.com/package/@devprotocol/clubs-core) in you project
 
@@ -58,4 +58,20 @@ const encoded = encode(config)
 const decoded = decode(encoded)
 ```
 
-## ClubsPlugin
+## `ClubsPlugin`
+
+The `ClubsPlugin` type is a TypeScript type that represents a plugin for a club configuration. It is defined as a readonly object with the following properties.
+
+```ts
+ClubsPlugin = Readonly<{
+	readonly id: string
+	readonly enable?: boolean
+	readonly options: ClubsPluginOptions
+}>
+```
+
+| key     | type                                                                     | description                 |
+| ------- | ------------------------------------------------------------------------ | --------------------------- |
+| id      | string                                                                   | identifies the plugin       |
+| enable  | boolean                                                                  | enables/disables the plugin |
+| options | [ClubsPluginOptions](/clubs/reference/plugin-options#clubspluginoptions) | options for the plugin      |
