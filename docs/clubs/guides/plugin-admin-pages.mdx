@@ -272,11 +272,11 @@ export default (props) => {
 			/* `Logic to retain the a portion or entire old plugin options
 				while making sure to avoid information duplication` */
 
-		// Triggers the plugin options update to local browser DOM.
-		setOptions(
-			[{ key: 'k', value: [...oldValue, value] }],
-			props.clubs.currentPluginIndex
-		)
+			// Triggers the plugin options update to local browser DOM.
+			setOptions(
+				[{ key: 'k', value: [...oldValue, value] }],
+				props.clubs.currentPluginIndex
+			)
 
 		// Triggers the updating of plugin options to the database.
 		setTimeout(buildConfig, 50)
