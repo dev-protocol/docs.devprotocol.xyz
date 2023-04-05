@@ -181,6 +181,12 @@ The helper function [setOptions](https://github.com/dev-protocol/clubs-core/blob
 
 The [`setOptions`](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) helper accepts two paramteres: the new plugin options and your clubs configuration plugin index.
 
+:::note
+The `setOptions` helper function updates the entire state of a plugin.
+
+If you have to retain any portion of the plugin state, you will have to inject it in the new state and then use `setOptions`.
+:::
+
 ```tsx title=".../UpdatePluginOptionsDemo1.jsx"
 import React from 'react'
 
@@ -211,27 +217,34 @@ import React from 'react'
 import { setOptions } from '../src/events'
 
 export default (props) => {
-    console.log('Props received to the component', { props })
+	console.log('Props received to the component', { props })
 
-    const [name, setName] = React.useEffect('')
+	const [name, setName] = React.useEffect('')
 
-    const updatePluginOptions = (value) => {
-        // Triggers the plugin options update to local browser DOM.
-        setOptions([{ key: 'k', value }], props.clubs.currentPluginIndex)
-    }
+	const updatePluginOptions = (value) => {
+		// Triggers the plugin options update to local browser DOM.
+		setOptions([{ key: 'k', value }], props.clubs.currentPluginIndex)
+	}
 
-    return (
-        <>
-            <p>Updating plugin options example:</p>
-            <label class="hs-form-field is-filled is-required">
-                <span class="hs-form-field__label">Name: </span>
-                <input class="hs-form-field__input" name="input-name" onClick={(input) => setName(input)}/>
-            </label>
-            <button className="hs-button is-large" onClick={() => updatePluginOptions(name)}>
-                Update plugin option
-            </button>
-        </>
-    )
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<label class="hs-form-field is-filled is-required">
+				<span class="hs-form-field__label">Name: </span>
+				<input
+					class="hs-form-field__input"
+					name="input-name"
+					onClick={(input) => setName(input)}
+				/>
+			</label>
+			<button
+				className="hs-button is-large"
+				onClick={() => updatePluginOptions(name)}
+			>
+				Update plugin option
+			</button>
+		</>
+	)
 }
 ```
 
