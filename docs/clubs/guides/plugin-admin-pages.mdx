@@ -255,6 +255,47 @@ export default (props) => {
 }
 ```
 
+```tsx title=".../UpdatePluginOptionsDemo3.jsx"
+import React from 'react'
+
+import { buildConfig, setOptions } from '../src/events'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const [name, setName] = React.useEffect('')
+
+	const updatePluginOptions = (value) => {
+		const oldValue = /* `Logic to retain the a portion or entire old plugin options` */
+
+		// Triggers the plugin options update to local browser DOM.
+		setOptions([{ key: 'k', value: [...oldValue, value] }], props.clubs.currentPluginIndex)
+		// Triggers the updating of plugin options to the database.
+		setTimeout(buildConfig, 50)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<label class="hs-form-field is-filled is-required">
+				<span class="hs-form-field__label">Name: </span>
+				<input
+					class="hs-form-field__input"
+					name="input-name"
+					onClick={(input) => setName(input)}
+				/>
+			</label>
+			<button
+				className="hs-button is-large"
+				onClick={() => updatePluginOptions(name)}
+			>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
+
 :::info
 The details of the plugin options are found on [ClubsPluginOptions](../reference/plugin-options).
 :::
