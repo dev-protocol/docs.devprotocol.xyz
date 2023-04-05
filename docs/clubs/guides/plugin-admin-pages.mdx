@@ -175,31 +175,33 @@ The type of `clubs` is included in **ClubsPropsAdminPages** and it is defined by
 
 ## How to update the plugin options
 
-The library [clubs-core](https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts) has helpers and utility functions that can be used to update a club easily and efficiently. Plugin options store necessary information about a club's plugin and has the type `ClubsPluginOptions`(<Types />). The helper function [setOptions](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) enables updating plugin options.
+The library [clubs-core](https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts) has helper and utility functions that can be used to update a club easily and efficiently. Plugin options are designed to store any and all necessary information about a club's plugin and has the type `ClubsPluginOptions`(<Types />).
 
-```tsx title="/src/index.ts"
-import { default as MyAstroComponent } from './components/MyAstroComponent.astro'
+The helper function [setOptions](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) enables updating plugin options. Using `setOptions` will trigger the DOM(browser managed local instance of a club) to update plugin options locally in the browser's memory.
 
-const getAdminPaths = async (options) => {
-	// highlight-next-line
-	const str = options.find(({ key }) => key === 'content')?.value ?? 'me'
+The [`setOptions`](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) helper accepts two paramteres: the new plugin options and your clubs configuration plugin index.
 
-	return [
-		{
-			component: MyAstroComponent,
-			props: {
-				str,
-			},
-			paths: [],
-		},
-	]
-}
+```tsx title=".../UpdatePluginOptionsDemo1.jsx"
+import React from 'react'
 
-export default {
-	getAdminPaths,
-	meta: {
-		/*...*/
-	},
+import { buildConfig, setOptions } from '../src/events'
+
+export default (props) => {
+	console.log("Props received to the component", { props })
+
+	const updatePluginOptions = () => {
+		// Triggers the plugin options update to local browser DOM.
+		setOptions([{ key: 'k', value: 1 }], props.clubs.currentPluginIndex)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<button className="hs-button is-large" onClick={updatePluginOptions}>
+				Update plugin option
+			</button>
+		</>
+	)
 }
 ```
 
