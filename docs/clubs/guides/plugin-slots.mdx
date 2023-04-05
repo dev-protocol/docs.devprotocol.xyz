@@ -43,12 +43,42 @@ If a custom theme implements its own slots, you can also specify an arbitrary st
 
 ### `component`
 
-:::info
-// TODO: Write this
-:::
+The component to be rendered in the slot. The component should be an Astro component. However you can use any component that can be rendered by Astro but imported component should be .astro files.
 
 ### `props`
 
 :::info
 // TODO: Write this
 :::
+
+## Example
+
+```tsx title="src/index.ts"
+import { ClubsFunctionGetSlots } from '@devprotocol/clubs-core'
+import { default as ExampleComponent } from './components/ExampleComponent.astro'
+
+export const getSlots: ClubsFunctionGetSlots = async (
+	_,
+	config,
+	{ paths, factory }
+) => {
+	const [path] = paths
+	return factory === 'admin' && path === 'example'
+		? [
+				{
+					// highlight-start
+					slot: 'admin:aside:example',
+					component: ExampleComponent,
+					props: {
+						ExampleComponent: {
+							config,
+							label: `Add 'Example' to the menu`,
+							link: { display: 'Community', path: '/example' } as ExamLink,
+						},
+						// highlight-end
+					},
+				},
+		  ]
+		: []
+}
+```
