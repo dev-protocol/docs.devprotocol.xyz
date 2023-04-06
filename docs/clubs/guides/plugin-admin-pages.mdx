@@ -159,8 +159,10 @@ The prop `clubs.currentPluginIndex` is injected in all admin page components by 
 
 ### `clubs.encodedClubsConfiguration`
 
-:::info
-// TODO: Write this
+The prop `clubs.encodedClubsConfiguration` holds the entire club configuration encoded. It can be used to access the club information within the component or any child components.
+
+:::note
+`clubs.encodedClubsConfiguration` is encoded, to obtain the configuration you will have to decode it using the helper [`decode`](https://github.com/dev-protocol/clubs-core/blob/main/src/decode.ts#L5) from the library `clubs-core`.
 :::
 
 ### `clubs.plugins`
