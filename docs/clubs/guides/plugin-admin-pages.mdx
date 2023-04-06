@@ -157,6 +157,37 @@ The prop `clubs.currentPluginIndex` is injected in all admin page components by 
 `clubs.currentPluginIndex` comes in handy when trying to access a particular plugin or updating a plugin.
 :::info
 
+```tsx title=".../CurrentPluginIndexDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+---
+
+<CurrentPluginIndexDemoComponent client:load currentPluginIndex={clubs.currentPluginIndex} />
+```
+
+```tsx title=".../CurrentPluginIndexDemoComponent.jsx"
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const updatePluginOptions = () => {
+		// Triggers the plugin options update directly for a plugin of a club.
+		setOptions([{ key: 'k', value: 1 }], props.currentPluginIndex)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<button className="hs-button is-large" onClick={updatePluginOptions}>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
+
 ### `clubs.encodedClubsConfiguration`
 
 The prop `clubs.encodedClubsConfiguration` holds the entire club configuration encoded. It can be used to access the club information within the component or any child components.
