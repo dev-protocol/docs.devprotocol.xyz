@@ -169,7 +169,6 @@ const { clubs } = Astro.props as ClubsPropsAdminPages
 ```
 
 ```tsx title=".../CurrentPluginIndexDemoComponent.jsx"
-
 export default (props) => {
 	console.log('Props received to the component', { props })
 
@@ -214,7 +213,6 @@ const plugins = decode(clubs.encodedClubsConfiguration).plugins
 ```
 
 ```tsx title=".../EncodedClubsConfigurationDemoComponent.jsx"
-
 import React from 'react'
 
 export default (props) => {
@@ -223,15 +221,14 @@ export default (props) => {
 	return (
 		<>
 			<p>All plugins are:</p>
-			{
-				props.plugins.map((plugin) => (
-					<p>The plugin {plugin.id} is {plugin.enabled ? 'Enabled' : 'Disabled'}</p>
-				))
-			}
+			{props.plugins.map((plugin) => (
+				<p>
+					The plugin {plugin.id} is {plugin.enabled ? 'Enabled' : 'Disabled'}
+				</p>
+			))}
 		</>
 	)
 }
-
 ```
 
 ### `clubs.plugins`
