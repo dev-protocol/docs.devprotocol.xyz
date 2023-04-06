@@ -167,8 +167,10 @@ The prop `clubs.encodedClubsConfiguration` holds the entire club configuration e
 
 ### `clubs.plugins`
 
-:::info
-// TODO: Write this
+The prop `clubs.plugins` gives the enabled plugins used by a club.
+
+:::note
+`clubs.plugins` returns all the plugins which are currently `enabled`. If there is a need to get all the installed plugins for a club we need get them by decoding the `clubs.encodedClubsConfiguration`.
 :::
 
 ### `clubs.slots`
