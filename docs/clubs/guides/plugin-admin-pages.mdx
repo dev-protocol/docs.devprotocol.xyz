@@ -239,6 +239,39 @@ The prop `clubs.plugins` gives the enabled plugins used by a club.
 `clubs.plugins` returns all the plugins which are currently `enabled`. If there is a need to get all the installed plugins for a club we need get them by decoding the `clubs.encodedClubsConfiguration`.
 :::
 
+```tsx title=".../EncodedClubsConfigurationDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+const plugins = [...new Set(clubs.plugins)]
+
+---
+
+<CurrentPluginIndexDemoComponent client:load plugins={plugins} />
+
+```
+
+```tsx title=".../EncodedClubsConfigurationDemoComponent.jsx"
+import React from 'react'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	return (
+		<>
+			<p>All plugins are:</p>
+			{props.plugins.map((plugin) => (
+				<p>
+					The plugin {plugin.id} is {plugin.enabled ? 'Enabled' : 'Disabled'}
+				</p>
+			))}
+		</>
+	)
+}
+```
+
 ### `clubs.slots`
 
 :::info
