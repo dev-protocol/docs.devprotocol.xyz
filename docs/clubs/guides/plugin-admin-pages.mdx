@@ -175,8 +175,137 @@ The type of `clubs` is included in **ClubsPropsAdminPages** and it is defined by
 
 ## How to update the plugin options
 
+The library [clubs-core](https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts) has helper and utility functions that can be used to update a club easily and efficiently. Plugin options are designed to store any and all necessary information about a club's plugin and has the type `ClubsPluginOptions`(<Types />).
+
+The helper functions [setOptions](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) and [buildConfig](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L72) enables updating plugin options. Using `setOptions` will trigger the DOM(browser managed local instance of a club) to update plugin options locally in the browser's memory. Using `buildConfig` will trigger the update from DOM to the database making the local update permanent.
+
+In order to update the plugin option persistently, one has to use both `setOptions` and `buildConfig`. First use `setOptions` with the update information to make the chances locally on the browser and then use `buildConfig` to make those local non-persistent updates permanent.
+
+The [`setOptions`](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L19) helper accepts two paramters: the new plugin options and your clubs configuration plugin index.
+The [`buildConfig`](https://github.com/dev-protocol/clubs-core/blob/main/src/events.ts#L72) helper accepts no parameter- it takes the current local configuration and updates it persistently.
+
+:::note
+The `setOptions` helper function updates the entire state of a plugin options.
+
+If you have to retain any or all portion of the plugin option state, you will have to inject it in the new state(avoiding duplication) and then use `setOptions`.
+:::
+
+```tsx title=".../UpdatePluginOptionsDemo1.jsx"
+import React from 'react'
+
+import { buildConfig, setOptions } from '../src/events'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const updatePluginOptions = () => {
+		// Triggers the plugin options update to local browser DOM.
+		setOptions([{ key: 'k', value: 1 }], props.clubs.currentPluginIndex)
+
+		// Triggers the updating of plugin options to the database.
+		setTimeout(buildConfig, 50)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<button className="hs-button is-large" onClick={updatePluginOptions}>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
+
+```tsx title=".../UpdatePluginOptionsDemo2.jsx"
+import React from 'react'
+
+import { buildConfig, setOptions } from '../src/events'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const [name, setName] = React.useEffect('')
+
+	const updatePluginOptions = (value) => {
+		// Triggers the plugin options update to local browser DOM.
+		setOptions([{ key: 'k', value }], props.clubs.currentPluginIndex)
+
+		// Triggers the updating of plugin options to the database.
+		setTimeout(buildConfig, 50)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<label class="hs-form-field is-filled is-required">
+				<span class="hs-form-field__label">Name: </span>
+				<input
+					class="hs-form-field__input"
+					name="input-name"
+					onClick={(input) => setName(input)}
+				/>
+			</label>
+			<button
+				className="hs-button is-large"
+				onClick={() => updatePluginOptions(name)}
+			>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
+
+```tsx title=".../UpdatePluginOptionsDemo3.jsx"
+import React from 'react'
+
+import { buildConfig, setOptions } from '../src/events'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const [name, setName] = React.useEffect('')
+
+	const updatePluginOptions = (value) => {
+		const oldValue =
+			/* `Logic to retain the a portion or entire old plugin options
+				while making sure to avoid information duplication` */
+
+			// Triggers the plugin options update to local browser DOM.
+			setOptions(
+				[{ key: 'k', value: [...oldValue, value] }],
+				props.clubs.currentPluginIndex
+			)
+
+		// Triggers the updating of plugin options to the database.
+		setTimeout(buildConfig, 50)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<label class="hs-form-field is-filled is-required">
+				<span class="hs-form-field__label">Name: </span>
+				<input
+					class="hs-form-field__input"
+					name="input-name"
+					onClick={(input) => setName(input)}
+				/>
+			</label>
+			<button
+				className="hs-button is-large"
+				onClick={() => updatePluginOptions(name)}
+			>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
+
 :::info
-// TODO: Write this
+The details of the plugin options are found on [ClubsPluginOptions](../reference/plugin-options).
 :::
 
 ## How to update the configuration
