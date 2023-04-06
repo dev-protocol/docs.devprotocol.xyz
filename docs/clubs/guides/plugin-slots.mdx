@@ -43,12 +43,75 @@ If a custom theme implements its own slots, you can also specify an arbitrary st
 
 ### `component`
 
-:::info
-// TODO: Write this
+The `component` property in getSlots() specifies the content that will be rendered in the target slot. The component can be built using [Astro supported frameworks](https://docs.astro.build/en/core-concepts/framework-components/), which can be rendered by Astro.
+:::caution
+Only imported components that are .astro files can be used
 :::
+
+```tsx title="src/components/ExampleComponent.astro"
+---
+import {MySvelteComponent} from './MySvelteComponent.svelte'
+---
+const {ExampleComponent} = Astro.props as {
+	ExampleComponent: {
+		message: string
+		}
+	}
+
+<MySvelteComponent client:load message={ExampleComponent.message}/>
+```
+
+```tsx title="src/components/MySvelteComponent.svelte"
+export let message: string
+<h1>Hello, {message}</h1>
+```
 
 ### `props`
 
-:::info
-// TODO: Write this
-:::
+`props` is an object passed from the parent component (slot container) to the child component (defined in component property) to help render it correctly.
+It can contain any data that the child component needs, such as text, colors, and functions.
+
+For example, if the child component is a button, the props object might include the text to display on the button, the color of the button, and the function to call when the button is clicked.
+
+## Example
+
+```tsx title="src/index.ts"
+import { ClubsFunctionGetSlots, ClubsFunctionPlugin } from '@devprotocol/clubs-core'
+import { default as ExampleComponent } from './components/ExampleComponent.astro'
+
+const getPagePaths = async () => [
+	{/* ... */}
+]
+
+export const getAdminPaths: ClubsFunctionGetAdminPaths = async (options) => [
+	{/* ... */}
+]
+
+export const getSlots: ClubsFunctionGetSlots = async (_, config, _) => {
+	return [
+		{
+			// highlight-start
+			slot: 'admin:aside:example',
+			component: ExampleComponent,
+			props: {
+				ExampleComponent: {
+					message: 'World!',
+				},
+				// highlight-end
+			},
+		},
+	]
+}
+
+export const meta: ClubsPluginMeta = {
+	{/* ... */}
+}
+
+export default {
+  getPagePaths,
+  getAdminPaths,
+  // highlight-next-line
+  getSlots,
+  meta,
+} as ClubsFunctionPlugin
+```
