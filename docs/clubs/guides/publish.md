@@ -136,7 +136,7 @@ If you have already logged in npm in your CLI, you can skip `npm login`.
 
 If there are updates to your Clubs Plugin, these updates are distributed by updating its npm package.
 
-Once you have declared a new version using [`npm version` command](https://docs.npmjs.com/cli/v9/commands/npm-version), run `npm publish` command again.
+After declaring the new version with [`npm version` command](https://docs.npmjs.com/cli/v9/commands/npm-version), run `npm publish` command again.
 
 ```bash
 npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
