@@ -151,27 +151,164 @@ The type of `clubs` is included in **ClubsPropsAdminPages** and it is defined by
 
 ### `clubs.currentPluginIndex`
 
+The prop `clubs.currentPluginIndex` is injected in all admin page components by the core librray [clubs-core](https://github.com/dev-protocol/clubs-core/). It represents the index of a plugin in it's club configuration.
+
 :::info
-// TODO: Write this
-:::
+`clubs.currentPluginIndex` comes in handy when trying to access a particular plugin or updating a plugin.
+:::info
+
+```tsx title=".../CurrentPluginIndexDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+---
+
+<CurrentPluginIndexDemoComponent client:load currentPluginIndex={clubs.currentPluginIndex} />
+```
+
+```tsx title=".../CurrentPluginIndexDemoComponent.jsx"
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	const updatePluginOptions = () => {
+		// Triggers the plugin options update directly for a plugin of a club.
+		setOptions([{ key: 'k', value: 1 }], props.currentPluginIndex)
+	}
+
+	return (
+		<>
+			<p>Updating plugin options example:</p>
+			<button className="hs-button is-large" onClick={updatePluginOptions}>
+				Update plugin option
+			</button>
+		</>
+	)
+}
+```
 
 ### `clubs.encodedClubsConfiguration`
 
-:::info
-// TODO: Write this
+The prop `clubs.encodedClubsConfiguration` holds the entire club configuration encoded. It can be used to access the club information within the component or any child components.
+
+:::note
+`clubs.encodedClubsConfiguration` is encoded, to obtain the configuration you will have to decode it using the helper [`decode`](https://github.com/dev-protocol/clubs-core/blob/main/src/decode.ts#L5) from the library `clubs-core`.
 :::
+
+```tsx title=".../EncodedClubsConfigurationDemo.astro"
+---
+
+import { decode, encode } from '@devprotocol/clubs-core'
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+const plugins = decode(clubs.encodedClubsConfiguration).plugins
+
+---
+
+<CurrentPluginIndexDemoComponent client:load plugins={plugins} />
+
+```
+
+```tsx title=".../EncodedClubsConfigurationDemoComponent.jsx"
+import React from 'react'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	return (
+		<>
+			<p>All plugins are:</p>
+			{props.plugins.map((plugin) => (
+				<p>
+					The plugin {plugin.id} is {plugin.enabled ? 'Enabled' : 'Disabled'}
+				</p>
+			))}
+		</>
+	)
+}
+```
 
 ### `clubs.plugins`
 
-:::info
-// TODO: Write this
+The prop `clubs.plugins` gives the enabled plugins used by a club.
+
+:::note
+`clubs.plugins` returns all the plugins which are currently `enabled`. If there is a need to get all the installed plugins for a club we need get them by decoding the `clubs.encodedClubsConfiguration`.
 :::
+
+```tsx title=".../PluginsDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+const plugins = [...new Set(clubs.plugins)]
+
+---
+
+<CurrentPluginIndexDemoComponent client:load plugins={plugins} />
+
+```
+
+```tsx title=".../PluginsDemoComponent.jsx"
+import React from 'react'
+
+export default (props) => {
+	console.log('Props received to the component', { props })
+
+	return (
+		<>
+			<p>All enabled plugins are:</p>
+			{props.plugins.map((plugin) => (
+				<p>The plugin {plugin.id}</p>
+			))}
+		</>
+	)
+}
+```
 
 ### `clubs.slots`
 
+The prop `clubs.slots` gives the components specified by the plugin developers that are to be injected into the UI slots.
+
 :::info
-// TODO: Write this
+There can be multiple components in `clubs.slots` each pointing to a different slot left in the UI or each pointing to the same slot.
 :::
+
+```tsx title=".../SlotsDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+
+const slotsForPositionA = clubs.slots.filter(
+	(slot) => slot.slot === 'position:a:slot'
+)
+
+const slotsForPositionB = clubs.slots.filter(
+	(slot) => slot.slot === 'position:b:slot'
+)
+---
+
+<div>
+	<p>All slots for position A</p>
+	{slotsForPositionA.map((Slot) => (
+		<Slot.component {...Slot.props} />
+	))}
+
+	<br />
+
+	<p>All slots for position B</p>
+	{slotsForPositionB.map((Slot) => (
+		<Slot.component {...Slot.props} />
+	))}
+</div>
+
+```
 
 ## How to update the plugin options
 
