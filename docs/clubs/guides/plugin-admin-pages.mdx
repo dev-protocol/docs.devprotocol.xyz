@@ -272,9 +272,43 @@ export default (props) => {
 
 ### `clubs.slots`
 
+The prop `clubs.slots` gives the components specified by the plugin developers that are to be injected into the UI slots.
+
 :::info
-// TODO: Write this
+There can be multiple components in `clubs.slots` each pointing to a different slot left in the UI or each pointing to the same slot.
 :::
+
+```tsx title=".../SlotsDemo.astro"
+---
+
+import CurrentPluginIndexDemoComponent from './CurrentPluginIndexDemoComponent.jsx'
+
+const { clubs } = Astro.props as ClubsPropsAdminPages
+
+const slotsForPositionA = clubs.slots.filter(
+	(slot) => slot.slot === 'position:a:slot'
+)
+
+const slotsForPositionB = clubs.slots.filter(
+	(slot) => slot.slot === 'position:b:slot'
+)
+---
+
+<div>
+	<p>All slots for position A</p>
+	{slotsForPositionA.map((Slot) => (
+		<Slot.component {...Slot.props} />
+	))}
+
+	<br />
+
+	<p>All slots for position B</p>
+	{slotsForPositionB.map((Slot) => (
+		<Slot.component {...Slot.props} />
+	))}
+</div>
+
+```
 
 ## How to update the plugin options
 
