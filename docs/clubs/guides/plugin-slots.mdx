@@ -61,8 +61,11 @@ const {ExampleComponent} = Astro.props as {
 <MySvelteComponent client:load message={ExampleComponent.message}/>
 ```
 
-```tsx title="src/components/MySvelteComponent.svelte"
-export let message: string
+```html title="src/components/MySvelteComponent.svelte"
+<scirpt>
+	export let message: string
+</script>
+
 <h1>Hello, {message}</h1>
 ```
 
