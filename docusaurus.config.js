@@ -236,7 +236,7 @@ const config = {
 		announcementBar: {
 			id: 'Clubs pre-registration',
 			content:
-				'<a target="_blank" rel="noopener noreferrer" href="https://www.clubs.place/">Join the waitlist of Clubs now</a>!',
+				'<a target="_blank" rel="noopener noreferrer" href="https://www.clubs.place/">Create your Clubs now</a>!',
 			backgroundColor: '#5E8EF4',
 			textColor: '#fff',
 		},
