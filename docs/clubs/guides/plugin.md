@@ -24,5 +24,6 @@ You can find instructions on how to use a template repository in [the GitHub doc
 - [`meta`](./plugin-meta)
 - [`getPagePaths`](./plugin-pages)
 - [`getAdminPaths`](./plugin-admin-pages)
+- [`getApiPaths`](./plugin-apis)
 - [`getSlots`](./plugin-slots)
 - [`getLayout`](./plugin-layouts)

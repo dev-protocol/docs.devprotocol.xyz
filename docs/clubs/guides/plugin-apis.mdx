@@ -1,0 +1,206 @@
+---
+title: Server-side APIs
+sidebar_position: 5
+---
+
+# Server-side APIs
+
+If your plugin requires a server-side API for some complexed computing or private process, Clubs allows it to define that server-side APIs freely using `getApiPaths`.
+
+## getApiPaths
+
+export const Types = () => (
+	<a
+		href="https://github.com/dev-protocol/clubs-core/blob/main/src/types.ts"
+		target="_blank"
+	>
+		*
+	</a>
+)
+
+`getApiPaths` is an asynchronous function that generates API endpoints and returns an array of `ClubsApiPath` to define API endpoints and their behavior, etc.
+
+Clubs runtime passes 3 arguments to `getApiPaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
+
+|           | Required | Type                                                                                    | Description                                        |
+| --------- | -------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| `paths`   | Required | array includes `string` or `undefined`                                                  | Path to determine the URL of the API endpoint.     |
+| `method`  | Required | `'CONNECT'`, `'DELETE'`, `'GET'`, `'HEAD'`, `'OPTIONS'`, `'POST'`, `'PUT'` or `'PATCH'` | HTTP method of the API endpoint.                   |
+| `handler` | Required | APIRoute                                                                                | Asynchronous function compliant with APIRoute type |
+
+## The returns value
+
+The return value of `getApiPaths` should be an array of objects with these properties.
+
+### `paths`
+
+If a string `/api/`+ `meta.id` + the paths joined with `/` matches the pathname and method (described in below) in the API request, the handler function will be called as the API endpoint.
+
+`/api/` and `meta.id` are automatically added by Clubs runtime, so you do not need to use them in the `paths`.
+
+For example, if your plugin has `example-plugin` as the `meta.id` and you want to add an API endpoint has `/api/example-plugin/vote/create`, `paths` should be the following value:
+
+```json
+["vote", "create"]
+```
+
+If you would like to add the API endpoint as the root pathname = `/api/example-plugin/`, you can define it as an empty array, or an array containing only undefined, like this:
+
+```json
+[]
+// OR
+[undefined]
+```
+
+### `method`
+
+Specify the HTTP method that the API endpoint expects. If the `paths` match but the `method` mismatch, the API will not be called.
+
+```tsx title="/src/index.ts"
+const getApiPaths = async () => [
+	{
+		// highlight-next-line
+		method: 'POST',
+		paths: ['vote', 'create'],
+	},
+]
+
+export default {
+	getApiPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+### `handler`
+
+`handler` is a function that returns the API response to the request that matches `paths` and `method`, and it must be compliant with [APIRoute](https://github.com/withastro/astro/blob/main/packages/astro/src/@types/astro.ts) type. The request body, headers, etc. can be accessed via its argument, `APIContext`.
+
+```tsx title="/src/index.ts"
+const getApiPaths = async (options) => [
+	{
+		// highlight-start
+		handler: async ({ request }) => ({
+			body: JSON.stringify({ options, body: request.body }),
+		}),
+		// highlight-end
+		method: 'POST',
+		paths: ['vote', 'create'],
+	},
+]
+
+export default {
+	getApiPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+## Use plugin options
+
+The 1st argument of `getApiPaths` is passed an object plugin options, has type `ClubsPluginOptions`(<Types />). By controlling the return value of `getApiPaths` with plugin options, you can control the API endpoints.
+
+```tsx title="/src/index.ts"
+const getApiPaths = async (options) => {
+	// highlight-next-line
+	const votes = options.find(({ key }) => key === 'votes')?.value // e.g., [{id: 'a-1', more: value}, {id: 'a-2', more: value}, {id: 'a-3', more: value}]
+
+	return votes.map((vote) => ({
+		handler: async ({ request }) => ({
+			body: JSON.stringify({ options, body: request.body }),
+		}),
+		method: 'PATCH',
+		// highlight-next-line
+		paths: ['vote', vote.id, 'edit'],
+	}))
+}
+
+export default {
+	getApiPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the plugin options are found on [ClubsPluginOptions](../reference/plugin-options).
+:::
+
+## Use configuration
+
+The 2nd argument of `getApiPaths` is passed an object config, has type `ClubsConfiguration`(<Types />). By controlling the return value of `getApiPaths` with config, you can control the API endpoints.
+
+ClubsConfiguration contains major primitive configuration values such as Clubs name, property token address, chain ID which tokenized it, URL of Json-RPC endpoint, etc.
+
+```tsx title="/src/index.ts"
+import { JsonRpcProvider } from 'ethers'
+
+const getApiPaths = async (_, config) => {
+	// highlight-next-line
+	const { rpcUrl } = config
+
+	return [
+		{
+			handler: async ({ request }) => {
+				// highlight-next-line
+				const prov = new JsonRpcProvider(rpcUrl)
+				/* Some kind of processing using ethers provider... */
+				return {
+					body: JSON.stringify({ success: true }),
+				}
+			},
+			method: 'POST',
+			paths: ['vote', 'create'],
+		},
+	]
+}
+
+export default {
+	getApiPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the config are found on [ClubsConfiguration](../reference/configuration).
+:::
+
+## Use utils
+
+The 3rd argument of `getApiPaths` is passed an object utils, has type `ClubsFactoryUtils`(<Types />). ClubsFactoryUtils has a function `getPluginConfigById` that allows users to retrieve configuration values for other plugins using `getPluginConfigById`.
+
+```tsx title="/src/index.ts"
+const getApiPaths = async (_, __, utils) => {
+	// highlight-start
+	const emojiPlugin = utils.getPluginConfigById('emoji:plugin:id') // Find a config of a plugin that has `meta.id: "emoji:plugin:id"`
+	const emoji =
+		emojiPlugin?.options?.find(({ key }) => key === 'emoji')?.value ?? '🦄'
+	// highlight-end
+
+	return [
+		{
+			handler: async () => ({
+				body: JSON.stringify({ emoji }),
+			}),
+			method: 'GET',
+			paths: ['emoji'],
+		},
+	]
+}
+
+export default {
+	getApiPaths,
+	meta: {
+		/*...*/
+	},
+}
+```
+
+:::info
+The details of the utils are found on [utils](../reference/utils).
+:::
