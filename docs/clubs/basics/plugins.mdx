@@ -25,6 +25,10 @@ Clubs Plugins must export the following interfaces from the main entry point by 
 
   This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsFactoryUtils](../reference/utils.md#clubsfactoryutils) and returns ClubsStaticPaths.
 
+- `getApiPaths` - Defines the server-side APIs. This function is optional, but required if the plugin uses server-side logics.
+
+  This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsSlotsFactoryUtils](../reference/utils.md#clubsslotsfactoryutils) and returns ClubsFunctionGetSlotsResults.
+
 - `getSlots` - Defines the slot contents. This function is optional, but required if the plugin injects slots.
 
   This function is an asynchronous function that takes [ClubsPluginOptions](../reference/plugin-options.md), [ClubsConfiguration](../reference/configuration.md) and [ClubsSlotsFactoryUtils](../reference/utils.md#clubsslotsfactoryutils) and returns ClubsFunctionGetSlotsResults.
@@ -47,10 +51,11 @@ export const Required = () => <strong>✅ Required</strong>
 
 export const Optional = () => <span style={{ opacity: 0.5 }}>(optional)</span>
 
-|                                                   | Pages        | Admin pages  | Slots        | Layouts      |
-| ------------------------------------------------- | ------------ | ------------ | ------------ | ------------ |
-| [`getPagePaths`](../guides/plugin#getpagepaths)   | <Required /> | <Optional /> | <Optional /> | <Optional /> |
-| [`getAdminPaths`](../guides/plugin#getadminpaths) | <Optional /> | <Required /> | <Optional /> | <Optional /> |
-| [`getSlots`](../guides/plugin#getslots)           | <Optional /> | <Optional /> | <Required /> | <Optional /> |
-| [`getLayout`](../guides/plugin#getlayout)         | <Optional /> | <Optional /> | <Optional /> | <Required /> |
-| [`meta`](../guides/plugin#meta)                   | <Required /> | <Required /> | <Required /> | <Required /> |
+|                                                 | Pages        | Admin pages  | Server-side APIs | Slots        | Layouts      |
+| ----------------------------------------------- | ------------ | ------------ | ---------------- | ------------ | ------------ |
+| [`getPagePaths`](../guides/plugin-pages)        | <Required /> | <Optional /> | <Optional />     | <Optional /> | <Optional /> |
+| [`getAdminPaths`](../guides/plugin-admin-pages) | <Optional /> | <Required /> | <Optional />     | <Optional /> | <Optional /> |
+| [`getApiPaths`](../guides/plugin-apis)          | <Optional /> | <Optional /> | <Required />     | <Optional /> | <Optional /> |
+| [`getSlots`](../guides/plugin-slots)            | <Optional /> | <Optional /> | <Optional />     | <Required /> | <Optional /> |
+| [`getLayout`](../guides/plugin-layouts)         | <Optional /> | <Optional /> | <Optional />     | <Optional /> | <Required /> |
+| [`meta`](../guides/plugin-meta)                 | <Required /> | <Required /> | <Required />     | <Required /> | <Required /> |
