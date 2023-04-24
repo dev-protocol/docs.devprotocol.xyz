@@ -42,6 +42,7 @@ For example, if your plugin has `example-plugin` as the `meta.id` and you want t
 
 ```json
 ["vote", "create"]
+// This will be => /api/example-plugin/vote/create (/api/{meta.id}/{paths joined with `/`})
 ```
 
 If you would like to add the API endpoint as the root pathname = `/api/example-plugin/`, you can define it as an empty array, or an array containing only undefined, like this:
@@ -50,6 +51,8 @@ If you would like to add the API endpoint as the root pathname = `/api/example-p
 []
 // OR
 [undefined]
+
+// These will be => /api/example-plugin/ (/api/{meta.id}/)
 ```
 
 ### `method`
@@ -61,6 +64,7 @@ const getApiPaths = async () => [
 	{
 		// highlight-next-line
 		method: 'POST',
+		handler: () => ({ body: '' }),
 		paths: ['vote', 'create'],
 	},
 ]
