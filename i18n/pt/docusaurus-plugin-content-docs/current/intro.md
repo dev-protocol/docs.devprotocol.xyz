@@ -1,12 +1,14 @@
 ---
-id: intro
+slug: /
+title: Começando
 sidebar_position: 0
+id: intro
 ---
 
-# Getting Started
+## 🧑‍💻👩‍💻 Bem-vindo à documentação do Dev Protocol! 📚
 
-Welcome to Dev Protocol Docs!
+![Dev Protocol](/img/devprotocol-logo.png)
 
-Here you can learn about the Dev Protocol, how to start using Stakes.social and how to develop with Dev Protocol.
-The pages that follow are comprehensive documentation of the DEV ecosystem.
-If you are new to DEV, you might want to read
+Aqui pode aprender sobre o Dev Protocol, como desenvolver com o Dev Protocol.
+As páginas que se seguem são uma documentação exaustiva do ecossistema DEV.
+Se é novo no DEV, talvez queira ler primeiro “[O que é o protocolo DEV?](./concepts/what-is-devprotocol.md)“ e “[O que são Tokens DEV](./concepts/devtoken.md)”.

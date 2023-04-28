@@ -4,15 +4,15 @@
 		"description": "The label for version 0.1.0"
 	},
 	"sidebar.tutorialSidebar.category.Introduction": {
-		"message": "Introduction",
+		"message": "Introdução.",
 		"description": "The label for category Introduction in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.The Protocol": {
-		"message": "The Protocol",
+		"message": "O Protocolo",
 		"description": "The label for category The Protocol in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Governance": {
-		"message": "Governance",
+		"message": "Governação",
 		"description": "The label for category Governance in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Khaos": {
@@ -24,11 +24,11 @@
 		"description": "The label for category Stakes Social in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Developers": {
-		"message": "Developers",
+		"message": "Desenvolvedores",
 		"description": "The label for category Developers in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Modules": {
-		"message": "Modules",
+		"message": "Módulos",
 		"description": "The label for category Modules in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.V1": {
@@ -40,15 +40,15 @@
 		"description": "The label for category V2 in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Tools": {
-		"message": "Tools",
+		"message": "Ferramentas",
 		"description": "The label for category Tools in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Learning": {
-		"message": "Learning",
+		"message": "Aprender",
 		"description": "The label for category Learning in sidebar tutorialSidebar"
 	},
 	"sidebar.tutorialSidebar.category.Hands-on": {
-		"message": "Hands-on",
+		"message": "Mãos à obra",
 		"description": "The label for category Hands-on in sidebar tutorialSidebar"
 	}
 }
