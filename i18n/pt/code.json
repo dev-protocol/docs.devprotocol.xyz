@@ -1,10 +1,10 @@
 {
 	"theme.ErrorPageContent.title": {
-		"message": "This page crashed.",
+		"message": "Esta página travou.",
 		"description": "The title of the fallback page when the page crashed"
 	},
 	"theme.ErrorPageContent.tryAgain": {
-		"message": "Try again",
+		"message": "Tente novamente",
 		"description": "The label of the button to try again when the page crashed"
 	},
 	"theme.NotFound.title": {

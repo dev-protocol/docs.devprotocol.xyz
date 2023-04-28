@@ -1,6 +1,6 @@
 {
 	"item.label.The Protocol": {
-		"message": "The Protocol",
+		"message": "O Protocolo",
 		"description": "Navbar item with label The Protocol"
 	},
 	"item.label.Stakes Social": {
@@ -8,15 +8,15 @@
 		"description": "Navbar item with label Stakes Social"
 	},
 	"item.label.Developers": {
-		"message": "Developers",
+		"message": "Desenvolvedores",
 		"description": "Navbar item with label Developers"
 	},
 	"item.label.Community": {
-		"message": "Community",
+		"message": "Comunidade",
 		"description": "Navbar item with label Community"
 	},
 	"item.label.Medium Page": {
-		"message": "Medium Page",
+		"message": "Página Medium",
 		"description": "Navbar item with label Medium Page"
 	},
 	"item.label.Blog": {
@@ -36,11 +36,11 @@
 		"description": "Navbar item with label Discord"
 	},
 	"item.label.Forum": {
-		"message": "Forum",
+		"message": "Fórum",
 		"description": "Navbar item with label Forum"
 	},
 	"item.label.Community Builders": {
-		"message": "Community Builders",
+		"message": "Construtores Comunitários",
 		"description": "Navbar item with label Community Builders"
 	}
 }
