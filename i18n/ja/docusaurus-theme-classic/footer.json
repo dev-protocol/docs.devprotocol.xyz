@@ -31,10 +31,6 @@
 		"message": "Support",
 		"description": "The label of footer link with label=Support linking to https://ctt.ac/CEchF"
 	},
-	"link.item.label.FAQs": {
-		"message": "FAQs",
-		"description": "The label of footer link with label=FAQs linking to https://devprotocol.xyz/faq"
-	},
 	"link.item.label.Discord": {
 		"message": "Discord",
 		"description": "The label of footer link with label=Discord linking to https://discord.com/invite/VwJp4KM"
