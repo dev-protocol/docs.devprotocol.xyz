@@ -146,10 +146,6 @@ const config = {
 							label: 'Support',
 							to: 'https://ctt.ac/CEchF',
 						},
-						{
-							label: 'FAQs',
-							to: 'https://devprotocol.xyz/faq',
-						},
 					],
 				},
 				{

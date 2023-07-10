@@ -31,7 +31,6 @@ Click “Sign in” button located at right end of the header to connect your wa
 
 ## Gas fee
 
-Please check the following website for the details of gas fee : [https://devprotocol.xyz/faq](https://devprotocol.xyz/faq)
 You need a gas fee to register at Stakes.social. The required gas fee will fluctuate depending on the congestion of the network you choose to onboard.
 
 ## How to register your OSS
