@@ -33,7 +33,7 @@ If you find a project interesting, you can click on the banner, the project page
 
 ![how to stake on stakes.social](/img/stakes.social/stakes.social-3.png)
 
-If you still can't decide, my tip is, visit the official Discord or Telegram channel and ask the community. Always try to stake and reward active developers that promote Dev, this will be good for everyone on the long run.
+If you still can't decide, my tip is, visit the official Discord channel and ask the community. Always try to stake and reward active developers that promote Dev, this will be good for everyone on the long run.
 
 When you find the project which you want to support, you click on the pool banner and you'll end up in a page like this:
 ![how to stake on stakes.social](/img/stakes.social/stakes.social-4.png)
@@ -62,4 +62,4 @@ To Withdrawal everything, just click on the DEV button in the grey box and the t
 
 Keep in mind that the gas costs are defined the by the usage of the Ethereum network, it's not dependent on Dev Protocol. It is also variable, if it is too expensive to approve a transaction, it could get cheaper later, and vice-versa, if you're confused, just ask other community members.
 
-If you have any other questions you can just ask them on [Discord](https://discord.com/invite/VwJp4KM) or [Telegram](https://web.telegram.org/#/im?p=@devprtcl), there are community and team members always active and ready to help you.
+If you have any other questions you can just ask them on [Discord](https://discord.gg/PBaaTvn56f), there are community and team members always active and ready to help you.

@@ -97,11 +97,11 @@ const config = {
 						},
 						{
 							label: 'Twitter',
-							to: 'https://twitter.com/devprtcl',
+							to: 'https://twitter.com/poweredbyClubs',
 						},
 						{
 							label: 'Discord',
-							to: 'https://discord.com/invite/VwJp4KM',
+							to: 'https://discord.gg/PBaaTvn56f',
 						},
 						{
 							label: 'Community Builders',
@@ -161,7 +161,7 @@ const config = {
 						},
 						{
 							label: 'Twitter',
-							to: 'https://twitter.com/devprtcl',
+							to: 'https://twitter.com/poweredbyClubs',
 						},
 						{
 							label: 'Youtube',
