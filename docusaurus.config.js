@@ -97,15 +97,11 @@ const config = {
 						},
 						{
 							label: 'Twitter',
-							to: 'https://twitter.com/devprtcl',
+							to: 'https://twitter.com/poweredbyClubs',
 						},
 						{
 							label: 'Discord',
-							to: 'https://discord.com/invite/VwJp4KM',
-						},
-						{
-							label: 'Forum',
-							to: 'https://community.devprotocol.xyz/',
+							to: 'https://discord.gg/PBaaTvn56f',
 						},
 						{
 							label: 'Community Builders',
@@ -164,12 +160,8 @@ const config = {
 							to: 'https://discord.com/invite/VwJp4KM',
 						},
 						{
-							label: 'Forum',
-							to: 'https://community.devprotocol.xyz/',
-						},
-						{
 							label: 'Twitter',
-							to: 'https://twitter.com/devprtcl',
+							to: 'https://twitter.com/poweredbyClubs',
 						},
 						{
 							label: 'Youtube',

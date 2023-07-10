@@ -118,6 +118,6 @@ Click on swap, then the transaction details should show up. Click on swap again 
 
 ![how to buy DEV](/img/how-to-buy/how-to-buy-dev_16.png)
 
-Check the gas fee, if it's absurdly high ~$50 or more, try on another time, or talk to community members on the Telegram or Discord. If it's something like this, just click Confirm.
+Check the gas fee, if it's absurdly high ~$50 or more, try on another time, or talk to community members on Discord. If it's something like this, just click Confirm.
 
 After a few minutes, your transaction should be complete and will have DEV in your wallet. The DEV token doesn't show automatically on your Metamask so you will have to add it manually. To do so, just Open your wallet, click on the Add Token button, then click on Personalized Token, paste the DEV contract address on it (0x5cAf454Ba92e6F2c929DF14667Ee360eD9fD5b26) then confirm it. Now your DEV should show up on your wallet.

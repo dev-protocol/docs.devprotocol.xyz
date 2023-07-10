@@ -35,10 +35,6 @@
 		"message": "Discord",
 		"description": "Navbar item with label Discord"
 	},
-	"item.label.Forum": {
-		"message": "Forum",
-		"description": "Navbar item with label Forum"
-	},
 	"item.label.Community Builders": {
 		"message": "Community Builders",
 		"description": "Navbar item with label Community Builders"

@@ -15,7 +15,7 @@
 ![PRs](https://img.shields.io/github/issues-pr-raw/dev-protocol/docs.devprotocol.xyz)
 ![contributors](https://img.shields.io/github/contributors-anon/dev-protocol/docs.devprotocol.xyz)
 ![size](https://img.shields.io/github/languages/code-size/dev-protocol/docs.devprotocol.xyz)
-[![Twitter Follow](https://img.shields.io/twitter/follow/devprtcl?style=social)](https://twitter.com/devprtcl)
+[![Twitter Follow](https://img.shields.io/twitter/follow/devprtcl?style=social)](https://twitter.com/poweredbyClubs)
 
 <p align="center">
 🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️

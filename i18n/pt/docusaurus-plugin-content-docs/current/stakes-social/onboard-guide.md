@@ -116,4 +116,4 @@ After a while, your OSS will be listed at List Page on Stakes,social, and Dev Pr
 
 In order for you to get more support for your OSS, it is important to let people know your Stakes.social page. We’d recommend you to tweet, place a link at a donation page or write a blog post.
 
-In Dev Protocol team and community, we’re talking with each other about the way to make an announcement of onboarding at Stakes.social. If you have any insights or ideas, please share them at [Dev Protocol Forum](https://community.devprotocol.xyz/).
+In Dev Protocol team and community, we’re talking with each other about the way to make an announcement of onboarding at Stakes.social. If you have any insights or ideas, please share them at [Dev Protocol Discord](https://discord.gg/PBaaTvn56f).

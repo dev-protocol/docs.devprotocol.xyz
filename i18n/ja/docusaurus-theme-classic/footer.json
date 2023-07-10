@@ -39,13 +39,9 @@
 		"message": "Discord",
 		"description": "The label of footer link with label=Discord linking to https://discord.com/invite/VwJp4KM"
 	},
-	"link.item.label.Forum": {
-		"message": "Forum",
-		"description": "The label of footer link with label=Forum linking to https://community.devprotocol.xyz/"
-	},
 	"link.item.label.Twitter": {
 		"message": "Twitter",
-		"description": "The label of footer link with label=Twitter linking to https://twitter.com/devprtcl"
+		"description": "The label of footer link with label=Twitter linking to https://twitter.com/poweredbyClubs"
 	},
 	"link.item.label.Youtube": {
 		"message": "Youtube",
