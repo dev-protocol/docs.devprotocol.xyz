@@ -104,10 +104,6 @@ const config = {
 							to: 'https://discord.com/invite/VwJp4KM',
 						},
 						{
-							label: 'Forum',
-							to: 'https://community.devprotocol.xyz/',
-						},
-						{
 							label: 'Community Builders',
 							to: 'https://builders.devprotocol.xyz/',
 						},
@@ -162,10 +158,6 @@ const config = {
 						{
 							label: 'Discord',
 							to: 'https://discord.com/invite/VwJp4KM',
-						},
-						{
-							label: 'Forum',
-							to: 'https://community.devprotocol.xyz/',
 						},
 						{
 							label: 'Twitter',
