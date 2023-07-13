@@ -7,7 +7,7 @@ Token is a program executed on Ethereum, and is one of the common forms of smart
 
 Since written programs are freely executed on Ethereum, there is no limit for its usage. However, by standardizing interface, composability can be realized for programs that are used for the same purpose. Token is a standardized program for "the program as currency", which is generally called as crypto currency or crypto assets.
 
-Standardizing process in Ethereum is administered at git repository called EIP. Anyone can make a suggestion for it, so the specification approved by the majority of users users will be officially standardized.
+Standardizing process in Ethereum is administered at git repository called EIP. Anyone can make a suggestion for it, so the specification approved by the majority of users will be officially standardized.
 
 There are many new-coming specifications proposed for accessibility. But the most popular specification is **ERC-20**, and its interface is like this:
 
