@@ -2,7 +2,7 @@
 title: Dev Protocol
 ---
 
-## APIs what are provided by Dev Protocol
+## APIs that are provided by Dev Protocol
 
 Dev Protocol provides the following primitive APIs.
 
@@ -54,7 +54,7 @@ And staking is also a means of getting NFTs, which will be described in detail i
 
 ### Minting NFTs
 
-When you stake DEV in Property Tokens, you automatically get an NFT. The NFT is called sTokens in Dev Protocol. In technically, sTokens store the status of the staking position, but its cover image can be freely changed for each Property Tokens, so you can enjoy the artistry too. sTokens cover images can be changed statically or dynamically, and dynamic sTokens (=dynamic NFTs) can customize their output according to different conditions.
+When you stake DEV in Property Tokens, you automatically get an NFT. The NFT is called sTokens in Dev Protocol. Technically, sTokens store the status of the staking position, but its cover image can be freely changed for each Property Tokens, so you can enjoy the artistry too. sTokens cover images can be changed statically or dynamically, and dynamic sTokens (=dynamic NFTs) can customize their output according to different conditions.
 
 All sTokens indicate some staking position, they can be used as keys for any token-gating. For example, you can permit a community channel exclusively to users who have 100 or more DEVs staked in your Property Tokens, or sell exclusive items.
 
