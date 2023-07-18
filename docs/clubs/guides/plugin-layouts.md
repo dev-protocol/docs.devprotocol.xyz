@@ -168,6 +168,10 @@ import '@devprotocol/clubs-core/styles'
 </html>
 ```
 
+### Manage wallet connections
+
+Must be integrated with the `connection` API to allow other plugins to use the wallet connection. More details can be found in the [wallet integration](./wallet-integration.md#set-connection).
+
 ## Additional requirements for layout
 
 ### Additional slots
