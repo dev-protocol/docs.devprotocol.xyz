@@ -83,6 +83,70 @@ export default {
 }
 ```
 
+### Use Astro component as an entry point for any components
+
+Clubs plugins can use many of the UI frameworks supported by Astro, such as React, Vue, Svelte, Lit, etc., as well as pseudo components in `.md` and `.mdx`.
+
+If you specify those components in your Clubs plugin interfaces, always use Astro components as entry points to them.
+
+#### Example of using Vue
+
+```html title="src/components/Index.vue"
+<script lang="ts" setup>
+	type Props = {
+		title: string
+	}
+
+	const props = defineProps<Props>()
+</script>
+<template>
+	<h2>{{props.title}}</h2>
+</template>
+```
+
+```html title="src/components/Index.astro"
+---
+import Index from './Index.vue'
+---
+
+<Index client:load {...Astro.props} />
+```
+
+```ts title="src/index.ts"
+import Page from './components/Index.astro'
+
+const getPagePaths = async () => [
+	{
+		component: Page,
+		props: {title: 'Hello!'}
+		paths: [],
+	},
+]
+```
+
+#### Example of using Markdown
+
+```md title="src/contents/readme.md"
+# Hello!
+```
+
+```ts title="src/contents/readme.astro"
+---
+import {Content} from './readme.md'
+---
+
+<Content />
+```
+
+```ts title="src/index.ts"
+import Readme from './contents/readme.astro'
+
+const meta = {
+	readme: Readme,
+	// Other fields...
+}
+```
+
 ### Export Astro files as Astro files
 
 As Clubs runs on the Astro runtime, all Astro files used by the Clubs Plugin must be exported as Astro files.
