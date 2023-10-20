@@ -53,7 +53,7 @@ In addition to the data perpetuation by Merkle tree, Blockchain, a P2P network, 
 
 That means, it is always proved that data in blockchain is not tampered. The reason why crypto assets such as BTC, Bitcoin, and ETH, Ethereum, have a sort of quality as “assets” in the real world is that they are proved to be data tampered by nobody.
 
-If ETH is administered by a server of client-server network, the third party cannot certify whether the sever is correctly administered.
+If ETH is administered by a server of client-server network, the third party cannot certify whether the server is correctly administered.
 
 ## Ethereum
 
@@ -65,6 +65,6 @@ Bitcoin, one of the most famous blockchain implementation, works as a register o
 
 Program execution results are the manipulation that causes the rewrite of variables of a class. Developers can deploy self-made program on Ethereum, execute it at P2P network on Ethereum, and record the execution result by Merkle tree. Ethereum is also thought to be an autonomous runtime.
 
-Programs executed on Ethereum is coded by a statically-typed programming language called Solidity. Solidity is an object-oriented programming language, and has a specification similar to ECMAScript. However, Solidity has various technical limitation in blockchain, therefore, its programming style tends to be stoic as well as minimalistic.
+Programs executed on Ethereum are coded by a statically-typed programming language called Solidity. Solidity is an object-oriented programming language, and has a specification similar to ECMAScript. However, Solidity has various technical limitation in blockchain, therefore, its programming style tends to be stoic as well as minimalistic.
 
 Programs executed on Ethereum are called _smart contracts_.
