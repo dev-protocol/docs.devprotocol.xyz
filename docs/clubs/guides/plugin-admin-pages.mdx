@@ -28,11 +28,11 @@ export const Types = () => (
 
 Clubs runtime passes 3 arguments to `getAdminPaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
 
-|             | Required | Type                                   | Description                                      |
-| ----------- | -------- | -------------------------------------- | ------------------------------------------------ |
-| `paths`     | Required | array includes `string` or `undefined` | Path to determine the URL of the generated page. |
-| `component` | Required | Astro component                        | Content of the generated page.                   |
-| `props`     |          | Object                                 | Object passed to `Astro.props`                   |
+|             | Required | Type                                             | Description                                      |
+| ----------- | -------- | ------------------------------------------------ | ------------------------------------------------ |
+| `paths`     | Required | array includes `string`, `RegExp` or `undefined` | Path to determine the URL of the generated page. |
+| `component` | Required | Astro component                                  | Content of the generated page.                   |
+| `props`     |          | Object                                           | Object passed to `Astro.props`                   |
 
 ## The returns value
 
@@ -58,6 +58,10 @@ Note that the following paths are reserved by the built-in admin pages and will 
 ["overview"]
 ["theme"]
 ```
+
+:::info
+// TODO: Add a note about RegExp path
+:::
 
 ### `component`
 

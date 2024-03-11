@@ -24,12 +24,12 @@ export const Types = () => (
 
 Clubs runtime passes 3 arguments to `getPagePaths`, plugin options, config, and utils. And the return value should be an array of objects with the following values:
 
-|             | Required | Type                                   | Description                                                                                                                  |
-| ----------- | -------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `paths`     | Required | array includes `string` or `undefined` | Path to determine the URL of the generated page.                                                                             |
-| `component` | Required | Astro component                        | Content of the generated page.                                                                                               |
-| `props`     |          | Object                                 | Object passed to `Astro.props`                                                                                               |
-| `layout`    |          | Astro component                        | Layout component used by the page. When exporting `layout`, it overrides the layout components exported by the theme plugin. |
+|             | Required | Type                                             | Description                                                                                                                  |
+| ----------- | -------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| `paths`     | Required | array includes `string`, `RegExp` or `undefined` | Path to determine the URL of the generated page.                                                                             |
+| `component` | Required | Astro component                                  | Content of the generated page.                                                                                               |
+| `props`     |          | Object                                           | Object passed to `Astro.props`                                                                                               |
+| `layout`    |          | Astro component                                  | Layout component used by the page. When exporting `layout`, it overrides the layout components exported by the theme plugin. |
 
 ## The returns value
 
@@ -52,6 +52,10 @@ If you would like to render the component as the primary page of your Clubs, you
 // OR
 [undefined]
 ```
+
+:::info
+// TODO: Add a note about RegExp path
+:::
 
 ### `component`
 

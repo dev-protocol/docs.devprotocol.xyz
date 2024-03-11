@@ -24,7 +24,7 @@ Clubs runtime passes 3 arguments to `getApiPaths`, plugin options, config, and u
 
 |           | Required | Type                                                                                    | Description                                        |
 | --------- | -------- | --------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| `paths`   | Required | array includes `string` or `undefined`                                                  | Path to determine the URL of the API endpoint.     |
+| `paths`   | Required | array includes `string`, `RegExp` or `undefined`                                        | Path to determine the URL of the API endpoint.     |
 | `method`  | Required | `'CONNECT'`, `'DELETE'`, `'GET'`, `'HEAD'`, `'OPTIONS'`, `'POST'`, `'PUT'` or `'PATCH'` | HTTP method of the API endpoint.                   |
 | `handler` | Required | APIRoute                                                                                | Asynchronous function compliant with APIRoute type |
 
@@ -54,6 +54,10 @@ If you would like to add the API endpoint as the root pathname = `/api/example-p
 
 // These will be => /api/example-plugin/ (/api/{meta.id}/)
 ```
+
+:::info
+// TODO: Add a note about RegExp path
+:::
 
 ### `method`
 
