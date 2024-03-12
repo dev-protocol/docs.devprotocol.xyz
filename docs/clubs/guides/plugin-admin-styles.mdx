@@ -1,0 +1,42 @@
+---
+title: Admin Styles
+sidebar_position: 5
+---
+
+Admin pages on Clubs allows plugins to use default style sheets to provide a standardized console UX for users.
+
+import './plugin-admin-styles.css'
+
+### Colors
+
+The UI colors of the admin pages will automatically switch between light/dark mode depending on the user's preferred color scheme.
+
+The following words can be used as values for Tailwind's utilities such as **`bg-`**, **`border-`**, and **`text-`**.
+
+| Token         | Light mode                                                                  | Dark mode                                                                        | Main uses                  | Example          |
+| ------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------- | ---------------- |
+| `surface-200` | <div class="i" style={{ background: 'var(--hs-theme-surface-200)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-surface-dark-200)' }}></div> | Backgrounds                | bg-surface-200   |
+| `surface-300` | <div class="i" style={{ background: 'var(--hs-theme-surface-300)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-surface-dark-300)' }}></div> | Backgrounds                | bg-surface-300   |
+| `surface-400` | <div class="i" style={{ background: 'var(--hs-theme-surface-400)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-surface-dark-400)' }}></div> | Backgrounds                | bg-surface-400   |
+| `surface-600` | <div class="i" style={{ background: 'var(--hs-theme-surface-600)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-surface-dark-600)' }}></div> | Backgrounds                | bg-surface-600   |
+| `surface-ink` | <div class="i" style={{ background: 'var(--hs-theme-surface-ink)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-surface-dark-ink)' }}></div> | Texts/borders on `surface` | text-surface-ink |
+| `error-200`   | <div class="i" style={{ background: 'var(--hs-theme-error-200)' }}></div>   | <div class="i" style={{ background: 'var(--hs-theme-error-dark-200)' }}></div>   | Backgrounds                | bg-error-200     |
+| `error-300`   | <div class="i" style={{ background: 'var(--hs-theme-error-300)' }}></div>   | <div class="i" style={{ background: 'var(--hs-theme-error-dark-300)' }}></div>   | Backgrounds                | bg-error-300     |
+| `error-400`   | <div class="i" style={{ background: 'var(--hs-theme-error-400)' }}></div>   | <div class="i" style={{ background: 'var(--hs-theme-error-dark-400)' }}></div>   | Backgrounds                | bg-error-400     |
+| `error-600`   | <div class="i" style={{ background: 'var(--hs-theme-error-600)' }}></div>   | <div class="i" style={{ background: 'var(--hs-theme-error-dark-600)' }}></div>   | Backgrounds                | bg-error-600     |
+| `error-ink`   | <div class="i" style={{ background: 'var(--hs-theme-error-ink)' }}></div>   | <div class="i" style={{ background: 'var(--hs-theme-error-dark-ink)' }}></div>   | Texts/borders on `error`   | text-error-ink   |
+
+You can also use the following words as pure color tokens with no semantics:
+
+| Token         | Light mode                                                                  | Dark mode                                                                        |
+| ------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `primary-200` | <div class="i" style={{ background: 'var(--hs-theme-primary-200)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-primary-dark-200)' }}></div> |
+| `primary-300` | <div class="i" style={{ background: 'var(--hs-theme-primary-300)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-primary-dark-300)' }}></div> |
+| `primary-400` | <div class="i" style={{ background: 'var(--hs-theme-primary-400)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-primary-dark-400)' }}></div> |
+| `primary-600` | <div class="i" style={{ background: 'var(--hs-theme-primary-600)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-primary-dark-600)' }}></div> |
+| `primary-ink` | <div class="i" style={{ background: 'var(--hs-theme-primary-ink)' }}></div> | <div class="i" style={{ background: 'var(--hs-theme-primary-dark-ink)' }}></div> |
+| `accent-200`  | <div class="i" style={{ background: 'var(--hs-theme-accent-200)' }}></div>  | <div class="i" style={{ background: 'var(--hs-theme-accent-dark-200)' }}></div>  |
+| `accent-300`  | <div class="i" style={{ background: 'var(--hs-theme-accent-300)' }}></div>  | <div class="i" style={{ background: 'var(--hs-theme-accent-dark-300)' }}></div>  |
+| `accent-400`  | <div class="i" style={{ background: 'var(--hs-theme-accent-400)' }}></div>  | <div class="i" style={{ background: 'var(--hs-theme-accent-dark-400)' }}></div>  |
+| `accent-600`  | <div class="i" style={{ background: 'var(--hs-theme-accent-600)' }}></div>  | <div class="i" style={{ background: 'var(--hs-theme-accent-dark-600)' }}></div>  |
+| `accent-ink`  | <div class="i" style={{ background: 'var(--hs-theme-accent-ink)' }}></div>  | <div class="i" style={{ background: 'var(--hs-theme-accent-dark-ink)' }}></div>  |
