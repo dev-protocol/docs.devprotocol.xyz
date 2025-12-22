@@ -1,24 +1,24 @@
 ---
-title: What's Khaos?
+title: What is Khaos?
 ---
 
-Khaos is an oracle service designed to bring Internet data into blockchains while keeping secret information, such as secret tokens, under wraps. Initially, we will only support Dev Protocol, but we plan to open it up in the future.
+Khaos is an oracle service designed to bridge Internet data to blockchains while securely managing sensitive information, such as API keys or secret tokens.
 
 ## How does it work?
 
-Khaos has two interfaces, Authentication, and Oraclize. The authentication interface authenticates that the user is a credential holder and returns a unique public key. The oraclize interface brings data across the Internet to the blockchain while hiding secret information through public keys.
+Khaos provides two primary interfaces: Authentication and Oraclize. The Authentication interface verifies a user's credentials and returns a unique public key. The Oraclize interface bridges data from the Internet to the blockchain, utilizing public keys to mask sensitive information.
 
-## How Khaos's authentication interface works
+## How the Authentication Interface Works
 
-When Khaos receives an authentication request from a user, it executes an authentication method. The authentication request contains secret information for authentication (usually a secret token) and a message(like a user ID) that expects to be authenticated by that secret information. If the authentication method is passed, Khaos returns the public key paired with the secret information. By retrieving the message with its public key, it guarantees the message's authenticity while hiding the secret information. An authentication method executed by an authentication request is freely extendable by the user.
+Upon receiving an authentication request, Khaos executes a specified authentication method. The request includes credentials (typically a secret token) and a message (such as a User ID) to be authenticated against those credentials. If authentication succeeds, Khaos returns a public key associated with the provided credentials. This public key can be used to verify the message's authenticity without revealing the underlying secret credentials. Users can define and extend custom authentication methods as needed.
 
 ![How Khaos Stores Confidentials](/img/khaos/how-khaos-stores-confidentials.png)
 
 [Created by SequenceDiagram.org](https://sequencediagram.org/index.html#initialData=C4S2BsFMAIAkHsDu0DSALAhvAztAysPAE6S4DC8AdgGYgAmkloG42AUGwCICCADr9ABiRKsEZ0AtAD5APBuAYffRZceSEQBuqgFwAlSAEcArqWC4MB4GkagAxhlBU2leGOjwNRaPMU58q95u5zNEpoAFtIC3g6XAAjAE9oA2xVCUgADzFKBjpoNi9MHxV1FKkASSZVSgidfSNsYDZysSIq4Gl8pV9iohrsXipkx2cYN1VPBQLlPy0CYhhrKloGJhAWPInOovdpHn4hEQqsmuADFtxeDBASHN4DGPAQa2gAa0g4oA)
 
-## How Khaos's oraclize interface works
+## How the Oraclize Interface Works
 
-Khaos monitors some contract events in batches. The target of the monitoring can be any address that a user deploys to. The user-deployed contract makes an oraclize request to Khaos by emitting an event according to the interface; when Khaos receives the oraclize request, it fetches some data from the Internet the event messages. The data is fetched into blockchains by calling the contract's callback method according to the user-defined functions. The data fetching method executed by the oraclize request is freely extendable by the user. An authentication method executed by an authentication request is freely extendable by the user.
+Khaos monitors specific contract events in batches. It can monitor any user-deployed contract address. A user-deployed contract initiates an oraclize request by emitting a specific event. Upon detecting this event, Khaos fetches data from the Internet based on the event's parameters. The fetched data is then delivered to the blockchain by invoking a callback method on the contract, as defined by the user. Users can customize the data fetching logic executed during an oraclize request.
 
 ![How Khaos Oraclizes](/img/khaos/how-khaos-oraclizes.png)
 
