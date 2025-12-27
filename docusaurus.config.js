@@ -8,6 +8,7 @@
  */
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+require('dotenv').config()
 
 const config = {
 	onBrokenLinks: 'log',
@@ -233,12 +234,13 @@ const config = {
 			darkTheme: darkCodeTheme,
 			additionalLanguages: ['solidity'],
 		},
-		// algolia: {
-		//   appId: 'XXXXXX',
-		//   apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
-		//   indexName: "XXXXXX",
-		//   algoliaOptions: {},
-		// }
+		algolia: {
+			appId: process.env.ALGOLIA_APP_ID,
+			apiKey: process.env.ALGOLIA_API_KEY,
+			indexName: 'devdocs',
+			contextualSearch: false,
+			algoliaOptions: {},
+		},
 	},
 }
 
