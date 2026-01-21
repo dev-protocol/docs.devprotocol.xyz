@@ -24,7 +24,7 @@ Since gas fee is required for hands-on, please use the following site to obtain 
 
 ### Get DEV token of Ropsten
 
-1. Create a wallet the wallet in a Ropsten environment
+1. Create a wallet in a Ropsten environment
 2. Add the address of the DEV token to your wallet / 0x5312f4968901ec9d4fc43d2b0e437041614b14a2
 3. Tell the team the amount of DEV you want on [discord server](https://discord.gg/VwJp4KM)
 4. Dev Protocol staff will send you a DEV in the Ropsten environment
