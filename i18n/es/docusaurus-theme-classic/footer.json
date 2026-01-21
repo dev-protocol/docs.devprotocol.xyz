@@ -1,0 +1,94 @@
+{
+	"link.title.Docs": {
+		"message": "Documentación",
+		"description": "The title of the footer links column with title=Docs in the footer"
+	},
+	"link.title.Community": {
+		"message": "Comunidad",
+		"description": "The title of the footer links column with title=Community in the footer"
+	},
+	"link.title.Developers": {
+		"message": "Desarrolladores",
+		"description": "The title of the footer links column with title=Developers in the footer"
+	},
+	"link.title.Products": {
+		"message": "Productos",
+		"description": "The title of the footer links column with title=Products in the footer"
+	},
+	"link.item.label.Home": {
+		"message": "Casa",
+		"description": "The label of footer link with label=Home linking to /"
+	},
+	"link.item.label.Getting Started": {
+		"message": "Cómo empezar",
+		"description": "The label of footer link with label=Getting Started linking to /docs/getting-started"
+	},
+	"link.item.label.Tutorials": {
+		"message": "Tutoriales",
+		"description": "The label of footer link with label=Tutorials linking to https://initto.devprotocol.xyz/en/"
+	},
+	"link.item.label.Support": {
+		"message": "Ayuda",
+		"description": "The label of footer link with label=Support linking to https://ctt.ac/CEchF"
+	},
+	"link.item.label.FAQs": {
+		"message": "FAQs",
+		"description": "The label of footer link with label=FAQs linking to https://devprotocol.xyz/faq"
+	},
+	"link.item.label.Discord": {
+		"message": "Discord",
+		"description": "The label of footer link with label=Discord linking to https://discord.com/invite/VwJp4KM"
+	},
+	"link.item.label.Forum": {
+		"message": "Foró",
+		"description": "The label of footer link with label=Forum linking to https://community.devprotocol.xyz/"
+	},
+	"link.item.label.Twitter": {
+		"message": "Twitter",
+		"description": "The label of footer link with label=Twitter linking to https://twitter.com/devprtcl"
+	},
+	"link.item.label.Youtube": {
+		"message": "YouTube",
+		"description": "The label of footer link with label=Youtube linking to https://www.youtube.com/channel/UCN7m74tFgJJnoGL4zk6aJ6g"
+	},
+	"link.item.label.GitHub": {
+		"message": "GitHub",
+		"description": "The label of footer link with label=GitHub linking to https://github.com/dev-protocol"
+	},
+	"link.item.label.Community Builders": {
+		"message": "Constructores de la Comunidad",
+		"description": "The label of footer link with label=Community Builders linking to https://builders.devprotocol.xyz/"
+	},
+	"link.item.label.Get Started": {
+		"message": "Como empezar",
+		"description": "The label of footer link with label=Get Started linking to https://devprotocol.xyz/developers"
+	},
+	"link.item.label.Solve Bounty": {
+		"message": "Resuelve la recompensa",
+		"description": "The label of footer link with label=Solve Bounty linking to https://app.chainwhiz.app/explore"
+	},
+	"link.item.label.Join Community": {
+		"message": "Únete a la comunidad",
+		"description": "The label of footer link with label=Join Community linking to https://github.com/dev-protocol/community/issues/new?assignees=&labels=github-invitation&template=invitation.yml&title=Please+invite+me+to+the+community"
+	},
+	"link.item.label.Stakes.social": {
+		"message": "Stakes.social",
+		"description": "The label of footer link with label=Stakes.social linking to https://stakes.social/"
+	},
+	"link.item.label.Khaos Oracle": {
+		"message": "Khaos Oracle",
+		"description": "The label of footer link with label=Khaos Oracle linking to https://github.com/dev-protocol/khaos"
+	},
+	"link.item.label.Dev Kit": {
+		"message": "Kit de desarrollador",
+		"description": "The label of footer link with label=Dev Kit linking to https://github.com/dev-protocol/dev-kit-js"
+	},
+	"link.item.label.About Us": {
+		"message": "Acerca de",
+		"description": "The label of footer link with label=About Us linking to https://devprotocol.xyz/about"
+	},
+	"copyright": {
+		"message": "Copyright © 2022 Dev Protocol",
+		"description": "The footer copyright"
+	}
+}
